@@ -149,3 +149,12 @@ section[aria-labelledby="s-h"] { justify-content: flex-end; }
   .page-hero .page-hero-img { opacity: .45 !important; }
   .page-hero .page-hero-fade { background: linear-gradient(180deg, rgba(18, 13, 10, .55) 0%, rgba(18, 13, 10, .85) 100%) !important; }
 }
+
+/* Timeline hero: full-width photo too (also shown on phones now). */
+section[aria-labelledby="tl-title"] > img { display: block !important; width: 100% !important; opacity: .7 !important; }
+section[aria-labelledby="tl-title"] > div[aria-hidden="true"] { display: block !important; width: 100% !important;
+  background: linear-gradient(90deg, rgba(18, 13, 10, .95) 0%, rgba(18, 13, 10, .88) 40%, rgba(18, 13, 10, .5) 70%, rgba(18, 13, 10, .2) 100%) !important; }
+@media (max-width: 640px) {
+  section[aria-labelledby="tl-title"] > img { opacity: .45 !important; }
+  section[aria-labelledby="tl-title"] > div[aria-hidden="true"] { background: linear-gradient(180deg, rgba(18, 13, 10, .55) 0%, rgba(18, 13, 10, .85) 100%) !important; }
+}
