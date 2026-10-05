@@ -38,6 +38,11 @@
       old.replaceWith(s);
     });
   }
+  // Preview helper: add ?reset-cookies to any URL to forget the choice and show the banner again.
+  if (/[?&]reset-cookies\b/.test(location.search)) {
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    history.replaceState(null, '', location.pathname + location.hash);
+  }
   var state = read();
   window.cookieConsent = {
     allows: function (key) { return key === 'necessary' || !!(state && state[key]); },
