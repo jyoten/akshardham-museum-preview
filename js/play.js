@@ -72,7 +72,7 @@
   var hero = $('section[aria-label="Welcome"]');
   if (hero) {
     var heroImg = $('img', hero);
-    if (heroImg && !reduce) heroImg.classList.add('kenburns');
+    if (heroImg && !reduce) heroImg.classList.add('wall-walk');
   }
   // the same slow zoom, gentler, on every interior hero photo
   if (!reduce) {

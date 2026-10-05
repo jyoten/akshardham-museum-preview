@@ -32,6 +32,14 @@ article.lift:focus-within { box-shadow: 0 0 0 2px var(--gold), 0 18px 40px rgba(
 /* ---------- Home hero: slow Ken Burns + word-by-word headline ---------- */
 .kenburns { animation: kenburns 26s ease-out both; transform-origin: 50% 62%; }
 @keyframes kenburns { from { transform: scale(1.14); } to { transform: scale(1); } }
+/* Home: a slow walk along the carved wall. A sideways "truck" move with a little zoom and a slight
+   turn, back and forth. Zoom never drops below 1.12, so the photo's edges stay out of view. */
+.wall-walk { transform-origin: 50% 62%; will-change: transform; backface-visibility: hidden;
+  animation: wall-walk 32s ease-in-out infinite alternate; }
+@keyframes wall-walk {
+  from { transform: perspective(1400px) translateX(4.5%) scale(1.18) rotateY(-2deg); }
+  to   { transform: perspective(1400px) translateX(-3%) scale(1.12) rotateY(2deg); }
+}
 .word { display: inline-block; opacity: 0; transform: translateY(.4em); animation: word-in .9s var(--ease-out) forwards; animation-delay: calc(.25s + var(--i) * .09s); }
 @keyframes word-in { to { opacity: 1; transform: none; } }
 
@@ -135,6 +143,7 @@ details.acc .acc-body { overflow: hidden; transition: height .35s var(--ease-out
   .rv { opacity: 1; transform: none; }
   .word { opacity: 1; transform: none; }
   .hotspot::before, .swan { display: none; }
+  .wall-walk { animation: none !important; }
   @view-transition { navigation: none; }
 }
 
