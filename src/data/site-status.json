@@ -1,11 +1,11 @@
 {
- "sample_hours": true,
+ "sample_hours": false,
  "timezone": "America/New_York",
  "regular_hours": {
   "monday": {
-   "closed": true,
-   "opens": "",
-   "closes": ""
+   "closed": false,
+   "opens": "09:30",
+   "closes": "18:00"
   },
   "tuesday": {
    "closed": false,
@@ -25,30 +25,20 @@
   "friday": {
    "closed": false,
    "opens": "09:30",
-   "closes": "20:00"
+   "closes": "18:00"
   },
   "saturday": {
    "closed": false,
-   "opens": "09:00",
-   "closes": "19:00"
+   "opens": "09:30",
+   "closes": "18:00"
   },
   "sunday": {
    "closed": false,
-   "opens": "09:00",
-   "closes": "19:00"
+   "opens": "09:30",
+   "closes": "18:00"
   }
  },
- "special_dates": [
-  {
-   "date": "2026-11-26",
-   "closed": true,
-   "opens": "",
-   "closes": "",
-   "note_en": "Closed for Thanksgiving",
-   "note_gu": "",
-   "note_hi": ""
-  }
- ],
+ "special_dates": [],
  "notices": [
   {
    "id": "sample-weather-closure",
