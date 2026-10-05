@@ -10,6 +10,8 @@ Each page is a folder with an `index.html`, so the URLs stay clean on any static
 | `/` | `index.html` |
 | `/explore` | `explore/index.html` (Four ways into India, featured replica) |
 | `/learn` | `learn/index.html` (school visits, young explorers, ideas) |
+| `/explore/<gallery>` | one page per gallery: `lifelike-scenes`, `legacy-architecture`, `walking-into-scripture`, `living-tapestry` |
+| `/explore/<exhibit>` | replica pages built on the Ajanta template: `rani-ki-vav`, `konark-wheel`, `haveli`, `dholavira-bazaar` |
 | `/ajanta` | `ajanta/index.html` |
 | `/timeline` (`/timeline#era-01` … `#era-09` opens an era) | `timeline/index.html` |
 | `/visit` | `visit/index.html` |
