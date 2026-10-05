@@ -40,3 +40,34 @@
     a.title = 'Not built yet: ' + a.getAttribute('data-todo');
   });
 })();
+
+// Language dropdown in the header (the phone menu shows the three choices in a row instead).
+(function () {
+  document.querySelectorAll('.mobile-lang .lang-menu').forEach(function (m) { m.removeAttribute('id'); m.hidden = false; });
+  var btn = document.querySelector('header .lang:not(.mobile-lang) .lang-btn');
+  if (!btn) return;
+  var menu = document.getElementById(btn.getAttribute('aria-controls'));
+  var links = Array.prototype.slice.call(menu.querySelectorAll('a'));
+  var open = function (focusFirst) {
+    menu.hidden = false; btn.setAttribute('aria-expanded', 'true');
+    if (focusFirst) links[0].focus();
+  };
+  var close = function (refocus) {
+    if (menu.hidden) return;
+    menu.hidden = true; btn.setAttribute('aria-expanded', 'false');
+    if (refocus) btn.focus();
+  };
+  btn.addEventListener('click', function () { menu.hidden ? open(false) : close(false); });
+  btn.addEventListener('keydown', function (e) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); open(true); }
+  });
+  menu.addEventListener('keydown', function (e) {
+    var i = links.indexOf(document.activeElement);
+    if (e.key === 'Escape') { e.preventDefault(); close(true); }
+    else if (e.key === 'ArrowDown') { e.preventDefault(); links[(i + 1) % links.length].focus(); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); links[(i - 1 + links.length) % links.length].focus(); }
+    else if (e.key === 'Tab') close(false);
+  });
+  document.addEventListener('click', function (e) { if (!btn.parentNode.contains(e.target)) close(false); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !menu.hidden) close(true); });
+})();
