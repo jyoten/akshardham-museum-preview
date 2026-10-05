@@ -51,7 +51,7 @@
   banner.setAttribute('aria-label', 'Cookie consent');
   banner.innerHTML =
     '<div class="consent-inner">' +
-    '<p class="consent-text"><svg class="consent-icon" width="18" height="18" viewBox="0 0 64 64" aria-hidden="true"><path d="M32 8c5 8 7 12 7 16a7 7 0 0 1-14 0c0-4 2-8 7-16z" fill="#F3B44A"/><path d="M32 16c2.5 4 3.5 6 3.5 8a3.5 3.5 0 0 1-7 0c0-2 1-4 3.5-8z" fill="#FFF1C9"/><path d="M10 36h44c-2 11-11 17-22 17S12 47 10 36z" fill="#C77A2E"/><path d="M10 36h44" stroke="#E3A869" stroke-width="3" stroke-linecap="round"/></svg><strong>Cookies on this site.</strong><span class="consent-mid"> We use necessary cookies to make the site work.</span><span class="consent-more"> With your permission we’d also like to use analytics cookies to understand how it’s used.</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">Privacy policy</a></p>' +
+    '<p class="consent-text"><strong>Cookies on this site.</strong><span class="consent-mid"> We use necessary cookies to make the site work.</span><span class="consent-more"> With your permission we’d also like to use analytics cookies to understand how it’s used.</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">Privacy policy</a></p>' +
     '<div class="consent-actions">' +
     '<button type="button" class="c-btn c-primary" data-act="all" aria-label="Accept all cookies">Accept<span class="consent-more"> all</span></button>' +
     '<button type="button" class="c-btn c-secondary" data-act="none" aria-label="Reject non-essential cookies">Reject<span class="consent-more"> non-essential</span></button>' +
