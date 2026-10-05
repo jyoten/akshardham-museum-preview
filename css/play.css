@@ -117,14 +117,6 @@ details.acc[open] summary::after { transform: rotate(45deg); }
 details.acc .acc-body { overflow: hidden; transition: height .35s var(--ease-out); }
 
 /* ---------- Support ---------- */
-.diya { display: inline-block; width: .9em; height: .9em; vertical-align: -.02em; margin-right: .2em; }
-.diya svg { width: 100%; height: 100%; overflow: visible; }
-.diya-flame, .diya-flame-core { transform-origin: 32px 28px; animation: flicker 2.6s ease-in-out infinite; }
-.diya-flame-core { animation-duration: 1.9s; }
-.diya-glow { animation: glow 3.2s ease-in-out infinite; transform-origin: 32px 22px; }
-@keyframes flicker { 0%, 100% { transform: scale(1, 1) rotate(0); } 25% { transform: scale(.94, 1.06) rotate(-3deg); } 50% { transform: scale(1.04, .95) rotate(2deg); } 75% { transform: scale(.97, 1.04) rotate(-1deg); } }
-@keyframes glow { 0%, 100% { opacity: .75; transform: scale(1); } 50% { opacity: 1; transform: scale(1.12); } }
-
 .lh-results { display: flex; flex-direction: column; gap: 6px; margin-top: 6px; }
 .lh-results .lh-note { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--peach); }
 .lh-hit { display: flex; align-items: center; gap: 12px; padding: 10px 12px; background: rgba(247, 244, 239, .08); border-left: 2px solid var(--gold); animation: meaning-in .35s var(--ease-out) both; }
