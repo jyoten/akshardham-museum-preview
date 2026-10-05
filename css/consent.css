@@ -123,3 +123,6 @@ html.consent-open { overflow: hidden; }
   box-shadow: 0 0 0 1px rgba(18, 13, 10, .35), 0 2px 6px rgba(18, 13, 10, .25), 0 18px 48px rgba(18, 13, 10, .55), inset 0 1px 0 rgba(255, 241, 201, .12) !important; }
 /* the short/long label parts sit inside flex buttons, so give them their own space */
 .consent .c-btn .consent-more, .consent .c-link .consent-more { margin-left: .3em; }
+/* Square corners like the rest of the site (buttons use 2px). */
+.consent { border-radius: 2px !important; }
+.consent .c-btn, .consent .c-primary { border-radius: 2px !important; }
