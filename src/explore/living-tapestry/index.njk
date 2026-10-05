@@ -16,7 +16,7 @@
 
 
 {% include "partials/header.njk" %}
-<nav aria-label="{{ "g_tapestry_001" | t(lang) | safe }}" style="border-bottom:1px solid var(--line-soft)">
+<nav aria-label="{{ "g_tapestry_001" | t(lang) | safe }}" data-l="Breadcrumb" style="border-bottom:1px solid var(--line-soft)">
 <ol style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;list-style:none;display:flex;gap:10px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px;margin:0 auto;font-size:14px;color:var(--muted)">
 <li><a href="{{ "/explore" | lurl(lang) }}" style="color:var(--muted)">{{ "g_tapestry_002" | t(lang) | safe }}</a></li><li aria-hidden="true">{{ "g_tapestry_003" | t(lang) | safe }}</li>
 <li aria-current="page" style="color:var(--ink)">{{ "g_tapestry_004" | t(lang) | safe }}</li>

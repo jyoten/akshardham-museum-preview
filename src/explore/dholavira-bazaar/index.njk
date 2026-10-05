@@ -16,7 +16,7 @@
 
 
 {% include "partials/header.njk" %}
-<nav aria-label="{{ "x_dholavira_001" | t(lang) | safe }}" style="border-bottom:1px solid var(--line-soft)">
+<nav aria-label="{{ "x_dholavira_001" | t(lang) | safe }}" data-l="Breadcrumb" style="border-bottom:1px solid var(--line-soft)">
 <ol style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;list-style:none;display:flex;gap:10px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px;margin:0 auto;font-size:14px;color:var(--muted)">
 <li><a href="{{ "/explore" | lurl(lang) }}" style="color:var(--muted)">{{ "x_dholavira_002" | t(lang) | safe }}</a></li><li aria-hidden="true">{{ "x_dholavira_003" | t(lang) | safe }}</li>
 <li><a href="{{ "/explore/legacy-architecture" | lurl(lang) }}" style="color:var(--muted)">{{ "x_dholavira_004" | t(lang) | safe }}</a></li><li aria-hidden="true">{{ "x_dholavira_003" | t(lang) | safe }}</li>
@@ -31,7 +31,7 @@
 <h1 id="ex-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(52px,6.4vw,92px);line-height:.98;margin:0">{{ "x_dholavira_005" | t(lang) | safe }}</h1>
 <p style="margin:0;font-size:21px;line-height:1.55;text-wrap:pretty">{{ "x_dholavira_007" | t(lang) | safe }}</p>
 <div style="display:flex;align-items:center;gap:18px;background:var(--sand);padding:18px 20px;max-width:460px">
-<button type="button" aria-label="{{ "x_dholavira_008" | t(lang) | safe }}" style="flex:0 0 52px;width:52px;height:52px;border-radius:50%;border:0;background:var(--ink);color:var(--cream);display:flex;align-items:center;justify-content:center;cursor:pointer">
+<button type="button" aria-label="{{ "x_dholavira_008" | t(lang) | safe }}" data-l="Play audio guide, stop [#]" style="flex:0 0 52px;width:52px;height:52px;border-radius:50%;border:0;background:var(--ink);color:var(--cream);display:flex;align-items:center;justify-content:center;cursor:pointer">
 <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
 </button>
 <div style="display:flex;flex-direction:column;gap:2px;flex:1">
@@ -47,7 +47,7 @@
 </div>
 </section>
 
-<section aria-label="{{ "x_dholavira_013" | t(lang) | safe }}" style="background:var(--ink);color:var(--cream)">
+<section aria-label="{{ "x_dholavira_013" | t(lang) | safe }}" data-l="Key facts" style="background:var(--ink);color:var(--cream)">
 <dl style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px 40px;padding-top:36px;padding-bottom:36px">
 <div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "x_dholavira_014" | t(lang) | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ "x_dholavira_015" | t(lang) | safe }}</dd></div>
 <div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "x_dholavira_016" | t(lang) | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ "x_dholavira_017" | t(lang) | safe }}</dd></div>
@@ -110,7 +110,7 @@
 </div>
 </section>
 
-<section aria-label="{{ "x_dholavira_047" | t(lang) | safe }}" style="background:var(--sand);padding:clamp(30px,3.33vw,48px) 0">
+<section aria-label="{{ "x_dholavira_047" | t(lang) | safe }}" data-l="On the timeline and plan" style="background:var(--sand);padding:clamp(30px,3.33vw,48px) 0">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:24px 56px;align-items:center;justify-content:space-between">
 <div style="display:flex;flex-direction:column;gap:8px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "x_dholavira_048" | t(lang) | safe }}</p>

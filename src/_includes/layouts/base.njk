@@ -14,7 +14,8 @@
 <link rel="stylesheet" href="/css/compact.css">
 <link rel="stylesheet" href="/css/consent.css">
 <link rel="stylesheet" href="/css/status.css">
-<script>window.SITE_LANG = "{{ lang }}"; window.I18N = {{ lang | uiStrings | safe }};</script>
+<script>window.SITE_LANG = "{{ lang }}"; window.I18N = {{ lang | uiStrings | safe }};
+window.tx = function (k, vars) { var s = window.I18N[k] || k; for (var v in vars || {}) s = s.split("{" + v + "}").join(vars[v]); return s; };</script>
 </head>
 <body>
 {% include "partials/wrapper-open.html" %}

@@ -15,7 +15,7 @@
 ---
 
 
-<section aria-label="{{ "home_001" | t(lang) | safe }}" style="position:relative;min-height:min(80vh,720px);display:flex;flex-direction:column;justify-content:flex-end;color:var(--cream);background:var(--night);overflow:hidden">
+<section aria-label="{{ "home_001" | t(lang) | safe }}" data-l="Welcome" style="position:relative;min-height:min(80vh,720px);display:flex;flex-direction:column;justify-content:flex-end;color:var(--cream);background:var(--night);overflow:hidden">
 <img src="/images/rani-ki-vav.jpg" alt="{{ "home_002" | t(lang) | safe }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 62%">
 <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,13,10,.72) 0%,rgba(18,13,10,.05) 26%,rgba(18,13,10,.1) 50%,rgba(18,13,10,.9) 100%)"></div>
 {% include "partials/header.njk" %}
@@ -32,7 +32,7 @@
 </div>
 </section>
 
-<section aria-label="{{ "home_008" | t(lang) | safe }}" style="background:var(--ink);color:var(--cream)">
+<section aria-label="{{ "home_008" | t(lang) | safe }}" data-l="Today at the museum" style="background:var(--ink);color:var(--cream)">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:24px 40px;padding-top:28px;padding-bottom:28px">
 <div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:8px"><span aria-hidden="true" data-status="dot" style="width:8px;height:8px;border-radius:50%;background:#7FBF7A;display:inline-block"></span><span data-status="today-label">{{ "home_009" | t(lang) | safe }}</span></span><span style="font-size:17px" data-status="today"><mark class="todo">{{ "home_010" | t(lang) | safe }}</mark></span></div>
 <div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "home_011" | t(lang) | safe }}</span><span style="font-size:17px">{{ "home_012" | t(lang) | safe }}</span></div>
@@ -64,7 +64,7 @@
 </div>
 </section>
 
-<section aria-label="{{ "home_025" | t(lang) | safe }}" style="background:var(--sand);padding:clamp(50px,5.56vw,80px) 0">
+<section aria-label="{{ "home_025" | t(lang) | safe }}" data-l="Explore and learn" style="background:var(--sand);padding:clamp(50px,5.56vw,80px) 0">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));gap:28px">
 
@@ -88,7 +88,7 @@
 </div>
 </section>
 
-<section aria-label="{{ "home_034" | t(lang) | safe }}" style="background:#5C1A14;color:var(--cream);padding:clamp(40px,4.44vw,64px) 0">
+<section aria-label="{{ "home_034" | t(lang) | safe }}" data-l="The museum in numbers" style="background:#5C1A14;color:var(--cream);padding:clamp(40px,4.44vw,64px) 0">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
 <h2 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(30px,3vw,42px);line-height:1.15;margin:0;max-width:760px">{{ "home_035" | t(lang) | safe }}</h2>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:40px 32px">

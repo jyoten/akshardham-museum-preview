@@ -1,13 +1,13 @@
 // Shared behaviour: mobile menu and the demo-only forms.
 (function () {
   var header = document.querySelector('header');
-  var button = header && header.querySelector('button[aria-label="Open menu"]');
+  var button = header && header.querySelector('button[data-l="Open menu"]');
   if (header && button) {
     var menu = document.createElement('div');
     menu.className = 'mobile-menu';
     menu.id = 'mobile-menu';
-    var main = header.querySelector('nav[aria-label="Main"]');
-    var lang = header.querySelector('nav[aria-label="Language"]');
+    var main = header.querySelector('nav[data-l="Main"]');
+    var lang = header.querySelector('nav[data-l="Language"]');
     var tickets = header.querySelector('a[href$="#tickets"]');
     if (main) {
       var nav = main.cloneNode(true);

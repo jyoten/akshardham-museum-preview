@@ -32,7 +32,7 @@
   if (!reduce && 'IntersectionObserver' in window) {
     var targets = $$('section h2, section .card, section article, section figure, section blockquote, section details, section ol > li, section dl > div, section > div > div > p, .tl-row')
       .filter(function (el) {
-        return !el.closest('header, footer, [aria-label="Welcome"], .chapter-nav, form, [aria-label="Eras"]') &&
+        return !el.closest('header, footer, [data-l="Welcome"], .chapter-nav, form, [data-l="Eras"]') &&
           !(el.parentElement && el.parentElement.closest('.rv'));
       });
     var io = new IntersectionObserver(function (entries) {
@@ -69,7 +69,7 @@
   $$('#membership article, section[aria-labelledby="it-h"] article').forEach(function (a) { a.classList.add('lift'); });
 
   /* ---------- Home ---------- */
-  var hero = $('section[aria-label="Welcome"]');
+  var hero = $('section[data-l="Welcome"]');
   if (hero) {
     var heroImg = $('img', hero);
     if (heroImg && !reduce) heroImg.classList.add('wall-walk');
@@ -90,7 +90,7 @@
   }
 
   // Stats count up once they're on screen.
-  var stats = $('section[aria-label="The museum in numbers"]');
+  var stats = $('section[data-l="The museum in numbers"]');
   if (stats) {
     var nums = $$('span', stats).filter(function (s) { return /^[\d,]+\+?$/.test(s.textContent.trim()); });
     nums.forEach(function (s) { s.classList.add('count'); });
@@ -190,7 +190,7 @@
       b.style.left = s.x + '%';
       b.style.top = s.y + '%';
       b.setAttribute('aria-expanded', 'false');
-      b.setAttribute('aria-label', 'Look closely: ' + items[i].querySelector('h3').textContent);
+      b.setAttribute('aria-label', tx('js_look_closely') + ' ' + items[i].querySelector('h3').textContent);
       b.addEventListener('click', function (e) {
         e.stopPropagation();
         b.getAttribute('aria-expanded') === 'true' ? closeNote() : openSpot(i);
@@ -200,7 +200,7 @@
       var show = document.createElement('button');
       show.type = 'button';
       show.className = 'show-on-photo';
-      show.textContent = 'Show on the photo ↑';
+      show.textContent = tx('js_show_on_photo');
       show.addEventListener('click', function () {
         frame.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'center' });
         setTimeout(function () { openSpot(i); }, reduce ? 0 : 450);
@@ -209,7 +209,7 @@
     });
     var hint = document.createElement('span');
     hint.className = 'hotspot-hint';
-    hint.textContent = 'Tap the numbers to look closely';
+    hint.textContent = tx('js_tap_numbers');
     frame.appendChild(hint);
     document.addEventListener('click', function (e) { if (note && !frame.contains(e.target)) closeNote(); });
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeNote(); });
@@ -233,7 +233,7 @@
     var heads = chapters.map(function (c) { return c.querySelector('h2'); });
     var nav = document.createElement('nav');
     nav.className = 'chapter-nav tabbar';
-    nav.setAttribute('aria-label', 'Chapters');
+    nav.setAttribute('aria-label', tx('js_chapters'));
     var chList = document.createElement('div');
     chList.setAttribute('role', 'tablist');
     nav.appendChild(chList);
@@ -269,7 +269,7 @@
       var chSteps = document.createElement('div');
       chSteps.className = 'chapter-steps';
       if (i > 0) chSteps.innerHTML += '<button type="button" class="prev">← ' + heads[i - 1].textContent + '</button>';
-      if (i < chapters.length - 1) chSteps.innerHTML += '<button type="button" class="next">Next: ' + heads[i + 1].textContent + ' →</button>';
+      if (i < chapters.length - 1) chSteps.innerHTML += '<button type="button" class="next">' + tx('js_next') + ' ' + heads[i + 1].textContent + ' →</button>';
       c.appendChild(chSteps);
       chSteps.addEventListener('click', function (e) {
         var b = e.target.closest('button');
@@ -314,13 +314,14 @@
       });
     });
 
-    var counts = {};
-    $$('button[aria-label^="More "]', form).forEach(function (plus) {
-      var kind = plus.getAttribute('aria-label').replace(/^More | tickets$/g, '');
-      var minus = form.querySelector('button[aria-label="Fewer ' + kind + ' tickets"]');
+    var counts = {}, names = {};
+    $$('button[data-l^="More "]', form).forEach(function (plus) {
+      var kind = plus.getAttribute('data-l').replace(/^More | tickets$/g, '');
+      var minus = form.querySelector('button[data-l="Fewer ' + kind + ' tickets"]');
       var out = plus.previousElementSibling;
       out.setAttribute('aria-live', 'polite');
       counts[kind] = 0;
+      names[kind] = plus.closest('div').parentNode.querySelector('p').textContent.trim();
       var set = function (n) {
         counts[kind] = Math.max(0, Math.min(20, n));
         out.textContent = counts[kind];
@@ -337,8 +338,8 @@
 
     var steps = document.createElement('ol');
     steps.className = 'steps';
-    steps.setAttribute('aria-label', 'Booking progress');
-    steps.innerHTML = '<li>Date</li><li>Entry window</li><li>Visitors</li>';
+    steps.setAttribute('aria-label', tx('js_booking_progress'));
+    steps.innerHTML = '<li>' + tx('js_step_date') + '</li><li>' + tx('js_step_window') + '</li><li>' + tx('js_step_visitors') + '</li>';
     form.insertBefore(steps, form.firstChild);
 
     var submit = $('button[type="submit"]', form);
@@ -349,19 +350,19 @@
 
     var refresh = function () {
       var people = Object.keys(counts).filter(function (k) { return counts[k] > 0; })
-        .map(function (k) { return counts[k] + ' ' + k.toLowerCase() + (counts[k] > 1 ? (k === 'Child' ? 'ren' : 's') : ''); });
+        .map(function (k) { return counts[k] + ' × ' + names[k]; });
       var total = Object.keys(counts).reduce(function (a, k) { return a + counts[k]; }, 0);
-      var when = date.value ? new Date(date.value + 'T12:00').toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' }) : null;
+      var when = date.value ? new Date(date.value + 'T12:00').toLocaleDateString((window.SITE_LANG || 'en') === 'en' ? 'en-US' : window.SITE_LANG + '-IN', { weekday: 'short', month: 'short', day: 'numeric' }) : null;
       var win = chosen ? chosen.querySelector('span').textContent : null;
       var extras = $$('input[type="checkbox"]', form).filter(function (c) { return c.checked; })
         .map(function (c) { return c.parentNode.textContent.split('·')[0].replace('Add a ', '').trim(); });
       var done = [!!when, !!win, total > 0];
       $$('li', steps).forEach(function (li, i) { li.classList.toggle('done', done[i]); });
       var parts = [];
-      parts.push(when ? '<b>' + when + '</b>' : 'Pick a date');
-      parts.push(win ? '<b>' + win + '</b>' : 'choose an entry window');
-      parts.push(total ? '<b>' + people.join(', ') + '</b>' : 'add visitors');
-      summary.innerHTML = parts.join(' · ') + (extras.length ? ' · plus ' + extras.join(' and ') : '');
+      parts.push(when ? '<b>' + when + '</b>' : tx('js_pick_date'));
+      parts.push(win ? '<b>' + win + '</b>' : tx('js_pick_window'));
+      parts.push(total ? '<b>' + people.join(', ') + '</b>' : tx('js_add_visitors'));
+      summary.innerHTML = parts.join(' · ') + (extras.length ? ' · ' + tx('js_plus') + ' ' + extras.join(' ' + tx('js_and') + ' ') : '');
       var ready = done.every(Boolean);
       submit.setAttribute('aria-disabled', String(!ready));
     };
@@ -369,19 +370,19 @@
     $$('input[type="checkbox"]', form).forEach(function (c) { c.addEventListener('change', refresh); });
     form.addEventListener('submit', function () {
       if (submit.getAttribute('aria-disabled') === 'true') {
-        toast('Almost there: choose a date, an entry window and at least one visitor.');
+        toast(tx('js_toast_incomplete'));
       } else {
-        toast('Checkout isn’t connected yet. This is a preview of the booking flow.');
+        toast(tx('js_toast_preview'));
       }
     });
     refresh();
   }
 
-  var tabs = $$('[role="tablist"][aria-label="Floors"] [role="tab"]');
+  var tabs = $$('[role="tablist"][data-l="Floors"] [role="tab"]');
   if (tabs.length) {
     var onStyle = tabs[0].getAttribute('style'), offStyle = tabs[1].getAttribute('style');
     var galleries = tabs[0].parentNode.nextElementSibling;
-    var plan = $('[aria-label="Floor plan placeholder"]');
+    var plan = $('[data-l="Floor plan placeholder"]');
     galleries.classList.add('floor-panel');
     plan.classList.add('floor-panel');
     tabs.forEach(function (tab, i) {
@@ -393,7 +394,7 @@
         });
         galleries.innerHTML = '<mark class="todo">[GALLERIES ON FLOOR ' + (i + 1) + ']</mark>';
         plan.innerHTML = '<mark class="todo">[FLOOR ' + (i + 1) + ' PLAN]</mark>';
-        plan.setAttribute('aria-label', 'Floor ' + (i + 1) + ' plan placeholder');
+        plan.setAttribute('aria-label', tx('js_floor_plan', { n: i + 1 }));
         [galleries, plan].forEach(function (el) { el.classList.remove('swap'); void el.offsetWidth; el.classList.add('swap'); });
       });
       tab.addEventListener('keydown', function (e) {
@@ -455,13 +456,13 @@
           var i = s.toLowerCase().indexOf(q);
           return i < 0 ? esc(s) : esc(s.slice(0, i)) + '<mark>' + esc(s.slice(i, i + q.length)) + '</mark>' + esc(s.slice(i + q.length));
         };
-        lhResults.innerHTML = '<span class="lh-note">Sample data · not real sponsors</span>' + (hits.length ? hits.map(function (s, i) {
-          return '<div class="lh-hit" style="animation-delay:' + i * 0.06 + 's">' + SWAN + '<div>' + hi(s.name) + '<small>' + esc(s.city) + ' · Swan ' + s.swan + ' · ' + esc(s.bay) + ' bay</small></div></div>';
-        }).join('') : '<div class="lh-hit">No match in the sample list. Try “Sample”.</div>');
+        lhResults.innerHTML = '<span class="lh-note">' + tx('js_sample_sponsors') + '</span>' + (hits.length ? hits.map(function (s, i) {
+          return '<div class="lh-hit" style="animation-delay:' + i * 0.06 + 's">' + SWAN + '<div>' + hi(s.name) + '<small>' + esc(s.city) + ' · ' + tx('js_swan') + ' ' + s.swan + ' · ' + esc(tx('js_bay', { bay: s.bay })) + '</small></div></div>';
+        }).join('') : '<div class="lh-hit">' + tx('js_no_match') + '</div>');
       };
       if (data) return go();
       fetch('/data/legacy-hall-sample.json').then(function (r) { return r.json(); }).then(function (d) { data = d; go(); })
-        .catch(function () { lhResults.textContent = 'The sponsor list could not be loaded.'; });
+        .catch(function () { lhResults.textContent = tx('js_load_failed'); });
     };
     lhInput.addEventListener('input', search);
     lhButton.addEventListener('click', search);

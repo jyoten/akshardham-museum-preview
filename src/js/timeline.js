@@ -13,11 +13,11 @@
   progress.className = 'era-progress';
   progress.setAttribute('aria-hidden', 'true');
   progress.innerHTML = '<span></span>';
-  document.querySelector('section[aria-label="Eras"]').appendChild(progress);
+  document.querySelector('section[data-l="Eras"]').appendChild(progress);
 
   var hint = document.createElement('p');
   hint.className = 'swipe-hint';
-  hint.textContent = 'Swipe left or right to move through the eras.';
+  hint.textContent = tx('js_swipe_eras');
   prevBtn.parentNode.after(hint);
 
   function esc(s) {
@@ -52,7 +52,7 @@
 
   function render(i) {
     var e = ERAS[i];
-    document.getElementById('era-meta').innerHTML = 'Era ' + e.num + ' of ' + ERAS.length + ' · ' + text(e.dates);
+    document.getElementById('era-meta').innerHTML = tx('js_era_of', { num: e.num, total: ERAS.length }) + ' · ' + text(e.dates);
     document.getElementById('era-name').textContent = e.name;
     document.getElementById('era-summary').innerHTML = text(e.summary);
     document.getElementById('era-keys').innerHTML = text(e.keys);

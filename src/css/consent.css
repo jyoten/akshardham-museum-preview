@@ -136,3 +136,10 @@ html.consent-open { overflow: hidden; }
 .consent .c-secondary:hover, .consent .c-link:hover { color: var(--gold) !important; }
 /* Phones: show the same short sentence as tablets. */
 @media (max-width: 640px) { .consent-mid { display: inline !important; } }
+
+/* Buttons carry a full label (desktop) and a short one (phones and tablets), each a whole phrase in every language. */
+.consent .consent-short { display: none; }
+@media (max-width: 1024px) {
+  .consent .consent-full { display: none; }
+  .consent .consent-short { display: inline; }
+}

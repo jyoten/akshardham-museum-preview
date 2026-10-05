@@ -6,8 +6,8 @@
 
   /* ---------- Card groups become swipe rows on phones (CSS does the layout) ---------- */
   var rows = [
-    ['section[aria-labelledby="exp-h"] .card, section[aria-label="The four galleries"] .card', false],
-    ['section[aria-labelledby="learn-h"] .card, section[aria-label="Ways to learn"] .card', false],
+    ['section[aria-labelledby="exp-h"] .card, section[data-l="The four galleries"] .card', false],
+    ['section[aria-labelledby="learn-h"] .card, section[data-l="Ways to learn"] .card', false],
     ['section[aria-labelledby="voices-h"] figure', false],
     ['section[aria-labelledby="near-h"] .card', false],
     ['section[aria-labelledby="it-h"] article', false],
@@ -22,7 +22,7 @@
     row.classList.add('snap-row');
     if (r[1]) row.classList.add('on-dark');
     row.setAttribute('tabindex', '0'); // keyboard users can scroll the row with arrow keys
-    row.setAttribute('aria-label', (row.closest('section').querySelector('h2') || {}).textContent + ' (swipe for more)');
+    row.setAttribute('aria-label', (row.closest('section').querySelector('h2') || {}).textContent + ' ' + tx('js_swipe_more'));
     var dots = document.createElement('div');
     dots.className = 'snap-dots';
     dots.setAttribute('aria-hidden', 'true');
@@ -73,14 +73,14 @@
 
   /* ---------- Visit: First visit / Accessibility & getting here / FAQ as tabs ---------- */
   var panels = [
-    ['section[aria-labelledby="first-h"]', 'First visit'],
-    ['section[aria-labelledby="acc-h"]', 'Accessibility & getting here'],
-    ['section[aria-labelledby="faq-h"]', 'Questions']
+    ['section[aria-labelledby="first-h"]', tx('js_tab_first')],
+    ['section[aria-labelledby="acc-h"]', tx('js_tab_access')],
+    ['section[aria-labelledby="faq-h"]', tx('js_tab_questions')]
   ].map(function (p) { return { el: $(p[0]), label: p[1] }; }).filter(function (p) { return p.el; });
   if (panels.length === 3) {
     var bar = document.createElement('div');
     bar.className = 'tabbar';
-    bar.innerHTML = '<div class="tabbar-title"><p id="gtk-h">Good to know</p></div><div role="tablist" aria-labelledby="gtk-h"></div>';
+    bar.innerHTML = '<div class="tabbar-title"><p id="gtk-h">' + tx('js_tab_title') + '</p></div><div role="tablist" aria-labelledby="gtk-h"></div>';
     panels[0].el.parentNode.insertBefore(bar, panels[0].el);
     var list = $('[role="tablist"]', bar);
     var tabs = panels.map(function (p, i) {

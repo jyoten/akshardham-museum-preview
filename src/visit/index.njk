@@ -27,7 +27,7 @@
 </div>
 </div>
 </section>
-<section aria-label="{{ "visit_004" | t(lang) | safe }}" style="background:var(--night);color:var(--cream)">
+<section aria-label="{{ "visit_004" | t(lang) | safe }}" data-l="Visit essentials" style="background:var(--night);color:var(--cream)">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%">
 <dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px 40px;border-top:1px solid var(--umber);padding:28px 0 36px">
 <div style="display:flex;flex-direction:column;gap:6px"><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_005" | t(lang) | safe }}</dt><dd style="margin:0;font-size:18px" data-status="visit-hours"><mark class="todo">{{ "visit_006" | t(lang) | safe }}</mark><br><span style="font-size:14px;color:#BFB2A3">{{ "visit_007" | t(lang) | safe }}</span></dd></div>
@@ -50,7 +50,7 @@
 <li style="display:flex;gap:12px">{{ "visit_020" | t(lang) | safe }}</li>
 </ul>
 </div>
-<form data-demo-form aria-label="{{ "visit_021" | t(lang) | safe }}" style="background:var(--cream);padding:36px;display:flex;flex-direction:column;gap:28px;box-shadow:0 30px 60px -40px rgba(28,20,16,.45)">
+<form data-demo-form aria-label="{{ "visit_021" | t(lang) | safe }}" data-l="Ticket booking" style="background:var(--cream);padding:36px;display:flex;flex-direction:column;gap:28px;box-shadow:0 30px 60px -40px rgba(28,20,16,.45)">
 <div style="display:flex;flex-direction:column;gap:8px">
 <label for="visit-date" style="font-weight:600;font-size:15px">{{ "visit_022" | t(lang) | safe }}</label>
 <input id="visit-date" type="date" style="min-height:52px;padding:0 14px;border:1px solid var(--line-strong);border-radius:2px;font:inherit;background:var(--white);color:var(--ink)">
@@ -66,30 +66,30 @@
 <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
 <div><p style="margin:0;font-weight:600">{{ "visit_030" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_031" | t(lang) | safe }}</p></div>
 <div style="display:flex;align-items:center;gap:6px">
-<button type="button" aria-label="{{ "visit_032" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_032" | t(lang) | safe }}" data-l="Fewer Adult tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
 <span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
-<button type="button" aria-label="{{ "visit_035" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_035" | t(lang) | safe }}" data-l="More Adult tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
 </div>
 </div><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
 <div><p style="margin:0;font-weight:600">{{ "visit_037" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_038" | t(lang) | safe }}</p></div>
 <div style="display:flex;align-items:center;gap:6px">
-<button type="button" aria-label="{{ "visit_039" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_039" | t(lang) | safe }}" data-l="Fewer Child tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
 <span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
-<button type="button" aria-label="{{ "visit_040" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_040" | t(lang) | safe }}" data-l="More Child tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
 </div>
 </div><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
 <div><p style="margin:0;font-weight:600">{{ "visit_041" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_031" | t(lang) | safe }}</p></div>
 <div style="display:flex;align-items:center;gap:6px">
-<button type="button" aria-label="{{ "visit_042" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_042" | t(lang) | safe }}" data-l="Fewer Senior tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
 <span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
-<button type="button" aria-label="{{ "visit_043" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_043" | t(lang) | safe }}" data-l="More Senior tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
 </div>
 </div><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
 <div><p style="margin:0;font-weight:600">{{ "visit_044" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_045" | t(lang) | safe }}</p></div>
 <div style="display:flex;align-items:center;gap:6px">
-<button type="button" aria-label="{{ "visit_046" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_046" | t(lang) | safe }}" data-l="Fewer Member tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
 <span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
-<button type="button" aria-label="{{ "visit_047" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+<button type="button" aria-label="{{ "visit_047" | t(lang) | safe }}" data-l="More Member tickets" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
 </div>
 </div>
 </fieldset>
@@ -142,7 +142,7 @@
 <div style="display:flex;flex-direction:column;gap:20px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_074" | t(lang) | safe }}</p>
 <h2 id="map-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ "visit_075" | t(lang) | safe }}</h2>
-<div role="tablist" aria-label="{{ "visit_076" | t(lang) | safe }}" style="display:flex;gap:8px;margin-top:8px">
+<div role="tablist" aria-label="{{ "visit_076" | t(lang) | safe }}" data-l="Floors" style="display:flex;gap:8px;margin-top:8px">
 <button type="button" role="tab" aria-selected="true" style="min-width:64px;min-height:48px;border:0;background:var(--ink);color:var(--cream);font:inherit;font-weight:600;cursor:pointer;border-radius:2px">{{ "visit_077" | t(lang) | safe }}</button>
 <button type="button" role="tab" aria-selected="false" style="min-width:64px;min-height:48px;border:1px solid var(--line-strong);background:transparent;color:var(--ink);font:inherit;font-weight:600;cursor:pointer;border-radius:2px;padding:0 14px">{{ "visit_078" | t(lang) | safe }}</button>
 <button type="button" role="tab" aria-selected="false" style="min-width:64px;min-height:48px;border:1px solid var(--line-strong);background:transparent;color:var(--ink);font:inherit;font-weight:600;cursor:pointer;border-radius:2px;padding:0 14px">{{ "visit_079" | t(lang) | safe }}</button>
@@ -150,7 +150,7 @@
 <p style="margin:0;font-size:17px;color:var(--muted)"><mark class="todo">{{ "visit_080" | t(lang) | safe }}</mark></p>
 <a href="#" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ "visit_081" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
 </div>
-<div role="img" aria-label="{{ "visit_082" | t(lang) | safe }}" style="aspect-ratio:16/11;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "visit_083" | t(lang) | safe }}</mark></div>
+<div role="img" aria-label="{{ "visit_082" | t(lang) | safe }}" data-l="Floor plan placeholder" style="aspect-ratio:16/11;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "visit_083" | t(lang) | safe }}</mark></div>
 </div>
 </section>
 
@@ -184,7 +184,7 @@
 <div id="getting-here" style="display:flex;flex-direction:column;gap:22px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_100" | t(lang) | safe }}</p>
 <h2 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ "visit_101" | t(lang) | safe }}</h2>
-<div role="img" aria-label="{{ "visit_102" | t(lang) | safe }}" style="aspect-ratio:16/9;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "visit_103" | t(lang) | safe }}</mark></div>
+<div role="img" aria-label="{{ "visit_102" | t(lang) | safe }}" data-l="Map placeholder" style="aspect-ratio:16/9;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "visit_103" | t(lang) | safe }}</mark></div>
 <dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:20px">
 <div><dt style="font-size:13px;color:var(--muted)">{{ "visit_104" | t(lang) | safe }}</dt><dd style="margin:4px 0 0"><mark class="todo">{{ "visit_105" | t(lang) | safe }}</mark></dd></div>
 <div><dt style="font-size:13px;color:var(--muted)">{{ "visit_106" | t(lang) | safe }}</dt><dd style="margin:4px 0 0"><mark class="todo">{{ "visit_107" | t(lang) | safe }}</mark></dd></div>

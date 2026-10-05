@@ -60,7 +60,7 @@ a.todo-link { cursor: help; }
   .hide-sm { display: none !important; }
   .show-sm { display: inline-flex; }
   .stagger { margin-top: 0 !important; }
-  section[aria-label="Welcome"] { min-height: 720px !important; padding-top: 150px; }
+  section[data-l="Welcome"] { min-height: 720px !important; padding-top: 150px; }
 
   header.menu-open { z-index: 20 !important; }
   header.menu-open .mobile-menu { display: block; }
@@ -94,8 +94,11 @@ a.todo-link { cursor: help; }
   #era-see .card { grid-template-columns: 110px minmax(0, 1fr) !important; }
   /* the header CTA would crowd the logo; it lives in the menu instead */
   header > div a[href$="#tickets"] { display: none !important; }
-  section[aria-label="Welcome"] { min-height: 0 !important; padding-top: 150px; }
+  section[data-l="Welcome"] { min-height: 0 !important; padding-top: 150px; }
   [style*="text-align:right"] { text-align: left !important; }
   [style*="flex:1 1 320px"] { flex-basis: 100% !important; min-width: 0; }
   input { min-width: 0; }
 }
+
+/* Gujarati and Hindi: letter-spacing pulls the joined letters and vowel signs apart, so drop it. */
+html:lang(gu) body *, html:lang(hi) body * { letter-spacing: 0 !important; }

@@ -194,11 +194,8 @@ collections:
           - { name: ui_consent_more, label: "With your permission we’d also like to use analytics cookies to under…", widget: string, required: true }
           - { name: ui_consent_privacy, label: "Privacy policy", widget: string, required: true }
           - { name: ui_consent_accept, label: "Accept", widget: string, required: true }
-          - { name: ui_consent_accept_more, label: "all", widget: string, required: true }
           - { name: ui_consent_reject, label: "Reject", widget: string, required: true }
-          - { name: ui_consent_reject_more, label: "non-essential", widget: string, required: true }
           - { name: ui_consent_manage, label: "Manage", widget: string, required: true }
-          - { name: ui_consent_manage_more, label: "settings", widget: string, required: true }
           - { name: ui_consent_dialog_title, label: "Cookie settings", widget: string, required: true }
           - { name: ui_consent_dialog_text, label: "Choose which cookies we can use. Essential ones are always on. You ca…", widget: text, required: true }
           - { name: ui_consent_essential, label: "Essential", widget: string, required: true }
@@ -211,6 +208,37 @@ collections:
           - { name: ui_consent_reject_full, label: "Reject non-essential", widget: string, required: true }
           - { name: ui_consent_accept_full, label: "Accept all", widget: string, required: true }
           - { name: ui_consent_settings_link, label: "Cookie settings", widget: string, required: true }
+          - { name: ui_every_day, label: "Every day", widget: string, required: true }
+          - { name: ui_consent_manage_full, label: "Manage settings", widget: string, required: true }
+          - { name: ui_js_tab_title, label: "Good to know", widget: string, required: true }
+          - { name: ui_js_tab_first, label: "First visit", widget: string, required: true }
+          - { name: ui_js_tab_access, label: "Accessibility & getting here", widget: string, required: true }
+          - { name: ui_js_tab_questions, label: "Questions", widget: string, required: true }
+          - { name: ui_js_swipe_more, label: "(swipe for more)", widget: string, required: true }
+          - { name: ui_js_show_on_photo, label: "Show on the photo ↑", widget: string, required: true }
+          - { name: ui_js_tap_numbers, label: "Tap the numbers to look closely", widget: string, required: true }
+          - { name: ui_js_look_closely, label: "Look closely:", widget: string, required: true }
+          - { name: ui_js_chapters, label: "Chapters", widget: string, required: true }
+          - { name: ui_js_next, label: "Next:", widget: string, required: true }
+          - { name: ui_js_booking_progress, label: "Booking progress", widget: string, required: true }
+          - { name: ui_js_step_date, label: "Date", widget: string, required: true }
+          - { name: ui_js_step_window, label: "Entry window", widget: string, required: true }
+          - { name: ui_js_step_visitors, label: "Visitors", widget: string, required: true }
+          - { name: ui_js_pick_date, label: "Pick a date", widget: string, required: true }
+          - { name: ui_js_pick_window, label: "choose an entry window", widget: string, required: true }
+          - { name: ui_js_add_visitors, label: "add visitors", widget: string, required: true }
+          - { name: ui_js_plus, label: "plus", widget: string, required: true }
+          - { name: ui_js_and, label: "and", widget: string, required: true }
+          - { name: ui_js_toast_incomplete, label: "Almost there: choose a date, an entry window and at least one visitor.", widget: string, required: true }
+          - { name: ui_js_toast_preview, label: "Checkout isn’t connected yet. This is a preview of the booking flow.", widget: string, required: true }
+          - { name: ui_js_floor_plan, label: "Floor {n} plan placeholder", widget: string, required: true }
+          - { name: ui_js_sample_sponsors, label: "Sample data · not real sponsors", widget: string, required: true }
+          - { name: ui_js_no_match, label: "No match in the sample list. Try “Sample”.", widget: string, required: true }
+          - { name: ui_js_swan, label: "Swan", widget: string, required: true }
+          - { name: ui_js_bay, label: "{bay} bay", widget: string, required: true }
+          - { name: ui_js_load_failed, label: "The sponsor list could not be loaded.", widget: string, required: true }
+          - { name: ui_js_era_of, label: "Era {num} of {total}", widget: string, required: true }
+          - { name: ui_js_swipe_eras, label: "Swipe left or right to move through the eras.", widget: string, required: true }
       - name: home
         label: "Home"
         file: src/content/en/home.json
@@ -1136,11 +1164,8 @@ collections:
           - { name: ui_consent_more, label: "With your permission we’d also like to use analytics cookies to under…", widget: string, required: false, hint: "English: With your permission we’d also like to use analytics cookies to understand how it’s used." }
           - { name: ui_consent_privacy, label: "Privacy policy", widget: string, required: false, hint: "English: Privacy policy" }
           - { name: ui_consent_accept, label: "Accept", widget: string, required: false, hint: "English: Accept" }
-          - { name: ui_consent_accept_more, label: "all", widget: string, required: false, hint: "English: all" }
           - { name: ui_consent_reject, label: "Reject", widget: string, required: false, hint: "English: Reject" }
-          - { name: ui_consent_reject_more, label: "non-essential", widget: string, required: false, hint: "English: non-essential" }
           - { name: ui_consent_manage, label: "Manage", widget: string, required: false, hint: "English: Manage" }
-          - { name: ui_consent_manage_more, label: "settings", widget: string, required: false, hint: "English: settings" }
           - { name: ui_consent_dialog_title, label: "Cookie settings", widget: string, required: false, hint: "English: Cookie settings" }
           - { name: ui_consent_dialog_text, label: "Choose which cookies we can use. Essential ones are always on. You ca…", widget: text, required: false, hint: "English: Choose which cookies we can use. Essential ones are always on. You can change this any time from “Cookie settings” at the bottom of every page." }
           - { name: ui_consent_essential, label: "Essential", widget: string, required: false, hint: "English: Essential" }
@@ -1153,6 +1178,37 @@ collections:
           - { name: ui_consent_reject_full, label: "Reject non-essential", widget: string, required: false, hint: "English: Reject non-essential" }
           - { name: ui_consent_accept_full, label: "Accept all", widget: string, required: false, hint: "English: Accept all" }
           - { name: ui_consent_settings_link, label: "Cookie settings", widget: string, required: false, hint: "English: Cookie settings" }
+          - { name: ui_every_day, label: "Every day", widget: string, required: false, hint: "English: Every day" }
+          - { name: ui_consent_manage_full, label: "Manage settings", widget: string, required: false, hint: "English: Manage settings" }
+          - { name: ui_js_tab_title, label: "Good to know", widget: string, required: false, hint: "English: Good to know" }
+          - { name: ui_js_tab_first, label: "First visit", widget: string, required: false, hint: "English: First visit" }
+          - { name: ui_js_tab_access, label: "Accessibility & getting here", widget: string, required: false, hint: "English: Accessibility & getting here" }
+          - { name: ui_js_tab_questions, label: "Questions", widget: string, required: false, hint: "English: Questions" }
+          - { name: ui_js_swipe_more, label: "(swipe for more)", widget: string, required: false, hint: "English: (swipe for more)" }
+          - { name: ui_js_show_on_photo, label: "Show on the photo ↑", widget: string, required: false, hint: "English: Show on the photo ↑" }
+          - { name: ui_js_tap_numbers, label: "Tap the numbers to look closely", widget: string, required: false, hint: "English: Tap the numbers to look closely" }
+          - { name: ui_js_look_closely, label: "Look closely:", widget: string, required: false, hint: "English: Look closely:" }
+          - { name: ui_js_chapters, label: "Chapters", widget: string, required: false, hint: "English: Chapters" }
+          - { name: ui_js_next, label: "Next:", widget: string, required: false, hint: "English: Next:" }
+          - { name: ui_js_booking_progress, label: "Booking progress", widget: string, required: false, hint: "English: Booking progress" }
+          - { name: ui_js_step_date, label: "Date", widget: string, required: false, hint: "English: Date" }
+          - { name: ui_js_step_window, label: "Entry window", widget: string, required: false, hint: "English: Entry window" }
+          - { name: ui_js_step_visitors, label: "Visitors", widget: string, required: false, hint: "English: Visitors" }
+          - { name: ui_js_pick_date, label: "Pick a date", widget: string, required: false, hint: "English: Pick a date" }
+          - { name: ui_js_pick_window, label: "choose an entry window", widget: string, required: false, hint: "English: choose an entry window" }
+          - { name: ui_js_add_visitors, label: "add visitors", widget: string, required: false, hint: "English: add visitors" }
+          - { name: ui_js_plus, label: "plus", widget: string, required: false, hint: "English: plus" }
+          - { name: ui_js_and, label: "and", widget: string, required: false, hint: "English: and" }
+          - { name: ui_js_toast_incomplete, label: "Almost there: choose a date, an entry window and at least one visitor.", widget: string, required: false, hint: "English: Almost there: choose a date, an entry window and at least one visitor." }
+          - { name: ui_js_toast_preview, label: "Checkout isn’t connected yet. This is a preview of the booking flow.", widget: string, required: false, hint: "English: Checkout isn’t connected yet. This is a preview of the booking flow." }
+          - { name: ui_js_floor_plan, label: "Floor {n} plan placeholder", widget: string, required: false, hint: "English: Floor {n} plan placeholder" }
+          - { name: ui_js_sample_sponsors, label: "Sample data · not real sponsors", widget: string, required: false, hint: "English: Sample data · not real sponsors" }
+          - { name: ui_js_no_match, label: "No match in the sample list. Try “Sample”.", widget: string, required: false, hint: "English: No match in the sample list. Try “Sample”." }
+          - { name: ui_js_swan, label: "Swan", widget: string, required: false, hint: "English: Swan" }
+          - { name: ui_js_bay, label: "{bay} bay", widget: string, required: false, hint: "English: {bay} bay" }
+          - { name: ui_js_load_failed, label: "The sponsor list could not be loaded.", widget: string, required: false, hint: "English: The sponsor list could not be loaded." }
+          - { name: ui_js_era_of, label: "Era {num} of {total}", widget: string, required: false, hint: "English: Era {num} of {total}" }
+          - { name: ui_js_swipe_eras, label: "Swipe left or right to move through the eras.", widget: string, required: false, hint: "English: Swipe left or right to move through the eras." }
       - name: home
         label: "Home"
         file: src/content/gu/home.json
@@ -2079,11 +2135,8 @@ collections:
           - { name: ui_consent_more, label: "With your permission we’d also like to use analytics cookies to under…", widget: string, required: false, hint: "English: With your permission we’d also like to use analytics cookies to understand how it’s used." }
           - { name: ui_consent_privacy, label: "Privacy policy", widget: string, required: false, hint: "English: Privacy policy" }
           - { name: ui_consent_accept, label: "Accept", widget: string, required: false, hint: "English: Accept" }
-          - { name: ui_consent_accept_more, label: "all", widget: string, required: false, hint: "English: all" }
           - { name: ui_consent_reject, label: "Reject", widget: string, required: false, hint: "English: Reject" }
-          - { name: ui_consent_reject_more, label: "non-essential", widget: string, required: false, hint: "English: non-essential" }
           - { name: ui_consent_manage, label: "Manage", widget: string, required: false, hint: "English: Manage" }
-          - { name: ui_consent_manage_more, label: "settings", widget: string, required: false, hint: "English: settings" }
           - { name: ui_consent_dialog_title, label: "Cookie settings", widget: string, required: false, hint: "English: Cookie settings" }
           - { name: ui_consent_dialog_text, label: "Choose which cookies we can use. Essential ones are always on. You ca…", widget: text, required: false, hint: "English: Choose which cookies we can use. Essential ones are always on. You can change this any time from “Cookie settings” at the bottom of every page." }
           - { name: ui_consent_essential, label: "Essential", widget: string, required: false, hint: "English: Essential" }
@@ -2096,6 +2149,37 @@ collections:
           - { name: ui_consent_reject_full, label: "Reject non-essential", widget: string, required: false, hint: "English: Reject non-essential" }
           - { name: ui_consent_accept_full, label: "Accept all", widget: string, required: false, hint: "English: Accept all" }
           - { name: ui_consent_settings_link, label: "Cookie settings", widget: string, required: false, hint: "English: Cookie settings" }
+          - { name: ui_every_day, label: "Every day", widget: string, required: false, hint: "English: Every day" }
+          - { name: ui_consent_manage_full, label: "Manage settings", widget: string, required: false, hint: "English: Manage settings" }
+          - { name: ui_js_tab_title, label: "Good to know", widget: string, required: false, hint: "English: Good to know" }
+          - { name: ui_js_tab_first, label: "First visit", widget: string, required: false, hint: "English: First visit" }
+          - { name: ui_js_tab_access, label: "Accessibility & getting here", widget: string, required: false, hint: "English: Accessibility & getting here" }
+          - { name: ui_js_tab_questions, label: "Questions", widget: string, required: false, hint: "English: Questions" }
+          - { name: ui_js_swipe_more, label: "(swipe for more)", widget: string, required: false, hint: "English: (swipe for more)" }
+          - { name: ui_js_show_on_photo, label: "Show on the photo ↑", widget: string, required: false, hint: "English: Show on the photo ↑" }
+          - { name: ui_js_tap_numbers, label: "Tap the numbers to look closely", widget: string, required: false, hint: "English: Tap the numbers to look closely" }
+          - { name: ui_js_look_closely, label: "Look closely:", widget: string, required: false, hint: "English: Look closely:" }
+          - { name: ui_js_chapters, label: "Chapters", widget: string, required: false, hint: "English: Chapters" }
+          - { name: ui_js_next, label: "Next:", widget: string, required: false, hint: "English: Next:" }
+          - { name: ui_js_booking_progress, label: "Booking progress", widget: string, required: false, hint: "English: Booking progress" }
+          - { name: ui_js_step_date, label: "Date", widget: string, required: false, hint: "English: Date" }
+          - { name: ui_js_step_window, label: "Entry window", widget: string, required: false, hint: "English: Entry window" }
+          - { name: ui_js_step_visitors, label: "Visitors", widget: string, required: false, hint: "English: Visitors" }
+          - { name: ui_js_pick_date, label: "Pick a date", widget: string, required: false, hint: "English: Pick a date" }
+          - { name: ui_js_pick_window, label: "choose an entry window", widget: string, required: false, hint: "English: choose an entry window" }
+          - { name: ui_js_add_visitors, label: "add visitors", widget: string, required: false, hint: "English: add visitors" }
+          - { name: ui_js_plus, label: "plus", widget: string, required: false, hint: "English: plus" }
+          - { name: ui_js_and, label: "and", widget: string, required: false, hint: "English: and" }
+          - { name: ui_js_toast_incomplete, label: "Almost there: choose a date, an entry window and at least one visitor.", widget: string, required: false, hint: "English: Almost there: choose a date, an entry window and at least one visitor." }
+          - { name: ui_js_toast_preview, label: "Checkout isn’t connected yet. This is a preview of the booking flow.", widget: string, required: false, hint: "English: Checkout isn’t connected yet. This is a preview of the booking flow." }
+          - { name: ui_js_floor_plan, label: "Floor {n} plan placeholder", widget: string, required: false, hint: "English: Floor {n} plan placeholder" }
+          - { name: ui_js_sample_sponsors, label: "Sample data · not real sponsors", widget: string, required: false, hint: "English: Sample data · not real sponsors" }
+          - { name: ui_js_no_match, label: "No match in the sample list. Try “Sample”.", widget: string, required: false, hint: "English: No match in the sample list. Try “Sample”." }
+          - { name: ui_js_swan, label: "Swan", widget: string, required: false, hint: "English: Swan" }
+          - { name: ui_js_bay, label: "{bay} bay", widget: string, required: false, hint: "English: {bay} bay" }
+          - { name: ui_js_load_failed, label: "The sponsor list could not be loaded.", widget: string, required: false, hint: "English: The sponsor list could not be loaded." }
+          - { name: ui_js_era_of, label: "Era {num} of {total}", widget: string, required: false, hint: "English: Era {num} of {total}" }
+          - { name: ui_js_swipe_eras, label: "Swipe left or right to move through the eras.", widget: string, required: false, hint: "English: Swipe left or right to move through the eras." }
       - name: home
         label: "Home"
         file: src/content/hi/home.json

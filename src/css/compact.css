@@ -48,25 +48,25 @@
   .snap-row.on-dark + .snap-dots span.on { background: var(--gold); }
 
   /* Short items sit two to a row instead of one. */
-  section[aria-label="Today at the museum"] [style*="repeat(auto-fit"],
-  section[aria-label="Key facts"] [style*="repeat(auto-fit"],
-  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"],
+  section[data-l="Today at the museum"] [style*="repeat(auto-fit"],
+  section[data-l="Key facts"] [style*="repeat(auto-fit"],
+  section[data-l="The museum in numbers"] [style*="repeat(auto-fit"],
   section[aria-labelledby="g-h"] [style*="repeat(auto-fit"],
   section[aria-labelledby="v-h"] [style*="repeat(auto-fit"],
   form [style*="repeat(auto-fit"] {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
-  section[aria-label="Key facts"] dl[style*="repeat(auto-fit"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
-  section[aria-label="The museum in numbers"] [style*="font-size:clamp(44px"] { font-size: 38px !important; }
-  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"] > :last-child { grid-column: 1 / -1; }
+  section[data-l="Key facts"] dl[style*="repeat(auto-fit"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  section[data-l="The museum in numbers"] [style*="font-size:clamp(44px"] { font-size: 38px !important; }
+  section[data-l="The museum in numbers"] [style*="repeat(auto-fit"] > :last-child { grid-column: 1 / -1; }
 
   /* Footer: the two link lists side by side, everything else full width. */
   footer [style*="repeat(auto-fit"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 28px 20px !important; }
   footer [style*="repeat(auto-fit"] > :not(nav) { grid-column: 1 / -1; }
 
   /* Learn cards were image-beside-text; in a swipe row stack them. */
-  section[aria-labelledby="learn-h"] .snap-row .card, section[aria-label="Ways to learn"] .snap-row .card { grid-template-columns: minmax(0, 1fr) !important; }
-  section[aria-labelledby="learn-h"] .snap-row .card > div:first-child, section[aria-label="Ways to learn"] .snap-row .card > div:first-child { aspect-ratio: 16 / 10; }
+  section[aria-labelledby="learn-h"] .snap-row .card, section[data-l="Ways to learn"] .snap-row .card { grid-template-columns: minmax(0, 1fr) !important; }
+  section[aria-labelledby="learn-h"] .snap-row .card > div:first-child, section[data-l="Ways to learn"] .snap-row .card > div:first-child { aspect-ratio: 16 / 10; }
 
   .tab { font-size: 15px; }
 }
@@ -124,8 +124,8 @@
 
 /* Stats band: "100,000+" needs a wider column than the other five numbers. */
 @media (min-width: 1025px) {
-  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"] { grid-template-columns: repeat(5, minmax(0, 1fr)) minmax(0, 2.4fr) !important; }
-  section[aria-label="The museum in numbers"] [style*="font-size:clamp(44px"] { font-size: clamp(44px, 3.9vw, 56px) !important; }
+  section[data-l="The museum in numbers"] [style*="repeat(auto-fit"] { grid-template-columns: repeat(5, minmax(0, 1fr)) minmax(0, 2.4fr) !important; }
+  section[data-l="The museum in numbers"] [style*="font-size:clamp(44px"] { font-size: clamp(44px, 3.9vw, 56px) !important; }
 }
 
 /* Page heroes (Explore, Visit, Learn): photo on the right like Timeline; on phones it becomes a dimmed full-width background. */

@@ -61,9 +61,9 @@
     '<div class="consent-inner">' +
     '<p class="consent-text"><strong>' + tx('title', 'Cookies on this site.') + '</strong><span class="consent-mid"> ' + tx('short', 'We use necessary cookies to make the site work.') + '</span><span class="consent-more"> ' + tx('more', 'With your permission we’d also like to use analytics cookies to understand how it’s used.') + '</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">' + tx('privacy', 'Privacy policy') + '</a></p>' +
     '<div class="consent-actions">' +
-    '<button type="button" class="c-btn c-primary" data-act="all" aria-label="' + tx('accept_full', 'Accept all') + '">' + tx('accept', 'Accept') + '<span class="consent-more"> ' + tx('accept_more', 'all') + '</span></button>' +
-    '<button type="button" class="c-btn c-secondary" data-act="none" aria-label="' + tx('reject_full', 'Reject non-essential') + '">' + tx('reject', 'Reject') + '<span class="consent-more"> ' + tx('reject_more', 'non-essential') + '</span></button>' +
-    '<button type="button" class="c-link" data-act="manage" aria-label="' + tx('dialog_title', 'Cookie settings') + '">' + tx('manage', 'Manage') + '<span class="consent-more"> ' + tx('manage_more', 'settings') + '</span></button>' +
+    '<button type="button" class="c-btn c-primary" data-act="all">' + '<span class="consent-full">' + tx('accept_full', 'Accept all') + '</span><span class="consent-short" aria-hidden="true">' + tx('accept', 'Accept') + '</span></button>' +
+    '<button type="button" class="c-btn c-secondary" data-act="none">' + '<span class="consent-full">' + tx('reject_full', 'Reject non-essential') + '</span><span class="consent-short" aria-hidden="true">' + tx('reject', 'Reject') + '</span></button>' +
+    '<button type="button" class="c-link" data-act="manage">' + '<span class="consent-full">' + tx('manage_full', 'Manage settings') + '</span><span class="consent-short" aria-hidden="true">' + tx('manage', 'Manage') + '</span></button>' +
     '</div></div>';
 
   var dialog = document.createElement('div');
@@ -132,7 +132,7 @@
   else { document.body.appendChild(banner); pad(); window.addEventListener('resize', pad); }
 
   // "Cookie settings" in the footer reopens the choices.
-  var legal = document.querySelector('nav[aria-label="Legal"]');
+  var legal = document.querySelector('nav[data-l="Legal"]');
   if (legal) {
     var link = document.createElement('button');
     link.type = 'button';
