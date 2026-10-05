@@ -16,6 +16,13 @@ npm run cms-config   # regenerate the admin setup after adding text
 - **Hours and notices**: `src/data/site-status.json`, read by `src/js/status.js` in the browser. Admins edit it in `/admin/`; see **ADMIN.md**.
 - `scripts/convert-v4.py` was the one-off script that turned the v4 pages into these templates. It's kept for reference.
 
+## Review preview on GitHub Pages
+`.github/workflows/pages.yml` builds and publishes the site on every push to `main` of the GitHub repository. It uses two build settings:
+- `SITE_PREFIX=/<repo-name>`: the site lives under `https://<owner>.github.io/<repo-name>/`.
+- `SITE_REVIEW=1`: search engines are told not to index it, `/admin` is left out, and every page carries a "Preview for review" note.
+
+To build the same thing locally: `SITE_PREFIX=/akshardham-museum-preview SITE_REVIEW=1 npm run build`
+
 ---
 
 # Akshardham Museum – static site

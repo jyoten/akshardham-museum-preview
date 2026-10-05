@@ -1,0 +1,9 @@
+---
+permalink: /robots.txt
+eleventyExcludeFromCollections: true
+---
+{% if site.review %}User-agent: *
+Disallow: /
+{% else %}User-agent: *
+Allow: /
+{% endif %}

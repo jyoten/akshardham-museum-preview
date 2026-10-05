@@ -461,7 +461,7 @@
         }).join('') : '<div class="lh-hit">' + tx('js_no_match') + '</div>');
       };
       if (data) return go();
-      fetch('/data/legacy-hall-sample.json').then(function (r) { return r.json(); }).then(function (d) { data = d; go(); })
+      fetch((window.SITE_BASE || '') + '/data/legacy-hall-sample.json').then(function (r) { return r.json(); }).then(function (d) { data = d; go(); })
         .catch(function () { lhResults.textContent = tx('js_load_failed'); });
     };
     lhInput.addEventListener('input', search);

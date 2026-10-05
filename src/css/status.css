@@ -15,3 +15,6 @@
 /* the floating header on the home page sits below the notice until you scroll */
 body.has-notice header.hdr-overlay:not(.scrolled) { top: var(--notice-h, 0px) !important; }
 @media (max-width: 640px) { .notice p { font-size: 14px; } .notice-inner { padding-top: 10px; padding-bottom: 10px; } }
+/* Review builds only: the "preview" note above everything */
+.review-note { background: var(--night); color: var(--stone); border-bottom: 1px solid rgba(227, 168, 105, .35); }
+.review-note p { font-size: 13px; text-align: center; }

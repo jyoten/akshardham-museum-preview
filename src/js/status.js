@@ -17,7 +17,11 @@
     return (h % 12 || 12) + (mm ? ':' + String(mm).padStart(2, '0') : '') + (h < 12 ? ' AM' : ' PM');
   };
   var local = function (o, field) { return (o[field + '_' + L] || '').trim() || (o[field + '_en'] || '').trim(); };
-  var href = function (u) { return /^\//.test(u) && L !== 'en' && !/^\/(css|js|fonts|images|data|admin)/.test(u) ? '/' + L + u : u; };
+  var href = function (u) {
+    if (!/^\//.test(u)) return u;
+    var local = L !== 'en' && !/^\/(css|js|fonts|images|data|admin)/.test(u) ? '/' + L + u : u;
+    return (window.SITE_BASE || '') + local;
+  };
 
   // "now" in the museum's time zone, whatever the visitor's own time zone is
   function museumNow(tz) {
@@ -115,7 +119,7 @@
   }
   window.addEventListener('resize', layout);
 
-  fetch('/data/site-status.json', { cache: 'no-cache' })
+  fetch((window.SITE_BASE || '') + '/data/site-status.json', { cache: 'no-cache' })
     .then(function (r) { return r.json(); })
     .then(render)
     .catch(function () { /* keep the page's placeholders */ });

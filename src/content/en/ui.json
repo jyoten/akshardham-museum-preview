@@ -71,5 +71,6 @@
  "ui_js_bay": "{bay} bay",
  "ui_js_load_failed": "The sponsor list could not be loaded.",
  "ui_js_era_of": "Era {num} of {total}",
- "ui_js_swipe_eras": "Swipe left or right to move through the eras."
+ "ui_js_swipe_eras": "Swipe left or right to move through the eras.",
+ "ui_review_banner": "Preview for review — not the official museum website."
 }

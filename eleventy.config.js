@@ -1,8 +1,13 @@
 // Builds the site from src/ into _site/: English at /, Gujarati at /gu/, Hindi at /hi/.
 import fs from "node:fs";
+import { HtmlBasePlugin } from "@11ty/eleventy";
 import path from "node:path";
 
 const LANGS = ["en", "gu", "hi"];
+// Hosting under a sub-path (e.g. GitHub Pages project site): SITE_PREFIX=/akshardham-museum-preview
+const PREFIX = (process.env.SITE_PREFIX || "").replace(/\/$/, "");
+// Review builds: not indexed, no admin, a "preview" note on every page
+const REVIEW = process.env.SITE_REVIEW === "1";
 const ASSET = /^\/(css|js|fonts|images|data|admin|favicon|apple-touch)/;
 
 function loadContent() {
@@ -18,6 +23,8 @@ function loadContent() {
 }
 
 export default function (eleventyConfig) {
+  eleventyConfig.addPlugin(HtmlBasePlugin);
+  eleventyConfig.addGlobalData("site", { prefix: PREFIX, review: REVIEW });
   let content = loadContent();
   eleventyConfig.on("eleventy.before", () => { content = loadContent(); });
   eleventyConfig.addWatchTarget("src/content/");
@@ -41,7 +48,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("eras", (lang) => {
     const own = content[lang] && content[lang].timeline_eras;
     const eras = (Array.isArray(own) && own.length) ? own : content.en.timeline_eras;
-    const fixed = eras.map((e) => ({ ...e, see: e.see.map((s) => ({ ...s, href: lurl(s.href, lang) })) }));
+    const pre = (u) => (typeof u === "string" && u.startsWith("/") ? PREFIX + u : u);
+    const fixed = eras.map((e) => ({ ...e, see: e.see.map((s) => ({ ...s, href: pre(lurl(s.href, lang)), img: pre(s.img) })) }));
     return JSON.stringify(fixed).replace(/</g, "\\u003c");
   });
 
@@ -56,7 +64,7 @@ export default function (eleventyConfig) {
     return JSON.stringify(ui).replace(/</g, "\\u003c");
   });
 
-  for (const dir of ["css", "js", "fonts", "images", "data", "admin"]) {
+  for (const dir of ["css", "js", "fonts", "images", "data"].concat(REVIEW ? [] : ["admin"])) {
     eleventyConfig.addPassthroughCopy({ [`src/${dir}`]: dir });
   }
   for (const f of ["favicon.svg", "favicon-32.png", "favicon.ico", "apple-touch-icon.png"]) {
@@ -65,6 +73,7 @@ export default function (eleventyConfig) {
 
   return {
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
+    pathPrefix: PREFIX ? PREFIX + "/" : "/",
     templateFormats: ["njk"],
     htmlTemplateEngine: "njk",
   };
