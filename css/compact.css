@@ -178,8 +178,8 @@ section[aria-labelledby="tl-title"] > div[aria-hidden="true"] { display: block !
 .mobile-lang .lang-menu { display: flex !important; position: static; color: inherit; background: none; box-shadow: none; border: 0; padding: 0; gap: 20px; min-width: 0; }
 .mobile-lang .lang-menu a { color: inherit !important; padding: 6px 0; background: none !important; font-size: 16px; }
 
-/* Phones: hero photos at full strength with Support's overlay, so their colours show. */
-@media (max-width: 640px) {
+/* Phones and tablets: hero photos at full strength with Support's overlay, so their colours show. */
+@media (max-width: 1024px) {
   .page-hero .page-hero-img, section[aria-labelledby="tl-title"] > img { opacity: 1 !important; }
   .page-hero .page-hero-fade, section[aria-labelledby="tl-title"] > div[aria-hidden="true"] {
     background: linear-gradient(90deg, rgba(18, 13, 10, .88) 0%, rgba(18, 13, 10, .66) 45%, rgba(18, 13, 10, .2) 100%) !important; }
