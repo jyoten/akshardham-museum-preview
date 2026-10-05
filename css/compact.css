@@ -177,3 +177,16 @@ section[aria-labelledby="tl-title"] > div[aria-hidden="true"] { display: block !
 .mobile-lang .lang-btn { display: none !important; }
 .mobile-lang .lang-menu { display: flex !important; position: static; color: inherit; background: none; box-shadow: none; border: 0; padding: 0; gap: 20px; min-width: 0; }
 .mobile-lang .lang-menu a { color: inherit !important; padding: 6px 0; background: none !important; font-size: 16px; }
+
+/* Phones: hero photos at full strength with Support's overlay, so their colours show. */
+@media (max-width: 640px) {
+  .page-hero .page-hero-img, section[aria-labelledby="tl-title"] > img { opacity: 1 !important; }
+  .page-hero .page-hero-fade, section[aria-labelledby="tl-title"] > div[aria-hidden="true"] {
+    background: linear-gradient(90deg, rgba(18, 13, 10, .88) 0%, rgba(18, 13, 10, .66) 45%, rgba(18, 13, 10, .2) 100%) !important; }
+  .page-hero h1, .page-hero p, section[aria-labelledby="tl-title"] h1, section[aria-labelledby="tl-title"] p { text-shadow: 0 1px 12px rgba(0, 0, 0, .55); }
+  /* keep each photo's subject in view */
+  section[aria-labelledby="tl-title"] > img { object-position: 70% 50%; }
+  section[aria-labelledby="learn-h"] .page-hero-img { object-position: 62% 50%; }
+  section[aria-labelledby="v-h"] .page-hero-img { object-position: 55% 50%; }
+  section[aria-labelledby="feat-hero-h"] .page-hero-img { object-position: 50% 45%; }
+}
