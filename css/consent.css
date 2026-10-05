@@ -126,3 +126,11 @@ html.consent-open { overflow: hidden; }
 /* Square corners like the rest of the site (buttons use 2px). */
 .consent { border-radius: 2px !important; }
 .consent .c-btn, .consent .c-primary { border-radius: 2px !important; }
+/* Black background like the original banner (the site's ink), with matching text colours. */
+.consent { background: var(--ink) !important; -webkit-backdrop-filter: none; backdrop-filter: none;
+  border: 1px solid rgba(227, 168, 105, .35) !important; }
+.consent-text { color: var(--stone) !important; }
+.consent-text strong { color: var(--cream) !important; }
+.consent-text a { color: var(--gold) !important; }
+.consent .c-secondary, .consent .c-link { color: var(--cream) !important; text-decoration-color: rgba(247, 244, 239, .45); }
+.consent .c-secondary:hover, .consent .c-link:hover { color: var(--gold) !important; }
