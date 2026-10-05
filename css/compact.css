@@ -134,3 +134,9 @@
   .page-hero .page-hero-fade { width: 100% !important; background: linear-gradient(180deg, rgba(18, 13, 10, .55) 0%, rgba(18, 13, 10, .85) 100%) !important; }
 }
 @media (max-width: 640px) { .page-hero .page-hero-fade-low { width: 100% !important; } }
+
+/* One hero height for every interior page with a photo hero (Timeline, Support, Explore, galleries, Learn, Visit). */
+.page-hero, section[aria-labelledby="tl-title"], section[aria-labelledby="s-h"] {
+  min-height: min(62vh, 504px) !important; display: flex !important; flex-direction: column; justify-content: center;
+}
+section[aria-labelledby="s-h"] { justify-content: flex-end; }
