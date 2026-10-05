@@ -6,8 +6,8 @@
 
   /* ---------- Card groups become swipe rows on phones (CSS does the layout) ---------- */
   var rows = [
-    ['section[aria-labelledby="exp-h"] .card', false],
-    ['section[aria-labelledby="learn-h"] .card', false],
+    ['section[aria-labelledby="exp-h"] .card, section[aria-label="The four galleries"] .card', false],
+    ['section[aria-labelledby="learn-h"] .card, section[aria-label="Ways to learn"] .card', false],
     ['section[aria-labelledby="voices-h"] figure', false],
     ['section[aria-labelledby="near-h"] .card', false],
     ['section[aria-labelledby="it-h"] article', false],
