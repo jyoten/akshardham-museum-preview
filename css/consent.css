@@ -86,3 +86,41 @@ html.consent-open { overflow: hidden; }
   .consent-mid { display: none; }
   .consent-inner { padding-top: 8px; padding-bottom: 8px; gap: 4px 16px; }
 }
+
+/* Phones and tablets: a warm floating card rather than a full-width bar. */
+@media (max-width: 1024px) {
+  .consent { left: 10px; right: 10px; bottom: 10px; border-radius: 10px; overflow: hidden;
+    background: linear-gradient(180deg, #F3EBDD 0%, var(--sand) 100%); border: 1px solid rgba(201, 185, 163, .6); border-top: 3px solid var(--gold);
+    box-shadow: 0 10px 30px rgba(28, 20, 16, .28); }
+  .consent-inner { padding-left: 16px; padding-right: 16px; }
+  .consent-text { color: var(--muted); }
+  .consent .c-primary { border-radius: 6px; }
+}
+
+/* Final look at every size: a warm, softly translucent brown card floating above the page. */
+.consent { left: 12px; right: 12px; bottom: 12px; border-radius: 12px; overflow: hidden;
+  background: rgba(58, 46, 37, .94) !important; color: var(--cream) !important;
+  border: 1px solid rgba(227, 168, 105, .28) !important; border-top: 1px solid rgba(227, 168, 105, .28) !important;
+  box-shadow: 0 14px 40px rgba(18, 13, 10, .45) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(1.1); backdrop-filter: blur(10px) saturate(1.1);
+  animation: consent-rise .5s cubic-bezier(.22, .8, .24, 1) both; }
+@keyframes consent-rise { from { opacity: 0; transform: translateY(16px); } }
+@media (min-width: 1025px) { .consent { left: 50%; right: auto; width: min(1120px, calc(100% - 48px)); transform: translateX(-50%); bottom: 18px;
+  animation-name: consent-rise-c; } }
+@keyframes consent-rise-c { from { opacity: 0; transform: translate(-50%, 16px); } to { opacity: 1; transform: translate(-50%, 0); } }
+.consent-inner { padding-left: 18px !important; padding-right: 18px !important; }
+.consent-text { color: var(--stone) !important; }
+.consent-text strong { color: var(--cream) !important; }
+.consent-text a { color: var(--gold) !important; }
+.consent .c-primary { background: var(--accent) !important; border-color: var(--accent) !important; color: var(--white) !important; border-radius: 6px; }
+.consent .c-primary:hover { background: var(--accent-dark) !important; }
+.consent .c-secondary, .consent .c-link { background: none !important; border: 0 !important; color: var(--gold) !important; padding: 0 4px;
+  text-decoration: underline; text-underline-offset: 3px; text-decoration-color: rgba(227, 168, 105, .5); }
+.consent .c-secondary:hover, .consent .c-link:hover { color: var(--peach) !important; }
+@media (prefers-reduced-motion: reduce) { .consent { animation: none !important; } }
+/* Lift it clearly off the page, over light or dark sections. */
+.consent { border: 1px solid rgba(227, 168, 105, .55) !important;
+  box-shadow: 0 0 0 1px rgba(18, 13, 10, .35), 0 2px 6px rgba(18, 13, 10, .25), 0 18px 48px rgba(18, 13, 10, .55), inset 0 1px 0 rgba(255, 241, 201, .12) !important; }
+.consent-icon { vertical-align: -3px; margin-right: 8px; }
+/* the short/long label parts sit inside flex buttons, so give them their own space */
+.consent .c-btn .consent-more, .consent .c-link .consent-more { margin-left: .3em; }
