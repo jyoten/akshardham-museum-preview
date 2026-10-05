@@ -82,3 +82,7 @@ html.consent-open { overflow: hidden; }
   .consent .c-link { margin-left: 0; color: var(--ink); }
 }
 @media (max-width: 1024px) { .consent .c-btn, .consent .c-link { white-space: nowrap; } }
+@media (max-width: 640px) {
+  .consent-mid { display: none; }
+  .consent-inner { padding-top: 8px; padding-bottom: 8px; gap: 4px 16px; }
+}

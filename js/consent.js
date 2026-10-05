@@ -51,7 +51,7 @@
   banner.setAttribute('aria-label', 'Cookie consent');
   banner.innerHTML =
     '<div class="consent-inner">' +
-    '<p class="consent-text"><strong>Cookies on this site.</strong> We use necessary cookies to make the site work.<span class="consent-more"> With your permission we’d also like to use analytics cookies to understand how it’s used.</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">Privacy policy</a></p>' +
+    '<p class="consent-text"><strong>Cookies on this site.</strong><span class="consent-mid"> We use necessary cookies to make the site work.</span><span class="consent-more"> With your permission we’d also like to use analytics cookies to understand how it’s used.</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">Privacy policy</a></p>' +
     '<div class="consent-actions">' +
     '<button type="button" class="c-btn c-primary" data-act="all" aria-label="Accept all cookies">Accept<span class="consent-more"> all</span></button>' +
     '<button type="button" class="c-btn c-secondary" data-act="none" aria-label="Reject non-essential cookies">Reject<span class="consent-more"> non-essential</span></button>' +
