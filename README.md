@@ -44,6 +44,14 @@ Then visit http://localhost:8000. Python's server doesn't use `404.html`; real h
 - Section padding, gaps, hero heights and image ratios are tightened in the HTML.
 - In `js/play.js`, the Ajanta chapters are tabs with previous/next buttons.
 
+## Cookie consent
+`js/consent.js` and `css/consent.css` show a banner on the first visit (Accept all / Reject non-essential / Manage settings). "Cookie settings" in the footer reopens it.
+- The choice is saved in localStorage (`museum-consent`) with a policy `VERSION`. Raise `VERSION` in `js/consent.js` whenever the cookie policy changes, so everyone is asked again.
+- The site currently sets **no non-essential cookies**. Any analytics or marketing script added later must wait for consent. Add it like this and it only runs once that category is allowed:
+  `<script type="text/plain" data-consent="analytics" src="https://…"></script>`
+  In code, use `window.cookieConsent.allows('analytics')` or listen for the `cookieconsent` event on `document`.
+- The banner's "Privacy policy" link is a placeholder until there is a privacy page.
+
 ## Still to do
 - Placeholder content is wrapped in `<mark class="todo">` (highlighted yellow). Search for `class="todo"`.
 - Links with no destination yet have `class="todo-link"` and a `data-todo` note. Many other links are plain `href="#"`.
