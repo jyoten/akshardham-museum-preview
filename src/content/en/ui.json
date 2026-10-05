@@ -43,5 +43,6 @@
  "ui_consent_save": "Save choices",
  "ui_consent_reject_full": "Reject non-essential",
  "ui_consent_accept_full": "Accept all",
- "ui_consent_settings_link": "Cookie settings"
+ "ui_consent_settings_link": "Cookie settings",
+ "ui_every_day": "Every day"
 }

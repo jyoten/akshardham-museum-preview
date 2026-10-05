@@ -74,7 +74,9 @@
         if (g && g.span === span && g.last === order[order.indexOf(d) - 1]) { g.to = d; g.last = d; }
         else groups.push({ from: d, to: d, last: d, span: span });
       });
-      var lines = groups.map(function (g) { return (g.from === g.to ? t('day_' + g.from) : t('day_' + g.from) + '–' + t('day_' + g.to)) + ' ' + g.span; });
+      var lines = groups.length === 1 && !closed.length
+        ? [t('every_day') + ' ' + groups[0].span]
+        : groups.map(function (g) { return (g.from === g.to ? t('day_' + g.from) : t('day_' + g.from) + '–' + t('day_' + g.to)) + ' ' + g.span; });
       vh.innerHTML = lines.map(wrap).join('<br>') + (closed.length ? '<br><span style="font-size:14px;color:var(--stone)">' + wrap(t('closed_on', { days: closed.join(', ') })) + '</span>' : '');
     }
 
