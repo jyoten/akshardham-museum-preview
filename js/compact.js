@@ -40,6 +40,37 @@
   if (phone.addEventListener) phone.addEventListener('change', toggleDots);
   toggleDots();
 
+  /* ---------- Horizontal rows with arrow buttons (Support: Yajman levels) ---------- */
+  $$('.yaj-row').forEach(function (row) {
+    var section = row.closest('section');
+    var prev = $('.row-prev', section), next = $('.row-next', section);
+    var cards = Array.prototype.slice.call(row.children);
+    var dots = document.createElement('div');
+    dots.className = 'yaj-dots';
+    dots.setAttribute('aria-hidden', 'true');
+    dots.innerHTML = cards.map(function () { return '<span></span>'; }).join('');
+    row.after(dots);
+    var step = function () { return cards[0].getBoundingClientRect().width + parseFloat(getComputedStyle(row).columnGap || 20); };
+    var update = function () {
+      var max = row.scrollWidth - row.clientWidth;
+      if (prev) prev.disabled = row.scrollLeft < 4;
+      if (next) next.disabled = row.scrollLeft > max - 4;
+      var i = Math.round(row.scrollLeft / step());
+      $$('span', dots).forEach(function (d, j) { d.classList.toggle('on', j === Math.min(i, cards.length - 1)); });
+    };
+    if (prev) prev.addEventListener('click', function () { row.scrollBy({ left: -step(), behavior: reduce ? 'auto' : 'smooth' }); });
+    if (next) next.addEventListener('click', function () { row.scrollBy({ left: step(), behavior: reduce ? 'auto' : 'smooth' }); });
+    row.addEventListener('keydown', function (e) {
+      if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+        e.preventDefault();
+        row.scrollBy({ left: (e.key === 'ArrowRight' ? 1 : -1) * step(), behavior: reduce ? 'auto' : 'smooth' });
+      }
+    });
+    row.addEventListener('scroll', update, { passive: true });
+    window.addEventListener('resize', update);
+    update();
+  });
+
   /* ---------- Visit: First visit / Accessibility & getting here / FAQ as tabs ---------- */
   var panels = [
     ['section[aria-labelledby="first-h"]', 'First visit'],
