@@ -137,3 +137,8 @@ details.acc .acc-body { overflow: hidden; transition: height .35s var(--ease-out
   .hotspot::before, .swan { display: none; }
   @view-transition { navigation: none; }
 }
+
+/* Interior heroes get the Home zoom, a little gentler and shorter so Home stays the main moment. */
+.kenburns-soft { animation: kenburns-soft 20s ease-out both; transform-origin: 60% 50%; will-change: transform; }
+@keyframes kenburns-soft { from { transform: scale(1.08); } to { transform: scale(1); } }
+@media (prefers-reduced-motion: reduce) { .kenburns-soft { animation: none; } }

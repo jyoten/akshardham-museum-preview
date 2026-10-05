@@ -73,6 +73,12 @@
   if (hero) {
     var heroImg = $('img', hero);
     if (heroImg && !reduce) heroImg.classList.add('kenburns');
+  }
+  // the same slow zoom, gentler, on every interior hero photo
+  if (!reduce) {
+    $$('.page-hero-img, section[aria-labelledby="tl-title"] > img, section[aria-labelledby="s-h"] > img').forEach(function (img) { img.classList.add('kenburns-soft'); });
+  }
+  if (hero) {
     var h1 = $('h1', hero);
     if (h1 && !reduce) {
       var words = h1.textContent.trim().split(/\s+/);
