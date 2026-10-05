@@ -60,3 +60,25 @@ html.consent-open { overflow: hidden; }
   .consent-panel .consent-actions .c-btn { flex: 1 1 100%; }
 }
 @media (prefers-reduced-motion: reduce) { .consent, .consent-panel { animation: none; } }
+
+/* Phones and tablets: a slimmer, quieter banner. */
+@media (max-width: 1024px) {
+  .consent { border-top-width: 2px; box-shadow: 0 -4px 16px rgba(0, 0, 0, .2); }
+  .consent-inner { padding-top: 10px; padding-bottom: 10px; gap: 8px 16px; }
+  .consent-more { display: none; }
+  .consent-text { flex-basis: 100%; font-size: 13px; line-height: 1.45; }
+  .consent-actions { width: 100%; gap: 8px; flex-wrap: nowrap; }
+  .consent .c-btn { flex: 0 1 auto; min-height: 36px; padding: 0 14px; font-size: 13px; }
+  .consent .c-link { width: auto; min-height: 36px; padding: 0 4px; font-size: 13px; margin-left: auto; }
+}
+@media (max-width: 1024px) {
+  .consent { background: var(--cream); color: var(--ink); border-top: 1px solid var(--line); box-shadow: 0 -6px 20px rgba(28, 20, 16, .12); }
+  .consent-text { color: var(--muted); }
+  .consent-text strong { color: var(--ink); }
+  .consent-text a { color: var(--accent); }
+  .consent-actions { align-items: center; gap: 4px 18px; }
+  .consent .c-primary { min-height: 34px; padding: 0 16px; }
+  .consent .c-secondary { background: none; border: 0; padding: 0; min-height: 34px; color: var(--ink); text-decoration: underline; text-underline-offset: 3px; font-weight: 600; }
+  .consent .c-link { margin-left: 0; color: var(--ink); }
+}
+@media (max-width: 1024px) { .consent .c-btn, .consent .c-link { white-space: nowrap; } }
