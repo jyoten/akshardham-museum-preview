@@ -1,0 +1,15 @@
+{
+  "_note": "SAMPLE DATA for the Legacy Hall search demo. These are not real sponsors. Replace this file with the real list before launch.",
+  "sponsors": [
+    { "name": "Sample Family A", "city": "Edison, NJ", "swan": 101, "bay": "North" },
+    { "name": "Sample Family B", "city": "Houston, TX", "swan": 214, "bay": "East" },
+    { "name": "Sample Family C", "city": "Chicago, IL", "swan": 37, "bay": "North" },
+    { "name": "Sample Family D", "city": "Atlanta, GA", "swan": 388, "bay": "South" },
+    { "name": "Sample Family E", "city": "Toronto, ON", "swan": 452, "bay": "West" },
+    { "name": "Sample Family F", "city": "Robbinsville, NJ", "swan": 9, "bay": "Centre" },
+    { "name": "Sample Family G", "city": "Los Angeles, CA", "swan": 276, "bay": "East" },
+    { "name": "Sample Family H", "city": "Boston, MA", "swan": 163, "bay": "South" },
+    { "name": "Sample Foundation", "city": "New York, NY", "swan": 1, "bay": "Centre" },
+    { "name": "Sample Youth Group", "city": "Dallas, TX", "swan": 501, "bay": "West" }
+  ]
+}

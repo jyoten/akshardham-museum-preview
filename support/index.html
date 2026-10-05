@@ -4,8 +4,10 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Support — Akshardham Museum</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/css/fonts.css">
 <link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/play.css">
 </head>
 <body>
 <div style="font-family:'Instrument Sans','Helvetica Neue',system-ui,sans-serif;color:var(--ink);background:var(--cream);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased">
@@ -35,7 +37,7 @@
 <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,13,10,.92) 0%,rgba(18,13,10,.7) 45%,rgba(18,13,10,.15) 100%)"></div>
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;padding-top:120px;padding-bottom:96px;display:flex;flex-direction:column;gap:24px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">Support the museum</p>
-<h1 id="s-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(46px,5.6vw,82px);line-height:1.02;margin:0;max-width:780px;text-wrap:balance">Keep the lamp of knowledge burning.</h1>
+<h1 id="s-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(46px,5.6vw,82px);line-height:1.02;margin:0;max-width:780px;text-wrap:balance"><span class="diya" aria-hidden="true"><svg viewBox="0 0 64 64" width="56" height="56"><defs><radialGradient id="diya-glow"><stop offset="0" stop-color="#FFD58A" stop-opacity=".9"/><stop offset="1" stop-color="#FFD58A" stop-opacity="0"/></radialGradient></defs><circle class="diya-glow" cx="32" cy="22" r="20" fill="url(#diya-glow)"/><path class="diya-flame" d="M32 6c5 8 7 12 7 16a7 7 0 0 1-14 0c0-4 2-8 7-16z" fill="#F3B44A"/><path class="diya-flame-core" d="M32 14c2.5 4 3.5 6 3.5 8a3.5 3.5 0 0 1-7 0c0-2 1-4 3.5-8z" fill="#FFF1C9"/><path d="M8 36h48c-2 12-12 18-24 18S10 48 8 36z" fill="#C77A2E"/><path d="M8 36h48" stroke="#8E4A16" stroke-width="3" stroke-linecap="round"/><path d="M22 54h20l-3 5H25z" fill="#8E4A16"/></svg></span>Keep the lamp of knowledge burning.</h1>
 <p style="margin:0;font-size:20px;color:#E6DCCF;max-width:560px">In the spirit of seva, every gift keeps galleries open, statues cared for and India’s story told to the next generation.</p>
 <div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:8px">
 <a href="#membership" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--accent);color:var(--white)">Become a member</a>
@@ -137,9 +139,10 @@
 <div style="display:flex;flex-direction:column;gap:10px;flex:1 1 320px;max-width:440px">
 <label for="lh-search" style="font-size:14px">Search founding sponsors</label>
 <div style="display:flex;gap:8px">
-<input id="lh-search" type="search" placeholder="Family or sponsor name" style="flex:1;min-height:52px;padding:0 14px;border:1px solid rgba(247,244,239,.5);background:transparent;color:var(--cream);font:inherit;border-radius:2px">
+<input id="lh-search" type="search" autocomplete="off" aria-controls="lh-results" placeholder="Family or sponsor name" style="flex:1;min-height:52px;padding:0 14px;border:1px solid rgba(247,244,239,.5);background:transparent;color:var(--cream);font:inherit;border-radius:2px">
 <button type="button" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--cream);color:var(--ink);border:0;cursor:pointer">Search</button>
 </div>
+<div id="lh-results" class="lh-results" aria-live="polite"></div>
 </div>
 </div>
 </section>
@@ -192,5 +195,6 @@
 </div>
 </x-dc>
 <script src="/js/site.js" defer></script>
+<script src="/js/play.js" defer></script>
 </body>
 </html>

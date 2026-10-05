@@ -31,6 +31,12 @@ Then visit http://localhost:8000. Python's server doesn't use `404.html`; real h
 - `js/site.js` runs the mobile menu and stops the demo forms from submitting. `js/timeline.js` runs the era picker.
 - Page layout is mostly inline `style="…"` attributes carried over from the design.
 
+## Interaction layer (iteration 2)
+`css/play.css` and `js/play.js` add the motion and interactivity on top of the base pages: scroll reveals, sticky header, Ken Burns hero, counting stats, idea chips, Ajanta hotspots and chapter nav, the working ticket form, floor tabs, FAQ accordion, the diya and the Legacy Hall search. Remove those two files and the pages fall back to the static v1 behaviour. All motion is switched off for visitors who set "reduce motion".
+
+- The idea-chip meanings on the home page (`data-meaning` in `index.html`) are draft copy. Please review.
+- `data/legacy-hall-sample.json` is **sample data**, not real sponsors. Replace it before launch.
+
 ## Still to do
 - Placeholder content is wrapped in `<mark class="todo">` (highlighted yellow). Search for `class="todo"`.
 - Links with no destination yet have `class="todo-link"` and a `data-todo` note. Many other links are plain `href="#"`.
