@@ -134,3 +134,5 @@ html.consent-open { overflow: hidden; }
 .consent-text a { color: var(--gold) !important; }
 .consent .c-secondary, .consent .c-link { color: var(--cream) !important; text-decoration-color: rgba(247, 244, 239, .45); }
 .consent .c-secondary:hover, .consent .c-link:hover { color: var(--gold) !important; }
+/* Phones: show the same short sentence as tablets. */
+@media (max-width: 640px) { .consent-mid { display: inline !important; } }
