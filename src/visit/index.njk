@@ -1,0 +1,230 @@
+---
+{
+ "layout": "layouts/base.njk",
+ "pagination": {
+  "data": "langs",
+  "size": 1,
+  "alias": "lang"
+ },
+ "path": "/visit/",
+ "permalink": "{{ \"/visit/\" | lurl(lang) }}index.html",
+ "titleKey": "visit_122",
+ "navKey": "visit",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)"
+}
+---
+
+
+{% include "partials/header.njk" %}
+<section aria-labelledby="v-h" class="page-hero" style="position:relative;background:var(--night);color:var(--cream);overflow:hidden;">
+<img src="/images/festival-street.jpg" alt="" class="page-hero-img" style="position:absolute;right:0;top:0;height:100%;width:44%;object-fit:cover;opacity:.55">
+<div aria-hidden="true" class="page-hero-fade" style="position:absolute;right:0;top:0;height:100%;width:44%;background:linear-gradient(90deg,var(--night) 0%,rgba(18,13,10,0) 45%)"></div>
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;padding-top:clamp(40px,4.44vw,64px);padding-bottom:clamp(40px,4.44vw,64px);display:flex;flex-direction:column;gap:34px">
+<div style="display:flex;flex-direction:column;gap:20px;max-width:820px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_001" | t(lang) | safe }}</p>
+<h1 id="v-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(46px,5.6vw,80px);line-height:1.02;margin:0">{{ "visit_002" | t(lang) | safe }}</h1>
+<p style="margin:0;font-size:13px;color:var(--stone)"><mark class="todo">{{ "visit_003" | t(lang) | safe }}</mark></p>
+</div>
+</div>
+</section>
+<section aria-label="{{ "visit_004" | t(lang) | safe }}" style="background:var(--night);color:var(--cream)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%">
+<dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px 40px;border-top:1px solid var(--umber);padding:28px 0 36px">
+<div style="display:flex;flex-direction:column;gap:6px"><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_005" | t(lang) | safe }}</dt><dd style="margin:0;font-size:18px" data-status="visit-hours"><mark class="todo">{{ "visit_006" | t(lang) | safe }}</mark><br><span style="font-size:14px;color:#BFB2A3">{{ "visit_007" | t(lang) | safe }}</span></dd></div>
+<div style="display:flex;flex-direction:column;gap:6px"><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_008" | t(lang) | safe }}</dt><dd style="margin:0;font-size:18px"><mark class="todo">{{ "visit_009" | t(lang) | safe }}</mark><br><span style="font-size:14px;color:#BFB2A3">{{ "visit_010" | t(lang) | safe }}</span></dd></div>
+<div style="display:flex;flex-direction:column;gap:6px"><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_011" | t(lang) | safe }}</dt><dd style="margin:0;font-size:18px">{{ "visit_012" | t(lang) | safe }}</dd></div>
+<div style="display:flex;flex-direction:column;gap:6px"><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_013" | t(lang) | safe }}</dt><dd style="margin:0;font-size:18px"><a href="tel:+16099181212" style="color:var(--cream)">{{ "visit_014" | t(lang) | safe }}</a></dd></div>
+</dl>
+</div>
+</section>
+
+<section id="tickets" aria-labelledby="t-h" style="background:var(--sand);padding:clamp(40px,4.44vw,64px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:29px 72px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:20px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_015" | t(lang) | safe }}</p>
+<h2 id="t-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,3.8vw,52px);line-height:1.08;margin:0">{{ "visit_016" | t(lang) | safe }}</h2>
+<p style="margin:0;font-size:18px;color:var(--muted);max-width:480px">{{ "visit_017" | t(lang) | safe }}</p>
+<ul style="margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:16px">
+<li style="display:flex;gap:12px">{{ "visit_018" | t(lang) | safe }}</li>
+<li style="display:flex;gap:12px">{{ "visit_019" | t(lang) | safe }}</li>
+<li style="display:flex;gap:12px">{{ "visit_020" | t(lang) | safe }}</li>
+</ul>
+</div>
+<form data-demo-form aria-label="{{ "visit_021" | t(lang) | safe }}" style="background:var(--cream);padding:36px;display:flex;flex-direction:column;gap:28px;box-shadow:0 30px 60px -40px rgba(28,20,16,.45)">
+<div style="display:flex;flex-direction:column;gap:8px">
+<label for="visit-date" style="font-weight:600;font-size:15px">{{ "visit_022" | t(lang) | safe }}</label>
+<input id="visit-date" type="date" style="min-height:52px;padding:0 14px;border:1px solid var(--line-strong);border-radius:2px;font:inherit;background:var(--white);color:var(--ink)">
+</div>
+<fieldset style="border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:10px">
+<legend style="font-weight:600;font-size:15px;padding:0;margin-bottom:10px">{{ "visit_023" | t(lang) | safe }}</legend>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:10px">
+<button type="button" aria-pressed="true" style="border:2px solid var(--ink);background:var(--cream);min-height:64px;padding:10px 14px;text-align:left;display:flex;flex-direction:column;gap:2px;cursor:pointer;font:inherit;color:var(--ink);border-radius:2px"><span style="font-weight:600;font-size:15px">{{ "visit_024" | t(lang) | safe }}</span><span style="font-size:13px;color:var(--muted)"><mark class="todo">{{ "visit_025" | t(lang) | safe }}</mark></span></button><button type="button" aria-pressed="false" style="border:1px solid var(--line-strong);background:transparent;min-height:64px;padding:10px 14px;text-align:left;display:flex;flex-direction:column;gap:2px;cursor:pointer;font:inherit;color:var(--ink);border-radius:2px"><span style="font-weight:600;font-size:15px">{{ "visit_026" | t(lang) | safe }}</span><span style="font-size:13px;color:var(--muted)"><mark class="todo">{{ "visit_025" | t(lang) | safe }}</mark></span></button><button type="button" aria-pressed="false" style="border:1px solid var(--line-strong);background:transparent;min-height:64px;padding:10px 14px;text-align:left;display:flex;flex-direction:column;gap:2px;cursor:pointer;font:inherit;color:var(--ink);border-radius:2px"><span style="font-weight:600;font-size:15px">{{ "visit_027" | t(lang) | safe }}</span><span style="font-size:13px;color:var(--muted)"><mark class="todo">{{ "visit_025" | t(lang) | safe }}</mark></span></button><button type="button" aria-pressed="false" style="border:1px solid var(--line-strong);background:transparent;min-height:64px;padding:10px 14px;text-align:left;display:flex;flex-direction:column;gap:2px;cursor:pointer;font:inherit;color:var(--ink);border-radius:2px"><span style="font-weight:600;font-size:15px">{{ "visit_028" | t(lang) | safe }}</span><span style="font-size:13px;color:var(--muted)"><mark class="todo">{{ "visit_025" | t(lang) | safe }}</mark></span></button>
+</div>
+</fieldset>
+<fieldset style="border:0;padding:0;margin:0">
+<legend style="font-weight:600;font-size:15px;padding:0;margin-bottom:4px">{{ "visit_029" | t(lang) | safe }}</legend>
+<div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
+<div><p style="margin:0;font-weight:600">{{ "visit_030" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_031" | t(lang) | safe }}</p></div>
+<div style="display:flex;align-items:center;gap:6px">
+<button type="button" aria-label="{{ "visit_032" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
+<button type="button" aria-label="{{ "visit_035" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+</div>
+</div><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
+<div><p style="margin:0;font-weight:600">{{ "visit_037" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_038" | t(lang) | safe }}</p></div>
+<div style="display:flex;align-items:center;gap:6px">
+<button type="button" aria-label="{{ "visit_039" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
+<button type="button" aria-label="{{ "visit_040" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+</div>
+</div><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
+<div><p style="margin:0;font-weight:600">{{ "visit_041" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_031" | t(lang) | safe }}</p></div>
+<div style="display:flex;align-items:center;gap:6px">
+<button type="button" aria-label="{{ "visit_042" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
+<button type="button" aria-label="{{ "visit_043" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+</div>
+</div><div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
+<div><p style="margin:0;font-weight:600">{{ "visit_044" | t(lang) | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ "visit_045" | t(lang) | safe }}</p></div>
+<div style="display:flex;align-items:center;gap:6px">
+<button type="button" aria-label="{{ "visit_046" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_033" | t(lang) | safe }}</button>
+<span style="min-width:28px;text-align:center;font-weight:600">{{ "visit_034" | t(lang) | safe }}</span>
+<button type="button" aria-label="{{ "visit_047" | t(lang) | safe }}" style="width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)">{{ "visit_036" | t(lang) | safe }}</button>
+</div>
+</div>
+</fieldset>
+<div style="display:flex;flex-direction:column;gap:12px">
+<label style="display:flex;gap:12px;align-items:center;font-size:16px;min-height:44px"><input type="checkbox" style="width:20px;height:20px;accent-color:var(--accent)">{{ "visit_048" | t(lang) | safe }}</label>
+<label style="display:flex;gap:12px;align-items:center;font-size:16px;min-height:44px"><input type="checkbox" style="width:20px;height:20px;accent-color:var(--accent)">{{ "visit_049" | t(lang) | safe }}</label>
+</div>
+<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--accent);color:var(--white);border:0;min-height:56px;font-size:16px;cursor:pointer">{{ "visit_050" | t(lang) | safe }}</button>
+</form>
+</div>
+</section>
+
+<section aria-labelledby="it-h" style="padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:29px">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:720px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_051" | t(lang) | safe }}</p>
+<h2 id="it-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ "visit_052" | t(lang) | safe }}</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:28px;background:var(--sand);padding:28px">
+<article style="display:flex;flex-direction:column;background:var(--cream)">
+<div style="aspect-ratio:2/1;overflow:hidden;background:var(--sand)"><img src="/images/rani-ki-vav.jpg" alt="{{ "visit_053" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_054" | t(lang) | safe }}</p>
+<h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;margin:0;line-height:1.1">{{ "visit_055" | t(lang) | safe }}</h3>
+<ol style="margin:0;padding:0 0 0 20px;font-size:16px"><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_056" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_057" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_058" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_059" | t(lang) | safe }}</li></ol>
+</div>
+</article>
+<article style="display:flex;flex-direction:column;background:var(--cream)">
+<div style="aspect-ratio:2/1;overflow:hidden;background:var(--sand)"><img src="/images/timeline-corridor.jpg" alt="{{ "visit_060" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_061" | t(lang) | safe }}</p>
+<h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;margin:0;line-height:1.1">{{ "visit_062" | t(lang) | safe }}</h3>
+<ol style="margin:0;padding:0 0 0 20px;font-size:16px"><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_063" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_064" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_065" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_066" | t(lang) | safe }}</li></ol>
+</div>
+</article>
+<article style="display:flex;flex-direction:column;background:var(--cream)">
+<div style="aspect-ratio:2/1;overflow:hidden;background:var(--sand)"><img src="/images/festival-street.jpg" alt="{{ "visit_067" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="padding:28px;display:flex;flex-direction:column;gap:14px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_068" | t(lang) | safe }}</p>
+<h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;margin:0;line-height:1.1">{{ "visit_069" | t(lang) | safe }}</h3>
+<ol style="margin:0;padding:0 0 0 20px;font-size:16px"><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_070" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_071" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_072" | t(lang) | safe }}</li><li style="padding:10px 0;border-bottom:1px solid var(--line-soft)">{{ "visit_073" | t(lang) | safe }}</li></ol>
+</div>
+</article>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="map-h" style="padding:0 0 128px">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));gap:29px 72px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:20px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_074" | t(lang) | safe }}</p>
+<h2 id="map-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ "visit_075" | t(lang) | safe }}</h2>
+<div role="tablist" aria-label="{{ "visit_076" | t(lang) | safe }}" style="display:flex;gap:8px;margin-top:8px">
+<button type="button" role="tab" aria-selected="true" style="min-width:64px;min-height:48px;border:0;background:var(--ink);color:var(--cream);font:inherit;font-weight:600;cursor:pointer;border-radius:2px">{{ "visit_077" | t(lang) | safe }}</button>
+<button type="button" role="tab" aria-selected="false" style="min-width:64px;min-height:48px;border:1px solid var(--line-strong);background:transparent;color:var(--ink);font:inherit;font-weight:600;cursor:pointer;border-radius:2px;padding:0 14px">{{ "visit_078" | t(lang) | safe }}</button>
+<button type="button" role="tab" aria-selected="false" style="min-width:64px;min-height:48px;border:1px solid var(--line-strong);background:transparent;color:var(--ink);font:inherit;font-weight:600;cursor:pointer;border-radius:2px;padding:0 14px">{{ "visit_079" | t(lang) | safe }}</button>
+</div>
+<p style="margin:0;font-size:17px;color:var(--muted)"><mark class="todo">{{ "visit_080" | t(lang) | safe }}</mark></p>
+<a href="#" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ "visit_081" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div role="img" aria-label="{{ "visit_082" | t(lang) | safe }}" style="aspect-ratio:16/11;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "visit_083" | t(lang) | safe }}</mark></div>
+</div>
+</section>
+
+<section aria-labelledby="first-h" style="background:var(--ink);color:var(--cream);padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:760px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "visit_084" | t(lang) | safe }}</p>
+<h2 id="first-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ "visit_085" | t(lang) | safe }}</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:40px">
+<div style="display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--umber-2);padding-top:20px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "visit_086" | t(lang) | safe }}</h3><p style="margin:0;color:var(--stone);font-size:16px"><mark class="todo">{{ "visit_087" | t(lang) | safe }}</mark></p></div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--umber-2);padding-top:20px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "visit_088" | t(lang) | safe }}</h3><p style="margin:0;color:var(--stone);font-size:16px"><mark class="todo">{{ "visit_089" | t(lang) | safe }}</mark></p></div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--umber-2);padding-top:20px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "visit_090" | t(lang) | safe }}</h3><p style="margin:0;color:var(--stone);font-size:16px"><mark class="todo">{{ "visit_091" | t(lang) | safe }}</mark></p></div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:1px solid var(--umber-2);padding-top:20px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "visit_092" | t(lang) | safe }}</h3><p style="margin:0;color:var(--stone);font-size:16px"><mark class="todo">{{ "visit_093" | t(lang) | safe }}</mark></p></div>
+</div>
+</div>
+</section>
+
+<section id="access" aria-labelledby="acc-h" style="padding:128px 0 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:34px 80px">
+<div style="display:flex;flex-direction:column;gap:22px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_094" | t(lang) | safe }}</p>
+<h2 id="acc-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ "visit_095" | t(lang) | safe }}</h2>
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column">
+<li style="padding:16px 0;border-bottom:1px solid var(--line)">{{ "visit_096" | t(lang) | safe }}</li>
+<li style="padding:16px 0;border-bottom:1px solid var(--line)">{{ "visit_097" | t(lang) | safe }}</li>
+<li style="padding:16px 0;border-bottom:1px solid var(--line)">{{ "visit_098" | t(lang) | safe }}</li>
+<li style="padding:16px 0;border-bottom:1px solid var(--line)">{{ "visit_099" | t(lang) | safe }}</li>
+</ul>
+</div>
+<div id="getting-here" style="display:flex;flex-direction:column;gap:22px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "visit_100" | t(lang) | safe }}</p>
+<h2 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ "visit_101" | t(lang) | safe }}</h2>
+<div role="img" aria-label="{{ "visit_102" | t(lang) | safe }}" style="aspect-ratio:16/9;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "visit_103" | t(lang) | safe }}</mark></div>
+<dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:20px">
+<div><dt style="font-size:13px;color:var(--muted)">{{ "visit_104" | t(lang) | safe }}</dt><dd style="margin:4px 0 0"><mark class="todo">{{ "visit_105" | t(lang) | safe }}</mark></dd></div>
+<div><dt style="font-size:13px;color:var(--muted)">{{ "visit_106" | t(lang) | safe }}</dt><dd style="margin:4px 0 0"><mark class="todo">{{ "visit_107" | t(lang) | safe }}</mark></dd></div>
+</dl>
+<a href="#" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ "visit_108" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="faq-h" style="padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:40px 80px">
+<div style="flex:1 1 280px;display:flex;flex-direction:column;gap:20px">
+<h2 id="faq-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ "visit_013" | t(lang) | safe }}</h2>
+<div style="background:var(--sand);padding:24px;display:flex;flex-direction:column;gap:10px">
+<p style="margin:0;font-weight:600">{{ "visit_109" | t(lang) | safe }}</p>
+<p style="margin:0;font-size:15px;color:var(--muted)">{{ "visit_110" | t(lang) | safe }}</p>
+<a href="https://usa.akshardham.org" style="font-weight:600;font-size:15px">{{ "visit_111" | t(lang) | safe }}</a>
+</div>
+</div>
+<div style="flex:999 1 560px;min-width:0">
+<details style="border-bottom:1px solid var(--line);padding:22px 0">
+<summary style="cursor:pointer;font-size:19px;font-weight:500;list-style-position:outside">{{ "visit_112" | t(lang) | safe }}</summary>
+<p style="margin:14px 0 0;color:var(--muted);font-size:17px;max-width:760px">{{ "visit_113" | t(lang) | safe }}</p>
+</details>
+<details style="border-bottom:1px solid var(--line);padding:22px 0">
+<summary style="cursor:pointer;font-size:19px;font-weight:500;list-style-position:outside">{{ "visit_114" | t(lang) | safe }}</summary>
+<p style="margin:14px 0 0;color:var(--muted);font-size:17px;max-width:760px"><mark class="todo">{{ "visit_115" | t(lang) | safe }}</mark></p>
+</details>
+<details style="border-bottom:1px solid var(--line);padding:22px 0">
+<summary style="cursor:pointer;font-size:19px;font-weight:500;list-style-position:outside">{{ "visit_116" | t(lang) | safe }}</summary>
+<p style="margin:14px 0 0;color:var(--muted);font-size:17px;max-width:760px"><mark class="todo">{{ "visit_117" | t(lang) | safe }}</mark></p>
+</details>
+<details style="border-bottom:1px solid var(--line);padding:22px 0">
+<summary style="cursor:pointer;font-size:19px;font-weight:500;list-style-position:outside">{{ "visit_118" | t(lang) | safe }}</summary>
+<p style="margin:14px 0 0;color:var(--muted);font-size:17px;max-width:760px"><mark class="todo">{{ "visit_119" | t(lang) | safe }}</mark></p>
+</details>
+<details style="border-bottom:1px solid var(--line);padding:22px 0">
+<summary style="cursor:pointer;font-size:19px;font-weight:500;list-style-position:outside">{{ "visit_120" | t(lang) | safe }}</summary>
+<p style="margin:14px 0 0;color:var(--muted);font-size:17px;max-width:760px"><mark class="todo">{{ "visit_121" | t(lang) | safe }}</mark></p>
+</details>
+</div>
+</div>
+</section>

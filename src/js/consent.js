@@ -1,0 +1,145 @@
+// Cookie consent: a banner on first visit, a settings dialog, and a "Cookie settings" link in the footer.
+// The choice is kept in localStorage with a policy VERSION; bump it when the cookie policy changes to ask again.
+// Optional scripts wait for consent:
+//   <script type="text/plain" data-consent="analytics" src="https://…"></script>
+// They are switched on once that category is allowed. In code: window.cookieConsent.allows('analytics'),
+// or listen for the 'cookieconsent' event on document.
+(function () {
+  var KEY = 'museum-consent';
+  var VERSION = 1;
+  // wording comes from the site's text files (window.I18N), with English as a fallback
+  var I = window.I18N || {};
+  var tx = function (k, fallback) { return I['consent_' + k] || fallback; };
+  var CATEGORIES = [
+    { key: 'necessary', label: tx('essential', 'Essential'), fixed: true, text: tx('essential_text', 'Needed for the site to work, such as remembering this choice. Always on.') },
+    { key: 'analytics', label: tx('analytics', 'Analytics'), text: tx('analytics_text', 'Count visits and see which pages are useful, so we can improve the site.') },
+    { key: 'marketing', label: tx('marketing', 'Marketing'), text: tx('marketing_text', 'Measure campaigns and show relevant museum news on other sites.') }
+  ];
+
+  function read() {
+    try {
+      var c = JSON.parse(localStorage.getItem(KEY));
+      return c && c.version === VERSION ? c : null;
+    } catch (e) { return null; }
+  }
+  function save(choice) {
+    choice.necessary = true;
+    choice.version = VERSION;
+    choice.date = new Date().toISOString().slice(0, 10);
+    try { localStorage.setItem(KEY, JSON.stringify(choice)); } catch (e) { /* private mode: ask again next visit */ }
+    state = choice;
+    activate();
+    document.dispatchEvent(new CustomEvent('cookieconsent', { detail: choice }));
+  }
+  // Turn on any <script type="text/plain" data-consent="…"> whose category is now allowed.
+  function activate() {
+    document.querySelectorAll('script[type="text/plain"][data-consent]').forEach(function (old) {
+      if (!window.cookieConsent.allows(old.dataset.consent)) return;
+      var s = document.createElement('script');
+      Array.prototype.forEach.call(old.attributes, function (a) { if (a.name !== 'type') s.setAttribute(a.name, a.value); });
+      s.textContent = old.textContent;
+      old.replaceWith(s);
+    });
+  }
+  // Preview helper: add ?reset-cookies to any URL to forget the choice and show the banner again.
+  if (/[?&]reset-cookies\b/.test(location.search)) {
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    history.replaceState(null, '', location.pathname + location.hash);
+  }
+  var state = read();
+  window.cookieConsent = {
+    allows: function (key) { return key === 'necessary' || !!(state && state[key]); },
+    get: function () { return state; },
+    open: function () { openDialog(); }
+  };
+
+  var lastFocus = null;
+  var banner = document.createElement('section');
+  banner.className = 'consent';
+  banner.setAttribute('aria-label', 'Cookie consent');
+  banner.innerHTML =
+    '<div class="consent-inner">' +
+    '<p class="consent-text"><strong>' + tx('title', 'Cookies on this site.') + '</strong><span class="consent-mid"> ' + tx('short', 'We use necessary cookies to make the site work.') + '</span><span class="consent-more"> ' + tx('more', 'With your permission we’d also like to use analytics cookies to understand how it’s used.') + '</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">' + tx('privacy', 'Privacy policy') + '</a></p>' +
+    '<div class="consent-actions">' +
+    '<button type="button" class="c-btn c-primary" data-act="all" aria-label="' + tx('accept_full', 'Accept all') + '">' + tx('accept', 'Accept') + '<span class="consent-more"> ' + tx('accept_more', 'all') + '</span></button>' +
+    '<button type="button" class="c-btn c-secondary" data-act="none" aria-label="' + tx('reject_full', 'Reject non-essential') + '">' + tx('reject', 'Reject') + '<span class="consent-more"> ' + tx('reject_more', 'non-essential') + '</span></button>' +
+    '<button type="button" class="c-link" data-act="manage" aria-label="' + tx('dialog_title', 'Cookie settings') + '">' + tx('manage', 'Manage') + '<span class="consent-more"> ' + tx('manage_more', 'settings') + '</span></button>' +
+    '</div></div>';
+
+  var dialog = document.createElement('div');
+  dialog.className = 'consent-dialog';
+  dialog.hidden = true;
+  dialog.innerHTML =
+    '<div class="consent-backdrop" data-act="close"></div>' +
+    '<div class="consent-panel" role="dialog" aria-modal="true" aria-labelledby="consent-title">' +
+    '<h2 id="consent-title">' + tx('dialog_title', 'Cookie settings') + '</h2>' +
+    '<p>' + tx('dialog_text', 'Choose which cookies we can use. Essential ones are always on. You can change this any time from “Cookie settings” at the bottom of every page.') + '</p>' +
+    '<ul class="consent-list">' + CATEGORIES.map(function (c) {
+      return '<li><label class="consent-row"><span><strong>' + c.label + '</strong><small>' + c.text + '</small></span>' +
+        '<input type="checkbox" role="switch" data-key="' + c.key + '"' + (c.fixed ? ' checked disabled' : '') + '></label></li>';
+    }).join('') + '</ul>' +
+    '<div class="consent-actions">' +
+    '<button type="button" class="c-btn c-primary" data-act="save">' + tx('save', 'Save choices') + '</button>' +
+    '<button type="button" class="c-btn c-secondary" data-act="all">' + tx('accept_full', 'Accept all') + '</button>' +
+    '<button type="button" class="c-btn c-secondary" data-act="none">' + tx('reject_full', 'Reject non-essential') + '</button>' +
+    '</div></div>';
+
+  // keep the end of the page reachable while the banner is showing
+  function pad() { document.body.style.paddingBottom = banner.isConnected ? (banner.offsetHeight + (parseFloat(getComputedStyle(banner).bottom) || 0)) + 'px' : ''; }
+  function closeBanner() { banner.remove(); pad(); }
+  function openDialog() {
+    lastFocus = document.activeElement;
+    dialog.querySelectorAll('input[data-key]').forEach(function (i) {
+      if (!i.disabled) i.checked = window.cookieConsent.allows(i.dataset.key);
+    });
+    dialog.hidden = false;
+    document.documentElement.classList.add('consent-open');
+    dialog.querySelector('input:not([disabled])').focus();
+  }
+  function closeDialog() {
+    dialog.hidden = true;
+    document.documentElement.classList.remove('consent-open');
+    if (lastFocus && document.contains(lastFocus)) lastFocus.focus();
+  }
+  function decide(act) {
+    if (act === 'manage') return openDialog();
+    if (act === 'close') return closeDialog();
+    var choice = {};
+    CATEGORIES.forEach(function (c) {
+      if (c.fixed) return;
+      choice[c.key] = act === 'all' ? true : act === 'none' ? false : dialog.querySelector('input[data-key="' + c.key + '"]').checked;
+    });
+    save(choice);
+    closeBanner();
+    if (!dialog.hidden) closeDialog();
+  }
+  [banner, dialog].forEach(function (el) {
+    el.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-act]');
+      if (b) decide(b.dataset.act);
+    });
+  });
+  dialog.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') return closeDialog();
+    if (e.key !== 'Tab') return;
+    var f = Array.prototype.filter.call(dialog.querySelectorAll('input:not([disabled]), button'), function (x) { return x.offsetParent; });
+    if (e.shiftKey && document.activeElement === f[0]) { e.preventDefault(); f[f.length - 1].focus(); }
+    else if (!e.shiftKey && document.activeElement === f[f.length - 1]) { e.preventDefault(); f[0].focus(); }
+  });
+
+  document.body.appendChild(dialog);
+  if (state) activate();
+  else { document.body.appendChild(banner); pad(); window.addEventListener('resize', pad); }
+
+  // "Cookie settings" in the footer reopens the choices.
+  var legal = document.querySelector('nav[aria-label="Legal"]');
+  if (legal) {
+    var link = document.createElement('button');
+    link.type = 'button';
+    link.className = 'consent-footer-link';
+    link.textContent = tx('settings_link', 'Cookie settings');
+    link.addEventListener('click', openDialog);
+    var privacy = legal.querySelectorAll('a')[1]; // Accessibility, Privacy, …
+    legal.insertBefore(link, privacy ? privacy.nextSibling : legal.firstChild);
+  }
+})();

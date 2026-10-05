@@ -1,0 +1,196 @@
+---
+{
+ "layout": "layouts/base.njk",
+ "pagination": {
+  "data": "langs",
+  "size": 1,
+  "alias": "lang"
+ },
+ "path": "/",
+ "permalink": "{{ \"/\" | lurl(lang) }}index.html",
+ "titleKey": "home_082",
+ "navKey": "",
+ "headerStyle": "position:absolute;top:0;left:0;right:0;z-index:3;color:var(--cream)"
+}
+---
+
+
+<section aria-label="{{ "home_001" | t(lang) | safe }}" style="position:relative;min-height:min(80vh,720px);display:flex;flex-direction:column;justify-content:flex-end;color:var(--cream);background:var(--night);overflow:hidden">
+<img src="/images/rani-ki-vav.jpg" alt="{{ "home_002" | t(lang) | safe }}" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 62%">
+<div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,13,10,.72) 0%,rgba(18,13,10,.05) 26%,rgba(18,13,10,.1) 50%,rgba(18,13,10,.9) 100%)"></div>
+{% include "partials/header.njk" %}
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;z-index:1;padding-bottom:clamp(30px,3.33vw,48px);display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;justify-content:space-between">
+<div style="max-width:880px;display:flex;flex-direction:column;gap:28px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "home_003" | t(lang) | safe }}</p>
+<h1 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(48px,6.6vw,100px);line-height:1;margin:0;letter-spacing:-.005em;text-wrap:balance">{{ "home_004" | t(lang) | safe }}</h1>
+<div style="display:flex;gap:14px;flex-wrap:wrap;margin-top:8px">
+<a href="{{ "/visit#tickets" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--accent);color:var(--white)">{{ "home_005" | t(lang) | safe }}</a>
+<a href="{{ "/visit" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;border:1px solid rgba(247,244,239,.7);color:var(--cream)">{{ "home_006" | t(lang) | safe }}</a>
+</div>
+</div>
+<p style="margin:0;font-size:13px;color:#E6DCCF;max-width:260px;text-align:right">{{ "home_007" | t(lang) | safe }}</p>
+</div>
+</section>
+
+<section aria-label="{{ "home_008" | t(lang) | safe }}" style="background:var(--ink);color:var(--cream)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:24px 40px;padding-top:28px;padding-bottom:28px">
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:8px"><span aria-hidden="true" data-status="dot" style="width:8px;height:8px;border-radius:50%;background:#7FBF7A;display:inline-block"></span><span data-status="today-label">{{ "home_009" | t(lang) | safe }}</span></span><span style="font-size:17px" data-status="today"><mark class="todo">{{ "home_010" | t(lang) | safe }}</mark></span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "home_011" | t(lang) | safe }}</span><span style="font-size:17px">{{ "home_012" | t(lang) | safe }}</span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "home_013" | t(lang) | safe }}</span><span style="font-size:17px"><mark class="todo">{{ "home_014" | t(lang) | safe }}</mark></span></div>
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "home_015" | t(lang) | safe }}</span><a href="{{ "/visit#getting-here" | lurl(lang) }}" style="font-size:17px;color:var(--cream)">{{ "home_016" | t(lang) | safe }}</a></div>
+</div>
+</section>
+
+<section id="about" aria-labelledby="story-h" style="padding:clamp(50px,5.56vw,80px) 0 clamp(45px,5.00vw,72px)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:38px 96px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:28px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "home_017" | t(lang) | safe }}</p>
+<h2 id="story-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.2vw,58px);line-height:1.08;margin:0;text-wrap:balance">{{ "home_018" | t(lang) | safe }}</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:40px;padding-top:8px">
+<p style="margin:0;font-size:20px;line-height:1.6;text-wrap:pretty">{{ "home_019" | t(lang) | safe }}</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:32px">
+<div style="display:flex;flex-direction:column;gap:10px;border-top:2px solid var(--ink);padding-top:18px">
+<h3 style="margin:0;font-size:17px;font-weight:600">{{ "home_020" | t(lang) | safe }}</h3>
+<p style="margin:0;color:var(--muted);font-size:16px">{{ "home_021" | t(lang) | safe }}</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;border-top:2px solid var(--ink);padding-top:18px">
+<h3 style="margin:0;font-size:17px;font-weight:600">{{ "home_022" | t(lang) | safe }}</h3>
+<p style="margin:0;color:var(--muted);font-size:16px">{{ "home_023" | t(lang) | safe }}</p>
+</div>
+</div>
+<a href="#about" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ "home_024" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</section>
+
+<section aria-label="{{ "home_025" | t(lang) | safe }}" style="background:var(--sand);padding:clamp(50px,5.56vw,80px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr));gap:28px">
+
+<a href="{{ "/explore" | lurl(lang) }}" class="card" style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);background:var(--cream);min-height:360px">
+<div style="overflow:hidden;background:var(--tint)"><img src="/images/rani-ki-vav.jpg" alt="{{ "home_026" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="padding:36px;display:flex;flex-direction:column;gap:14px;justify-content:center">
+<h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px;line-height:1.1;margin:0">{{ "home_027" | t(lang) | safe }}</h3>
+<p style="margin:0;color:var(--muted);font-size:16px">{{ "home_028" | t(lang) | safe }}</p>
+<span style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;color:var(--accent)">{{ "home_029" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></span>
+</div>
+</a>
+<a href="{{ "/learn" | lurl(lang) }}" class="card" style="display:grid;grid-template-columns:minmax(0,2fr) minmax(0,3fr);background:var(--cream);min-height:360px">
+<div style="overflow:hidden;background:var(--tint)"><img src="/images/young-visitor-carved-model.jpg" alt="{{ "home_030" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="padding:36px;display:flex;flex-direction:column;gap:14px;justify-content:center">
+<h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px;line-height:1.1;margin:0">{{ "home_031" | t(lang) | safe }}</h3>
+<p style="margin:0;color:var(--muted);font-size:16px">{{ "home_032" | t(lang) | safe }}</p>
+<span style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;color:var(--accent)">{{ "home_033" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></span>
+</div>
+</a>
+</div>
+</div>
+</section>
+
+<section aria-label="{{ "home_034" | t(lang) | safe }}" style="background:#5C1A14;color:var(--cream);padding:clamp(40px,4.44vw,64px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
+<h2 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(30px,3vw,42px);line-height:1.15;margin:0;max-width:760px">{{ "home_035" | t(lang) | safe }}</h2>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:40px 32px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">{{ "home_036" | t(lang) | safe }}</span>
+<span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">{{ "home_037" | t(lang) | safe }}</span>
+</div><div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">{{ "home_038" | t(lang) | safe }}</span>
+<span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">{{ "home_039" | t(lang) | safe }}</span>
+</div><div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">{{ "home_040" | t(lang) | safe }}</span>
+<span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">{{ "home_041" | t(lang) | safe }}</span>
+</div><div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">{{ "home_042" | t(lang) | safe }}</span>
+<span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">{{ "home_043" | t(lang) | safe }}</span>
+</div><div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">{{ "home_044" | t(lang) | safe }}</span>
+<span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">{{ "home_045" | t(lang) | safe }}</span>
+</div><div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">{{ "home_046" | t(lang) | safe }}</span>
+<span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">{{ "home_047" | t(lang) | safe }}</span>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section aria-labelledby="tl-h" style="background:var(--night);color:var(--cream);padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:34px 96px;align-items:center">
+<div style="display:flex;flex-direction:column;gap:28px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "home_048" | t(lang) | safe }}</p>
+<h2 id="tl-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(38px,4.2vw,58px);line-height:1.05;margin:0">{{ "home_049" | t(lang) | safe }}</h2>
+<p style="margin:0;font-size:18px;color:var(--stone);max-width:520px">{{ "home_050" | t(lang) | safe }}</p>
+<ol style="list-style:none;margin:8px 0 0;padding:0;max-width:560px"><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-01" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_051" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_052" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-02" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_053" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_054" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-03" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_055" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_056" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-04" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_057" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_058" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-05" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_059" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_060" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-06" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_061" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_062" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-07" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_061" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_063" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-08" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_064" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_065" | t(lang) | safe }}</span>
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="{{ "/timeline#era-09" | lurl(lang) }}" class="tl-link">
+<span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">{{ "home_066" | t(lang) | safe }}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">{{ "home_067" | t(lang) | safe }}</span>
+</a></li></ol>
+<a href="{{ "/timeline" | lurl(lang) }}" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--gold)">{{ "home_068" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div style="overflow:hidden;aspect-ratio:4/5;max-height:600px;background:#2A211B"><img src="/images/timeline-corridor.jpg" alt="{{ "home_069" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+</div>
+</section>
+
+
+
+<section aria-labelledby="voices-h" style="padding:clamp(50px,5.56vw,80px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "home_070" | t(lang) | safe }}</p>
+<h2 id="voices-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ "home_071" | t(lang) | safe }}</h2>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr));gap:40px">
+<figure style="margin:0;display:flex;flex-direction:column;gap:24px;border-top:1px solid var(--line);padding-top:28px">
+<blockquote style="margin:0;font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:24px;line-height:1.4;text-wrap:pretty">{{ "home_072" | t(lang) | safe }}</blockquote>
+<figcaption style="font-size:14px;color:var(--muted)">{{ "home_073" | t(lang) | safe }}</figcaption>
+</figure>
+<figure style="margin:0;display:flex;flex-direction:column;gap:24px;border-top:1px solid var(--line);padding-top:28px">
+<blockquote style="margin:0;font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:24px;line-height:1.4;text-wrap:pretty">{{ "home_074" | t(lang) | safe }}</blockquote>
+<figcaption style="font-size:14px;color:var(--muted)">{{ "home_075" | t(lang) | safe }}</figcaption>
+</figure>
+<figure style="margin:0;display:flex;flex-direction:column;gap:24px;border-top:1px solid var(--line);padding-top:28px">
+<blockquote style="margin:0;font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:24px;line-height:1.4;text-wrap:pretty">{{ "home_076" | t(lang) | safe }}</blockquote>
+<figcaption style="font-size:14px;color:var(--muted)">{{ "home_077" | t(lang) | safe }}</figcaption>
+</figure>
+</div>
+</div>
+</section>
+
+<section aria-labelledby="mem-h" style="background:var(--accent);color:var(--white);padding:clamp(35px,3.89vw,56px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center;justify-content:space-between">
+<div style="display:flex;flex-direction:column;gap:14px;max-width:680px">
+<h2 id="mem-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.4vw,46px);line-height:1.1;margin:0">{{ "home_078" | t(lang) | safe }}</h2>
+<p style="margin:0;font-size:18px;color:#FFF3E8">{{ "home_079" | t(lang) | safe }}</p>
+</div>
+<div style="display:flex;gap:14px;flex-wrap:wrap">
+<a href="{{ "/support#membership" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--cream);color:var(--ink)">{{ "home_080" | t(lang) | safe }}</a>
+<a href="{{ "/support" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;border:1px solid rgba(255,255,255,.75);color:var(--white)">{{ "home_081" | t(lang) | safe }}</a>
+</div>
+</div>
+</section>

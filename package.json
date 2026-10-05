@@ -1,0 +1,16 @@
+{
+  "name": "akshardham-museum-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --port 8090",
+    "cms": "decap-server",
+    "translations": "node scripts/untranslated.js",
+    "cms-config": "node scripts/cms-config.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "decap-server": "^3.11.3"
+  }
+}

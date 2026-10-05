@@ -1,0 +1,17 @@
+/* Notice bar (js/status.js): site colours, square corners. */
+.notice { position: relative; z-index: 35; font-family: var(--font-body); }
+.notice-inner { max-width: 1280px; margin: 0 auto; padding: 12px clamp(20px, 4vw, 56px); box-sizing: border-box; display: flex; align-items: center; gap: 16px; }
+.notice p { margin: 0; flex: 1; font-size: 15px; line-height: 1.5; }
+.notice strong { font-weight: 600; margin-right: 4px; }
+.notice a { font-weight: 600; text-underline-offset: 3px; }
+.notice-close { flex: none; width: 36px; height: 36px; border: 1px solid currentColor; background: transparent; color: inherit; border-radius: 2px; font-size: 20px; line-height: 1; cursor: pointer; opacity: .8; }
+.notice-close:hover { opacity: 1; }
+.notice-info { background: var(--umber); color: var(--cream); border-bottom: 1px solid rgba(227, 168, 105, .4); }
+.notice-info a { color: var(--gold); }
+.notice-warning { background: var(--gold); color: var(--ink); }
+.notice-warning a { color: var(--ink); }
+.notice-closure { background: var(--accent); color: var(--white); }
+.notice-closure a { color: var(--white); }
+/* the floating header on the home page sits below the notice until you scroll */
+body.has-notice header.hdr-overlay:not(.scrolled) { top: var(--notice-h, 0px) !important; }
+@media (max-width: 640px) { .notice p { font-size: 14px; } .notice-inner { padding-top: 10px; padding-bottom: 10px; } }

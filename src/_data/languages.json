@@ -1,0 +1,5 @@
+{
+ "en": { "name": "English", "short": "EN", "font": "" },
+ "gu": { "name": "ગુજરાતી", "short": "ગુ", "font": "'Noto Sans Gujarati',sans-serif" },
+ "hi": { "name": "हिन्दी", "short": "हि", "font": "'Tiro Devanagari Hindi',serif" }
+}

@@ -1,0 +1,142 @@
+---
+{
+ "layout": "layouts/base.njk",
+ "pagination": {
+  "data": "langs",
+  "size": 1,
+  "alias": "lang"
+ },
+ "path": "/ajanta/",
+ "permalink": "{{ \"/ajanta/\" | lurl(lang) }}index.html",
+ "titleKey": "ajanta_065",
+ "navKey": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)"
+}
+---
+
+
+{% include "partials/header.njk" %}
+<nav aria-label="{{ "ajanta_001" | t(lang) | safe }}" style="border-bottom:1px solid var(--line-soft)">
+<ol style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;list-style:none;display:flex;gap:10px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px;margin:0 auto;font-size:14px;color:var(--muted)">
+<li><a href="{{ "/explore" | lurl(lang) }}" style="color:var(--muted)">{{ "ajanta_002" | t(lang) | safe }}</a></li><li aria-hidden="true">{{ "ajanta_003" | t(lang) | safe }}</li>
+<li><a href="{{ "/explore/legacy-architecture" | lurl(lang) }}" style="color:var(--muted)">{{ "ajanta_004" | t(lang) | safe }}</a></li><li aria-hidden="true">{{ "ajanta_003" | t(lang) | safe }}</li>
+<li aria-current="page" style="color:var(--ink)">{{ "ajanta_005" | t(lang) | safe }}</li>
+</ol>
+</nav>
+
+<section aria-labelledby="ex-h" style="padding:clamp(30px,3.33vw,48px) 0 clamp(35px,3.89vw,56px)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:34px 80px;align-items:end">
+<div style="display:flex;flex-direction:column;gap:28px;padding-bottom:12px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "ajanta_006" | t(lang) | safe }}</p>
+<h1 id="ex-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(52px,6.4vw,92px);line-height:.98;margin:0">{{ "ajanta_007" | t(lang) | safe }}</h1>
+<p style="margin:0;font-size:21px;line-height:1.55;text-wrap:pretty">{{ "ajanta_008" | t(lang) | safe }}</p>
+<div style="display:flex;align-items:center;gap:18px;background:var(--sand);padding:18px 20px;max-width:460px">
+<button type="button" aria-label="{{ "ajanta_009" | t(lang) | safe }}" style="flex:0 0 52px;width:52px;height:52px;border-radius:50%;border:0;background:var(--ink);color:var(--cream);display:flex;align-items:center;justify-content:center;cursor:pointer">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"></path></svg>
+</button>
+<div style="display:flex;flex-direction:column;gap:2px;flex:1">
+<span style="font-weight:600;font-size:15px">{{ "ajanta_010" | t(lang) | safe }}</span>
+<span style="font-size:13px;color:var(--muted)">{{ "ajanta_011" | t(lang) | safe }}</span>
+</div>
+</div>
+</div>
+<figure style="margin:0;display:flex;flex-direction:column;gap:12px">
+<div style="overflow:hidden;aspect-ratio:1/1;background:var(--sand)"><img src="/images/ajanta-prayer-hall.jpg" alt="{{ "ajanta_012" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block"></div>
+<figcaption style="font-size:13px;color:var(--muted)">{{ "ajanta_013" | t(lang) | safe }}</figcaption>
+</figure>
+</div>
+</section>
+
+<section aria-label="{{ "ajanta_014" | t(lang) | safe }}" style="background:var(--ink);color:var(--cream)">
+<dl style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px 40px;padding-top:36px;padding-bottom:36px">
+<div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "ajanta_015" | t(lang) | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ "ajanta_016" | t(lang) | safe }}</dd></div>
+<div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "ajanta_017" | t(lang) | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ "ajanta_018" | t(lang) | safe }}</dd></div>
+<div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "ajanta_019" | t(lang) | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ "ajanta_020" | t(lang) | safe }}</dd></div>
+<div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ "ajanta_021" | t(lang) | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ "ajanta_022" | t(lang) | safe }}</dd></div>
+</dl>
+</section>
+
+<article style="padding:clamp(45px,5.00vw,72px) 0 48px">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:58px">
+<section aria-labelledby="ch1" style="display:flex;flex-wrap:wrap;gap:24px 80px">
+<div style="flex:1 1 260px;display:flex;flex-direction:column;gap:12px"><span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">{{ "ajanta_023" | t(lang) | safe }}</span><h2 id="ch1" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0">{{ "ajanta_024" | t(lang) | safe }}</h2></div>
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:20px;font-size:19px;line-height:1.7;max-width:720px">
+<p style="margin:0">{{ "ajanta_025" | t(lang) | safe }}</p>
+<p style="margin:0">{{ "ajanta_026" | t(lang) | safe }}</p>
+</div>
+</section>
+
+<section aria-labelledby="ch2" style="display:flex;flex-wrap:wrap;gap:24px 80px">
+<div style="flex:1 1 260px;display:flex;flex-direction:column;gap:12px"><span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">{{ "ajanta_027" | t(lang) | safe }}</span><h2 id="ch2" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0">{{ "ajanta_028" | t(lang) | safe }}</h2></div>
+<ol style="flex:999 1 560px;min-width:0;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:24px;max-width:720px">
+<li style="display:flex;gap:20px;border-top:1px solid var(--line);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px;color:var(--accent);line-height:1;flex:0 0 36px">{{ "ajanta_029" | t(lang) | safe }}</span>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "ajanta_030" | t(lang) | safe }}</h3><p style="margin:0;color:var(--muted);font-size:16px">{{ "ajanta_031" | t(lang) | safe }}</p></div>
+</li>
+<li style="display:flex;gap:20px;border-top:1px solid var(--line);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px;color:var(--accent);line-height:1;flex:0 0 36px">{{ "ajanta_032" | t(lang) | safe }}</span>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "ajanta_033" | t(lang) | safe }}</h3><p style="margin:0;color:var(--muted);font-size:16px">{{ "ajanta_034" | t(lang) | safe }}</p></div>
+</li>
+<li style="display:flex;gap:20px;border-top:1px solid var(--line);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px;color:var(--accent);line-height:1;flex:0 0 36px">{{ "ajanta_035" | t(lang) | safe }}</span>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ "ajanta_036" | t(lang) | safe }}</h3><p style="margin:0;color:var(--muted);font-size:16px">{{ "ajanta_037" | t(lang) | safe }}</p></div>
+</li>
+</ol>
+</section>
+
+<section aria-labelledby="ch3" style="display:flex;flex-wrap:wrap;gap:24px 80px">
+<div style="flex:1 1 260px;display:flex;flex-direction:column;gap:12px"><span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">{{ "ajanta_038" | t(lang) | safe }}</span><h2 id="ch3" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0">{{ "ajanta_039" | t(lang) | safe }}</h2></div>
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:20px;font-size:19px;line-height:1.7;max-width:720px">
+<p style="margin:0">{{ "ajanta_040" | t(lang) | safe }}</p>
+</div>
+</section>
+
+<section aria-labelledby="ch4" style="display:flex;flex-wrap:wrap;gap:24px 80px">
+<div style="flex:1 1 260px;display:flex;flex-direction:column;gap:12px"><span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">{{ "ajanta_041" | t(lang) | safe }}</span><h2 id="ch4" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0">{{ "ajanta_042" | t(lang) | safe }}</h2></div>
+<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:20px;font-size:19px;line-height:1.7;max-width:720px">
+<p style="margin:0">{{ "ajanta_043" | t(lang) | safe }}</p>
+<a href="#" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ "ajanta_044" | t(lang) | safe }} <mark class="todo">{{ "ajanta_045" | t(lang) | safe }}</mark><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</section>
+</div>
+</article>
+
+<section aria-labelledby="near-h" style="padding:clamp(35px,3.89vw,56px) 0 clamp(45px,5.00vw,72px)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:44px">
+<div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:20px">
+<h2 id="near-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ "ajanta_046" | t(lang) | safe }}</h2>
+<a href="{{ "/explore/legacy-architecture" | lurl(lang) }}" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ "ajanta_047" | t(lang) | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:32px 24px">
+<a href="{{ "/explore/rani-ki-vav" | lurl(lang) }}" class="card" style="display:flex;flex-direction:column;gap:14px">
+<div style="overflow:hidden;aspect-ratio:4/3;background:var(--sand)"><img src="/images/rani-ki-vav.jpg" alt="{{ "ajanta_048" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div><p style="margin:0;font-size:13px;color:var(--muted)">{{ "ajanta_049" | t(lang) | safe }}</p><h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:23px;margin:2px 0 0">{{ "ajanta_050" | t(lang) | safe }}</h3></div>
+</a>
+<a href="{{ "/explore/konark-wheel" | lurl(lang) }}" class="card" style="display:flex;flex-direction:column;gap:14px">
+<div style="overflow:hidden;aspect-ratio:4/3;background:var(--sand)"><img src="/images/konark-wheel.jpg" alt="{{ "ajanta_051" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div><p style="margin:0;font-size:13px;color:var(--muted)">{{ "ajanta_052" | t(lang) | safe }}</p><h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:23px;margin:2px 0 0">{{ "ajanta_053" | t(lang) | safe }}</h3></div>
+</a>
+<a href="{{ "/explore/haveli" | lurl(lang) }}" class="card" style="display:flex;flex-direction:column;gap:14px">
+<div style="overflow:hidden;aspect-ratio:4/3;background:var(--sand)"><img src="/images/haveli.jpg" alt="{{ "ajanta_054" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div><p style="margin:0;font-size:13px;color:var(--muted)">{{ "ajanta_055" | t(lang) | safe }}</p><h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:23px;margin:2px 0 0">{{ "ajanta_056" | t(lang) | safe }}</h3></div>
+</a>
+<a href="{{ "/explore/dholavira-bazaar" | lurl(lang) }}" class="card" style="display:flex;flex-direction:column;gap:14px">
+<div style="overflow:hidden;aspect-ratio:4/3;background:var(--sand)"><img src="/images/dholavira-bazaar.jpg" alt="{{ "ajanta_057" | t(lang) | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div><p style="margin:0;font-size:13px;color:var(--muted)">{{ "ajanta_058" | t(lang) | safe }}</p><h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:23px;margin:2px 0 0">{{ "ajanta_059" | t(lang) | safe }}</h3></div>
+</a>
+</div>
+</div>
+</section>
+
+<section aria-label="{{ "ajanta_060" | t(lang) | safe }}" style="background:var(--sand);padding:clamp(30px,3.33vw,48px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:24px 56px;align-items:center;justify-content:space-between">
+<div style="display:flex;flex-direction:column;gap:8px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "ajanta_061" | t(lang) | safe }}</p>
+<p style="margin:0;font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px">{{ "ajanta_062" | t(lang) | safe }}</p>
+</div>
+<div style="display:flex;gap:14px;flex-wrap:wrap">
+<a href="{{ "/timeline#era-05" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;border:1px solid var(--ink);color:var(--ink)">{{ "ajanta_063" | t(lang) | safe }}</a>
+<a href="{{ "/visit#tickets" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--accent);color:var(--white)">{{ "ajanta_064" | t(lang) | safe }}</a>
+</div>
+</div>
+</section>

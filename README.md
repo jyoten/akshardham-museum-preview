@@ -1,3 +1,23 @@
+# Akshardham Museum – website (v5)
+
+From v5 the site is built with **Eleventy** from templates and text files, into plain static files in `_site/` (any static host, including GitHub Pages, can serve it).
+
+```
+npm install          # once
+npm run dev          # build + live preview at http://localhost:8090 (rebuilds on save)
+npm run build        # build the site into _site/
+npm run cms          # local helper so /admin/ can save files without signing in
+npm run translations # what still needs Gujarati / Hindi translation
+npm run cms-config   # regenerate the admin setup after adding text
+```
+
+- **Languages**: English at `/`, Gujarati at `/gu/`, Hindi at `/hi/`. All visible text is in `src/content/<lang>/<page>.json`. An empty Gujarati or Hindi string falls back to English.
+- **Templates**: `src/**/index.njk` (one per page), the shared header and footer in `src/_includes/partials/`, and the page shell in `src/_includes/layouts/base.njk`.
+- **Hours and notices**: `src/data/site-status.json`, read by `src/js/status.js` in the browser. Admins edit it in `/admin/`; see **ADMIN.md**.
+- `scripts/convert-v4.py` was the one-off script that turned the v4 pages into these templates. It's kept for reference.
+
+---
+
 # Akshardham Museum – static site
 
 Plain HTML/CSS/JS extracted from the design-tool export `../Akshardham Museum Website.html`. There's no build step.

@@ -1,0 +1,38 @@
+[
+ {
+  "href": "/explore",
+  "key": "explore",
+  "label": "common_006",
+  "extra": ""
+ },
+ {
+  "href": "/timeline",
+  "key": "timeline",
+  "label": "common_007",
+  "extra": ""
+ },
+ {
+  "href": "/visit",
+  "key": "visit",
+  "label": "common_008",
+  "extra": ""
+ },
+ {
+  "href": "/learn",
+  "key": "learn",
+  "label": "common_009",
+  "extra": ""
+ },
+ {
+  "href": "/support",
+  "key": "support",
+  "label": "common_010",
+  "extra": ""
+ },
+ {
+  "href": "#",
+  "key": "#",
+  "label": "common_011",
+  "extra": "class=\"todo-link\" data-todo=\"Shop (no page in the design)\""
+ }
+]

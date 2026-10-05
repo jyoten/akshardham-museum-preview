@@ -1,0 +1,68 @@
+{
+ "sample_hours": true,
+ "timezone": "America/New_York",
+ "regular_hours": {
+  "monday": {
+   "closed": true,
+   "opens": "",
+   "closes": ""
+  },
+  "tuesday": {
+   "closed": false,
+   "opens": "09:30",
+   "closes": "18:00"
+  },
+  "wednesday": {
+   "closed": false,
+   "opens": "09:30",
+   "closes": "18:00"
+  },
+  "thursday": {
+   "closed": false,
+   "opens": "09:30",
+   "closes": "18:00"
+  },
+  "friday": {
+   "closed": false,
+   "opens": "09:30",
+   "closes": "20:00"
+  },
+  "saturday": {
+   "closed": false,
+   "opens": "09:00",
+   "closes": "19:00"
+  },
+  "sunday": {
+   "closed": false,
+   "opens": "09:00",
+   "closes": "19:00"
+  }
+ },
+ "special_dates": [
+  {
+   "date": "2026-11-26",
+   "closed": true,
+   "opens": "",
+   "closes": "",
+   "note_en": "Closed for Thanksgiving",
+   "note_gu": "",
+   "note_hi": ""
+  }
+ ],
+ "notices": [
+  {
+   "id": "sample-weather-closure",
+   "active": false,
+   "type": "closure",
+   "starts": "",
+   "ends": "",
+   "message_en": "The museum is closed today due to severe weather. We hope to see you soon.",
+   "message_gu": "",
+   "message_hi": "",
+   "link_url": "/visit/",
+   "link_label_en": "Plan another day",
+   "link_label_gu": "",
+   "link_label_hi": ""
+  }
+ ]
+}

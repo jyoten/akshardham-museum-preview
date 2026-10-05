@@ -1,0 +1,21 @@
+<header style="{{ headerStyle }}">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;align-items:center;justify-content:space-between;gap:24px;padding-top:22px;padding-bottom:22px">
+<a href="{{ "/" | lurl(lang) }}" style="display:flex;flex-direction:column;gap:4px;text-decoration:none;color:var(--cream)" aria-label="{{ "common_001" | t(lang) | safe }}">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:26px;letter-spacing:.16em;line-height:1">{{ "common_002" | t(lang) | safe }}</span>
+<span style="font-size:10.5px;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)">{{ "common_003" | t(lang) | safe }}</span>
+</a>
+<nav aria-label="Main" class="nl hide-sm" style="display:flex;gap:34px;font-size:15px;font-weight:500">{% for item in nav %}<a href="{% if item.href.startsWith("/") %}{{ item.href | lurl(lang) }}{% else %}{{ item.href }}{% endif %}"{% if item.key == navKey %} aria-current="page" style="border-bottom-color:var(--gold)"{% endif %}{% if item.extra %} {{ item.extra | safe }}{% endif %}>{{ item.label | t(lang) | safe }}</a>{% endfor %}</nav>
+<div style="display:flex;align-items:center;gap:18px">
+<nav aria-label="Language" class="lang hide-sm">
+<button type="button" class="lang-btn" aria-expanded="false" aria-controls="lang-menu"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3c2.5 2.5 3.8 5.5 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.5-3.8-9S9.5 5.5 12 3z"></path></svg><span>{{ languages[lang].short }}</span><svg class="lang-caret" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 9l6 6 6-6"></path></svg><span class="visually-hidden">{{ "ui_choose_language" | t(lang) }}</span></button>
+<ul id="lang-menu" class="lang-menu" hidden>
+{% for code in langs %}<li><a href="{{ path | lurl(code) }}" lang="{{ code }}" hreflang="{{ code }}"{% if code == lang %} aria-current="true"{% endif %}{% if languages[code].font %} style="font-family:{{ languages[code].font | safe }}"{% endif %}>{{ languages[code].name }}</a></li>
+{% endfor %}</ul>
+</nav>
+<a href="{{ "/visit#tickets" | lurl(lang) }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--accent);color:var(--white);min-height:44px;padding:0 20px;font-size:14px">{{ "common_004" | t(lang) | safe }}</a>
+<button type="button" class="show-sm" aria-label="{{ "common_005" | t(lang) | safe }}" style="width:44px;height:44px;align-items:center;justify-content:center;background:transparent;border:1px solid rgba(247,244,239,.4);color:var(--cream);border-radius:2px">
+<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16"></path><path d="M4 12h16"></path><path d="M4 17h16"></path></svg>
+</button>
+</div>
+</div>
+</header>
