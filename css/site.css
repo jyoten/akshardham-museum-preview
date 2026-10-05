@@ -1,0 +1,101 @@
+/* Akshardham Museum - shared styles.
+   Page layout lives in inline styles carried over from the design; this file holds the
+   palette, shared component rules and the responsive overrides. */
+
+:root {
+  --cream: #F7F4EF;
+  --ink: #1C1410;
+  --muted: #5E5148;
+  --accent: #A84A14;
+  --accent-dark: #7A3410;
+  --gold: #E3A869;
+  --peach: #F0C9A0;
+  --night: #120D0A;
+  --umber: #3A2E25;
+  --umber-2: #4A3C31;
+  --sand: #EFE7DA;
+  --tint: #DCCFBD;
+  --line: #D5C7B4;
+  --line-strong: #C9B9A3;
+  --line-soft: #E0D5C6;
+  --stone: #D9CFC3;
+  --white: #FFFFFF;
+  --font-display: 'Marcellus', 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Instrument Sans', 'Helvetica Neue', system-ui, sans-serif;
+}
+
+body { margin: 0; background: var(--cream); }
+a { color: var(--accent); }
+a:hover { color: var(--accent-dark); }
+img { max-width: 100%; }
+
+.nl a { color: inherit; text-decoration: none; padding: 6px 0; border-bottom: 1px solid transparent; }
+.nl a:hover { border-bottom-color: currentColor; color: inherit; }
+.card { color: inherit; text-decoration: none; }
+.card:hover { color: inherit; }
+.card img { transition: transform .6s ease; }
+.card:hover img { transform: scale(1.03); }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; }
+
+/* Content still to be supplied. Search the HTML for class="todo". */
+mark.todo { background: #FFE58A; color: #1C1410; padding: 0 .2em; border-radius: 2px; font: inherit; }
+/* Links whose destination doesn't exist yet (data-todo says what's missing). */
+a.todo-link { cursor: help; }
+
+/* ---------- Timeline era picker ---------- */
+.era-btn {
+  display: flex; flex-direction: column; gap: 6px; align-items: flex-start; text-align: left;
+  min-width: 150px; min-height: 96px; padding: 22px 22px 20px; background: transparent; color: var(--cream);
+  border: 0; border-top: 3px solid transparent; border-right: 1px solid var(--umber); cursor: pointer; font: inherit;
+}
+.era-btn[aria-pressed="true"] { background: var(--cream); color: var(--ink); border-top-color: var(--accent); border-right: 0; }
+.era-btn-dates { font-size: 12px; letter-spacing: .08em; opacity: .85; }
+.era-btn-name { font-family: var(--font-display); font-weight: 400; font-size: 19px; line-height: 1.15; }
+
+/* ---------- Mobile menu (built by js/site.js) ---------- */
+.show-sm { display: none; }
+.mobile-menu { display: none; }
+
+@media (max-width: 1024px) {
+  .hide-sm { display: none !important; }
+  .show-sm { display: inline-flex; }
+  .stagger { margin-top: 0 !important; }
+  section[aria-label="Welcome"] { min-height: 720px !important; padding-top: 150px; }
+
+  header.menu-open { z-index: 20 !important; }
+  header.menu-open .mobile-menu { display: block; }
+  .mobile-menu {
+    background: var(--ink); color: var(--cream); border-top: 1px solid var(--umber);
+    padding: 8px clamp(20px, 4vw, 56px) 24px;
+  }
+  .mobile-menu nav { display: flex; flex-direction: column; }
+  .mobile-menu nav a {
+    color: inherit; text-decoration: none; font-size: 20px; padding: 14px 0;
+    border-bottom: 1px solid var(--umber);
+  }
+  .mobile-menu .mobile-lang { flex-direction: row; gap: 20px; padding-top: 12px; }
+  .mobile-menu .mobile-lang a { border: 0; font-size: 16px; }
+}
+
+/* Tablet: the big two-column splits (text beside image, etc.) stack.
+   Layout is in inline styles, so these match on the style attribute. */
+@media (max-width: 1024px) {
+  [style*="minmax(min(380px"], [style*="minmax(min(420px"], [style*="minmax(min(440px"],
+  [style*="minmax(min(460px"], [style*="minmax(min(480px"], [style*="minmax(0,2fr) minmax(0,3fr)"] {
+    grid-template-columns: minmax(0, 1fr) !important;
+  }
+}
+
+/* Phone: every card grid becomes a single column. */
+@media (max-width: 640px) {
+  [style*="repeat(auto-fit"] { grid-template-columns: minmax(0, 1fr) !important; }
+  /* sponsor rows: thumbnail + text, amount wraps underneath */
+  [style*="grid-template-columns:96px"] { grid-template-columns: 72px minmax(0, 1fr) !important; }
+  #era-see .card { grid-template-columns: 110px minmax(0, 1fr) !important; }
+  /* the header CTA would crowd the logo; it lives in the menu instead */
+  header > div a[href$="#tickets"] { display: none !important; }
+  section[aria-label="Welcome"] { min-height: 0 !important; padding-top: 150px; }
+  [style*="text-align:right"] { text-align: left !important; }
+  [style*="flex:1 1 320px"] { flex-basis: 100% !important; min-width: 0; }
+  input { min-width: 0; }
+}
