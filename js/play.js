@@ -149,9 +149,9 @@
     frame.classList.add('hotspot-wrap');
     frame.style.overflow = 'visible';
     var spots = [
-      { x: 50, y: 14 }, // ribbed ceiling
-      { x: 50, y: 62 }, // stupa
-      { x: 15, y: 70 }  // pillars
+      { x: 50, y: 10 }, // ribbed ceiling
+      { x: 50, y: 71 }, // stupa
+      { x: 15, y: 80 }  // pillars
     ];
     var items = $$('li', lookList);
     var note = null;
@@ -215,28 +215,76 @@
     var bar = document.createElement('div');
     bar.className = 'read-progress';
     document.body.appendChild(bar);
-    // sticky chapter nav
-    var heads = $$('h2[id^="ch"]', article);
-    var nav = document.createElement('nav');
-    nav.className = 'chapter-nav';
-    nav.setAttribute('aria-label', 'Chapters');
-    nav.innerHTML = '<ol>' + heads.map(function (h, i) {
-      return '<li><a href="#' + h.id + '"><span>0' + (i + 1) + '</span>' + h.textContent + '</a></li>';
-    }).join('') + '</ol>';
-    article.parentNode.insertBefore(nav, article);
-    var links = $$('a', nav);
-    var update = function () {
+    var progress = function () {
       var max = document.documentElement.scrollHeight - window.innerHeight;
-      var p = max > 0 ? Math.min(1, window.scrollY / max) : 0;
-      bar.style.transform = 'scaleX(' + p + ')';
-      var line = (parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) || 80) + 120;
-      var cur = 0;
-      heads.forEach(function (h, i) { if (h.getBoundingClientRect().top < line) cur = i; });
-      links.forEach(function (a, i) { a.setAttribute('aria-current', String(i === cur)); });
+      bar.style.transform = 'scaleX(' + (max > 0 ? Math.min(1, window.scrollY / max) : 0) + ')';
     };
-    window.addEventListener('scroll', update, { passive: true });
-    window.addEventListener('resize', update);
-    update();
+    window.addEventListener('scroll', progress, { passive: true });
+    window.addEventListener('resize', progress);
+
+    // Chapters as chTabs: one chapter at a time, with previous / next at the bottom.
+    var chapters = $$('section[aria-labelledby^="ch"]', article);
+    var heads = chapters.map(function (c) { return c.querySelector('h2'); });
+    var nav = document.createElement('nav');
+    nav.className = 'chapter-nav tabbar';
+    nav.setAttribute('aria-label', 'Chapters');
+    var chList = document.createElement('div');
+    chList.setAttribute('role', 'tablist');
+    nav.appendChild(chList);
+    var chTabs = heads.map(function (h, i) {
+      var t = document.createElement('button');
+      t.type = 'button';
+      t.className = 'tab';
+      t.id = 'tab-' + h.id;
+      t.setAttribute('role', 'tab');
+      t.setAttribute('aria-controls', 'panel-' + h.id);
+      t.innerHTML = '<span>0' + (i + 1) + '</span>' + h.textContent;
+      chList.appendChild(t);
+      return t;
+    });
+    article.parentNode.insertBefore(nav, article);
+    var showChapter = function (i, scroll) {
+      chapters.forEach(function (c, j) {
+        c.hidden = i !== j;
+        chTabs[j].setAttribute('aria-selected', String(i === j));
+        chTabs[j].tabIndex = i === j ? 0 : -1;
+      });
+      chapters[i].classList.remove('panel-in'); void chapters[i].offsetWidth; chapters[i].classList.add('panel-in');
+      if (scroll) {
+        var top = nav.getBoundingClientRect().top + window.scrollY - (header ? header.getBoundingClientRect().height : 0);
+        window.scrollTo({ top: top, behavior: reduce ? 'auto' : 'smooth' });
+      }
+      progress();
+    };
+    chapters.forEach(function (c, i) {
+      c.id = 'panel-' + heads[i].id;
+      c.setAttribute('role', 'tabpanel');
+      c.setAttribute('aria-labelledby', chTabs[i].id);
+      var chSteps = document.createElement('div');
+      chSteps.className = 'chapter-steps';
+      if (i > 0) chSteps.innerHTML += '<button type="button" class="prev">← ' + heads[i - 1].textContent + '</button>';
+      if (i < chapters.length - 1) chSteps.innerHTML += '<button type="button" class="next">Next: ' + heads[i + 1].textContent + ' →</button>';
+      c.appendChild(chSteps);
+      chSteps.addEventListener('click', function (e) {
+        var b = e.target.closest('button');
+        if (b) showChapter(i + (b.classList.contains('next') ? 1 : -1), true);
+      });
+      chTabs[i].addEventListener('click', function () { showChapter(i, false); });
+      chTabs[i].addEventListener('keydown', function (e) {
+        var k = { ArrowRight: i + 1, ArrowLeft: i - 1, Home: 0, End: chTabs.length - 1 }[e.key];
+        if (k === undefined) return;
+        e.preventDefault();
+        k = (k + chTabs.length) % chTabs.length;
+        chTabs[k].focus();
+        showChapter(k, false);
+      });
+    });
+    var fromHash = function () {
+      var h = heads.findIndex(function (x) { return '#' + x.id === location.hash; });
+      return h < 0 ? 0 : h;
+    };
+    showChapter(fromHash(), false);
+    window.addEventListener('hashchange', function () { showChapter(fromHash(), true); });
   }
 
   /* ---------- Visit: ticket form, floor tabs, FAQ accordion ---------- */

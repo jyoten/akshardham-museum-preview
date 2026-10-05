@@ -37,6 +37,13 @@ Then visit http://localhost:8000. Python's server doesn't use `404.html`; real h
 - The idea-chip meanings on the home page (`data-meaning` in `index.html`) are draft copy. Please review.
 - `data/legacy-hall-sample.json` is **sample data**, not real sponsors. Replace it before launch.
 
+## Compact layout (iteration 3)
+`css/compact.css` and `js/compact.js` cut vertical scrolling:
+- On phones, card groups become swipe rows, and short items sit two to a row.
+- On the Visit page, First visit, Accessibility & getting here, and Questions are tabs.
+- Section padding, gaps, hero heights and image ratios are tightened in the HTML.
+- In `js/play.js`, the Ajanta chapters are tabs with previous/next buttons.
+
 ## Still to do
 - Placeholder content is wrapped in `<mark class="todo">` (highlighted yellow). Search for `class="todo"`.
 - Links with no destination yet have `class="todo-link"` and a `data-todo` note. Many other links are plain `href="#"`.

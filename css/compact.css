@@ -1,0 +1,81 @@
+/* Iteration 3: less vertical scrolling. Swipe rows and 2-column grids on phones,
+   tabbed secondary content (built by js/compact.js). */
+
+/* ---------- Tabs (Visit "Good to know", Ajanta chapters) ---------- */
+.tabbar { background: var(--cream); border-bottom: 1px solid var(--line); position: relative; z-index: 2; }
+.tabbar [role="tablist"] {
+  max-width: 1280px; margin: 0 auto; padding: 0 clamp(20px, 4vw, 56px); box-sizing: border-box;
+  display: flex; gap: 8px 28px; overflow-x: auto; scrollbar-width: none;
+}
+.tabbar [role="tablist"]::-webkit-scrollbar { display: none; }
+.tabbar-title { max-width: 1280px; margin: 0 auto; padding: clamp(36px, 4vw, 56px) clamp(20px, 4vw, 56px) 8px; box-sizing: border-box; }
+.tabbar-title p { margin: 0; font-size: 12px; font-weight: 600; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
+.tab {
+  font: inherit; font-size: 16px; font-weight: 600; color: var(--muted); background: none; border: 0;
+  border-bottom: 3px solid transparent; padding: 16px 0 13px; cursor: pointer; white-space: nowrap;
+  transition: color .25s ease, border-color .25s ease;
+}
+.tab:hover { color: var(--ink); }
+.tab[aria-selected="true"] { color: var(--ink); border-bottom-color: var(--accent); }
+.tab span { color: var(--accent); margin-right: 6px; font-weight: 500; }
+[role="tabpanel"][hidden] { display: none !important; }
+[role="tabpanel"].panel-in { animation: panel-in .45s cubic-bezier(.22, .8, .24, 1); }
+@keyframes panel-in { from { opacity: 0; transform: translateY(10px); } }
+
+/* Ajanta: the chapter bar is a tab list now, so it doesn't need to stick. */
+.chapter-nav.tabbar { position: relative; top: auto; background: transparent; border-bottom: 1px solid var(--line); }
+.chapter-steps { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-top: 1px solid var(--line); padding-top: 20px; margin-top: 36px; }
+.chapter-steps button {
+  font: inherit; font-size: 15px; font-weight: 600; background: none; border: 1px solid var(--ink); color: var(--ink);
+  min-height: 46px; padding: 0 22px; cursor: pointer; border-radius: 2px;
+}
+.chapter-steps button.next { background: var(--ink); color: var(--cream); margin-left: auto; }
+
+/* ---------- Phones ---------- */
+@media (max-width: 640px) {
+  /* Card groups become a swipeable row: the next card peeks in from the right. */
+  .snap-row {
+    display: flex !important; overflow-x: auto; scroll-snap-type: x mandatory; gap: 14px !important;
+    margin-right: calc(-1 * clamp(20px, 4vw, 56px)); padding-right: clamp(20px, 4vw, 56px); padding-bottom: 6px;
+    scrollbar-width: none; -webkit-overflow-scrolling: touch;
+  }
+  .snap-row::-webkit-scrollbar { display: none; }
+  .snap-row > * { flex: 0 0 82%; scroll-snap-align: start; min-width: 0; }
+  .snap-dots { display: flex; justify-content: center; gap: 8px; margin-top: 12px; }
+  .snap-dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--line-strong); transition: background-color .25s ease, transform .25s ease; }
+  .snap-dots span.on { background: var(--accent); transform: scale(1.25); }
+  .snap-row.on-dark + .snap-dots span { background: var(--umber); }
+  .snap-row.on-dark + .snap-dots span.on { background: var(--gold); }
+
+  /* Short items sit two to a row instead of one. */
+  section[aria-label="Today at the museum"] [style*="repeat(auto-fit"],
+  section[aria-label="Key facts"] [style*="repeat(auto-fit"],
+  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"],
+  section[aria-labelledby="g-h"] [style*="repeat(auto-fit"],
+  section[aria-labelledby="v-h"] [style*="repeat(auto-fit"],
+  form [style*="repeat(auto-fit"] {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+  section[aria-label="Key facts"] dl[style*="repeat(auto-fit"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; }
+  section[aria-label="The museum in numbers"] [style*="font-size:clamp(44px"] { font-size: 38px !important; }
+  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"] > :last-child { grid-column: 1 / -1; }
+
+  /* Footer: the two link lists side by side, everything else full width. */
+  footer [style*="repeat(auto-fit"] { grid-template-columns: repeat(2, minmax(0, 1fr)) !important; gap: 28px 20px !important; }
+  footer [style*="repeat(auto-fit"] > :not(nav) { grid-column: 1 / -1; }
+
+  /* Learn cards were image-beside-text; in a swipe row stack them. */
+  section[aria-labelledby="learn-h"] .snap-row .card { grid-template-columns: minmax(0, 1fr) !important; }
+  section[aria-labelledby="learn-h"] .snap-row .card > div:first-child { aspect-ratio: 16 / 10; }
+
+  .tab { font-size: 15px; }
+}
+
+/* ---------- Visit ticket form: wider, shorter ---------- */
+@media (min-width: 641px) {
+  form[data-demo-form] fieldset:first-of-type [style*="grid-template-columns"] { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+  form[data-demo-form] fieldset:nth-of-type(2) { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; }
+}
+
+/* Anchor jumps (/visit#tickets, #getting-here …) stop below the sticky header. */
+[id] { scroll-margin-top: calc(var(--header-h, 72px) + 16px); }

@@ -8,11 +8,12 @@
 <link rel="stylesheet" href="/css/fonts.css">
 <link rel="stylesheet" href="/css/site.css">
 <link rel="stylesheet" href="/css/play.css">
+<link rel="stylesheet" href="/css/compact.css">
 </head>
 <body>
 <div style="font-family:'Instrument Sans','Helvetica Neue',system-ui,sans-serif;color:var(--ink);background:var(--cream);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased">
 
-<section aria-label="Welcome" style="position:relative;min-height:860px;display:flex;flex-direction:column;justify-content:flex-end;color:var(--cream);background:var(--night);overflow:hidden">
+<section aria-label="Welcome" style="position:relative;min-height:min(80vh,720px);display:flex;flex-direction:column;justify-content:flex-end;color:var(--cream);background:var(--night);overflow:hidden">
 <img src="/images/rani-ki-vav.jpg" alt="The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 62%">
 <div aria-hidden="true" style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(18,13,10,.72) 0%,rgba(18,13,10,.05) 26%,rgba(18,13,10,.1) 50%,rgba(18,13,10,.9) 100%)"></div>
 <header style="position:absolute;top:0;left:0;right:0;z-index:3;color:var(--cream)">
@@ -35,7 +36,7 @@
 </div>
 </div>
 </header>
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;z-index:1;padding-bottom:72px;display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;justify-content:space-between">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;z-index:1;padding-bottom:clamp(30px,3.33vw,48px);display:flex;flex-wrap:wrap;gap:32px;align-items:flex-end;justify-content:space-between">
 <div style="max-width:880px;display:flex;flex-direction:column;gap:28px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">The largest Hindu museum in the Western Hemisphere</p>
 <h1 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(48px,6.6vw,100px);line-height:1;margin:0;letter-spacing:-.005em;text-wrap:balance">Ten thousand years of India, under one roof.</h1>
@@ -57,8 +58,8 @@
 </div>
 </section>
 
-<section id="about" aria-labelledby="story-h" style="padding:136px 0 120px">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:64px 96px;align-items:start">
+<section id="about" aria-labelledby="story-h" style="padding:clamp(50px,5.56vw,80px) 0 clamp(45px,5.00vw,72px)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:38px 96px;align-items:start">
 <div style="display:flex;flex-direction:column;gap:28px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">Telling our story, our way</p>
 <h2 id="story-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.2vw,58px);line-height:1.08;margin:0;text-wrap:balance">If we do not tell our story, others will tell it for us.</h2>
@@ -81,7 +82,7 @@
 </section>
 
 <section aria-labelledby="exp-h" style="padding:0 0 144px">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:56px">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
 <div style="display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap">
 <div style="display:flex;flex-direction:column;gap:16px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">Explore the museum</p>
@@ -91,15 +92,15 @@
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:40px 28px;align-items:start">
 <a href="/ajanta" class="card" style="display:flex;flex-direction:column;gap:18px">
-<div style="overflow:hidden;aspect-ratio:4/5;background:var(--sand)"><img src="/images/scholars-diorama.jpg" alt="Life-size statues of ancient scholars in a diorama of a teaching hall" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="overflow:hidden;aspect-ratio:5/4;background:var(--sand)"><img src="/images/scholars-diorama.jpg" alt="Life-size statues of ancient scholars in a diorama of a teaching hall" style="width:100%;height:100%;object-fit:cover;display:block"></div>
 <div style="display:flex;flex-direction:column;gap:8px">
 <span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">01</span>
 <h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;line-height:1.15;margin:0">Lifelike Scenes &amp; Statues</h3>
 <p style="margin:0;color:var(--muted);font-size:16px;text-wrap:pretty">Walk among life-sized rishis, acharyas and leaders in full-scale scenes of India’s past.</p>
 </div>
 </a>
-<a href="/ajanta" class="card stagger" style="margin-top:72px;display:flex;flex-direction:column;gap:18px">
-<div style="overflow:hidden;aspect-ratio:4/5;background:var(--sand)"><img src="/images/sandstone-temple-facade.jpg" alt="Replica of an intricately carved sandstone temple facade" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<a href="/ajanta" class="card stagger" style="margin-top:44px;display:flex;flex-direction:column;gap:18px">
+<div style="overflow:hidden;aspect-ratio:5/4;background:var(--sand)"><img src="/images/sandstone-temple-facade.jpg" alt="Replica of an intricately carved sandstone temple facade" style="width:100%;height:100%;object-fit:cover;display:block"></div>
 <div style="display:flex;flex-direction:column;gap:8px">
 <span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">02</span>
 <h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;line-height:1.15;margin:0">Legacy Architecture</h3>
@@ -107,15 +108,15 @@
 </div>
 </a>
 <a href="/ajanta" class="card" style="display:flex;flex-direction:column;gap:18px">
-<div style="overflow:hidden;aspect-ratio:4/5;background:var(--sand)"><img src="/images/sage-scripture-panels.jpg" alt="Bronze statue of a seated sage before tall blue panels of scripture" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="overflow:hidden;aspect-ratio:5/4;background:var(--sand)"><img src="/images/sage-scripture-panels.jpg" alt="Bronze statue of a seated sage before tall blue panels of scripture" style="width:100%;height:100%;object-fit:cover;display:block"></div>
 <div style="display:flex;flex-direction:column;gap:8px">
 <span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">03</span>
 <h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;line-height:1.15;margin:0">Walking into Scripture</h3>
 <p style="margin:0;color:var(--muted);font-size:16px;text-wrap:pretty">Yoga, karma, ahimsa and bhakti, and the shared roots of India’s dharmic traditions.</p>
 </div>
 </a>
-<a href="/ajanta" class="card stagger" style="margin-top:72px;display:flex;flex-direction:column;gap:18px">
-<div style="overflow:hidden;aspect-ratio:4/5;background:var(--sand)"><img src="/images/festival-street.jpg" alt="Visitors walking through a colourful festival street scene" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<a href="/ajanta" class="card stagger" style="margin-top:44px;display:flex;flex-direction:column;gap:18px">
+<div style="overflow:hidden;aspect-ratio:5/4;background:var(--sand)"><img src="/images/festival-street.jpg" alt="Visitors walking through a colourful festival street scene" style="width:100%;height:100%;object-fit:cover;display:block"></div>
 <div style="display:flex;flex-direction:column;gap:8px">
 <span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">04</span>
 <h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;line-height:1.15;margin:0">A Living Tapestry</h3>
@@ -126,10 +127,10 @@
 </div>
 </section>
 
-<section aria-label="The museum in numbers" style="background:#5C1A14;color:var(--cream);padding:104px 0">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:56px">
+<section aria-label="The museum in numbers" style="background:#5C1A14;color:var(--cream);padding:clamp(40px,4.44vw,64px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
 <h2 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(30px,3vw,42px);line-height:1.15;margin:0;max-width:760px">One building. Every era, region and art form we could carry.</h2>
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(170px,100%),1fr));gap:40px 32px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:40px 32px">
 <div style="display:flex;flex-direction:column;gap:6px;border-top:1px solid rgba(240,201,160,.35);padding-top:20px">
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(44px,5vw,64px);line-height:1;color:var(--cream)">3</span>
 <span style="font-size:14px;letter-spacing:.06em;color:var(--peach)">Floors</span>
@@ -153,9 +154,9 @@
 </div>
 </section>
 
-<section aria-labelledby="feat-h" style="padding:144px 0">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(480px,100%),1fr));gap:56px 88px;align-items:center">
-<a href="/ajanta" class="card" style="display:block;overflow:hidden;aspect-ratio:5/6;background:var(--sand)"><img src="/images/ajanta-prayer-hall.jpg" alt="Replica of an Ajanta prayer hall, with a ribbed vaulted ceiling, carved pillars and a stupa at the far end" style="width:100%;height:100%;object-fit:cover;display:block"></a>
+<section aria-labelledby="feat-h" style="padding:clamp(50px,5.56vw,80px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(480px,100%),1fr));gap:34px 88px;align-items:center">
+<a href="/ajanta" class="card" style="display:block;overflow:hidden;aspect-ratio:1/1;background:var(--sand)"><img src="/images/ajanta-prayer-hall.jpg" alt="Replica of an Ajanta prayer hall, with a ribbed vaulted ceiling, carved pillars and a stupa at the far end" style="width:100%;height:100%;object-fit:cover;display:block"></a>
 <div style="display:flex;flex-direction:column;gap:28px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">Featured replica</p>
 <h2 id="feat-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(40px,4.6vw,64px);line-height:1.02;margin:0">The Ajanta Caves</h2>
@@ -169,48 +170,48 @@
 </div>
 </section>
 
-<section aria-labelledby="tl-h" style="background:var(--night);color:var(--cream);padding:128px 0">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:56px 96px;align-items:center">
+<section aria-labelledby="tl-h" style="background:var(--night);color:var(--cream);padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:34px 96px;align-items:center">
 <div style="display:flex;flex-direction:column;gap:28px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">The 10,000-year timeline</p>
 <h2 id="tl-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(38px,4.2vw,58px);line-height:1.05;margin:0">Walk the whole story, from first villages to today.</h2>
 <p style="margin:0;font-size:18px;color:var(--stone);max-width:520px">Every era links to the galleries where you can see it for yourself.</p>
-<ol style="list-style:none;margin:8px 0 0;padding:0;max-width:560px"><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-01" class="tl-link">
+<ol style="list-style:none;margin:8px 0 0;padding:0;max-width:560px"><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-01" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 7000 BCE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">First villages</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-02" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-02" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 3300 BCE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">Indus–Sarasvati cities</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-03" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-03" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 1500 BCE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">The Vedic age</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-04" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-04" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 600 BCE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">Seers &amp; science</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-05" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-05" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 200 BCE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">The classical age</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-06" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-06" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 600 CE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">Temple builders</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-07" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-07" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">c. 600 CE</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">Bhakti</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-08" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-08" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">1781</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">Bhagwan Swaminarayan</span>
-</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:12px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-09" class="tl-link">
+</a></li><li class="tl-row" style="display:flex;gap:18px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--umber)"><a href="/timeline#era-09" class="tl-link">
 <span style="flex:0 0 110px;font-size:13px;color:var(--gold);letter-spacing:.04em">Today</span>
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:21px;color:var(--cream)">A global family</span>
 </a></li></ol>
 <a href="/timeline" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--gold)">Explore the timeline<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
 </div>
-<div style="overflow:hidden;aspect-ratio:3/4;max-height:820px;background:#2A211B"><img src="/images/timeline-corridor.jpg" alt="A long curved gallery corridor lined with timeline panels" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="overflow:hidden;aspect-ratio:4/5;max-height:600px;background:#2A211B"><img src="/images/timeline-corridor.jpg" alt="A long curved gallery corridor lined with timeline panels" style="width:100%;height:100%;object-fit:cover;display:block"></div>
 </div>
 </section>
 
-<section id="learn" aria-labelledby="learn-h" style="background:var(--sand);padding:136px 0">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:56px">
+<section id="learn" aria-labelledby="learn-h" style="background:var(--sand);padding:clamp(50px,5.56vw,80px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
 <div style="display:flex;flex-direction:column;gap:16px;max-width:720px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">Learn</p>
 <h2 id="learn-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">A classroom where our heritage is the main story</h2>
@@ -246,8 +247,8 @@
 </div>
 </section>
 
-<section aria-labelledby="voices-h" style="padding:136px 0">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:56px">
+<section aria-labelledby="voices-h" style="padding:clamp(50px,5.56vw,80px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:34px">
 <div style="display:flex;flex-direction:column;gap:16px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">Visitor voices</p>
 <h2 id="voices-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">Why people come</h2>
@@ -269,7 +270,7 @@
 </div>
 </section>
 
-<section aria-labelledby="mem-h" style="background:var(--accent);color:var(--white);padding:88px 0">
+<section aria-labelledby="mem-h" style="background:var(--accent);color:var(--white);padding:clamp(35px,3.89vw,56px) 0">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center;justify-content:space-between">
 <div style="display:flex;flex-direction:column;gap:14px;max-width:680px">
 <h2 id="mem-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.4vw,46px);line-height:1.1;margin:0">Make it yours. Become a member.</h2>
@@ -281,9 +282,9 @@
 </div>
 </div>
 </section>
-<footer style="background:var(--night);color:var(--stone);padding:96px 0 40px">
-<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:72px">
-<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:48px">
+<footer style="background:var(--night);color:var(--stone);padding:clamp(35px,3.89vw,56px) 0 40px">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:43px">
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:29px">
 <div style="display:flex;flex-direction:column;gap:14px">
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:26px;letter-spacing:.16em;color:var(--cream)">AKSHARDHAM</span>
 <span style="font-size:10.5px;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)">Museum</span>
@@ -319,5 +320,6 @@
 </x-dc>
 <script src="/js/site.js" defer></script>
 <script src="/js/play.js" defer></script>
+<script src="/js/compact.js" defer></script>
 </body>
 </html>
