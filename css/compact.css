@@ -124,5 +124,6 @@
 
 /* Stats band: "100,000+" needs a wider column than the other five numbers. */
 @media (min-width: 1025px) {
-  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"] { grid-template-columns: repeat(5, minmax(0, 1fr)) minmax(0, 1.8fr) !important; }
+  section[aria-label="The museum in numbers"] [style*="repeat(auto-fit"] { grid-template-columns: repeat(5, minmax(0, 1fr)) minmax(0, 2.4fr) !important; }
+  section[aria-label="The museum in numbers"] [style*="font-size:clamp(44px"] { font-size: clamp(44px, 3.9vw, 56px) !important; }
 }

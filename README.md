@@ -8,6 +8,8 @@ Each page is a folder with an `index.html`, so the URLs stay clean on any static
 | URL | File |
 | --- | --- |
 | `/` | `index.html` |
+| `/explore` | `explore/index.html` (Four ways into India, featured replica) |
+| `/learn` | `learn/index.html` (school visits, young explorers, ideas) |
 | `/ajanta` | `ajanta/index.html` |
 | `/timeline` (`/timeline#era-01` … `#era-09` opens an era) | `timeline/index.html` |
 | `/visit` | `visit/index.html` |
