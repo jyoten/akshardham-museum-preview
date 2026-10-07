@@ -140,8 +140,7 @@ collections:
           - { name: common_014, label: "Open today · [HOURS]", widget: text, required: true, hint: "Keep any <tags> as they are; they make links and highlights." }
           - { name: common_015, label: "Galleries", widget: string, required: true }
           - { name: common_016, label: "Architectural replicas", widget: string, required: true }
-          - { name: common_017, label: "Statues & luminaries", widget: string, required: true }
-          - { name: common_018, label: "Shows & films", widget: string, required: true }
+          - { name: common_017, label: "Lifelike Scenes & Statues", widget: string, required: true }
           - { name: common_019, label: "10,000-year timeline", widget: string, required: true }
           - { name: common_020, label: "Virtual tour", widget: string, required: true }
           - { name: common_021, label: "Visit and learn", widget: string, required: true }
@@ -149,8 +148,6 @@ collections:
           - { name: common_023, label: "Plan your visit", widget: string, required: true }
           - { name: common_024, label: "Tickets", widget: string, required: true }
           - { name: common_025, label: "Accessibility", widget: string, required: true }
-          - { name: common_026, label: "School visits", widget: string, required: true }
-          - { name: common_027, label: "For young explorers", widget: string, required: true }
           - { name: common_028, label: "Stay in touch", widget: string, required: true }
           - { name: common_029, label: "New exhibits, show schedules and member news, once a month.", widget: string, required: true }
           - { name: common_030, label: "Email address", widget: string, required: true }
@@ -1110,8 +1107,7 @@ collections:
           - { name: common_014, label: "Open today · [HOURS]", widget: text, required: false, hint: "English: Open today · [HOURS]  Keep any <tags> as they are; they make links and highlights." }
           - { name: common_015, label: "Galleries", widget: string, required: false, hint: "English: Galleries" }
           - { name: common_016, label: "Architectural replicas", widget: string, required: false, hint: "English: Architectural replicas" }
-          - { name: common_017, label: "Statues & luminaries", widget: string, required: false, hint: "English: Statues & luminaries" }
-          - { name: common_018, label: "Shows & films", widget: string, required: false, hint: "English: Shows & films" }
+          - { name: common_017, label: "Lifelike Scenes & Statues", widget: string, required: false, hint: "English: Lifelike Scenes & Statues" }
           - { name: common_019, label: "10,000-year timeline", widget: string, required: false, hint: "English: 10,000-year timeline" }
           - { name: common_020, label: "Virtual tour", widget: string, required: false, hint: "English: Virtual tour" }
           - { name: common_021, label: "Visit and learn", widget: string, required: false, hint: "English: Visit and learn" }
@@ -1119,8 +1115,6 @@ collections:
           - { name: common_023, label: "Plan your visit", widget: string, required: false, hint: "English: Plan your visit" }
           - { name: common_024, label: "Tickets", widget: string, required: false, hint: "English: Tickets" }
           - { name: common_025, label: "Accessibility", widget: string, required: false, hint: "English: Accessibility" }
-          - { name: common_026, label: "School visits", widget: string, required: false, hint: "English: School visits" }
-          - { name: common_027, label: "For young explorers", widget: string, required: false, hint: "English: For young explorers" }
           - { name: common_028, label: "Stay in touch", widget: string, required: false, hint: "English: Stay in touch" }
           - { name: common_029, label: "New exhibits, show schedules and member news, once a month.", widget: string, required: false, hint: "English: New exhibits, show schedules and member news, once a month." }
           - { name: common_030, label: "Email address", widget: string, required: false, hint: "English: Email address" }
@@ -2081,8 +2075,7 @@ collections:
           - { name: common_014, label: "Open today · [HOURS]", widget: text, required: false, hint: "English: Open today · [HOURS]  Keep any <tags> as they are; they make links and highlights." }
           - { name: common_015, label: "Galleries", widget: string, required: false, hint: "English: Galleries" }
           - { name: common_016, label: "Architectural replicas", widget: string, required: false, hint: "English: Architectural replicas" }
-          - { name: common_017, label: "Statues & luminaries", widget: string, required: false, hint: "English: Statues & luminaries" }
-          - { name: common_018, label: "Shows & films", widget: string, required: false, hint: "English: Shows & films" }
+          - { name: common_017, label: "Lifelike Scenes & Statues", widget: string, required: false, hint: "English: Lifelike Scenes & Statues" }
           - { name: common_019, label: "10,000-year timeline", widget: string, required: false, hint: "English: 10,000-year timeline" }
           - { name: common_020, label: "Virtual tour", widget: string, required: false, hint: "English: Virtual tour" }
           - { name: common_021, label: "Visit and learn", widget: string, required: false, hint: "English: Visit and learn" }
@@ -2090,8 +2083,6 @@ collections:
           - { name: common_023, label: "Plan your visit", widget: string, required: false, hint: "English: Plan your visit" }
           - { name: common_024, label: "Tickets", widget: string, required: false, hint: "English: Tickets" }
           - { name: common_025, label: "Accessibility", widget: string, required: false, hint: "English: Accessibility" }
-          - { name: common_026, label: "School visits", widget: string, required: false, hint: "English: School visits" }
-          - { name: common_027, label: "For young explorers", widget: string, required: false, hint: "English: For young explorers" }
           - { name: common_028, label: "Stay in touch", widget: string, required: false, hint: "English: Stay in touch" }
           - { name: common_029, label: "New exhibits, show schedules and member news, once a month.", widget: string, required: false, hint: "English: New exhibits, show schedules and member news, once a month." }
           - { name: common_030, label: "Email address", widget: string, required: false, hint: "English: Email address" }
