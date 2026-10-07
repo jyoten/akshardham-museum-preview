@@ -57,7 +57,7 @@ Cloudflare Worker as is, and can be wrapped for Netlify or Vercel functions.
 - **Session**: a signed cookie, `HttpOnly; Secure; SameSite=Strict; __Host-` prefix, valid 5 minutes and used once (cleared when the token page is sent).
 - **Hand-off**: the token page only answers a window on `ALLOWED_ORIGINS`, and only sends the token to that origin.
 - **Logging**: one line per event with fixed fields (event, provider, outcome, username on success). Request bodies, passwords, tokens and cookies are never logged; a test checks this.
-- Pages have a strict CSP with a per-response nonce, `frame-ancestors 'none'`, `no-store`, `no-referrer`.
+- Pages have a strict CSP with a per-response nonce, `frame-ancestors 'none'`, `no-store`, and `Referrer-Policy: same-origin` (not `no-referrer`, which makes browsers send `Origin: null` on the sign-in form and breaks the cross-site check).
 
 ### Secrets and settings
 

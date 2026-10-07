@@ -39,6 +39,8 @@ test("HTTPS responses send Strict-Transport-Security and other protective header
   assert.match(res.headers.get("strict-transport-security"), /max-age=\d{7,}/);
   assert.equal(res.headers.get("x-frame-options"), "DENY");
   assert.equal(res.headers.get("cache-control"), "no-store");
+  // no-referrer would make browsers send "Origin: null" on the sign-in POST, which the origin check refuses.
+  assert.equal(res.headers.get("referrer-policy"), "same-origin");
   assert.match(res.headers.get("content-security-policy"), /default-src 'none'.*frame-ancestors 'none'/);
   for (const path of ["/auth/login", "/nope", "/auth/done"]) {
     const r = await get(path, await env());

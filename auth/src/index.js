@@ -42,7 +42,9 @@ function respond(body, { status = 200, headers = {}, csp, secure = true } = {}) 
   h.set("Cache-Control", "no-store");
   h.set("X-Content-Type-Options", "nosniff");
   h.set("X-Frame-Options", "DENY");
-  h.set("Referrer-Policy", "no-referrer");
+  // "same-origin", not "no-referrer": with no-referrer, browsers send "Origin: null" on the form POST and the
+  // same-origin check below would refuse every real sign-in. Nothing is sent to other sites either way.
+  h.set("Referrer-Policy", "same-origin");
   h.set("Cross-Origin-Opener-Policy", "unsafe-none"); // the hand-off page must be able to reach window.opener
   if (csp) h.set("Content-Security-Policy", csp);
   if (typeof body === "string" && !h.has("Content-Type")) h.set("Content-Type", csp ? "text/html; charset=utf-8" : "text/plain; charset=utf-8");

@@ -56,6 +56,7 @@ test("CSRF: missing, mismatched or forged tokens and foreign origins are refused
   const forged = f.csrf.replace(/.$/, (c) => (c === "A" ? "B" : "A"));
   assert.equal((await login(e, { ...f, csrf: forged, cookie: `__Host-csrf=${forged}` })).status, 403, "bad signature");
   assert.equal((await login(e, { ...f, origin: "https://evil.example" })).status, 403, "cross-site post");
+  assert.equal((await login(e, { ...f, origin: "null" })).status, 403, "opaque origin");
 });
 
 test("the hand-off page needs a valid, unexpired, untampered session", async () => {
