@@ -30,13 +30,6 @@
           "label": "10,000-year timeline",
           "link": "/timeline"
         }
-      },
-      {
-        "id": "virtual-tour",
-        "action": {
-          "label": "Virtual tour",
-          "link": "#"
-        }
       }
     ]
   },
@@ -66,12 +59,6 @@
         "action": {
           "label": "10,000 વર્ષની સમયરેખા"
         }
-      },
-      {
-        "id": "virtual-tour",
-        "action": {
-          "label": "વર્ચ્યુઅલ પ્રવાસ"
-        }
       }
     ]
   },
@@ -100,12 +87,6 @@
         "id": "timeline",
         "action": {
           "label": "10,000 वर्षों की समयरेखा"
-        }
-      },
-      {
-        "id": "virtual-tour",
-        "action": {
-          "label": "वर्चुअल टूर"
         }
       }
     ]
