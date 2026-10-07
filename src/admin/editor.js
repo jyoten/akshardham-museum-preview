@@ -10,7 +10,7 @@
 // site-data.json, written at build time from the main branch.
 import { createText } from "./lib/text-core.js";
 import { createSite, usage } from "./lib/site.js";
-import { topicChanges, LANGS as LANG_NAMES } from "./topic-diff.js";
+import { topicChanges, languagesOf, LANGS as LANG_NAMES } from "./topic-diff.js";
 
 const { CMS, h, createClass, nunjucks, markdownit } = window;
 const text = createText(markdownit);
@@ -94,7 +94,8 @@ function DiffText({ parts }) {
 }
 
 const makePreview = (doc) => createClass({
-  getInitialState() { return { view: "changes", detail: "text", lang: "en", page: null, ready: !!data, width: 900 }; },
+  // Opened from the Workflow board (a reviewer): start on the before/after.
+  getInitialState() { return { view: "changes", detail: fromWorkflow() ? "visual" : "text", lang: "en", page: null, ready: !!data, width: 900 }; },
   componentDidMount() {
     ready.then(() => this.setState({ ready: true }));
     const win = this.props.window || window;
@@ -153,15 +154,64 @@ const makePreview = (doc) => createClass({
   },
 });
 
-// "Used on" at the top of a topic. Shows information only; it saves nothing.
+// The preview pane with the Changes view: opened for reviewers, or with the "Review changes" button.
+const fromWorkflow = () => /[?&]ref=workflow\b/.test(location.hash);
+function showChanges() {
+  const open = [...document.querySelectorAll("iframe")].some((f) => f.offsetParent !== null);
+  const toggle = document.querySelector('button[title="Toggle preview"]');
+  if (!open && toggle) toggle.click();
+}
+
+// "Used on" at the top of a topic, and a "Review changes" button. Shows information only; it saves nothing.
 const UsedOn = createClass({
-  componentDidMount() { ready.then(() => this.forceUpdate()); },
+  componentDidMount() {
+    ready.then(() => this.forceUpdate());
+    if (fromWorkflow()) setTimeout(showChanges, 600);
+  },
   render() {
     const id = this.props.entry.getIn(["data", "id"]);
     const ref = `${docOf(this.props.collection)}/${id}`;
-    return h("p", { className: this.props.classNameWrapper, style: { margin: 0, padding: "12px 16px", fontWeight: 600 } }, usedOnText(ref));
+    return h("div", { className: this.props.classNameWrapper, style: { display: "flex", alignItems: "center", justifyContent: "space-between", gap: "12px", padding: "10px 16px" } },
+      h("span", { style: { fontWeight: 600 } }, usedOnText(ref)),
+      h("button", { type: "button", onClick: showChanges, style: { font: "inherit", fontSize: "14px", fontWeight: 600, padding: "6px 14px", borderRadius: "5px", border: "0", background: "#3A69C7", color: "#fff", cursor: "pointer" } }, "Review changes"));
   },
 });
+
+// Workflow cards: a "What changed" line, e.g. "2 fields · English and Gujarati".
+// Reads the draft (from the local helper, or from GitHub with the signed-in editor's token) and compares it
+// with the published version.
+let repoInfo = null;
+async function draftOf(collection, slug, file) {
+  const user = JSON.parse(localStorage.getItem("decap-cms-user") || "{}");
+  if (user.backendName === "github" && user.token) {
+    repoInfo ||= fetch("config.yml").then((r) => r.text()).then((y) => ({ repo: (/^\s+repo:\s*"?([^"\s]+)/m.exec(y) || [])[1] }));
+    const { repo } = await repoInfo;
+    const r = await fetch(`https://api.github.com/repos/${repo}/contents/${file}?ref=${encodeURIComponent(`cms/${collection}/${slug}`)}`, { headers: { Authorization: `token ${user.token}`, Accept: "application/vnd.github.raw" } });
+    return r.ok ? r.json() : null;
+  }
+  const r = await fetch("http://localhost:8081/api/v1", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ action: "unpublishedEntryDataFile", params: { branch: "main", collection, slug, id: `${collection}/${slug}`, path: file } }) });
+  return r.ok ? JSON.parse((await r.json()).data) : null;
+}
+async function annotateCards() {
+  if (!data) return;
+  for (const a of document.querySelectorAll('a[href*="?ref=workflow"]:not([data-changes])')) {
+    a.setAttribute("data-changes", "…");
+    const m = /#\/collections\/topics-([^/]+)\/entries\/([^?]+)/.exec(a.getAttribute("href"));
+    const slot = a.querySelector("p");
+    if (!m || !slot) continue;
+    try {
+      const [doc, slug] = [m[1], decodeURIComponent(m[2])];
+      const draft = await draftOf(`topics-${doc}`, slug, `src/content/topics/${doc}/${slug}.json`);
+      const published = data.topics[`${doc}/${slug}`] || null;
+      if (!draft) continue;
+      const changes = topicChanges(published, draft);
+      const fields = new Set(changes.map((c) => c.label)).size;
+      slot.textContent = !published ? "New topic" : changes.length ? `${fields} field${fields === 1 ? "" : "s"} · ${languagesOf(changes)}` : "No changes";
+      slot.style.cssText = "margin:6px 0 0;font-weight:600;color:#3A69C7";
+    } catch { /* leave the card as it is */ }
+  }
+}
+new MutationObserver(() => { if (location.hash.startsWith("#/workflow")) annotateCards(); }).observe(document.documentElement, { childList: true, subtree: true });
 
 CMS.registerWidget("used-on", UsedOn, () => null);
 CMS.registerPreviewStyle(new URL("preview.css", location.href).href);
