@@ -1,0 +1,11 @@
+<section aria-label="{{ t.title | safe }}" data-l="Today at the museum" style="background:var(--ink);color:var(--cream)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(230px,100%),1fr));gap:24px 40px;padding-top:28px;padding-bottom:28px">
+{% for item in t.topics %}{% if item.id == "open-today" -%}
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:8px"><span aria-hidden="true" data-status="dot" style="width:8px;height:8px;border-radius:50%;background:#7FBF7A;display:inline-block"></span><span data-status="today-label">{{ item.title | safe }}</span></span><span style="font-size:17px" data-status="today">{{ item.description | safe }}</span></div>
+{% elif item.action and item.action.link -%}
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ item.title | safe }}</span><a href="{{ (item.action.link | link(lang)).href }}" style="font-size:17px;color:var(--cream)">{{ item.action.label | safe }}</a></div>
+{% else -%}
+<div style="display:flex;flex-direction:column;gap:4px"><span style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ item.title | safe }}</span><span style="font-size:17px">{{ item.description | safe }}</span></div>
+{% endif %}{% endfor -%}
+</div>
+</section>

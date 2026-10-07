@@ -1,0 +1,81 @@
+{
+ "en": {
+  "id": "first-visit",
+  "title": "You don’t need to know anything before you come. Just bring your curiosity.",
+  "subheading": "First time here?",
+  "topics": [
+   {
+    "id": "what-to-wear",
+    "title": "What to wear",
+    "description": "<mark class=\"todo\">[DRESS GUIDANCE]</mark>"
+   },
+   {
+    "id": "photography",
+    "title": "Photography",
+    "description": "<mark class=\"todo\">[PHOTOGRAPHY POLICY]</mark>"
+   },
+   {
+    "id": "food-and-rest",
+    "title": "Food &amp; rest",
+    "description": "<mark class=\"todo\">[DINING AND SEATING]</mark>"
+   },
+   {
+    "id": "bags-and-strollers",
+    "title": "Bags &amp; strollers",
+    "description": "<mark class=\"todo\">[BAG AND STROLLER POLICY]</mark>"
+   }
+  ]
+ },
+ "gu": {
+  "title": "આવતાં પહેલાં આપને કંઈ જાણવાની જરૂર નથી. ફક્ત આપની જિજ્ઞાસા સાથે લાવો.",
+  "subheading": "પ્રથમ વાર આવી રહ્યા છો?",
+  "topics": [
+   {
+    "id": "what-to-wear",
+    "title": "શું પહેરવું",
+    "description": "<mark class=\"todo\">[DRESS GUIDANCE]</mark>"
+   },
+   {
+    "id": "photography",
+    "title": "ફોટોગ્રાફી",
+    "description": "<mark class=\"todo\">[PHOTOGRAPHY POLICY]</mark>"
+   },
+   {
+    "id": "food-and-rest",
+    "title": "ભોજન અને વિશ્રામ",
+    "description": "<mark class=\"todo\">[DINING AND SEATING]</mark>"
+   },
+   {
+    "id": "bags-and-strollers",
+    "title": "બેગ અને સ્ટ્રોલર",
+    "description": "<mark class=\"todo\">[BAG AND STROLLER POLICY]</mark>"
+   }
+  ]
+ },
+ "hi": {
+  "title": "आने से पहले आपको कुछ भी जानने की आवश्यकता नहीं है। बस अपनी जिज्ञासा साथ लाएँ।",
+  "subheading": "पहली बार आ रहे हैं?",
+  "topics": [
+   {
+    "id": "what-to-wear",
+    "title": "क्या पहनें",
+    "description": "<mark class=\"todo\">[DRESS GUIDANCE]</mark>"
+   },
+   {
+    "id": "photography",
+    "title": "फ़ोटोग्राफ़ी",
+    "description": "<mark class=\"todo\">[PHOTOGRAPHY POLICY]</mark>"
+   },
+   {
+    "id": "food-and-rest",
+    "title": "भोजन और विश्राम",
+    "description": "<mark class=\"todo\">[DINING AND SEATING]</mark>"
+   },
+   {
+    "id": "bags-and-strollers",
+    "title": "बैग और स्ट्रोलर",
+    "description": "<mark class=\"todo\">[BAG AND STROLLER POLICY]</mark>"
+   }
+  ]
+ }
+}

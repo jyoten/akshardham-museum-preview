@@ -1,0 +1,25 @@
+{
+ "en": {
+  "id": "site",
+  "title": "AKSHARDHAM",
+  "subheading": "Museum · Robbinsville, NJ",
+  "action": {
+   "label": "Book tickets",
+   "link": "/visit#tickets"
+  }
+ },
+ "gu": {
+  "title": "AKSHARDHAM",
+  "subheading": "મ્યુઝિયમ · રોબિન્સવિલ, ન્યૂ જર્સી",
+  "action": {
+   "label": "ટિકિટ બુક કરો"
+  }
+ },
+ "hi": {
+  "title": "AKSHARDHAM",
+  "subheading": "म्यूज़ियम · रॉबिन्सविल, न्यू जर्सी",
+  "action": {
+   "label": "टिकट बुक करें"
+  }
+ }
+}

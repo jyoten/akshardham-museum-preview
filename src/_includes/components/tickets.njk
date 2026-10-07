@@ -1,0 +1,40 @@
+{% set ctl = "width:44px;height:44px;border:1px solid var(--line-strong);background:transparent;border-radius:2px;font-size:20px;cursor:pointer;color:var(--ink)" -%}
+<section id="tickets" aria-labelledby="t-h" style="background:var(--sand);padding:clamp(40px,4.44vw,64px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:29px 72px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:20px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ t.subheading | safe }}</p>
+<h2 id="t-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,3.8vw,52px);line-height:1.08;margin:0">{{ t.title | safe }}</h2>
+<p style="margin:0;font-size:18px;color:var(--muted);max-width:480px">{{ t.description | safe }}</p>
+<ul style="margin:12px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:12px;font-size:16px">
+{% for item in t.topics %}{% if item.id != "booking" %}<li style="display:flex;gap:12px"><span aria-hidden="true" style="color:var(--accent)">—</span>{{ item.description | safe }}</li>
+{% endif %}{% endfor %}</ul>
+</div>
+{% for form in t.topics %}{% if form.id == "booking" %}<form data-demo-form aria-label="{{ form.title | safe }}" data-l="Ticket booking" style="background:var(--cream);padding:36px;display:flex;flex-direction:column;gap:28px;box-shadow:0 30px 60px -40px rgba(28,20,16,.45)">
+{% for st in form.topics %}{% if st.id == "date" %}<div style="display:flex;flex-direction:column;gap:8px">
+<label for="visit-date" style="font-weight:600;font-size:15px">{{ st.title | safe }}</label>
+<input id="visit-date" type="date" style="min-height:52px;padding:0 14px;border:1px solid var(--line-strong);border-radius:2px;font:inherit;background:var(--white);color:var(--ink)">
+</div>
+{% elif st.id == "entry-window" %}<fieldset style="border:0;padding:0;margin:0;display:flex;flex-direction:column;gap:10px">
+<legend style="font-weight:600;font-size:15px;padding:0;margin-bottom:10px">{{ st.title | safe }}</legend>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(140px,100%),1fr));gap:10px">
+{% for w in st.topics %}<button type="button" aria-pressed="{{ "true" if loop.first else "false" }}" style="{% if loop.first %}border:2px solid var(--ink);background:var(--cream){% else %}border:1px solid var(--line-strong);background:transparent{% endif %};min-height:64px;padding:10px 14px;text-align:left;display:flex;flex-direction:column;gap:2px;cursor:pointer;font:inherit;color:var(--ink);border-radius:2px"><span style="font-weight:600;font-size:15px">{{ w.title | safe }}</span><span style="font-size:13px;color:var(--muted)">{{ w.subheading | safe }}</span></button>{% endfor %}
+</div>
+</fieldset>
+{% elif st.id == "visitors" %}<fieldset style="border:0;padding:0;margin:0">
+<legend style="font-weight:600;font-size:15px;padding:0;margin-bottom:4px">{{ st.title | safe }}</legend>
+{% for v in st.topics %}<div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 0;border-bottom:1px solid var(--line-soft)">
+<div><p style="margin:0;font-weight:600">{{ v.title | safe }}</p><p style="margin:0;font-size:14px;color:var(--muted)">{{ v.subheading | safe }}</p></div>
+<div style="display:flex;align-items:center;gap:6px">
+<button type="button" aria-label="{{ ("booking_fewer_" + v.id) | label(lang) | safe }}" data-l="Fewer {{ v.id | capitalize }} tickets" style="{{ ctl }}">{{ "booking_minus" | label(lang) | safe }}</button>
+<span style="min-width:28px;text-align:center;font-weight:600">{{ "booking_zero" | label(lang) | safe }}</span>
+<button type="button" aria-label="{{ ("booking_more_" + v.id) | label(lang) | safe }}" data-l="More {{ v.id | capitalize }} tickets" style="{{ ctl }}">{{ "booking_plus" | label(lang) | safe }}</button>
+</div>
+</div>{% endfor %}
+</fieldset>
+{% elif st.id == "add-ons" %}<div style="display:flex;flex-direction:column;gap:12px">
+{% for a in st.topics %}<label style="display:flex;gap:12px;align-items:center;font-size:16px;min-height:44px"><input type="checkbox" style="width:20px;height:20px;accent-color:var(--accent)">{{ a.title | safe }}</label>
+{% endfor %}</div>
+{% endif %}{% endfor %}<button type="submit" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--accent);color:var(--white);border:0;min-height:56px;font-size:16px;cursor:pointer">{{ form.action.label | safe }}</button>
+</form>
+{% endif %}{% endfor %}</div>
+</section>

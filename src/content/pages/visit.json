@@ -1,0 +1,43 @@
+{
+ "path": "/visit/",
+ "nav": "visit",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "visit/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "visit-hero",
+   "topic": "visit/hero"
+  },
+  {
+   "style": "essentials",
+   "topic": "visit/essentials"
+  },
+  {
+   "style": "tickets",
+   "topic": "visit/tickets"
+  },
+  {
+   "style": "routes",
+   "topic": "visit/routes"
+  },
+  {
+   "style": "floor-map",
+   "topic": "visit/museum-map"
+  },
+  {
+   "style": "first-visit",
+   "topic": "visit/first-visit"
+  },
+  {
+   "style": "access-directions",
+   "topic": "visit/accessibility-and-directions"
+  },
+  {
+   "style": "faq",
+   "topic": "visit/questions"
+  }
+ ]
+}

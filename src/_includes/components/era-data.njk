@@ -1,0 +1,12 @@
+{% raw %}<template id="era-card"><a href="{{s.href}}" class="card" style="display:grid;grid-template-columns:140px minmax(0,1fr);gap:20px;align-items:center;background:var(--sand);min-height:120px">
+<div style="height:100%;min-height:120px;overflow:hidden;background:var(--tint)">
+{{IMG}}
+</div>
+<div style="display:flex;flex-direction:column;gap:4px;padding:16px 20px 16px 0">
+<span style="font-size:13px;color:var(--muted)">{{s.kind}}</span>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:23px;line-height:1.15">{{s.title}}</span>
+<span style="font-size:14px;color:var(--accent);font-weight:600">{{s.where}}</span>
+</div>
+</a></template>{% endraw %}
+<script type="application/json" id="eras-data">{{ t | eras(lang) | safe }}</script>
+<script src="/js/timeline.js" defer></script>

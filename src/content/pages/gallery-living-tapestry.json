@@ -1,0 +1,30 @@
+{
+ "path": "/explore/living-tapestry/",
+ "nav": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "gallery-living-tapestry/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "breadcrumb",
+   "topic": "gallery-living-tapestry/breadcrumb"
+  },
+  {
+   "style": "page-hero",
+   "topic": "gallery-living-tapestry/hero",
+   "settings": {
+    "headingId": "g-h"
+   }
+  },
+  {
+   "style": "gallery-items",
+   "topic": "gallery-living-tapestry/in-this-gallery"
+  },
+  {
+   "style": "related-cards",
+   "topic": "gallery-living-tapestry/other-galleries"
+  }
+ ]
+}

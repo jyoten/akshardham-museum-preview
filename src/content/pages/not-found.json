@@ -1,0 +1,15 @@
+{
+ "path": "/404.html",
+ "nav": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "not-found/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "message",
+   "topic": "not-found/message"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+ "en": {
+  "id": "key-facts",
+  "title": "Key facts",
+  "topics": [
+   {
+    "id": "fact-1",
+    "title": "Original type",
+    "description": "Haveli townhouse, western India"
+   },
+   {
+    "id": "fact-2",
+    "title": "Based on",
+    "description": "<mark class=\"todo\">[ORIGINAL HAVELI / REGION]</mark>"
+   },
+   {
+    "id": "fact-3",
+    "title": "Materials",
+    "description": "<mark class=\"todo\">[MATERIALS]</mark>"
+   },
+   {
+    "id": "fact-4",
+    "title": "In the museum",
+    "description": "Floor <mark class=\"todo\">[X]</mark> · Gallery <mark class=\"todo\">[X]</mark>"
+   }
+  ]
+ },
+ "gu": {
+  "title": "મુખ્ય તથ્યો",
+  "topics": [
+   {
+    "id": "fact-1",
+    "title": "મૂળ પ્રકાર",
+    "description": "હવેલી પ્રકારનું નગરગૃહ, પશ્ચિમ ભારત"
+   },
+   {
+    "id": "fact-2",
+    "title": "આધાર",
+    "description": "<mark class=\"todo\">[ORIGINAL HAVELI / REGION]</mark>"
+   },
+   {
+    "id": "fact-3",
+    "title": "સામગ્રી",
+    "description": "<mark class=\"todo\">[MATERIALS]</mark>"
+   },
+   {
+    "id": "fact-4",
+    "title": "સંગ્રહાલયમાં",
+    "description": "માળ <mark class=\"todo\">[X]</mark> · ગેલેરી <mark class=\"todo\">[X]</mark>"
+   }
+  ]
+ },
+ "hi": {
+  "title": "मुख्य तथ्य",
+  "topics": [
+   {
+    "id": "fact-1",
+    "title": "मूल प्रकार",
+    "description": "हवेली शैली का नगर-भवन, पश्चिमी भारत"
+   },
+   {
+    "id": "fact-2",
+    "title": "आधार",
+    "description": "<mark class=\"todo\">[ORIGINAL HAVELI / REGION]</mark>"
+   },
+   {
+    "id": "fact-3",
+    "title": "सामग्री",
+    "description": "<mark class=\"todo\">[MATERIALS]</mark>"
+   },
+   {
+    "id": "fact-4",
+    "title": "संग्रहालय में",
+    "description": "तल <mark class=\"todo\">[X]</mark> · गैलरी <mark class=\"todo\">[X]</mark>"
+   }
+  ]
+ }
+}

@@ -1,0 +1,20 @@
+{% set acc = t.topics[0] %}{% set here = t.topics[1] %}<section id="access" aria-labelledby="acc-h" style="padding:128px 0 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(420px,100%),1fr));gap:34px 80px">
+<div style="display:flex;flex-direction:column;gap:22px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ acc.subheading | safe }}</p>
+<h2 id="acc-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ acc.title | safe }}</h2>
+<ul style="margin:0;padding:0;list-style:none;display:flex;flex-direction:column">
+{% for item in acc.topics %}<li style="padding:16px 0;border-bottom:1px solid var(--line)">{{ item.title | safe }}</li>
+{% endfor %}</ul>
+</div>
+<div id="getting-here" style="display:flex;flex-direction:column;gap:22px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ here.subheading | safe }}</p>
+<h2 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ here.title | safe }}</h2>
+<div role="img" aria-label="{{ "map" | label(lang) | safe }}" data-l="Map placeholder" style="aspect-ratio:16/9;background:var(--sand);border:1px dashed #B9A68D;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:15px;letter-spacing:.08em"><mark class="todo">{{ "map_placeholder" | label(lang) | safe }}</mark></div>
+<dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(180px,100%),1fr));gap:20px">
+{% for item in here.topics %}<div><dt style="font-size:13px;color:var(--muted)">{{ item.title | safe }}</dt><dd style="margin:4px 0 0">{{ item.description | safe }}</dd></div>
+{% endfor %}</dl>
+<a href="{{ (here.action.link | link(lang)).href }}" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ here.action.label | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</section>

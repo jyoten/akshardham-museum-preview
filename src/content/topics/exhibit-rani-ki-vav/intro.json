@@ -1,0 +1,68 @@
+{
+ "en": {
+  "id": "intro",
+  "title": "Rani-ki-Vav",
+  "subheading": "Stepwell replica · Floor <mark class=\"todo\">[X]</mark>",
+  "description": "A stepwell built as an upside-down temple: flight after flight of carved stone galleries stepping down to the water.",
+  "media": [
+   {
+    "type": "image",
+    "src": "/images/rani-ki-vav.jpg",
+    "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold",
+    "caption": "The Rani-ki-Vav replica in the Akshardham Museum."
+   }
+  ],
+  "topics": [
+   {
+    "id": "audio-guide",
+    "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
+    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
+    "action": {
+     "label": "Play audio guide, stop [#]"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "રાણકી વાવ",
+  "subheading": "વાવની પ્રતિકૃતિ · માળ <mark class=\"todo\">[X]</mark>",
+  "description": "ઊંધા મંદિરના રૂપમાં બંધાયેલી વાવ: પથ્થરમાં કોતરેલી ગેલેરીઓના એક પછી એક મજલા પગથિયે પગથિયે પાણી સુધી ઊતરે છે.",
+  "media": [
+   {
+    "alt": "રાણકી વાવની પ્રતિકૃતિની પથ્થરમાં કોતરેલી ગેલેરીઓ, હૂંફાળા સોનેરી પ્રકાશમાં",
+    "caption": "અક્ષરધામ મ્યુઝિયમમાં રાણકી વાવની પ્રતિકૃતિ."
+   }
+  ],
+  "topics": [
+   {
+    "id": "audio-guide",
+    "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ <mark class=\"todo\">[#]</mark>",
+    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
+    "action": {
+     "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "title": "रानी की वाव",
+  "subheading": "बावड़ी की प्रतिकृति · तल <mark class=\"todo\">[X]</mark>",
+  "description": "उल्टे मंदिर के रूप में बनी बावड़ी: पत्थर में तराशी गई दीर्घाओं की एक के बाद एक मंज़िलें सीढ़ी-दर-सीढ़ी पानी तक उतरती हैं।",
+  "media": [
+   {
+    "alt": "रानी की वाव की प्रतिकृति की पत्थर में तराशी गई दीर्घाएँ, गर्म सुनहरी रोशनी में",
+    "caption": "अक्षरधाम म्यूज़ियम में रानी की वाव की प्रतिकृति।"
+   }
+  ],
+  "topics": [
+   {
+    "id": "audio-guide",
+    "title": "ऑडियो गाइड · स्टॉप <mark class=\"todo\">[#]</mark>",
+    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
+    "action": {
+     "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
+    }
+   }
+  ]
+ }
+}

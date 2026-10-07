@@ -1,0 +1,12 @@
+<section aria-labelledby="mem-h" style="background:var(--accent);color:var(--white);padding:clamp(35px,3.89vw,56px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:32px 64px;align-items:center;justify-content:space-between">
+<div style="display:flex;flex-direction:column;gap:14px;max-width:680px">
+<h2 id="mem-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.4vw,46px);line-height:1.1;margin:0">{{ t.title | safe }}</h2>
+<p style="margin:0;font-size:18px;color:#FFF3E8">{{ t.description | safe }}</p>
+</div>
+<div style="display:flex;gap:14px;flex-wrap:wrap">
+<a href="{{ (t.action.link | link(lang)).href }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--cream);color:var(--ink)">{{ t.action.label | safe }}</a>{% for b in t.topics %}
+<a href="{{ (b.action.link | link(lang)).href }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;border:1px solid rgba(255,255,255,.75);color:var(--white)">{{ b.action.label | safe }}</a>{% endfor %}
+</div>
+</div>
+</section>

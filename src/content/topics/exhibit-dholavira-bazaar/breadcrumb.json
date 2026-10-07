@@ -1,0 +1,65 @@
+{
+ "en": {
+  "id": "breadcrumb",
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "Explore",
+     "link": "/explore"
+    }
+   },
+   {
+    "id": "legacy-architecture",
+    "action": {
+     "label": "Legacy Architecture",
+     "link": "/explore/legacy-architecture"
+    }
+   },
+   {
+    "id": "current",
+    "title": "Dholavira Bazaar"
+   }
+  ]
+ },
+ "gu": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "અન્વેષણ"
+    }
+   },
+   {
+    "id": "legacy-architecture",
+    "action": {
+     "label": "વારસાનું સ્થાપત્ય"
+    }
+   },
+   {
+    "id": "current",
+    "title": "ધોળાવીરાનું બજાર"
+   }
+  ]
+ },
+ "hi": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "अन्वेषण"
+    }
+   },
+   {
+    "id": "legacy-architecture",
+    "action": {
+     "label": "विरासत का स्थापत्य"
+    }
+   },
+   {
+    "id": "current",
+    "title": "धोलावीरा का बाज़ार"
+   }
+  ]
+ }
+}

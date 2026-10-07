@@ -1,0 +1,90 @@
+{
+ "en": {
+  "id": "more-ways-to-give",
+  "title": "More ways to give",
+  "topics": [
+   {
+    "id": "give-once",
+    "title": "Give once",
+    "description": "Any amount, securely online.",
+    "action": {
+     "link": "#"
+    }
+   },
+   {
+    "id": "give-monthly",
+    "title": "Give monthly",
+    "description": "Steady support the museum can plan around.",
+    "action": {
+     "link": "#"
+    }
+   },
+   {
+    "id": "in-honour-of",
+    "title": "In honour of",
+    "description": "Mark a birthday, anniversary or memory.",
+    "action": {
+     "link": "#"
+    }
+   },
+   {
+    "id": "volunteer",
+    "title": "Volunteer",
+    "description": "Offer seva as a guide or greeter.",
+    "action": {
+     "link": "#"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "દાન આપવાની અન્ય રીતો",
+  "topics": [
+   {
+    "id": "give-once",
+    "title": "એક વખત દાન",
+    "description": "કોઈ પણ રકમ, સુરક્ષિત રીતે ઑનલાઇન."
+   },
+   {
+    "id": "give-monthly",
+    "title": "માસિક દાન",
+    "description": "નિયમિત સહયોગ, જેના આધારે સંગ્રહાલય આયોજન કરી શકે."
+   },
+   {
+    "id": "in-honour-of",
+    "title": "કોઈના સન્માનમાં",
+    "description": "જન્મદિવસ, લગ્નતિથિ કે કોઈ સ્મૃતિને યાદગાર બનાવો."
+   },
+   {
+    "id": "volunteer",
+    "title": "સ્વયંસેવક બનો",
+    "description": "માર્ગદર્શક કે સ્વાગતકર્તા તરીકે સેવા આપો."
+   }
+  ]
+ },
+ "hi": {
+  "title": "सहयोग करने के अन्य तरीके",
+  "topics": [
+   {
+    "id": "give-once",
+    "title": "एक बार दान करें",
+    "description": "कोई भी राशि, सुरक्षित रूप से ऑनलाइन।"
+   },
+   {
+    "id": "give-monthly",
+    "title": "मासिक दान करें",
+    "description": "नियमित सहयोग, जिसके आधार पर संग्रहालय योजना बना सके।"
+   },
+   {
+    "id": "in-honour-of",
+    "title": "किसी के सम्मान में",
+    "description": "जन्मदिन, वर्षगाँठ या किसी स्मृति को यादगार बनाएँ।"
+   },
+   {
+    "id": "volunteer",
+    "title": "स्वयंसेवक बनें",
+    "description": "मार्गदर्शक या स्वागतकर्ता के रूप में सेवा करें।"
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "en": {
+  "id": "footer-contact",
+  "title": "AKSHARDHAM",
+  "subheading": "Museum",
+  "description": "112 North Main Street<br>Robbinsville, NJ 08561<br><a href=\"tel:+16099181212\" style=\"color:var(--stone)\">(609) 918-1212</a>",
+  "topics": [
+   {
+    "id": "hours",
+    "title": "Open today · <mark class=\"todo\">[HOURS]</mark>"
+   }
+  ]
+ },
+ "gu": {
+  "title": "AKSHARDHAM",
+  "subheading": "મ્યુઝિયમ",
+  "description": "112 North Main Street<br>Robbinsville, NJ 08561<br><a href=\"tel:+16099181212\" style=\"color:var(--stone)\">(609) 918-1212</a>",
+  "topics": [
+   {
+    "id": "hours",
+    "title": "આજે ખુલ્લું · <mark class=\"todo\">[HOURS]</mark>"
+   }
+  ]
+ },
+ "hi": {
+  "title": "AKSHARDHAM",
+  "subheading": "म्यूज़ियम",
+  "description": "112 North Main Street<br>Robbinsville, NJ 08561<br><a href=\"tel:+16099181212\" style=\"color:var(--stone)\">(609) 918-1212</a>",
+  "topics": [
+   {
+    "id": "hours",
+    "title": "आज खुला है · <mark class=\"todo\">[HOURS]</mark>"
+   }
+  ]
+ }
+}

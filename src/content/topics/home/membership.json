@@ -1,0 +1,50 @@
+{
+ "en": {
+  "id": "membership",
+  "title": "Make it yours. Become a member.",
+  "description": "Unlimited visits all year, first looks at new content, and discounts on guided tours and the shop.",
+  "action": {
+   "label": "Join today",
+   "link": "/support#membership"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "Other ways to support",
+     "link": "/support"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "તેને આપનું બનાવો. સભ્ય બનો.",
+  "description": "આખું વર્ષ અમર્યાદિત મુલાકાતો, નવી સામગ્રીનું પ્રથમ દર્શન, અને માર્ગદર્શિત પ્રવાસો તથા દુકાન પર વળતર.",
+  "action": {
+   "label": "આજે જ જોડાઓ"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "સહયોગ આપવાના અન્ય માર્ગો"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "title": "इसे अपना बनाएँ। सदस्य बनें।",
+  "description": "पूरे वर्ष असीमित भ्रमण, नई सामग्री की पहली झलक, और गाइडेड टूर तथा दुकान पर छूट।",
+  "action": {
+   "label": "आज ही जुड़ें"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "सहयोग के अन्य तरीके"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+<section aria-label="{{ t.title | safe }}" data-l="Visit essentials" style="background:var(--night);color:var(--cream)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%">
+<dl style="margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px 40px;border-top:1px solid var(--umber);padding:28px 0 36px">
+{% for item in t.topics %}<div style="display:flex;flex-direction:column;gap:6px"><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ item.title | safe }}</dt><dd style="margin:0;font-size:18px"{% if item.id == "hours" %} data-status="visit-hours"{% endif %}>{% if item.action and item.action.link %}<a href="{{ (item.action.link | link(lang)).href }}" style="color:var(--cream)">{{ item.action.label | safe }}</a>{% else %}{{ item.description | safe }}{% if item.subheading %}<br><span style="font-size:14px;color:#BFB2A3">{{ item.subheading | safe }}</span>{% endif %}{% endif %}</dd></div>
+{% endfor %}</dl>
+</div>
+</section>

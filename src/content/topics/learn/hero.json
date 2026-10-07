@@ -1,0 +1,25 @@
+{
+ "en": {
+  "id": "hero",
+  "title": "A classroom where our heritage is the main story",
+  "subheading": "Learn",
+  "description": "School and group visits, a trail for young explorers, and big ideas explained simply.",
+  "media": [
+   {
+    "type": "image",
+    "src": "/images/scholars-diorama.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ "gu": {
+  "title": "એક વર્ગખંડ, જ્યાં આપણો વારસો જ મુખ્ય વિષય છે",
+  "subheading": "શીખો",
+  "description": "શાળા અને જૂથ મુલાકાતો, યુવા અન્વેષકો માટેનો માર્ગ, અને મહાન વિચારો સરળ ભાષામાં."
+ },
+ "hi": {
+  "title": "एक कक्षा, जहाँ हमारी विरासत ही मुख्य विषय है",
+  "subheading": "सीखें",
+  "description": "विद्यालय और समूह भ्रमण, युवा अन्वेषकों के लिए मार्ग, और महान विचार सरल भाषा में।"
+ }
+}

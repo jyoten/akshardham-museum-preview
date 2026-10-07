@@ -1,0 +1,5 @@
+<section aria-label="{{ t.title | safe }}" data-l="Key facts" style="background:var(--ink);color:var(--cream)">
+<dl style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:28px 40px;padding-top:36px;padding-bottom:36px">
+{% for item in t.topics %}<div><dt style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ item.title | safe }}</dt><dd style="margin:8px 0 0;font-size:17px">{{ item.description | safe }}</dd></div>
+{% endfor %}</dl>
+</section>

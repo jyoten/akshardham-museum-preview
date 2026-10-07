@@ -1,0 +1,21 @@
+<section aria-live="polite" aria-labelledby="era-h" style="padding:clamp(35px,3.89vw,56px) 0 clamp(45px,5.00vw,72px)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(440px,100%),1fr));gap:34px 88px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:24px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)"><span id="era-meta"></span></p>
+<h2 id="era-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(40px,4.6vw,64px);line-height:1.04;margin:0"><span id="era-name"></span></h2>
+<p style="margin:0;font-size:20px;line-height:1.65;text-wrap:pretty" id="era-summary"></p>
+<div style="display:flex;flex-direction:column;gap:12px;border-top:1px solid var(--line);padding-top:22px">
+<span style="font-size:13px;font-weight:600;letter-spacing:.14em;color:var(--muted)">{{ "timeline_key_names" | label(lang) | safe }}</span>
+<p style="margin:0;font-size:17px" id="era-keys"></p>
+</div>
+<div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:8px">
+<button type="button" id="era-prev" aria-label="{{ "timeline_previous" | label(lang) | safe }}" data-l="Previous era" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:transparent;border:1px solid var(--ink);color:var(--ink);cursor:pointer">{{ "timeline_earlier" | label(lang) | safe }}</button>
+<button type="button" id="era-next" aria-label="{{ "timeline_next" | label(lang) | safe }}" data-l="Next era" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--ink);border:1px solid var(--ink);color:var(--cream);cursor:pointer">{{ "timeline_later" | label(lang) | safe }}</button>
+</div>
+</div>
+<div style="display:flex;flex-direction:column;gap:20px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ "timeline_see_it" | label(lang) | safe }}</p>
+<div id="era-see" style="display:contents"></div>
+</div>
+</div>
+</section>

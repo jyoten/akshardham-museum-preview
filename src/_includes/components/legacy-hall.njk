@@ -1,0 +1,17 @@
+<section aria-labelledby="lh-h" style="background:#5C1A14;color:var(--cream);padding:clamp(40px,4.44vw,64px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:40px 80px;align-items:flex-end;justify-content:space-between">
+<div style="display:flex;flex-direction:column;gap:18px;max-width:640px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--peach)">{{ t.subheading | safe }}</p>
+<h2 id="lh-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ t.title | safe }}</h2>
+<p style="margin:0;font-size:18px;color:#F0DCC6">{{ t.description | safe }}</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;flex:1 1 320px;max-width:440px">
+<label for="lh-search" style="font-size:14px">{{ "legacy_hall_search" | label(lang) | safe }}</label>
+<div style="display:flex;gap:8px">
+<input id="lh-search" type="search" autocomplete="off" aria-controls="lh-results" placeholder="{{ "legacy_hall_placeholder" | label(lang) | safe }}" style="flex:1;min-height:52px;padding:0 14px;border:1px solid rgba(247,244,239,.5);background:transparent;color:var(--cream);font:inherit;border-radius:2px">
+<button type="button" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--cream);color:var(--ink);border:0;cursor:pointer">{{ "legacy_hall_button" | label(lang) | safe }}</button>
+</div>
+<div id="lh-results" class="lh-results" aria-live="polite"></div>
+</div>
+</div>
+</section>

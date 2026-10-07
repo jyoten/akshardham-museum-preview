@@ -33,10 +33,11 @@ The bar appears at the top of every page. Visitors can close it; they won't see 
 Hours and notices are read by the browser when the page loads, so they show up as soon as the change is deployed. No rebuild of the pages is needed.
 
 ## Edit text or add a translation
-1. **Site text — English / Gujarati / Hindi** → pick the page (e.g. *Plan your visit*).
-2. Each field is labelled with its English text. Edit it and **Publish**.
+1. **Text — …** → pick the part of the site (e.g. *Text — Plan your visit*), then the topic (e.g. `tickets`). Each entry is one section of a page: its title, sub heading, description, images, button and child topics (cards, list items, questions).
+2. The English, Gujarati and Hindi versions sit side by side. Edit and **Publish**.
 3. In Gujarati and Hindi, a field left **empty** shows the English text on the site. Fill it in to translate it.
-4. Some fields contain little tags like `<mark class="todo">[X]</mark>` or `<a href="/visit">…</a>`. Keep the tags and change only the words between them.
+4. Some fields contain little tags like `<mark class="todo">[X]</mark>`, `<p>…</p>` or `<a href="/visit">…</a>`. Keep the tags and change only the words between them.
+5. Screen-reader labels, form placeholders and the cookie prompt are under **Interface text**.
 
 To see what still needs translating: `npm run translations` (add `--keys` for the exact fields).
 

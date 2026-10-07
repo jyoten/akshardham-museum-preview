@@ -1,0 +1,38 @@
+{
+ "path": "/explore/konark-wheel/",
+ "nav": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "exhibit-konark-wheel/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "breadcrumb",
+   "topic": "exhibit-konark-wheel/breadcrumb"
+  },
+  {
+   "style": "exhibit-hero",
+   "topic": "exhibit-konark-wheel/intro",
+   "settings": {
+    "imagePosition": "center"
+   }
+  },
+  {
+   "style": "key-facts",
+   "topic": "exhibit-konark-wheel/key-facts"
+  },
+  {
+   "style": "chapters",
+   "topic": "exhibit-konark-wheel/story"
+  },
+  {
+   "style": "nearby-cards",
+   "topic": "exhibit-konark-wheel/nearby"
+  },
+  {
+   "style": "timeline-band",
+   "topic": "exhibit-konark-wheel/on-the-timeline"
+  }
+ ]
+}

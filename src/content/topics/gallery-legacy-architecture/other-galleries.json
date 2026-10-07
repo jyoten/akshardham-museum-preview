@@ -1,0 +1,133 @@
+{
+ "en": {
+  "id": "other-galleries",
+  "title": "The other galleries",
+  "action": {
+   "label": "All four galleries",
+   "link": "/explore"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "Lifelike Scenes &amp; Statues",
+    "subheading": "Gallery 01",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/scholars-diorama.jpg",
+      "alt": "Life-size statues of ancient scholars in a diorama of a teaching hall"
+     }
+    ],
+    "action": {
+     "link": "/explore/lifelike-scenes"
+    }
+   },
+   {
+    "id": "walking-into-scripture",
+    "title": "Walking into Scripture",
+    "subheading": "Gallery 03",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/sage-scripture-panels.jpg",
+      "alt": "Bronze statue of a seated sage before tall blue panels of scripture"
+     }
+    ],
+    "action": {
+     "link": "/explore/walking-into-scripture"
+    }
+   },
+   {
+    "id": "living-tapestry",
+    "title": "A Living Tapestry",
+    "subheading": "Gallery 04",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/festival-street.jpg",
+      "alt": "Visitors walking through a colourful festival street scene"
+     }
+    ],
+    "action": {
+     "link": "/explore/living-tapestry"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "અન્ય ગેલેરીઓ",
+  "action": {
+   "label": "ચારેય ગેલેરીઓ"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
+    "subheading": "ગેલેરી 01",
+    "media": [
+     {
+      "alt": "શિક્ષણ ખંડના ડાયોરામામાં પ્રાચીન વિદ્વાનોની જીવન-કદની પ્રતિમાઓ"
+     }
+    ]
+   },
+   {
+    "id": "walking-into-scripture",
+    "title": "શાસ્ત્રોની સફર",
+    "subheading": "ગેલેરી 03",
+    "media": [
+     {
+      "alt": "શાસ્ત્રોની ઊંચી વાદળી તકતીઓ સમક્ષ બિરાજમાન એક ઋષિની કાંસ્ય પ્રતિમા"
+     }
+    ]
+   },
+   {
+    "id": "living-tapestry",
+    "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
+    "subheading": "ગેલેરી 04",
+    "media": [
+     {
+      "alt": "રંગબેરંગી ઉત્સવની શેરીના દૃશ્યમાંથી પસાર થતા મુલાકાતીઓ"
+     }
+    ]
+   }
+  ]
+ },
+ "hi": {
+  "title": "अन्य गैलरियाँ",
+  "action": {
+   "label": "सभी चार गैलरियाँ"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "सजीव दृश्य और प्रतिमाएँ",
+    "subheading": "गैलरी 01",
+    "media": [
+     {
+      "alt": "एक शिक्षण कक्ष के डायोरामा में प्राचीन विद्वानों की आदमकद प्रतिमाएँ"
+     }
+    ]
+   },
+   {
+    "id": "walking-into-scripture",
+    "title": "शास्त्रों की यात्रा",
+    "subheading": "गैलरी 03",
+    "media": [
+     {
+      "alt": "शास्त्रों के ऊँचे नीले फलकों के समक्ष विराजमान एक ऋषि की कांस्य प्रतिमा"
+     }
+    ]
+   },
+   {
+    "id": "living-tapestry",
+    "title": "जीवंत संस्कृति का ताना-बाना",
+    "subheading": "गैलरी 04",
+    "media": [
+     {
+      "alt": "रंग-बिरंगे उत्सव की गली के दृश्य से गुज़रते आगंतुक"
+     }
+    ]
+   }
+  ]
+ }
+}

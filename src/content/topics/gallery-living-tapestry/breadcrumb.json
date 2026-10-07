@@ -1,0 +1,46 @@
+{
+ "en": {
+  "id": "breadcrumb",
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "Explore",
+     "link": "/explore"
+    }
+   },
+   {
+    "id": "current",
+    "title": "A Living Tapestry"
+   }
+  ]
+ },
+ "gu": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "અન્વેષણ"
+    }
+   },
+   {
+    "id": "current",
+    "title": "જીવંત સંસ્કૃતિનો તાણોવાણો"
+   }
+  ]
+ },
+ "hi": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "अन्वेषण"
+    }
+   },
+   {
+    "id": "current",
+    "title": "जीवंत संस्कृति का ताना-बाना"
+   }
+  ]
+ }
+}

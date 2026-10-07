@@ -1,0 +1,133 @@
+{
+ "en": {
+  "id": "other-galleries",
+  "title": "The other galleries",
+  "action": {
+   "label": "All four galleries",
+   "link": "/explore"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "Lifelike Scenes &amp; Statues",
+    "subheading": "Gallery 01",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/scholars-diorama.jpg",
+      "alt": "Life-size statues of ancient scholars in a diorama of a teaching hall"
+     }
+    ],
+    "action": {
+     "link": "/explore/lifelike-scenes"
+    }
+   },
+   {
+    "id": "legacy-architecture",
+    "title": "Legacy Architecture",
+    "subheading": "Gallery 02",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/sandstone-temple-facade.jpg",
+      "alt": "Replica of an intricately carved sandstone temple facade"
+     }
+    ],
+    "action": {
+     "link": "/explore/legacy-architecture"
+    }
+   },
+   {
+    "id": "walking-into-scripture",
+    "title": "Walking into Scripture",
+    "subheading": "Gallery 03",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/sage-scripture-panels.jpg",
+      "alt": "Bronze statue of a seated sage before tall blue panels of scripture"
+     }
+    ],
+    "action": {
+     "link": "/explore/walking-into-scripture"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "અન્ય ગેલેરીઓ",
+  "action": {
+   "label": "ચારેય ગેલેરીઓ"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
+    "subheading": "ગેલેરી 01",
+    "media": [
+     {
+      "alt": "શિક્ષણ ખંડના ડાયોરામામાં પ્રાચીન વિદ્વાનોની જીવન-કદની પ્રતિમાઓ"
+     }
+    ]
+   },
+   {
+    "id": "legacy-architecture",
+    "title": "વારસાનું સ્થાપત્ય",
+    "subheading": "ગેલેરી 02",
+    "media": [
+     {
+      "alt": "બારીક કોતરણીવાળા રેતિયા પથ્થરના મંદિરના અગ્રભાગની પ્રતિકૃતિ"
+     }
+    ]
+   },
+   {
+    "id": "walking-into-scripture",
+    "title": "શાસ્ત્રોની સફર",
+    "subheading": "ગેલેરી 03",
+    "media": [
+     {
+      "alt": "શાસ્ત્રોની ઊંચી વાદળી તકતીઓ સમક્ષ બિરાજમાન એક ઋષિની કાંસ્ય પ્રતિમા"
+     }
+    ]
+   }
+  ]
+ },
+ "hi": {
+  "title": "अन्य गैलरियाँ",
+  "action": {
+   "label": "सभी चार गैलरियाँ"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "सजीव दृश्य और प्रतिमाएँ",
+    "subheading": "गैलरी 01",
+    "media": [
+     {
+      "alt": "एक शिक्षण कक्ष के डायोरामा में प्राचीन विद्वानों की आदमकद प्रतिमाएँ"
+     }
+    ]
+   },
+   {
+    "id": "legacy-architecture",
+    "title": "विरासत का स्थापत्य",
+    "subheading": "गैलरी 02",
+    "media": [
+     {
+      "alt": "बारीक नक्काशीदार बलुआ पत्थर के मंदिर के अग्रभाग की प्रतिकृति"
+     }
+    ]
+   },
+   {
+    "id": "walking-into-scripture",
+    "title": "शास्त्रों की यात्रा",
+    "subheading": "गैलरी 03",
+    "media": [
+     {
+      "alt": "शास्त्रों के ऊँचे नीले फलकों के समक्ष विराजमान एक ऋषि की कांस्य प्रतिमा"
+     }
+    ]
+   }
+  ]
+ }
+}

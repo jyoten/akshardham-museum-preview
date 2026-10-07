@@ -1,6 +1,6 @@
-# Akshardham Museum – website (v5)
+# Akshardham Museum – website (v6)
 
-From v5 the site is built with **Eleventy** from templates and text files, into plain static files in `_site/` (any static host, including GitHub Pages, can serve it).
+Built with **Eleventy** from templates and content files, into plain static files in `_site/` (any static host, including GitHub Pages, can serve it). v6 looks exactly like v5; its text is reorganised to match BAPS WebNext's content model (documents of topics; pages of components). See **CONTENT-MODEL.md**.
 
 ```
 npm install          # once
@@ -8,13 +8,14 @@ npm run dev          # build + live preview at http://localhost:8090 (rebuilds o
 npm run build        # build the site into _site/
 npm run cms          # local helper so /admin/ can save files without signing in
 npm run translations # what still needs Gujarati / Hindi translation
-npm run cms-config   # regenerate the admin setup after adding text
+npm run cms-config   # regenerate the admin setup after adding a document, style or label
 ```
 
-- **Languages**: English at `/`, Gujarati at `/gu/`, Hindi at `/hi/`. All visible text is in `src/content/<lang>/<page>.json`. An empty Gujarati or Hindi string falls back to English.
-- **Templates**: `src/**/index.njk` (one per page), the shared header and footer in `src/_includes/partials/`, and the page shell in `src/_includes/layouts/base.njk`.
+- **Languages**: English at `/`, Gujarati at `/gu/`, Hindi at `/hi/`. A Gujarati or Hindi field left empty falls back to English.
+- **Content**: topics in `src/content/topics/<document>/<topic>.json` (English plus Gujarati and Hindi variations), page layouts in `src/content/pages/<page>.json`, interface labels and script wording in `src/content/strings/`. See **CONTENT-MODEL.md**.
+- **Templates**: `src/pages.njk` builds every page from its layout; each component style is `src/_includes/components/<style>.njk`; the shared header and footer are in `src/_includes/partials/`, the page shell in `src/_includes/layouts/base.njk`.
 - **Hours and notices**: `src/data/site-status.json`, read by `src/js/status.js` in the browser. Admins edit it in `/admin/`; see **ADMIN.md**.
-- `scripts/convert-v4.py` was the one-off script that turned the v4 pages into these templates. It's kept for reference.
+- `scripts/migrate-v5-content.mjs` turned the v5 text files into topics, and `scripts/convert-v4.py` turned the v4 pages into templates. Both are kept for reference.
 
 ## Review preview on GitHub Pages
 `.github/workflows/pages.yml` builds and publishes the site on every push to `main` of the GitHub repository. It uses two build settings:

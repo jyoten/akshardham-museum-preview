@@ -1,0 +1,132 @@
+{
+ "en": {
+  "id": "footer-visit",
+  "title": "Visit &amp; learn",
+  "topics": [
+   {
+    "id": "plan",
+    "action": {
+     "label": "Plan your visit",
+     "link": "/visit"
+    }
+   },
+   {
+    "id": "tickets",
+    "action": {
+     "label": "Tickets",
+     "link": "/visit#tickets"
+    }
+   },
+   {
+    "id": "accessibility",
+    "action": {
+     "label": "Accessibility",
+     "link": "/visit#access"
+    }
+   },
+   {
+    "id": "schools",
+    "action": {
+     "label": "School visits",
+     "link": "/learn#schools"
+    }
+   },
+   {
+    "id": "young-explorers",
+    "action": {
+     "label": "For young explorers",
+     "link": "/learn#explorers"
+    }
+   },
+   {
+    "id": "shop",
+    "action": {
+     "label": "Shop",
+     "link": "todo:Shop (no page in the design)"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "મુલાકાત અને અભ્યાસ",
+  "topics": [
+   {
+    "id": "plan",
+    "action": {
+     "label": "આપની મુલાકાતનું આયોજન"
+    }
+   },
+   {
+    "id": "tickets",
+    "action": {
+     "label": "ટિકિટ"
+    }
+   },
+   {
+    "id": "accessibility",
+    "action": {
+     "label": "સુલભતા"
+    }
+   },
+   {
+    "id": "schools",
+    "action": {
+     "label": "શાળા મુલાકાતો"
+    }
+   },
+   {
+    "id": "young-explorers",
+    "action": {
+     "label": "યુવા અન્વેષકો માટે"
+    }
+   },
+   {
+    "id": "shop",
+    "action": {
+     "label": "દુકાન"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "title": "भ्रमण और अध्ययन",
+  "topics": [
+   {
+    "id": "plan",
+    "action": {
+     "label": "अपनी यात्रा की योजना"
+    }
+   },
+   {
+    "id": "tickets",
+    "action": {
+     "label": "टिकट"
+    }
+   },
+   {
+    "id": "accessibility",
+    "action": {
+     "label": "सुगम्यता"
+    }
+   },
+   {
+    "id": "schools",
+    "action": {
+     "label": "विद्यालय भ्रमण"
+    }
+   },
+   {
+    "id": "young-explorers",
+    "action": {
+     "label": "युवा खोजकर्ताओं के लिए"
+    }
+   },
+   {
+    "id": "shop",
+    "action": {
+     "label": "दुकान"
+    }
+   }
+  ]
+ }
+}

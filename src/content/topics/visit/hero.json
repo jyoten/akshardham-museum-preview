@@ -1,0 +1,25 @@
+{
+ "en": {
+  "id": "hero",
+  "title": "Everyone is welcome. Here’s how to make the most of your day.",
+  "subheading": "Plan your visit",
+  "description": "<mark class=\"todo\">[PHOTO NEEDED: museum entrance or exterior]</mark>",
+  "media": [
+   {
+    "type": "image",
+    "src": "/images/festival-street.jpg",
+    "alt": ""
+   }
+  ]
+ },
+ "gu": {
+  "title": "સૌનું સ્વાગત છે. આપના દિવસનો શ્રેષ્ઠ લાભ કેવી રીતે લેવો, તે અહીં જાણો.",
+  "subheading": "આપની મુલાકાતનું આયોજન",
+  "description": "<mark class=\"todo\">[PHOTO NEEDED: museum entrance or exterior]</mark>"
+ },
+ "hi": {
+  "title": "सभी का स्वागत है। अपने दिन का अधिकतम आनंद कैसे लें, यहाँ जानें।",
+  "subheading": "अपनी यात्रा की योजना",
+  "description": "<mark class=\"todo\">[PHOTO NEEDED: museum entrance or exterior]</mark>"
+ }
+}

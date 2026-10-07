@@ -1,6 +1,6 @@
 # Gujarati and Hindi text
 
-Text files: `src/content/gu/*.json` and `src/content/hi/*.json`. Each has the same keys as the English file in `src/content/en/`. An empty value shows the English text on the site.
+Text files: each topic file in `src/content/topics/` has an `en` part and `gu` and `hi` variations with the same field names; child topics are matched by `id`. Interface labels are in `src/content/strings/labels.json` and `ui.json`. A missing or empty value shows the English text on the site. See CONTENT-MODEL.md.
 
 The current Gujarati and Hindi text is a **first draft prepared with AI assistance**. Please have a fluent reader, ideally someone familiar with BAPS usage, review it before launch, especially names, devotional terms and the opening of each page.
 

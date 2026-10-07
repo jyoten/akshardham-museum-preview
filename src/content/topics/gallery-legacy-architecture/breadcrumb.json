@@ -1,0 +1,46 @@
+{
+ "en": {
+  "id": "breadcrumb",
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "Explore",
+     "link": "/explore"
+    }
+   },
+   {
+    "id": "current",
+    "title": "Legacy Architecture"
+   }
+  ]
+ },
+ "gu": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "અન્વેષણ"
+    }
+   },
+   {
+    "id": "current",
+    "title": "વારસાનું સ્થાપત્ય"
+   }
+  ]
+ },
+ "hi": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "अन्वेषण"
+    }
+   },
+   {
+    "id": "current",
+    "title": "विरासत का स्थापत्य"
+   }
+  ]
+ }
+}

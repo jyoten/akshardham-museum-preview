@@ -1,0 +1,18 @@
+<section aria-labelledby="faq-h" style="padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-wrap:wrap;gap:40px 80px">
+<div style="flex:1 1 280px;display:flex;flex-direction:column;gap:20px">
+<h2 id="faq-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(32px,3.2vw,44px);line-height:1.1;margin:0">{{ t.title | safe }}</h2>
+{% for box in t.topics %}{% if box.action and box.action.link %}<div style="background:var(--sand);padding:24px;display:flex;flex-direction:column;gap:10px">
+<p style="margin:0;font-weight:600">{{ box.title | safe }}</p>
+<p style="margin:0;font-size:15px;color:var(--muted)">{{ box.description | safe }}</p>
+<a href="{{ (box.action.link | link(lang)).href }}" style="font-weight:600;font-size:15px">{{ box.action.label | safe }}</a>
+</div>
+{% endif %}{% endfor %}</div>
+<div style="flex:999 1 560px;min-width:0">
+{% for q in t.topics %}{% if not (q.action and q.action.link) %}<details style="border-bottom:1px solid var(--line);padding:22px 0">
+<summary style="cursor:pointer;font-size:19px;font-weight:500;list-style-position:outside">{{ q.title | safe }}</summary>
+<p style="margin:14px 0 0;color:var(--muted);font-size:17px;max-width:760px">{{ q.description | safe }}</p>
+</details>
+{% endif %}{% endfor %}</div>
+</div>
+</section>

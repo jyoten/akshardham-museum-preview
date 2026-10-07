@@ -1,0 +1,22 @@
+{
+ "path": "/explore/",
+ "nav": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "explore/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "page-hero",
+   "topic": "explore/featured",
+   "settings": {
+    "headingId": "feat-hero-h"
+   }
+  },
+  {
+   "style": "gallery-grid",
+   "topic": "explore/galleries"
+  }
+ ]
+}

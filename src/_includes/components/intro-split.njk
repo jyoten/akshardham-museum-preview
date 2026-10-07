@@ -1,0 +1,18 @@
+<section id="about" aria-labelledby="story-h" style="padding:clamp(50px,5.56vw,80px) 0 clamp(45px,5.00vw,72px)">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(460px,100%),1fr));gap:38px 96px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:28px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ t.subheading | safe }}</p>
+<h2 id="story-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(36px,4.2vw,58px);line-height:1.08;margin:0;text-wrap:balance">{{ t.title | safe }}</h2>
+</div>
+<div style="display:flex;flex-direction:column;gap:40px;padding-top:8px">
+<p style="margin:0;font-size:20px;line-height:1.6;text-wrap:pretty">{{ t.description | safe }}</p>
+<div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:32px">
+{% for item in t.topics %}<div style="display:flex;flex-direction:column;gap:10px;border-top:2px solid var(--ink);padding-top:18px">
+<h3 style="margin:0;font-size:17px;font-weight:600">{{ item.title | safe }}</h3>
+<p style="margin:0;color:var(--muted);font-size:16px">{{ item.description | safe }}</p>
+</div>
+{% endfor %}</div>
+<a href="{{ (t.action.link | link(lang)).href }}" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ t.action.label | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</div>
+</section>

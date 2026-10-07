@@ -1,0 +1,6 @@
+<nav aria-label="{{ "breadcrumb" | label(lang) | safe }}" data-l="Breadcrumb" style="border-bottom:1px solid var(--line-soft)">
+<ol style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;list-style:none;display:flex;gap:10px;flex-wrap:wrap;padding-top:16px;padding-bottom:16px;margin:0 auto;font-size:14px;color:var(--muted)">
+{% for item in t.topics %}{% if item.action and item.action.link %}<li><a href="{{ (item.action.link | link(lang)).href }}" style="color:var(--muted)">{{ item.action.label | safe }}</a></li><li aria-hidden="true">{{ "breadcrumb_separator" | label(lang) | safe }}</li>
+{% else %}<li aria-current="page" style="color:var(--ink)">{{ item.title | safe }}</li>
+{% endif %}{% endfor %}</ol>
+</nav>

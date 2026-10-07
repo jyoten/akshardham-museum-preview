@@ -1,0 +1,118 @@
+{
+ "en": {
+  "id": "questions",
+  "title": "Questions",
+  "topics": [
+   {
+    "id": "mandir",
+    "title": "Also on campus: the Mandir",
+    "description": "Festivals, worship and darshan take place at the BAPS Swaminarayan Akshardham Mandir.",
+    "action": {
+     "label": "Visit usa.akshardham.org",
+     "link": "https://usa.akshardham.org"
+    }
+   },
+   {
+    "id": "how-long",
+    "title": "How long should I plan for?",
+    "description": "Most visitors spend <mark class=\"todo\">[X]</mark> hours. Our suggested routes above help you choose."
+   },
+   {
+    "id": "shows",
+    "title": "Are shows included with admission?",
+    "description": "<mark class=\"todo\">[SHOW TICKETING POLICY]</mark>"
+   },
+   {
+    "id": "re-entry",
+    "title": "Can I leave and come back the same day?",
+    "description": "<mark class=\"todo\">[RE-ENTRY POLICY]</mark>"
+   },
+   {
+    "id": "tours-in-gujarati-or-hindi",
+    "title": "Do you offer tours in Gujarati or Hindi?",
+    "description": "<mark class=\"todo\">[LANGUAGE TOUR AVAILABILITY]</mark>"
+   },
+   {
+    "id": "food",
+    "title": "Is there somewhere to eat?",
+    "description": "<mark class=\"todo\">[DINING DETAILS]</mark>"
+   }
+  ]
+ },
+ "gu": {
+  "title": "પ્રશ્નો",
+  "topics": [
+   {
+    "id": "mandir",
+    "title": "આ જ પરિસરમાં: મંદિર",
+    "description": "ઉત્સવો, ઉપાસના અને દર્શન BAPS સ્વામિનારાયણ અક્ષરધામ મંદિરમાં થાય છે.",
+    "action": {
+     "label": "usa.akshardham.org ની મુલાકાત લો"
+    }
+   },
+   {
+    "id": "how-long",
+    "title": "મુલાકાત માટે કેટલો સમય ફાળવવો જોઈએ?",
+    "description": "મોટા ભાગના મુલાકાતીઓ <mark class=\"todo\">[X]</mark> કલાક વિતાવે છે. ઉપર સૂચવેલા માર્ગો આપને પસંદગીમાં મદદ કરશે."
+   },
+   {
+    "id": "shows",
+    "title": "શું પ્રવેશ ટિકિટમાં શો સામેલ છે?",
+    "description": "<mark class=\"todo\">[SHOW TICKETING POLICY]</mark>"
+   },
+   {
+    "id": "re-entry",
+    "title": "શું એ જ દિવસે બહાર જઈને ફરી પ્રવેશ કરી શકાય?",
+    "description": "<mark class=\"todo\">[RE-ENTRY POLICY]</mark>"
+   },
+   {
+    "id": "tours-in-gujarati-or-hindi",
+    "title": "શું ગુજરાતી કે હિન્દીમાં માર્ગદર્શિત પ્રવાસ ઉપલબ્ધ છે?",
+    "description": "<mark class=\"todo\">[LANGUAGE TOUR AVAILABILITY]</mark>"
+   },
+   {
+    "id": "food",
+    "title": "શું અહીં ભોજનની વ્યવસ્થા છે?",
+    "description": "<mark class=\"todo\">[DINING DETAILS]</mark>"
+   }
+  ]
+ },
+ "hi": {
+  "title": "प्रश्न",
+  "topics": [
+   {
+    "id": "mandir",
+    "title": "इसी परिसर में: मंदिर",
+    "description": "उत्सव, उपासना और दर्शन BAPS स्वामीनारायण अक्षरधाम मंदिर में होते हैं।",
+    "action": {
+     "label": "usa.akshardham.org पर जाएँ"
+    }
+   },
+   {
+    "id": "how-long",
+    "title": "भ्रमण के लिए कितना समय रखें?",
+    "description": "अधिकांश आगंतुक <mark class=\"todo\">[X]</mark> घंटे बिताते हैं। ऊपर सुझाए गए मार्ग चुनने में आपकी सहायता करेंगे।"
+   },
+   {
+    "id": "shows",
+    "title": "क्या शो प्रवेश टिकट में शामिल हैं?",
+    "description": "<mark class=\"todo\">[SHOW TICKETING POLICY]</mark>"
+   },
+   {
+    "id": "re-entry",
+    "title": "क्या उसी दिन बाहर जाकर दोबारा प्रवेश किया जा सकता है?",
+    "description": "<mark class=\"todo\">[RE-ENTRY POLICY]</mark>"
+   },
+   {
+    "id": "tours-in-gujarati-or-hindi",
+    "title": "क्या गुजराती या हिंदी में निर्देशित भ्रमण उपलब्ध है?",
+    "description": "<mark class=\"todo\">[LANGUAGE TOUR AVAILABILITY]</mark>"
+   },
+   {
+    "id": "food",
+    "title": "क्या यहाँ भोजन की व्यवस्था है?",
+    "description": "<mark class=\"todo\">[DINING DETAILS]</mark>"
+   }
+  ]
+ }
+}

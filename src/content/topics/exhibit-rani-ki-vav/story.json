@@ -1,0 +1,79 @@
+{
+ "en": {
+  "id": "story",
+  "topics": [
+   {
+    "id": "chapter-1",
+    "title": "The original",
+    "subheading": "CHAPTER 01",
+    "description": "<p>Stepwells gave communities in dry western India year-round access to water, and became places to gather, rest and worship. Rani-ki-Vav, on the banks of the Saraswati river in Patan, is one of the finest.</p>\n<p>It was built in the 11th century during the rule of the Chaulukya (Solanki) dynasty, and is traditionally linked to Queen Udayamati. Its stepped corridors and pavilions carry hundreds of sculptures, many of them of Vishnu and his avatars. Silt from the river buried it for centuries, which helped preserve the carving.</p>"
+   },
+   {
+    "id": "chapter-2",
+    "title": "Look closely",
+    "subheading": "CHAPTER 02",
+    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+   },
+   {
+    "id": "chapter-3",
+    "title": "Making the replica",
+    "subheading": "CHAPTER 03",
+    "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+    "action": {
+     "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
+     "link": "#"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "topics": [
+   {
+    "id": "chapter-1",
+    "title": "મૂળ સ્વરૂપ",
+    "subheading": "પ્રકરણ 01",
+    "description": "<p>સૂકા પશ્ચિમ ભારતના સમુદાયોને વાવ દ્વારા આખું વર્ષ પાણી મળતું, અને તે મળવા, વિસામો લેવા અને ઉપાસના કરવાનાં સ્થળો બની. પાટણમાં સરસ્વતી નદીના કિનારે આવેલી રાણકી વાવ તેમાંની સર્વશ્રેષ્ઠ વાવોમાંની એક છે.</p>\n<p>તેનું નિર્માણ 11મી સદીમાં ચૌલુક્ય (સોલંકી) વંશના શાસનકાળ દરમિયાન થયું હતું, અને પરંપરાગત રીતે તેને રાણી ઉદયમતી સાથે જોડવામાં આવે છે. તેના પગથિયાંવાળા પરસાળો અને મંડપોમાં સેંકડો શિલ્પો છે, જેમાંનાં ઘણાં ભગવાન વિષ્ણુ અને તેમના અવતારોનાં છે. નદીના કાંપ નીચે તે સદીઓ સુધી દટાયેલી રહી, જેનાથી તેની કોતરણી સચવાઈ રહી.</p>"
+   },
+   {
+    "id": "chapter-2",
+    "title": "ધ્યાનથી જુઓ",
+    "subheading": "પ્રકરણ 02",
+    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+   },
+   {
+    "id": "chapter-3",
+    "title": "પ્રતિકૃતિનું નિર્માણ",
+    "subheading": "પ્રકરણ 03",
+    "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+    "action": {
+     "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "topics": [
+   {
+    "id": "chapter-1",
+    "title": "मूल स्वरूप",
+    "subheading": "अध्याय 01",
+    "description": "<p>शुष्क पश्चिमी भारत के समुदायों को बावड़ियों से पूरे वर्ष पानी मिलता था, और वे मिलने-जुलने, विश्राम करने और उपासना के स्थान बन गईं। पाटण में सरस्वती नदी के तट पर स्थित रानी की वाव इनमें से सबसे उत्कृष्ट बावड़ियों में से एक है।</p>\n<p>इसका निर्माण 11वीं शताब्दी में चौलुक्य (सोलंकी) वंश के शासनकाल में हुआ था, और परंपरा से इसे रानी उदयमती से जोड़ा जाता है। इसके सीढ़ीदार गलियारों और मंडपों में सैकड़ों मूर्तियाँ हैं, जिनमें से अनेक भगवान विष्णु और उनके अवतारों की हैं। नदी की गाद में यह सदियों तक दबी रही, जिससे इसकी नक्काशी सुरक्षित रही।</p>"
+   },
+   {
+    "id": "chapter-2",
+    "title": "ध्यान से देखें",
+    "subheading": "अध्याय 02",
+    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+   },
+   {
+    "id": "chapter-3",
+    "title": "प्रतिकृति का निर्माण",
+    "subheading": "अध्याय 03",
+    "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+    "action": {
+     "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
+    }
+   }
+  ]
+ }
+}

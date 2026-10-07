@@ -1,0 +1,38 @@
+{
+ "path": "/explore/dholavira-bazaar/",
+ "nav": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "exhibit-dholavira-bazaar/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "breadcrumb",
+   "topic": "exhibit-dholavira-bazaar/breadcrumb"
+  },
+  {
+   "style": "exhibit-hero",
+   "topic": "exhibit-dholavira-bazaar/intro",
+   "settings": {
+    "imagePosition": "center"
+   }
+  },
+  {
+   "style": "key-facts",
+   "topic": "exhibit-dholavira-bazaar/key-facts"
+  },
+  {
+   "style": "chapters",
+   "topic": "exhibit-dholavira-bazaar/story"
+  },
+  {
+   "style": "nearby-cards",
+   "topic": "exhibit-dholavira-bazaar/nearby"
+  },
+  {
+   "style": "timeline-band",
+   "topic": "exhibit-dholavira-bazaar/on-the-timeline"
+  }
+ ]
+}

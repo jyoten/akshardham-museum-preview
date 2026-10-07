@@ -1,33 +1,33 @@
-<footer style="background:var(--night);color:var(--stone);padding:clamp(35px,3.89vw,56px) 0 40px">
+{% set contact = "global/footer-contact" | topic(lang) %}{% set fExplore = "global/footer-explore" | topic(lang) %}{% set fVisit = "global/footer-visit" | topic(lang) %}{% set news = "global/newsletter" | topic(lang) %}{% set legal = "global/footer-legal" | topic(lang) %}<footer style="background:var(--night);color:var(--stone);padding:clamp(35px,3.89vw,56px) 0 40px">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:43px">
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(220px,100%),1fr));gap:29px">
 <div style="display:flex;flex-direction:column;gap:14px">
-<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:26px;letter-spacing:.16em;color:var(--cream)">{{ "common_002" | t(lang) | safe }}</span>
-<span style="font-size:10.5px;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)">{{ "common_012" | t(lang) | safe }}</span>
-<address style="font-style:normal;line-height:1.7;font-size:15px;margin-top:8px">{{ "common_013" | t(lang) | safe }}</address>
-<p style="margin:0;font-size:15px" data-status="footer">{{ "common_014" | t(lang) | safe }}</p>
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:26px;letter-spacing:.16em;color:var(--cream)">{{ contact.title | safe }}</span>
+<span style="font-size:10.5px;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)">{{ contact.subheading | safe }}</span>
+<address style="font-style:normal;line-height:1.7;font-size:15px;margin-top:8px">{{ contact.description | safe }}</address>
+{% for item in contact.topics %}<p style="margin:0;font-size:15px" data-status="footer">{{ item.title | safe }}</p>{% endfor %}
 </div>
-<nav aria-label="{{ "common_006" | t(lang) | safe }}" data-l="Explore" class="nl" style="display:flex;flex-direction:column;gap:6px;font-size:15px">
-<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px">{{ "common_006" | t(lang) | safe }}</p>
-<a href="{{ "/explore" | lurl(lang) }}">{{ "common_015" | t(lang) | safe }}</a><a href="{{ "/explore/legacy-architecture" | lurl(lang) }}">{{ "common_016" | t(lang) | safe }}</a><a href="{{ "/explore/lifelike-scenes" | lurl(lang) }}">{{ "common_017" | t(lang) | safe }}</a><a href="#">{{ "common_018" | t(lang) | safe }}</a><a href="{{ "/timeline" | lurl(lang) }}">{{ "common_019" | t(lang) | safe }}</a><a href="#">{{ "common_020" | t(lang) | safe }}</a>
+<nav aria-label="{{ fExplore.title | safe }}" data-l="Explore" class="nl" style="display:flex;flex-direction:column;gap:6px;font-size:15px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px">{{ fExplore.title | safe }}</p>
+{% for item in fExplore.topics %}{% set L = item.action.link | link(lang) %}<a href="{{ L.href }}"{% if L.todo %} class="todo-link" data-todo="{{ L.todo | safe }}"{% endif %}>{{ item.action.label | safe }}</a>{% endfor %}
 </nav>
-<nav aria-label="{{ "common_021" | t(lang) | safe }}" data-l="Visit and learn" class="nl" style="display:flex;flex-direction:column;gap:6px;font-size:15px">
-<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px">{{ "common_022" | t(lang) | safe }}</p>
-<a href="{{ "/visit" | lurl(lang) }}">{{ "common_023" | t(lang) | safe }}</a><a href="{{ "/visit#tickets" | lurl(lang) }}">{{ "common_024" | t(lang) | safe }}</a><a href="{{ "/visit#access" | lurl(lang) }}">{{ "common_025" | t(lang) | safe }}</a><a href="{{ "/learn#schools" | lurl(lang) }}">{{ "common_026" | t(lang) | safe }}</a><a href="{{ "/learn#explorers" | lurl(lang) }}">{{ "common_027" | t(lang) | safe }}</a><a href="#" class="todo-link" data-todo="Shop (no page in the design)">{{ "common_011" | t(lang) | safe }}</a>
+<nav aria-label="{{ "footer_visit_nav" | label(lang) | safe }}" data-l="Visit and learn" class="nl" style="display:flex;flex-direction:column;gap:6px;font-size:15px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:10px">{{ fVisit.title | safe }}</p>
+{% for item in fVisit.topics %}{% set L = item.action.link | link(lang) %}<a href="{{ L.href }}"{% if L.todo %} class="todo-link" data-todo="{{ L.todo | safe }}"{% endif %}>{{ item.action.label | safe }}</a>{% endfor %}
 </nav>
 <div style="display:flex;flex-direction:column;gap:14px">
-<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:4px">{{ "common_028" | t(lang) | safe }}</p>
-<p style="margin:0;font-size:15px;line-height:1.6">{{ "common_029" | t(lang) | safe }}</p>
-<label for="nl-email" style="font-size:13px">{{ "common_030" | t(lang) | safe }}</label>
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:4px">{{ news.title | safe }}</p>
+<p style="margin:0;font-size:15px;line-height:1.6">{{ news.description | safe }}</p>
+<label for="nl-email" style="font-size:13px">{{ "newsletter_email" | label(lang) | safe }}</label>
 <div style="display:flex;gap:8px;flex-wrap:wrap">
-<input id="nl-email" type="email" placeholder="{{ "common_031" | t(lang) | safe }}" style="flex:1 1 180px;min-height:48px;padding:0 14px;background:transparent;border:1px solid #5A4B3F;color:var(--cream);font:inherit;border-radius:2px">
-<button type="button" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--cream);color:var(--ink);border:0;cursor:pointer">{{ "common_032" | t(lang) | safe }}</button>
+<input id="nl-email" type="email" placeholder="{{ "newsletter_placeholder" | label(lang) | safe }}" style="flex:1 1 180px;min-height:48px;padding:0 14px;background:transparent;border:1px solid #5A4B3F;color:var(--cream);font:inherit;border-radius:2px">
+<button type="button" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--cream);color:var(--ink);border:0;cursor:pointer">{{ "newsletter_subscribe" | label(lang) | safe }}</button>
 </div>
 </div>
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between;align-items:center;border-top:1px solid var(--umber);padding-top:28px;font-size:14px">
-<p style="margin:0">{{ "common_033" | t(lang) | safe }}</p>
-<nav aria-label="{{ "common_034" | t(lang) | safe }}" data-l="Legal" class="nl" style="display:flex;gap:24px;flex-wrap:wrap"><a href="#">{{ "common_025" | t(lang) | safe }}</a><a href="#">{{ "common_035" | t(lang) | safe }}</a><a href="#">{{ "common_036" | t(lang) | safe }}</a><a href="#">{{ "common_037" | t(lang) | safe }}</a><span>{{ "common_038" | t(lang) | safe }}</span></nav>
+<p style="margin:0">{{ legal.description | safe }}</p>
+<nav aria-label="{{ legal.title | safe }}" data-l="Legal" class="nl" style="display:flex;gap:24px;flex-wrap:wrap">{% for item in legal.topics %}<a href="{{ (item.action.link | link(lang)).href }}">{{ item.action.label | safe }}</a>{% endfor %}<span>{{ legal.subheading | safe }}</span></nav>
 </div>
 </div>
 </footer>

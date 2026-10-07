@@ -1,0 +1,210 @@
+{
+ "en": {
+  "id": "ways-to-learn",
+  "title": "Ways to learn",
+  "topics": [
+   {
+    "id": "schools",
+    "title": "School &amp; group visits",
+    "description": "Book a field trip, download lesson plans and prepare your class before you arrive.",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/young-visitor-carved-model.jpg",
+      "alt": "A young visitor looking up at a towering carved model of an ancient building"
+     }
+    ],
+    "action": {
+     "label": "Book a visit",
+     "link": "todo:School & group visits (no page)"
+    }
+   },
+   {
+    "id": "explorers",
+    "title": "For young explorers",
+    "description": "An illustrated map of the museum full of rishis, inventions and festivals to discover — at home or in the galleries.",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/cosmos-theater.jpg",
+      "alt": "A theater with rows of seats facing a vivid image of the cosmos"
+     }
+    ],
+    "action": {
+     "label": "Start exploring",
+     "link": "todo:Young explorers (no page)"
+    }
+   },
+   {
+    "id": "ideas",
+    "title": "Ideas, explained simply:",
+    "topics": [
+     {
+      "id": "yoga",
+      "title": "Yoga",
+      "description": "Practices of body, breath and mind that bring balance, and draw the self closer to the divine."
+     },
+     {
+      "id": "karma",
+      "title": "Karma",
+      "description": "Every action has consequences, in this life and beyond."
+     },
+     {
+      "id": "ahimsa",
+      "title": "Ahimsa",
+      "description": "Non-violence: causing no harm to any living being, in thought, word or deed."
+     },
+     {
+      "id": "bhakti",
+      "title": "Bhakti",
+      "description": "Loving devotion to God, expressed through prayer, song, service and surrender."
+     },
+     {
+      "id": "sanskars",
+      "title": "The 16 sanskars",
+      "description": "Sixteen sacred rites that mark life’s milestones, from before birth to after death."
+     },
+     {
+      "id": "science",
+      "title": "Ancient Indian science",
+      "description": "Zero, the decimal system, surgery, astronomy and more: ideas that still shape the world."
+     }
+    ]
+   }
+  ]
+ },
+ "gu": {
+  "title": "શીખવાની રીતો",
+  "topics": [
+   {
+    "id": "schools",
+    "title": "શાળા અને જૂથ મુલાકાતો",
+    "description": "શૈક્ષણિક પ્રવાસ બુક કરો, પાઠ-યોજનાઓ ડાઉનલોડ કરો અને આવતાં પહેલાં આપના વર્ગને તૈયાર કરો.",
+    "media": [
+     {
+      "alt": "એક પ્રાચીન ઇમારતના ઊંચા, કોતરણીવાળા મોડેલ તરફ ઊંચે જોતો એક યુવા મુલાકાતી"
+     }
+    ],
+    "action": {
+     "label": "મુલાકાત બુક કરો"
+    }
+   },
+   {
+    "id": "explorers",
+    "title": "યુવા અન્વેષકો માટે",
+    "description": "ઋષિઓ, શોધો અને તહેવારોથી ભરપૂર સંગ્રહાલયનો સચિત્ર નકશો — ઘરે બેઠાં કે ગેલેરીઓમાં શોધવા માટે.",
+    "media": [
+     {
+      "alt": "બ્રહ્માંડના જીવંત ચિત્ર સામે ગોઠવાયેલી બેઠકોની હરોળો ધરાવતું થિયેટર"
+     }
+    ],
+    "action": {
+     "label": "અન્વેષણ શરૂ કરો"
+    }
+   },
+   {
+    "id": "ideas",
+    "title": "વિચારો, સરળ ભાષામાં:",
+    "topics": [
+     {
+      "id": "yoga",
+      "title": "યોગ",
+      "description": "શરીર, શ્વાસ અને મનની સાધનાઓ, જે જીવનમાં સંતુલન લાવે છે અને આત્માને પરમાત્માની નજીક લઈ જાય છે."
+     },
+     {
+      "id": "karma",
+      "title": "કર્મ",
+      "description": "દરેક કર્મનાં પરિણામ હોય છે, આ જીવનમાં અને તે પછી પણ."
+     },
+     {
+      "id": "ahimsa",
+      "title": "અહિંસા",
+      "description": "અહિંસા: મન, વચન કે કર્મથી કોઈ પણ જીવને હાનિ ન પહોંચાડવી."
+     },
+     {
+      "id": "bhakti",
+      "title": "ભક્તિ",
+      "description": "ભગવાન પ્રત્યે પ્રેમપૂર્ણ ભક્તિ, જે પ્રાર્થના, કીર્તન, સેવા અને શરણાગતિ દ્વારા વ્યક્ત થાય છે."
+     },
+     {
+      "id": "sanskars",
+      "title": "16 સંસ્કારો",
+      "description": "જીવનના મહત્ત્વના પડાવોને ચિહ્નિત કરતા સોળ પવિત્ર સંસ્કારો, જન્મ પહેલાંથી મૃત્યુ પછી સુધી."
+     },
+     {
+      "id": "science",
+      "title": "પ્રાચીન ભારતીય વિજ્ઞાન",
+      "description": "શૂન્ય, દશાંશ પદ્ધતિ, શલ્યચિકિત્સા, ખગોળશાસ્ત્ર અને બીજું ઘણું: એવા વિચારો જે આજે પણ વિશ્વને ઘડે છે."
+     }
+    ]
+   }
+  ]
+ },
+ "hi": {
+  "title": "सीखने के तरीके",
+  "topics": [
+   {
+    "id": "schools",
+    "title": "विद्यालय और समूह भ्रमण",
+    "description": "शैक्षिक भ्रमण बुक करें, पाठ-योजनाएँ डाउनलोड करें और आने से पहले अपनी कक्षा को तैयार करें।",
+    "media": [
+     {
+      "alt": "एक प्राचीन भवन के ऊँचे, नक्काशीदार मॉडल को ऊपर देखता एक युवा आगंतुक"
+     }
+    ],
+    "action": {
+     "label": "भ्रमण बुक करें"
+    }
+   },
+   {
+    "id": "explorers",
+    "title": "युवा अन्वेषकों के लिए",
+    "description": "ऋषिगण, आविष्कारों और त्योहारों से भरा संग्रहालय का सचित्र नक्शा — घर पर या गैलरियों में खोजने के लिए।",
+    "media": [
+     {
+      "alt": "ब्रह्मांड के जीवंत चित्र के सामने सीटों की पंक्तियों वाला एक थिएटर"
+     }
+    ],
+    "action": {
+     "label": "अन्वेषण शुरू करें"
+    }
+   },
+   {
+    "id": "ideas",
+    "title": "विचार, सरल भाषा में:",
+    "topics": [
+     {
+      "id": "yoga",
+      "title": "योग",
+      "description": "शरीर, श्वास और मन की साधनाएँ, जो जीवन में संतुलन लाती हैं और आत्मा को परमात्मा के निकट ले जाती हैं।"
+     },
+     {
+      "id": "karma",
+      "title": "कर्म",
+      "description": "हर कर्म के परिणाम होते हैं, इस जीवन में और उसके बाद भी।"
+     },
+     {
+      "id": "ahimsa",
+      "title": "अहिंसा",
+      "description": "अहिंसा: मन, वचन या कर्म से किसी भी जीव को हानि न पहुँचाना।"
+     },
+     {
+      "id": "bhakti",
+      "title": "भक्ति",
+      "description": "भगवान के प्रति प्रेमपूर्ण भक्ति, जो प्रार्थना, कीर्तन, सेवा और समर्पण के माध्यम से व्यक्त होती है।"
+     },
+     {
+      "id": "sanskars",
+      "title": "16 संस्कार",
+      "description": "जीवन के महत्त्वपूर्ण पड़ावों को चिह्नित करने वाले सोलह पवित्र संस्कार, जन्म से पहले से लेकर मृत्यु के बाद तक।"
+     },
+     {
+      "id": "science",
+      "title": "प्राचीन भारतीय विज्ञान",
+      "description": "शून्य, दशमलव पद्धति, शल्यचिकित्सा, खगोलशास्त्र और भी बहुत कुछ: ऐसे विचार जो आज भी विश्व को आकार देते हैं।"
+     }
+    ]
+   }
+  ]
+ }
+}

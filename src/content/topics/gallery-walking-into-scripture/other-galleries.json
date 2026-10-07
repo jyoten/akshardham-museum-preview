@@ -1,0 +1,133 @@
+{
+ "en": {
+  "id": "other-galleries",
+  "title": "The other galleries",
+  "action": {
+   "label": "All four galleries",
+   "link": "/explore"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "Lifelike Scenes &amp; Statues",
+    "subheading": "Gallery 01",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/scholars-diorama.jpg",
+      "alt": "Life-size statues of ancient scholars in a diorama of a teaching hall"
+     }
+    ],
+    "action": {
+     "link": "/explore/lifelike-scenes"
+    }
+   },
+   {
+    "id": "legacy-architecture",
+    "title": "Legacy Architecture",
+    "subheading": "Gallery 02",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/sandstone-temple-facade.jpg",
+      "alt": "Replica of an intricately carved sandstone temple facade"
+     }
+    ],
+    "action": {
+     "link": "/explore/legacy-architecture"
+    }
+   },
+   {
+    "id": "living-tapestry",
+    "title": "A Living Tapestry",
+    "subheading": "Gallery 04",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/festival-street.jpg",
+      "alt": "Visitors walking through a colourful festival street scene"
+     }
+    ],
+    "action": {
+     "link": "/explore/living-tapestry"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "અન્ય ગેલેરીઓ",
+  "action": {
+   "label": "ચારેય ગેલેરીઓ"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
+    "subheading": "ગેલેરી 01",
+    "media": [
+     {
+      "alt": "શિક્ષણ ખંડના ડાયોરામામાં પ્રાચીન વિદ્વાનોની જીવન-કદની પ્રતિમાઓ"
+     }
+    ]
+   },
+   {
+    "id": "legacy-architecture",
+    "title": "વારસાનું સ્થાપત્ય",
+    "subheading": "ગેલેરી 02",
+    "media": [
+     {
+      "alt": "બારીક કોતરણીવાળા રેતિયા પથ્થરના મંદિરના અગ્રભાગની પ્રતિકૃતિ"
+     }
+    ]
+   },
+   {
+    "id": "living-tapestry",
+    "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
+    "subheading": "ગેલેરી 04",
+    "media": [
+     {
+      "alt": "રંગબેરંગી ઉત્સવની શેરીના દૃશ્યમાંથી પસાર થતા મુલાકાતીઓ"
+     }
+    ]
+   }
+  ]
+ },
+ "hi": {
+  "title": "अन्य गैलरियाँ",
+  "action": {
+   "label": "सभी चार गैलरियाँ"
+  },
+  "topics": [
+   {
+    "id": "lifelike-scenes",
+    "title": "सजीव दृश्य और प्रतिमाएँ",
+    "subheading": "गैलरी 01",
+    "media": [
+     {
+      "alt": "एक शिक्षण कक्ष के डायोरामा में प्राचीन विद्वानों की आदमकद प्रतिमाएँ"
+     }
+    ]
+   },
+   {
+    "id": "legacy-architecture",
+    "title": "विरासत का स्थापत्य",
+    "subheading": "गैलरी 02",
+    "media": [
+     {
+      "alt": "बारीक नक्काशीदार बलुआ पत्थर के मंदिर के अग्रभाग की प्रतिकृति"
+     }
+    ]
+   },
+   {
+    "id": "living-tapestry",
+    "title": "जीवंत संस्कृति का ताना-बाना",
+    "subheading": "गैलरी 04",
+    "media": [
+     {
+      "alt": "रंग-बिरंगे उत्सव की गली के दृश्य से गुज़रते आगंतुक"
+     }
+    ]
+   }
+  ]
+ }
+}

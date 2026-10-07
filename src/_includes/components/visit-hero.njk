@@ -1,0 +1,11 @@
+<section aria-labelledby="v-h" class="page-hero" style="position:relative;background:var(--night);color:var(--cream);overflow:hidden;">
+<img src="{{ t.media[0].src }}" alt="{{ t.media[0].alt | safe }}" class="page-hero-img" style="position:absolute;right:0;top:0;height:100%;width:44%;object-fit:cover;opacity:.55">
+<div aria-hidden="true" class="page-hero-fade" style="position:absolute;right:0;top:0;height:100%;width:44%;background:linear-gradient(90deg,var(--night) 0%,rgba(18,13,10,0) 45%)"></div>
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;padding-top:clamp(40px,4.44vw,64px);padding-bottom:clamp(40px,4.44vw,64px);display:flex;flex-direction:column;gap:34px">
+<div style="display:flex;flex-direction:column;gap:20px;max-width:820px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ t.subheading | safe }}</p>
+<h1 id="v-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(46px,5.6vw,80px);line-height:1.02;margin:0">{{ t.title | safe }}</h1>
+<p style="margin:0;font-size:13px;color:var(--stone)">{{ t.description | safe }}</p>
+</div>
+</div>
+</section>

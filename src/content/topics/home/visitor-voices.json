@@ -1,0 +1,75 @@
+{
+ "en": {
+  "id": "visitor-voices",
+  "title": "Why people come",
+  "subheading": "Visitor voices",
+  "topics": [
+   {
+    "id": "priyanka",
+    "title": "Priyanka, 37",
+    "subheading": "Administrative analyst",
+    "description": "“As a child, I went to mandirs in India. I remember being in awe. I want my kids to feel that here.”"
+   },
+   {
+    "id": "nand",
+    "title": "Nand, 20",
+    "subheading": "College student",
+    "description": "“In America, I get asked so many questions about my culture and religion. Through Akshardham, I get the answers and understand who I am.”"
+   },
+   {
+    "id": "aahna",
+    "title": "Aahna, 7",
+    "subheading": "Elementary student",
+    "description": "“When I see how beautifully Diwali is celebrated at Akshardham, I wonder how many other wonderful things India has!”"
+   }
+  ]
+ },
+ "gu": {
+  "title": "લોકો શા માટે આવે છે",
+  "subheading": "મુલાકાતીઓના પ્રતિભાવ",
+  "topics": [
+   {
+    "id": "priyanka",
+    "title": "પ્રિયંકા, 37",
+    "subheading": "વહીવટી વિશ્લેષક",
+    "description": "“બાળપણમાં હું ભારતમાં મંદિરોમાં જતી. મને યાદ છે કે હું અભિભૂત થઈ જતી. હું ઇચ્છું છું કે મારાં બાળકો અહીં એ અનુભવે.”"
+   },
+   {
+    "id": "nand",
+    "title": "નંદ, 20",
+    "subheading": "કૉલેજ વિદ્યાર્થી",
+    "description": "“અમેરિકામાં મને મારી સંસ્કૃતિ અને ધર્મ વિશે ઘણા પ્રશ્નો પૂછવામાં આવે છે. અક્ષરધામ દ્વારા મને તેના ઉત્તરો મળે છે અને હું કોણ છું તે સમજાય છે.”"
+   },
+   {
+    "id": "aahna",
+    "title": "આહના, 7",
+    "subheading": "પ્રાથમિક શાળાની વિદ્યાર્થિની",
+    "description": "“અક્ષરધામમાં દિવાળી કેટલી સુંદર રીતે ઉજવાય છે તે જોઉં છું, ત્યારે મને થાય છે કે ભારત પાસે બીજી કેટલી અદ્ભુત વસ્તુઓ હશે!”"
+   }
+  ]
+ },
+ "hi": {
+  "title": "लोग क्यों आते हैं",
+  "subheading": "आगंतुकों के विचार",
+  "topics": [
+   {
+    "id": "priyanka",
+    "title": "प्रियंका, 37",
+    "subheading": "प्रशासनिक विश्लेषक",
+    "description": "“बचपन में मैं भारत में मंदिरों में जाती थी। मुझे याद है कि मैं विस्मित हो जाती थी। मैं चाहती हूँ कि मेरे बच्चे यहाँ वही अनुभव करें।”"
+   },
+   {
+    "id": "nand",
+    "title": "नंद, 20",
+    "subheading": "कॉलेज विद्यार्थी",
+    "description": "“अमेरिका में मुझसे मेरी संस्कृति और धर्म के बारे में बहुत सारे प्रश्न पूछे जाते हैं। अक्षरधाम के माध्यम से मुझे उनके उत्तर मिलते हैं और मैं समझ पाता हूँ कि मैं कौन हूँ।”"
+   },
+   {
+    "id": "aahna",
+    "title": "आहना, 7",
+    "subheading": "प्राथमिक विद्यालय की छात्रा",
+    "description": "“जब मैं देखती हूँ कि अक्षरधाम में दिवाली कितनी सुंदरता से मनाई जाती है, तो सोचती हूँ कि भारत के पास और कितनी अद्भुत चीज़ें होंगी!”"
+   }
+  ]
+ }
+}

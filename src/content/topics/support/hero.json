@@ -1,0 +1,70 @@
+{
+ "en": {
+  "id": "hero",
+  "title": "Keep the lamp of knowledge burning.",
+  "subheading": "Support the museum",
+  "description": "In the spirit of seva, every gift keeps galleries open, statues cared for and India’s story told to the next generation.",
+  "media": [
+   {
+    "type": "image",
+    "src": "/images/konark-wheel.jpg",
+    "alt": "Great carved stone wheels from the Konark temple, displayed in the museum"
+   }
+  ],
+  "action": {
+   "label": "Become a member",
+   "link": "#membership"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "Make a gift",
+     "link": "#give"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "જ્ઞાનનો દીપ પ્રજ્વલિત રાખો.",
+  "subheading": "સંગ્રહાલયને સહયોગ આપો",
+  "description": "સેવાની ભાવનાથી અપાયેલું પ્રત્યેક દાન ગેલેરીઓને ખુલ્લી રાખે છે, પ્રતિમાઓની સંભાળ રાખે છે અને ભારતની ગાથા આવનારી પેઢી સુધી પહોંચાડે છે.",
+  "media": [
+   {
+    "alt": "કોણાર્ક મંદિરનાં વિશાળ કોતરણીવાળાં પથ્થરનાં ચક્રો, સંગ્રહાલયમાં પ્રદર્શિત"
+   }
+  ],
+  "action": {
+   "label": "સભ્ય બનો"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "દાન આપો"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "title": "ज्ञान का दीप प्रज्वलित रखें।",
+  "subheading": "संग्रहालय को सहयोग दें",
+  "description": "सेवा की भावना से दिया गया प्रत्येक दान गैलरियों को खुला रखता है, प्रतिमाओं की देखभाल करता है और भारत की गाथा आने वाली पीढ़ी तक पहुँचाता है।",
+  "media": [
+   {
+    "alt": "कोणार्क मंदिर के विशाल नक्काशीदार पत्थर के चक्र, संग्रहालय में प्रदर्शित"
+   }
+  ],
+  "action": {
+   "label": "सदस्य बनें"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "दान करें"
+    }
+   }
+  ]
+ }
+}

@@ -1,0 +1,30 @@
+{
+ "path": "/explore/walking-into-scripture/",
+ "nav": "explore",
+ "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+ "meta": "gallery-walking-into-scripture/meta",
+ "components": [
+  {
+   "style": "site-header"
+  },
+  {
+   "style": "breadcrumb",
+   "topic": "gallery-walking-into-scripture/breadcrumb"
+  },
+  {
+   "style": "page-hero",
+   "topic": "gallery-walking-into-scripture/hero",
+   "settings": {
+    "headingId": "g-h"
+   }
+  },
+  {
+   "style": "gallery-items",
+   "topic": "gallery-walking-into-scripture/in-this-gallery"
+  },
+  {
+   "style": "related-cards",
+   "topic": "gallery-walking-into-scripture/other-galleries"
+  }
+ ]
+}

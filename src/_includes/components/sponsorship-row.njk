@@ -1,0 +1,29 @@
+<section aria-labelledby="adopt-h" style="background:var(--sand);padding:clamp(45px,5.00vw,72px) 0">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:32px">
+<div class="yaj-head">
+<div style="display:flex;flex-direction:column;gap:16px;max-width:640px">
+<p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ t.subheading | safe }}</p>
+<h2 id="adopt-h" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:clamp(34px,3.6vw,50px);line-height:1.1;margin:0">{{ t.title | safe }}</h2>
+<p style="margin:0;font-size:18px;color:var(--muted)">{{ t.description | safe }}</p>
+</div>
+<div class="yaj-actions">
+<a href="{{ (t.action.link | link(lang)).href }}" style="display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 26px;border-radius:2px;font-size:15px;font-weight:600;text-decoration:none;box-sizing:border-box;background:var(--ink);color:var(--cream);align-self:flex-start;margin-top:8px">{{ t.action.label | safe }}</a>
+<div class="row-arrows" role="group" aria-label="{{ "sponsor_levels_scroll" | label(lang) | safe }}" data-l="Scroll the sponsorship levels">
+<button type="button" class="row-prev" aria-label="{{ "sponsor_previous" | label(lang) | safe }}" data-l="Previous level" aria-controls="yaj-row">{{ "arrow_left" | label(lang) | safe }}</button>
+<button type="button" class="row-next" aria-label="{{ "sponsor_next" | label(lang) | safe }}" data-l="Next level" aria-controls="yaj-row">{{ "arrow_right" | label(lang) | safe }}</button>
+</div>
+</div>
+</div>
+<ol id="yaj-row" class="yaj-row" tabindex="0" aria-label="{{ "sponsor_levels" | label(lang) | safe }}" data-l="Sponsorship levels (scroll for more)">
+{% for item in t.topics %}{% set L = item.action.link | link(lang) %}<li class="yaj-card">
+<img src="{{ item.media[0].src }}" alt="{{ item.media[0].alt | safe }}" loading="lazy">
+<div class="yaj-body">
+<span class="yaj-kind">{{ item.subheading | safe }}</span>
+<h3>{{ item.title | safe }}</h3>
+<p class="yaj-amount">{{ item.description | safe }}</p>
+<a href="{{ L.href }}" class="yaj-cta{% if L.todo %} todo-link" data-todo="{{ L.todo | safe }}{% endif %}" aria-label="{{ ("sponsor_enquire_" + item.id) | label(lang) | safe }}" data-l="Enquire about {{ item.id | replace("-yajman", "") | capitalize }} Yajman">{{ item.action.label | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+</div>
+</li>
+{% endfor %}</ol>
+</div>
+</section>

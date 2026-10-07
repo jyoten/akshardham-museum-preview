@@ -1,0 +1,15 @@
+---js
+const layout = "layouts/base.njk";
+const pagination = { data: "pageList", size: 1, alias: "pg" };
+const permalink = (data) => data.pg.permalink;
+const eleventyComputed = {
+  lang: (data) => data.pg.lang,
+  path: (data) => data.pg.path,
+  navKey: (data) => data.pg.nav,
+  headerStyle: (data) => data.pg.headerStyle,
+};
+---
+{#- A page is its layout's components in order; each is a style (src/_includes/components/<style>.njk) showing one topic. #}
+{% for c in pg.components %}{% set t = (c.topic | topic(lang)) if c.topic else {} %}{% set s = c.settings or {} %}
+{% include "components/" + c.style + ".njk" %}
+{% endfor %}

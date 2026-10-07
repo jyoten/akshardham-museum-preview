@@ -1,0 +1,83 @@
+{
+ "en": {
+  "id": "in-this-gallery",
+  "title": "In this gallery",
+  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+  "topics": [
+   {
+    "id": "bhakti-and-yoga",
+    "title": "Bhakti &amp; Yoga",
+    "subheading": "Gallery section",
+    "media": [
+     {
+      "type": "image",
+      "src": "/images/sage-scripture-panels.jpg",
+      "alt": "Bronze statue of a seated sage before tall blue panels of scripture"
+     }
+    ]
+   },
+   {
+    "id": "history-of-sanskrit",
+    "title": "History of Sanskrit",
+    "subheading": "Gallery section"
+   },
+   {
+    "id": "shanti-mantra",
+    "title": "Shanti Mantra",
+    "subheading": "Exhibit"
+   }
+  ]
+ },
+ "gu": {
+  "title": "આ ગેલેરીમાં",
+  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+  "topics": [
+   {
+    "id": "bhakti-and-yoga",
+    "title": "ભક્તિ અને યોગ",
+    "subheading": "ગેલેરી વિભાગ",
+    "media": [
+     {
+      "alt": "શાસ્ત્રોની ઊંચી વાદળી તકતીઓ સમક્ષ બિરાજમાન એક ઋષિની કાંસ્ય પ્રતિમા"
+     }
+    ]
+   },
+   {
+    "id": "history-of-sanskrit",
+    "title": "સંસ્કૃતનો ઇતિહાસ",
+    "subheading": "ગેલેરી વિભાગ"
+   },
+   {
+    "id": "shanti-mantra",
+    "title": "શાંતિ મંત્ર",
+    "subheading": "પ્રદર્શન"
+   }
+  ]
+ },
+ "hi": {
+  "title": "इस गैलरी में",
+  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+  "topics": [
+   {
+    "id": "bhakti-and-yoga",
+    "title": "भक्ति और योग",
+    "subheading": "गैलरी खंड",
+    "media": [
+     {
+      "alt": "शास्त्रों के ऊँचे नीले फलकों के समक्ष विराजमान एक ऋषि की कांस्य प्रतिमा"
+     }
+    ]
+   },
+   {
+    "id": "history-of-sanskrit",
+    "title": "संस्कृत का इतिहास",
+    "subheading": "गैलरी खंड"
+   },
+   {
+    "id": "shanti-mantra",
+    "title": "शांति मंत्र",
+    "subheading": "प्रदर्श"
+   }
+  ]
+ }
+}

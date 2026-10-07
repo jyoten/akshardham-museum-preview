@@ -1,0 +1,53 @@
+{
+ "en": {
+  "id": "on-the-timeline",
+  "title": "On the timeline and plan",
+  "subheading": "The 10,000-year timeline",
+  "description": "Ten thousand years of India",
+  "action": {
+   "label": "See this era",
+   "link": "/timeline"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "Book tickets",
+     "link": "/visit#tickets"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "સમયરેખા અને નકશા પર",
+  "subheading": "10,000 વર્ષની સમયરેખા",
+  "description": "ભારતનાં દસ હજાર વર્ષ",
+  "action": {
+   "label": "આ યુગ જુઓ"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "ટિકિટ બુક કરો"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "title": "समयरेखा और नक्शे पर",
+  "subheading": "10,000 वर्षों की समयरेखा",
+  "description": "भारत के दस हज़ार वर्ष",
+  "action": {
+   "label": "यह युग देखें"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "टिकट बुक करें"
+    }
+   }
+  ]
+ }
+}

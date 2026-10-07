@@ -1,0 +1,7 @@
+<section aria-label="{{ t.title | safe }}" data-l="Eras" style="background:var(--ink);position:relative">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;overflow-x:auto;padding-top:0;padding-bottom:0">
+<ol id="era-list" class="era-list" style="list-style:none;margin:0;padding:0;display:flex;gap:0;min-width:max-content">
+{% for era in t.topics %}<li style="display:flex"><button type="button" class="era-btn" data-era="{{ loop.index0 }}" aria-pressed="{{ "true" if loop.index0 == 4 else "false" }}"><span class="era-btn-dates">{{ era.subheading | escape }}</span><span class="era-btn-name">{{ era.title | escape }}</span></button></li>
+{% endfor %}</ol>
+</div>
+</section>

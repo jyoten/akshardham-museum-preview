@@ -1,0 +1,53 @@
+{
+ "en": {
+  "id": "on-the-timeline",
+  "title": "On the timeline and plan",
+  "subheading": "On the timeline",
+  "description": "The great temple builders · c. 600–1300 CE",
+  "action": {
+   "label": "See this era",
+   "link": "/timeline#era-06"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "Book tickets",
+     "link": "/visit#tickets"
+    }
+   }
+  ]
+ },
+ "gu": {
+  "title": "સમયરેખા અને નકશા પર",
+  "subheading": "સમયરેખા પર",
+  "description": "મહાન મંદિર-નિર્માતાઓ · આશરે ઈ.સ. 600–1300",
+  "action": {
+   "label": "આ યુગ જુઓ"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "ટિકિટ બુક કરો"
+    }
+   }
+  ]
+ },
+ "hi": {
+  "title": "समयरेखा और नक्शे पर",
+  "subheading": "समयरेखा पर",
+  "description": "महान मंदिर-निर्माता · लगभग 600–1300 ई.",
+  "action": {
+   "label": "यह युग देखें"
+  },
+  "topics": [
+   {
+    "id": "secondary",
+    "action": {
+     "label": "टिकट बुक करें"
+    }
+   }
+  ]
+ }
+}

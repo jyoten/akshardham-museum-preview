@@ -1,0 +1,46 @@
+{
+ "en": {
+  "id": "breadcrumb",
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "Explore",
+     "link": "/explore"
+    }
+   },
+   {
+    "id": "current",
+    "title": "Walking into Scripture"
+   }
+  ]
+ },
+ "gu": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "અન્વેષણ"
+    }
+   },
+   {
+    "id": "current",
+    "title": "શાસ્ત્રોની સફર"
+   }
+  ]
+ },
+ "hi": {
+  "topics": [
+   {
+    "id": "explore",
+    "action": {
+     "label": "अन्वेषण"
+    }
+   },
+   {
+    "id": "current",
+    "title": "शास्त्रों की यात्रा"
+   }
+  ]
+ }
+}

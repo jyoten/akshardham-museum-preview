@@ -1,0 +1,18 @@
+<article style="padding:clamp(45px,5.00vw,72px) 0 48px">
+<div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:58px">
+{% for ch in t.topics %}<section aria-labelledby="ch{{ loop.index }}" style="display:flex;flex-wrap:wrap;gap:24px 80px">
+<div style="flex:1 1 260px;display:flex;flex-direction:column;gap:12px"><span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">{{ ch.subheading | safe }}</span><h2 id="ch{{ loop.index }}" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0">{{ ch.title | safe }}</h2></div>
+{% if ch.topics.length %}<ol style="flex:999 1 560px;min-width:0;list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:24px;max-width:720px">
+{% for item in ch.topics %}<li style="display:flex;gap:20px;border-top:1px solid var(--line);padding-top:20px">
+<span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:30px;color:var(--accent);line-height:1;flex:0 0 36px">{{ item.subheading | safe }}</span>
+<div style="display:flex;flex-direction:column;gap:6px"><h3 style="margin:0;font-size:18px;font-weight:600">{{ item.title | safe }}</h3><p style="margin:0;color:var(--muted);font-size:16px">{{ item.description | safe }}</p></div>
+</li>
+{% endfor %}</ol>
+{% else %}<div style="flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:20px;font-size:19px;line-height:1.7;max-width:720px">
+{{ ch.description | paras("margin:0") | safe }}
+{% if ch.action %}<a href="{{ (ch.action.link | link(lang)).href }}" style="display:inline-flex;align-items:center;gap:10px;font-weight:600;font-size:15px;text-decoration:none;color:var(--accent)">{{ ch.action.label | safe }}<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="M13 6l6 6-6 6"></path></svg></a>
+{% endif %}</div>
+{% endif %}</section>
+
+{% endfor %}</div>
+</article>
