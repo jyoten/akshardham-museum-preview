@@ -2,11 +2,11 @@
   "en": {
     "id": "in-this-gallery",
     "title": "In this gallery",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "bhakti-and-yoga",
-        "title": "Bhakti &amp; Yoga",
+        "title": "Bhakti & Yoga",
         "subheading": "Gallery section",
         "media": [
           {
@@ -30,7 +30,7 @@
   },
   "gu": {
     "title": "આ ગેલેરીમાં",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "bhakti-and-yoga",
@@ -56,7 +56,7 @@
   },
   "hi": {
     "title": "इस गैलरी में",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "bhakti-and-yoga",

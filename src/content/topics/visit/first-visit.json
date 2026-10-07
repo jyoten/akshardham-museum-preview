@@ -7,22 +7,22 @@
       {
         "id": "what-to-wear",
         "title": "What to wear",
-        "description": "<mark class=\"todo\">[DRESS GUIDANCE]</mark>"
+        "description": "[DRESS GUIDANCE]"
       },
       {
         "id": "photography",
         "title": "Photography",
-        "description": "<mark class=\"todo\">[PHOTOGRAPHY POLICY]</mark>"
+        "description": "[PHOTOGRAPHY POLICY]"
       },
       {
         "id": "food-and-rest",
-        "title": "Food &amp; rest",
-        "description": "<mark class=\"todo\">[DINING AND SEATING]</mark>"
+        "title": "Food & rest",
+        "description": "[DINING AND SEATING]"
       },
       {
         "id": "bags-and-strollers",
-        "title": "Bags &amp; strollers",
-        "description": "<mark class=\"todo\">[BAG AND STROLLER POLICY]</mark>"
+        "title": "Bags & strollers",
+        "description": "[BAG AND STROLLER POLICY]"
       }
     ]
   },
@@ -33,22 +33,22 @@
       {
         "id": "what-to-wear",
         "title": "શું પહેરવું",
-        "description": "<mark class=\"todo\">[DRESS GUIDANCE]</mark>"
+        "description": "[DRESS GUIDANCE]"
       },
       {
         "id": "photography",
         "title": "ફોટોગ્રાફી",
-        "description": "<mark class=\"todo\">[PHOTOGRAPHY POLICY]</mark>"
+        "description": "[PHOTOGRAPHY POLICY]"
       },
       {
         "id": "food-and-rest",
         "title": "ભોજન અને વિશ્રામ",
-        "description": "<mark class=\"todo\">[DINING AND SEATING]</mark>"
+        "description": "[DINING AND SEATING]"
       },
       {
         "id": "bags-and-strollers",
         "title": "બેગ અને સ્ટ્રોલર",
-        "description": "<mark class=\"todo\">[BAG AND STROLLER POLICY]</mark>"
+        "description": "[BAG AND STROLLER POLICY]"
       }
     ]
   },
@@ -59,22 +59,22 @@
       {
         "id": "what-to-wear",
         "title": "क्या पहनें",
-        "description": "<mark class=\"todo\">[DRESS GUIDANCE]</mark>"
+        "description": "[DRESS GUIDANCE]"
       },
       {
         "id": "photography",
         "title": "फ़ोटोग्राफ़ी",
-        "description": "<mark class=\"todo\">[PHOTOGRAPHY POLICY]</mark>"
+        "description": "[PHOTOGRAPHY POLICY]"
       },
       {
         "id": "food-and-rest",
         "title": "भोजन और विश्राम",
-        "description": "<mark class=\"todo\">[DINING AND SEATING]</mark>"
+        "description": "[DINING AND SEATING]"
       },
       {
         "id": "bags-and-strollers",
         "title": "बैग और स्ट्रोलर",
-        "description": "<mark class=\"todo\">[BAG AND STROLLER POLICY]</mark>"
+        "description": "[BAG AND STROLLER POLICY]"
       }
     ]
   }

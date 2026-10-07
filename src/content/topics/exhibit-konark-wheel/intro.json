@@ -2,7 +2,7 @@
   "en": {
     "id": "intro",
     "title": "Konark Wheel",
-    "subheading": "Temple sundial replica · Floor <mark class=\"todo\">[X]</mark>",
+    "subheading": "Temple sundial replica · Floor [X]",
     "description": "One of the great stone wheels of the Sun Temple at Konark, carved for a temple shaped as the chariot of the sun god.",
     "media": [
       {
@@ -15,8 +15,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
+        "title": "Audio guide · Stop [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [Transcript](#)",
         "action": {
           "label": "Play audio guide, stop [#]"
         }
@@ -25,7 +25,7 @@
   },
   "gu": {
     "title": "કોણાર્કનું ચક્ર",
-    "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ · માળ <mark class=\"todo\">[X]</mark>",
+    "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ · માળ [X]",
     "description": "કોણાર્કના સૂર્યમંદિરનાં પથ્થરનાં વિશાળ ચક્રોમાંનું એક, જે સૂર્યદેવના રથના આકારમાં રચાયેલા મંદિર માટે કોતરવામાં આવ્યું હતું.",
     "media": [
       {
@@ -36,8 +36,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
+        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [લેખિત પાઠ](#)",
         "action": {
           "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
         }
@@ -46,7 +46,7 @@
   },
   "hi": {
     "title": "कोणार्क चक्र",
-    "subheading": "मंदिर की सूर्य-घड़ी की प्रतिकृति · तल <mark class=\"todo\">[X]</mark>",
+    "subheading": "मंदिर की सूर्य-घड़ी की प्रतिकृति · तल [X]",
     "description": "कोणार्क के सूर्य मंदिर के पत्थर के विशाल चक्रों में से एक, जिसे सूर्यदेव के रथ के आकार में रचे गए मंदिर के लिए तराशा गया था।",
     "media": [
       {
@@ -57,8 +57,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "ऑडियो गाइड · स्टॉप <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
+        "title": "ऑडियो गाइड · स्टॉप [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [लिखित पाठ](#)",
         "action": {
           "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
         }

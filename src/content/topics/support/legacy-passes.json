@@ -18,7 +18,7 @@
     "topics": [
       {
         "id": "impact",
-        "description": "<mark class=\"todo\">[NUMBER]</mark> students have visited through Legacy Passes since opening."
+        "description": "[NUMBER] students have visited through Legacy Passes since opening."
       }
     ]
   },
@@ -37,7 +37,7 @@
     "topics": [
       {
         "id": "impact",
-        "description": "શરૂઆતથી અત્યાર સુધીમાં <mark class=\"todo\">[NUMBER]</mark> વિદ્યાર્થીઓએ લેગસી પાસ દ્વારા મુલાકાત લીધી છે."
+        "description": "શરૂઆતથી અત્યાર સુધીમાં [NUMBER] વિદ્યાર્થીઓએ લેગસી પાસ દ્વારા મુલાકાત લીધી છે."
       }
     ]
   },
@@ -56,7 +56,7 @@
     "topics": [
       {
         "id": "impact",
-        "description": "शुरुआत से अब तक <mark class=\"todo\">[NUMBER]</mark> विद्यार्थी लेगेसी पास के माध्यम से भ्रमण कर चुके हैं।"
+        "description": "शुरुआत से अब तक [NUMBER] विद्यार्थी लेगेसी पास के माध्यम से भ्रमण कर चुके हैं।"
       }
     ]
   }

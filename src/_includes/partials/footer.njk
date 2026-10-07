@@ -4,7 +4,7 @@
 <div style="display:flex;flex-direction:column;gap:14px">
 <span style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:26px;letter-spacing:.16em;color:var(--cream)">{{ contact.title | safe }}</span>
 <span style="font-size:10.5px;letter-spacing:.38em;text-transform:uppercase;color:var(--gold)">{{ contact.subheading | safe }}</span>
-<address style="font-style:normal;line-height:1.7;font-size:15px;margin-top:8px">{{ contact.description | safe }}</address>
+<address style="font-style:normal;line-height:1.7;font-size:15px;margin-top:8px">{{ contact.description | linkStyle("color:var(--stone)") | safe }}</address>
 {% for item in contact.topics %}<p style="margin:0;font-size:15px" data-status="footer">{{ item.title | safe }}</p>{% endfor %}
 </div>
 <nav aria-label="{{ fExplore.title | safe }}" data-l="Explore" class="nl" style="display:flex;flex-direction:column;gap:6px;font-size:15px">
@@ -26,7 +26,7 @@
 </div>
 </div>
 <div style="display:flex;flex-wrap:wrap;gap:20px 40px;justify-content:space-between;align-items:center;border-top:1px solid var(--umber);padding-top:28px;font-size:14px">
-<p style="margin:0">{{ legal.description | safe }}</p>
+<p style="margin:0">{{ legal.description | linkStyle("color:var(--gold)") | safe }}</p>
 <nav aria-label="{{ legal.title | safe }}" data-l="Legal" class="nl" style="display:flex;gap:24px;flex-wrap:wrap">{% for item in legal.topics %}<a href="{{ (item.action.link | link(lang)).href }}">{{ item.action.label | safe }}</a>{% endfor %}<span>{{ legal.subheading | safe }}</span></nav>
 </div>
 </div>

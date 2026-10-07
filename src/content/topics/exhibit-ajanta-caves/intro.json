@@ -2,7 +2,7 @@
   "en": {
     "id": "intro",
     "title": "The Ajanta Caves",
-    "subheading": "Architectural replica · Floor <mark class=\"todo\">[X]</mark>",
+    "subheading": "Architectural replica · Floor [X]",
     "description": "For seven hundred years, monks and artisans carved prayer halls and monasteries straight into the living rock of a river gorge — then the jungle hid them for more than a thousand more.",
     "media": [
       {
@@ -15,8 +15,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
+        "title": "Audio guide · Stop [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [Transcript](#)",
         "action": {
           "label": "Play audio guide, stop [#]"
         }
@@ -25,7 +25,7 @@
   },
   "gu": {
     "title": "અજંતાની ગુફાઓ",
-    "subheading": "સ્થાપત્ય પ્રતિકૃતિ · માળ <mark class=\"todo\">[X]</mark>",
+    "subheading": "સ્થાપત્ય પ્રતિકૃતિ · માળ [X]",
     "description": "સાતસો વર્ષ સુધી ભિક્ષુઓ અને કારીગરોએ નદીની ખીણના જીવંત ખડકમાં સીધા જ પ્રાર્થના ખંડો અને વિહારો કોતર્યા — પછી એક હજારથી વધુ વર્ષ સુધી જંગલે તેમને છુપાવી રાખ્યા.",
     "media": [
       {
@@ -36,8 +36,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "ઑડિયો માર્ગદર્શિકા · પડાવ <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
+        "title": "ઑડિયો માર્ગદર્શિકા · પડાવ [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [લેખિત પાઠ](#)",
         "action": {
           "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, પડાવ [#]"
         }
@@ -46,7 +46,7 @@
   },
   "hi": {
     "title": "अजंता की गुफाएँ",
-    "subheading": "स्थापत्य प्रतिकृति · तल <mark class=\"todo\">[X]</mark>",
+    "subheading": "स्थापत्य प्रतिकृति · तल [X]",
     "description": "सात सौ वर्षों तक भिक्षुओं और शिल्पकारों ने एक नदी घाटी की जीवंत चट्टान में सीधे प्रार्थना कक्ष और विहार तराशे — फिर एक हज़ार से अधिक वर्षों तक जंगल ने उन्हें छिपाए रखा।",
     "media": [
       {
@@ -57,8 +57,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "ऑडियो गाइड · पड़ाव <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
+        "title": "ऑडियो गाइड · पड़ाव [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [लिखित पाठ](#)",
         "action": {
           "label": "ऑडियो गाइड चलाएँ, पड़ाव [#]"
         }

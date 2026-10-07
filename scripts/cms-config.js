@@ -64,8 +64,13 @@ function topicFields(depth) {
   const fields = [
     { name: "id", label: "ID", widget: "string", i18n: "duplicate", required: true, pattern: ["^[a-z0-9-]+$", "Lower-case letters, numbers and hyphens"], hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use." },
     { name: "title", label: "Title", widget: "string", i18n: true, required: false },
-    { name: "subheading", label: "Sub heading", widget: "string", i18n: true, required: false, pattern: ["^.{0,100}$", "At most 100 characters"], hint: "Up to 100 characters. Often the small line above a heading, or a label." },
-    { name: "description", label: "Description", widget: "text", i18n: true, required: false, pattern: ["^[\\s\\S]{0,2000}$", "At most 2000 characters"], hint: "Rich text, up to 2000 characters. Keep any <tags> as they are; they make links, paragraphs and highlights." },
+    { name: "subheading", label: "Sub heading", widget: "string", i18n: true, required: false, pattern: ["^.{0,100}$", "At most 100 characters"], hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added." },
+    {
+      name: "description", label: "Description", widget: "markdown", i18n: true, required: false,
+      modes: ["rich_text"], buttons: ["bold", "italic", "link"], editor_components: [],
+      pattern: ["^[\\s\\S]{0,2000}$", "At most 2000 characters"],
+      hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added.",
+    },
     {
       name: "media", label: "Media", label_singular: "image or video", widget: "list", i18n: true, required: false, summary: "{{fields.src}}",
       fields: [

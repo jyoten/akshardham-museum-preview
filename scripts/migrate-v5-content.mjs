@@ -4,6 +4,8 @@
 //   node scripts/migrate-v5-content.mjs <v5 content dir>     e.g. ../v5/src/content
 //
 // Written against iteration-5 as of de00770 (the footer with one link per page).
+// Its output still uses v5-style HTML in the text; scripts/convert-text-to-markdown.mjs then turned that into
+// plain text and Markdown (the current format).
 //
 // Every v5 key must end up somewhere; the script lists any it didn't use.
 import fs from "node:fs";

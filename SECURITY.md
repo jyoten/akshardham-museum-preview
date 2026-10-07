@@ -20,7 +20,7 @@ This file covers what the code already does, and the setup that needs your own a
 
 **Content checks on every pull request** (`.github/workflows/check.yml`, `npm run check-content`)
 - Topics: WebNext limits (sub heading 100, description 2000 characters), stable IDs, every page's topics and styles exist.
-- Text is placed in pages as HTML, so it may only contain `p a mark br strong em span` with `href class style data-todo aria-hidden lang`; links must be `/…`, `#…`, `https://…`, `mailto:` or `tel:`; anything script-like fails.
+- Text has no HTML in the files: fields are plain text, descriptions are Markdown (with raw HTML turned off), and anything in the files that looks like HTML fails the check. The HTML the build makes from it may only contain `p a mark br strong em span` with `href class style data-todo aria-hidden lang`; links must be `/…`, `#…`, `https://…`, `mailto:`, `tel:` or `todo:`; anything script-like fails.
 - Images: JPEG, PNG, WebP or AVIF only (checked by content, not just name), at most 2 MB, no sub-folders.
 
 **Sign-in service (`auth/`)**: see below. Tests: `npm test` (or `node --test auth/test/`).

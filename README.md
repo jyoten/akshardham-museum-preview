@@ -86,6 +86,6 @@ Then visit http://localhost:8000. Python's server doesn't use `404.html`; real h
 - The banner's "Privacy policy" link is a placeholder until there is a privacy page.
 
 ## Still to do
-- Placeholder content is wrapped in `<mark class="todo">` (highlighted yellow). Search for `class="todo"`.
+- Placeholder content is written in [SQUARE BRACKETS] in the content files and highlighted yellow (`<mark class="todo">`) when the site is built.
 - Links with no destination yet have `class="todo-link"` and a `data-todo` note. Many other links are plain `href="#"`.
 - Forms (tickets, newsletter, sponsor search) have no backend.

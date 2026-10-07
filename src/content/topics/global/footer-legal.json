@@ -3,7 +3,7 @@
     "id": "footer-legal",
     "title": "Legal",
     "subheading": "© BAPS Swaminarayan Akshardham",
-    "description": "Festivals and worship take place at the <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS Swaminarayan Akshardham Mandir</a> on the same campus.",
+    "description": "Festivals and worship take place at the [BAPS Swaminarayan Akshardham Mandir](https://usa.akshardham.org) on the same campus.",
     "topics": [
       {
         "id": "accessibility",
@@ -38,7 +38,7 @@
   "gu": {
     "title": "કાનૂની",
     "subheading": "© BAPS સ્વામિનારાયણ અક્ષરધામ",
-    "description": "ઉત્સવો અને પૂજા-અર્ચના આ જ પરિસરમાં આવેલા <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS સ્વામિનારાયણ અક્ષરધામ મંદિર</a>માં થાય છે.",
+    "description": "ઉત્સવો અને પૂજા-અર્ચના આ જ પરિસરમાં આવેલા [BAPS સ્વામિનારાયણ અક્ષરધામ મંદિર](https://usa.akshardham.org)માં થાય છે.",
     "topics": [
       {
         "id": "accessibility",
@@ -69,7 +69,7 @@
   "hi": {
     "title": "कानूनी",
     "subheading": "© BAPS स्वामीनारायण अक्षरधाम",
-    "description": "उत्सव और पूजा-अर्चना इसी परिसर में स्थित <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS स्वामीनारायण अक्षरधाम मंदिर</a> में होते हैं।",
+    "description": "उत्सव और पूजा-अर्चना इसी परिसर में स्थित [BAPS स्वामीनारायण अक्षरधाम मंदिर](https://usa.akshardham.org) में होते हैं।",
     "topics": [
       {
         "id": "accessibility",

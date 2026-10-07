@@ -1,10 +1,12 @@
 // Checks the content files before they are merged: npm run check-content (also run on every pull request).
 // - topics: valid, IDs unique, WebNext limits (sub heading 100, description 2000 characters)
-// - text: only simple formatting tags and safe links (text is placed in the pages as HTML)
+// - text: no HTML in the files (editors write plain text and Markdown); the HTML it becomes
+//   (lib/text.js) may only use simple formatting tags and safe links
 // - pages: every component's style and topic exists
 // - images: only JPEG/PNG/WebP/AVIF, at most 2 MB, all in src/images/
 import fs from "node:fs";
 import path from "node:path";
+import { plainText, richText } from "../lib/text.js";
 
 const CONTENT = "src/content";
 const IMAGES = "src/images";
@@ -28,11 +30,17 @@ function checkHtml(where, s) {
     for (const a of m[2].matchAll(/([a-zA-Z_:][-a-zA-Z0-9_:.]*)\s*(?:=\s*("[^"]*"|'[^']*'|[^\s>]+))?/g)) {
       const name = a[1].toLowerCase(), val = (a[2] || "").replace(/^["']|["']$/g, "");
       if (!ATTRS.has(name)) err(where, `attribute ${name}= isn't allowed on <${tag}>`);
-      if (name === "href" && !/^(\/|#|https:\/\/|mailto:|tel:)/.test(val)) err(where, `link "${val}" must start with /, #, https://, mailto: or tel:`);
+      if (name === "href" && !/^(\/|#|https:\/\/|mailto:|tel:)/.test(val)) err(where, `link "${val}" must start with /, #, https://, mailto:, tel: or todo:`);
       if (name === "style" && /url\(|expression|@import/i.test(val)) err(where, "style can't load anything");
     }
   }
   if (/javascript:|<script|<iframe|\son[a-z]+\s*=/i.test(s)) err(where, "contains script");
+}
+// Stored text must not contain HTML; then check the HTML it is turned into.
+function checkText(where, s, render) {
+  if (typeof s !== "string") return;
+  if (/<\/?[a-zA-Z!]/.test(s)) err(where, "contains HTML; use plain text (and the editor's bold, italic and link buttons in descriptions)");
+  checkHtml(where, render(s));
 }
 function checkLink(where, link) {
   if (link === undefined || link === "") return;
@@ -50,14 +58,14 @@ function checkTopic(t, where, lang, isEn) {
   for (const f of ["title", "subheading", "description"]) {
     if (t[f] === undefined) continue;
     if (typeof t[f] !== "string") { err(where, `${f} must be text`); continue; }
-    checkHtml(`${where}.${f} (${lang})`, t[f]);
+    checkText(`${where}.${f} (${lang})`, t[f], f === "description" ? richText : plainText);
     if (LIMITS[f] && t[f].length > LIMITS[f]) err(where, `${f} (${lang}) is ${t[f].length} characters; at most ${LIMITS[f]}`);
   }
   (t.media || []).forEach((m, i) => {
-    checkHtml(`${where}.media[${i}] (${lang})`, m.alt); checkHtml(`${where}.media[${i}] (${lang})`, m.caption);
+    checkText(`${where}.media[${i}].alt (${lang})`, m.alt, plainText); checkText(`${where}.media[${i}].caption (${lang})`, m.caption, plainText);
     if (isEn) { checkMediaSrc(`${where}.media[${i}]`, m.src); if (m.type && !["image", "video"].includes(m.type)) err(where, `media type "${m.type}"`); }
   });
-  if (t.action) { checkHtml(`${where}.action.label (${lang})`, t.action.label); if (isEn) checkLink(`${where}.action`, t.action.link); }
+  if (t.action) { checkText(`${where}.action.label (${lang})`, t.action.label, plainText); if (isEn) checkLink(`${where}.action`, t.action.link); }
   const ids = new Set();
   for (const c of t.topics || []) {
     if (ids.has(c.id)) err(where, `two child topics with id "${c.id}"`);
@@ -108,7 +116,7 @@ for (const f of ["labels.json", "ui.json"]) {
   if (!s) continue;
   for (const l of LANGS) for (const [k, v] of Object.entries(s[l] || {})) {
     if (!(k in s.en)) err(`strings/${f}`, `"${k}" (${l}) has no English`);
-    checkHtml(`strings/${f} ${k} (${l})`, v);
+    if (f === "labels.json") checkText(`strings/${f} ${k} (${l})`, v, plainText); else checkHtml(`strings/${f} ${k} (${l})`, v);
   }
 }
 

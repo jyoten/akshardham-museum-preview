@@ -5,7 +5,7 @@ Text files: each topic file in `src/content/topics/` has an `en` part and `gu` a
 The current Gujarati and Hindi text is a **first draft prepared with AI assistance**. Please have a fluent reader, ideally someone familiar with BAPS usage, review it before launch, especially names, devotional terms and the opening of each page.
 
 ## Rules
-- Translate only the words. Keep every HTML tag and attribute exactly as it is (`<mark class="todo">…</mark>`, `<a href="/visit">…</a>`, `<br>`, `<strong>`).
+- Translate only the words. In the editor, keep links and bold/italic where the English has them. In the files, descriptions are Markdown: keep `[link text](/visit)` link targets and `\` line breaks as they are.
 - Keep to-do placeholders in square brackets unchanged: `[X]`, `[HOURS]`, `[PRICE]`, `[AMOUNT]` and so on. They're replaced with real content later.
 - Keep `{time}`, `{day}`, `{open}`, `{close}` and `{days}` in the wording strings exactly as written.
 - Keep as they are: the wordmark **AKSHARDHAM**, the street address, the phone number, email examples and web addresses.

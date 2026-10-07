@@ -2,7 +2,7 @@
   "en": {
     "id": "intro",
     "title": "Traditional Haveli",
-    "subheading": "Architectural replica · Floor <mark class=\"todo\">[X]</mark>",
+    "subheading": "Architectural replica · Floor [X]",
     "description": "A family townhouse of western India, with a carved wooden facade, balconies and windows that look out over the street.",
     "media": [
       {
@@ -15,8 +15,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
+        "title": "Audio guide · Stop [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [Transcript](#)",
         "action": {
           "label": "Play audio guide, stop [#]"
         }
@@ -25,7 +25,7 @@
   },
   "gu": {
     "title": "પરંપરાગત હવેલી",
-    "subheading": "સ્થાપત્ય પ્રતિકૃતિ · માળ <mark class=\"todo\">[X]</mark>",
+    "subheading": "સ્થાપત્ય પ્રતિકૃતિ · માળ [X]",
     "description": "પશ્ચિમ ભારતનું એક પારિવારિક નગરગૃહ, જેમાં કોતરણીવાળો લાકડાનો અગ્રભાગ, ઝરૂખા અને શેરી તરફ ખૂલતી બારીઓ છે.",
     "media": [
       {
@@ -36,8 +36,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
+        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [લેખિત પાઠ](#)",
         "action": {
           "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
         }
@@ -46,7 +46,7 @@
   },
   "hi": {
     "title": "पारंपरिक हवेली",
-    "subheading": "स्थापत्य प्रतिकृति · तल <mark class=\"todo\">[X]</mark>",
+    "subheading": "स्थापत्य प्रतिकृति · तल [X]",
     "description": "पश्चिमी भारत का एक पारिवारिक नगर-भवन, जिसमें नक्काशीदार लकड़ी का अग्रभाग, छज्जे और गली की ओर खुलती खिड़कियाँ हैं।",
     "media": [
       {
@@ -57,8 +57,8 @@
     "topics": [
       {
         "id": "audio-guide",
-        "title": "ऑडियो गाइड · स्टॉप <mark class=\"todo\">[#]</mark>",
-        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
+        "title": "ऑडियो गाइड · स्टॉप [#]",
+        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [लिखित पाठ](#)",
         "action": {
           "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
         }

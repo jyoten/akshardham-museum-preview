@@ -2,7 +2,7 @@
   "en": {
     "id": "hero",
     "title": "Legacy Architecture",
-    "subheading": "Gallery 02 · Floor <mark class=\"todo\">[X]</mark>",
+    "subheading": "Gallery 02 · Floor [X]",
     "description": "Scaled replicas of Ajanta and Ellora, grand mandir shikhars and more.",
     "media": [
       {
@@ -14,12 +14,12 @@
   },
   "gu": {
     "title": "વારસાનું સ્થાપત્ય",
-    "subheading": "ગેલેરી 02 · માળ <mark class=\"todo\">[X]</mark>",
+    "subheading": "ગેલેરી 02 · માળ [X]",
     "description": "અજંતા અને ઇલોરાની માપસર પ્રતિકૃતિઓ, ભવ્ય મંદિર શિખરો અને ઘણું બધું."
   },
   "hi": {
     "title": "विरासत का स्थापत्य",
-    "subheading": "गैलरी 02 · तल <mark class=\"todo\">[X]</mark>",
+    "subheading": "गैलरी 02 · तल [X]",
     "description": "अजंता और एलोरा की पैमाने पर बनी प्रतिकृतियाँ, भव्य मंदिर शिखर और बहुत कुछ।"
   }
 }

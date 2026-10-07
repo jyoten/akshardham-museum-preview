@@ -13,7 +13,7 @@
         "id": "rishi-yajman",
         "title": "Rishi Yajman",
         "subheading": "A lifelike statue · 200 statues",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "type": "image",
@@ -30,7 +30,7 @@
         "id": "saraswat-yajman",
         "title": "Saraswat Yajman",
         "subheading": "A multimedia show · 40 shows",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "type": "image",
@@ -47,7 +47,7 @@
         "id": "kalash-yajman",
         "title": "Kalash Yajman",
         "subheading": "A gallery section · 60 sections",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "type": "image",
@@ -64,7 +64,7 @@
         "id": "tilak-yajman",
         "title": "Tilak Yajman",
         "subheading": "An immersive diorama · 25 dioramas",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "type": "image",
@@ -81,7 +81,7 @@
         "id": "sanskruti-yajman",
         "title": "Sanskruti Yajman",
         "subheading": "An architectural replica · 12 replicas",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "type": "image",
@@ -108,7 +108,7 @@
         "id": "rishi-yajman",
         "title": "ઋષિ યજમાન",
         "subheading": "એક જીવંત પ્રતિમા · 200 પ્રતિમાઓ",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "સંગ્રહાલયની ગેલેરીમાં બે ઋષિઓની જીવંત પ્રતિમાઓ"
@@ -122,7 +122,7 @@
         "id": "saraswat-yajman",
         "title": "સારસ્વત યજમાન",
         "subheading": "એક મલ્ટિમીડિયા શો · 40 શો",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "બ્રહ્માંડના રંગબેરંગી ચિત્ર સામે બેઠકોની હરોળોવાળું થિયેટર"
@@ -136,7 +136,7 @@
         "id": "kalash-yajman",
         "title": "કળશ યજમાન",
         "subheading": "એક ગેલેરી વિભાગ · 60 વિભાગો",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "“ભારત, મંચીય કલાઓની ભૂમિ” ગેલેરી"
@@ -150,7 +150,7 @@
         "id": "tilak-yajman",
         "title": "તિલક યજમાન",
         "subheading": "એક અનુભૂતિસભર ડાયોરામા · 25 ડાયોરામા",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃનિર્મિત પ્રાચીન બજારની શેરી"
@@ -164,7 +164,7 @@
         "id": "sanskruti-yajman",
         "title": "સંસ્કૃતિ યજમાન",
         "subheading": "એક સ્થાપત્ય પ્રતિકૃતિ · 12 પ્રતિકૃતિઓ",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "પાંસળીદાર છત અને સ્તૂપ સાથે અજંતાના પ્રાર્થના ખંડની પ્રતિકૃતિ"
@@ -188,7 +188,7 @@
         "id": "rishi-yajman",
         "title": "ऋषि यजमान",
         "subheading": "एक सजीव प्रतिमा · 200 प्रतिमाएँ",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "संग्रहालय की गैलरी में दो ऋषियों की सजीव प्रतिमाएँ"
@@ -202,7 +202,7 @@
         "id": "saraswat-yajman",
         "title": "सारस्वत यजमान",
         "subheading": "एक मल्टीमीडिया शो · 40 शो",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "ब्रह्मांड के रंगीन चित्र के सामने सीटों की पंक्तियों वाला थिएटर"
@@ -216,7 +216,7 @@
         "id": "kalash-yajman",
         "title": "कलश यजमान",
         "subheading": "एक गैलरी खंड · 60 खंड",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "“भारत, प्रदर्शन कलाओं की भूमि” गैलरी"
@@ -230,7 +230,7 @@
         "id": "tilak-yajman",
         "title": "तिलक यजमान",
         "subheading": "एक जीवंत अनुभव कराने वाला डायोरामा · 25 डायोरामा",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली"
@@ -244,7 +244,7 @@
         "id": "sanskruti-yajman",
         "title": "संस्कृति यजमान",
         "subheading": "एक स्थापत्य प्रतिकृति · 12 प्रतिकृतियाँ",
-        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "description": "[AMOUNT]",
         "media": [
           {
             "alt": "पसलीदार छत और स्तूप के साथ अजंता के प्रार्थना कक्ष की प्रतिकृति"

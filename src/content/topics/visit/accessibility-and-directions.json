@@ -9,19 +9,19 @@
         "topics": [
           {
             "id": "item-1",
-            "title": "Elevator access to all floors · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "Elevator access to all floors · [CONFIRM]"
           },
           {
             "id": "item-2",
-            "title": "Wheelchairs available free · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "Wheelchairs available free · [CONFIRM]"
           },
           {
             "id": "item-3",
-            "title": "Captions on all shows · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "Captions on all shows · [CONFIRM]"
           },
           {
             "id": "item-4",
-            "title": "Sensory-friendly hours · <mark class=\"todo\">[DAYS AND TIMES]</mark>"
+            "title": "Sensory-friendly hours · [DAYS AND TIMES]"
           }
         ]
       },
@@ -37,12 +37,12 @@
           {
             "id": "by-car",
             "title": "By car",
-            "description": "<mark class=\"todo\">[PARKING DETAILS]</mark>"
+            "description": "[PARKING DETAILS]"
           },
           {
             "id": "by-transit",
             "title": "By transit",
-            "description": "<mark class=\"todo\">[TRANSIT DETAILS]</mark>"
+            "description": "[TRANSIT DETAILS]"
           }
         ]
       }
@@ -57,19 +57,19 @@
         "topics": [
           {
             "id": "item-1",
-            "title": "બધા માળ સુધી લિફ્ટની સુવિધા · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "બધા માળ સુધી લિફ્ટની સુવિધા · [CONFIRM]"
           },
           {
             "id": "item-2",
-            "title": "વ્હીલચેર નિઃશુલ્ક ઉપલબ્ધ · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "વ્હીલચેર નિઃશુલ્ક ઉપલબ્ધ · [CONFIRM]"
           },
           {
             "id": "item-3",
-            "title": "બધા શોમાં કૅપ્શન · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "બધા શોમાં કૅપ્શન · [CONFIRM]"
           },
           {
             "id": "item-4",
-            "title": "સંવેદના-અનુકૂળ સમય · <mark class=\"todo\">[DAYS AND TIMES]</mark>"
+            "title": "સંવેદના-અનુકૂળ સમય · [DAYS AND TIMES]"
           }
         ]
       },
@@ -84,12 +84,12 @@
           {
             "id": "by-car",
             "title": "કાર દ્વારા",
-            "description": "<mark class=\"todo\">[PARKING DETAILS]</mark>"
+            "description": "[PARKING DETAILS]"
           },
           {
             "id": "by-transit",
             "title": "જાહેર પરિવહન દ્વારા",
-            "description": "<mark class=\"todo\">[TRANSIT DETAILS]</mark>"
+            "description": "[TRANSIT DETAILS]"
           }
         ]
       }
@@ -104,19 +104,19 @@
         "topics": [
           {
             "id": "item-1",
-            "title": "सभी तलों तक लिफ़्ट की सुविधा · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "सभी तलों तक लिफ़्ट की सुविधा · [CONFIRM]"
           },
           {
             "id": "item-2",
-            "title": "व्हीलचेयर निःशुल्क उपलब्ध · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "व्हीलचेयर निःशुल्क उपलब्ध · [CONFIRM]"
           },
           {
             "id": "item-3",
-            "title": "सभी शो में कैप्शन · <mark class=\"todo\">[CONFIRM]</mark>"
+            "title": "सभी शो में कैप्शन · [CONFIRM]"
           },
           {
             "id": "item-4",
-            "title": "संवेदी-अनुकूल समय · <mark class=\"todo\">[DAYS AND TIMES]</mark>"
+            "title": "संवेदी-अनुकूल समय · [DAYS AND TIMES]"
           }
         ]
       },
@@ -131,12 +131,12 @@
           {
             "id": "by-car",
             "title": "कार से",
-            "description": "<mark class=\"todo\">[PARKING DETAILS]</mark>"
+            "description": "[PARKING DETAILS]"
           },
           {
             "id": "by-transit",
             "title": "सार्वजनिक परिवहन से",
-            "description": "<mark class=\"todo\">[TRANSIT DETAILS]</mark>"
+            "description": "[TRANSIT DETAILS]"
           }
         ]
       }

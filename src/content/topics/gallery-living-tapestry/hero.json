@@ -2,7 +2,7 @@
   "en": {
     "id": "hero",
     "title": "A Living Tapestry",
-    "subheading": "Gallery 04 · Floor <mark class=\"todo\">[X]</mark>",
+    "subheading": "Gallery 04 · Floor [X]",
     "description": "Festivals, food, clothing and dance — with interactive stations for young visitors.",
     "media": [
       {
@@ -14,12 +14,12 @@
   },
   "gu": {
     "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
-    "subheading": "ગેલેરી 04 · માળ <mark class=\"todo\">[X]</mark>",
+    "subheading": "ગેલેરી 04 · માળ [X]",
     "description": "ઉત્સવો, ભોજન, વેશભૂષા અને નૃત્ય — બાળ મુલાકાતીઓ માટે ઇન્ટરેક્ટિવ સ્ટેશનો સાથે."
   },
   "hi": {
     "title": "जीवंत संस्कृति का ताना-बाना",
-    "subheading": "गैलरी 04 · तल <mark class=\"todo\">[X]</mark>",
+    "subheading": "गैलरी 04 · तल [X]",
     "description": "उत्सव, भोजन, वेशभूषा और नृत्य — युवा आगंतुकों के लिए इंटरैक्टिव स्टेशनों के साथ।"
   }
 }

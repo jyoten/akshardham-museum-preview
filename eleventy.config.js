@@ -5,6 +5,7 @@ import fs from "node:fs";
 import { createHash } from "node:crypto";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 import path from "node:path";
+import { plainText, richText, escAttr } from "./lib/text.js";
 
 const LANGS = ["en", "gu", "hi"];
 const CONTENT = "src/content";
@@ -84,24 +85,31 @@ const lurl = (p, lang) => {
 const fixLinks = (s, lang) => (lang === "en" || typeof s !== "string" ? s : s.replace(/href="(\/[^"]*)"/g, (m, p) => `href="${lurl(p, lang)}"`));
 const has = (s) => typeof s === "string" && s.trim() !== "";
 const pick = (own, en, lang) => fixLinks(has(own) ? own : en, lang);
+// Content is plain text and Markdown (see lib/text.js); "raw" keeps it as written, for the timeline script.
+const RENDER = {
+  html: { title: plainText, subheading: plainText, description: richText, caption: plainText, label: plainText, alt: escAttr },
+  raw: { title: String, subheading: String, description: String, caption: String, label: String, alt: String },
+};
 
 // A topic in one language: the English topic, with each text field replaced by the
 // language's variation where it has one. Structure (children, media, links) comes from English;
 // child topics are matched by id and media by position.
-function localize(en, v, lang) {
+function localize(en, v, lang, mode = "html") {
   v = v || {};
+  const R = RENDER[mode];
+  const pick = (own, enVal, f) => fixLinks(R[f](has(own) ? own : enVal), lang);
   const out = { id: en.id };
-  for (const f of ["title", "subheading", "description"]) if (en[f] !== undefined || has(v[f])) out[f] = pick(v[f], en[f], lang);
+  for (const f of ["title", "subheading", "description"]) if (en[f] !== undefined || has(v[f])) out[f] = pick(v[f], en[f], f);
   if (en.media) {
     out.media = en.media.map((m, i) => {
       const vm = (v.media && v.media[i]) || {};
-      const r = { ...m, alt: pick(vm.alt, m.alt, lang) };
-      if (m.caption !== undefined) r.caption = pick(vm.caption, m.caption, lang);
+      const r = { ...m, alt: pick(vm.alt, m.alt || "", "alt") };
+      if (m.caption !== undefined) r.caption = pick(vm.caption, m.caption, "caption");
       return r;
     });
   }
-  if (en.action) out.action = { link: en.action.link, label: pick(v.action && v.action.label, en.action.label, lang) };
-  out.topics = (en.topics || []).map((c) => localize(c, (v.topics || []).find((x) => x.id === c.id), lang));
+  if (en.action) out.action = { link: en.action.link, label: en.action.label === undefined && !(v.action && has(v.action.label)) ? undefined : pick(v.action && v.action.label, en.action.label || "", "label") };
+  out.topics = (en.topics || []).map((c) => localize(c, (v.topics || []).find((x) => x.id === c.id), lang, mode));
   return out;
 }
 
@@ -147,7 +155,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("label", (name, lang) => {
     const en = content.labels.en[name];
     if (en === undefined) throw new Error(`No label "${name}" in ${CONTENT}/strings/labels.json`);
-    return pick(content.labels[lang] && content.labels[lang][name], en, lang);
+    return fixLinks(escAttr(has(content.labels[lang] && content.labels[lang][name]) ? content.labels[lang][name] : en), lang);
   });
   eleventyConfig.addFilter("ui", (name, lang) => pick(content.ui[lang] && content.ui[lang][name], content.ui.en[name], lang));
 
@@ -165,7 +173,12 @@ export default function (eleventyConfig) {
   });
 
   // Timeline eras for js/timeline.js, built from the era topics; links follow the language.
-  eleventyConfig.addFilter("eras", (eras, lang) => {
+  // Adds a colour to the links in a piece of text (a few places style their links).
+  eleventyConfig.addFilter("linkStyle", (html, style) => String(html).replace(/<a href="([^"]*)">/g, `<a href="$1" style="${style}">`));
+
+  eleventyConfig.addFilter("eras", (ref, lang) => {
+    const file = content.topics[ref];
+    const eras = localize(file.en, file[lang], lang, "raw");
     const pre = (u) => (typeof u === "string" && u.startsWith("/") ? PREFIX + u : u);
     const out = eras.topics.map((e, i) => {
       const keys = e.topics.find((c) => c.id === "key-names");

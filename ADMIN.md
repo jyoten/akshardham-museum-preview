@@ -36,7 +36,7 @@ Hours and notices are read by the browser when the page loads, so they show up a
 1. **Text — …** → pick the part of the site (e.g. *Text — Plan your visit*), then the topic (e.g. `tickets`). Each entry is one section of a page: its title, sub heading, description, images, button and child topics (cards, list items, questions).
 2. The English, Gujarati and Hindi versions sit side by side. Edit and **Publish**.
 3. In Gujarati and Hindi, a field left **empty** shows the English text on the site. Fill it in to translate it.
-4. Some fields contain little tags like `<mark class="todo">[X]</mark>`, `<p>…</p>` or `<a href="/visit">…</a>`. Keep the tags and change only the words between them.
+4. Text in [SQUARE BRACKETS], like [X] or [PHOTO NEEDED: …], is a reminder of something still to be added; it shows highlighted in yellow on the site until you replace it. In a description, use the **B**, *I* and link buttons for bold, italic and links.
 5. Screen-reader labels, form placeholders and the cookie prompt are under **Interface text**.
 
 To see what still needs translating: `npm run translations` (add `--keys` for the exact fields).

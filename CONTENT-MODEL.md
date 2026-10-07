@@ -43,7 +43,7 @@ A topic file holds one topic and its children. English is the full topic; Gujara
 | `id` | Stable slug. The file name for a top-level topic; page layouts and translations find topics by it. | lower-case, hyphens |
 | `title` | The heading. For a section that shows no heading, the name screen readers announce for it (e.g. "Key facts"). | |
 | `subheading` | Secondary line: usually the small capitals line above a heading; on cards the kind ("Diorama"); on stats the label; on timeline rows the date. | 100 characters |
-| `description` | Rich text (HTML). Several paragraphs are written `<p>…</p>`; a single one can be plain. | 2000 characters |
+| `description` | Rich text, written as Markdown: paragraphs (blank line), **bold**, *italic*, [links](/visit), line breaks (`\` at the end of a line). The editor shows it formatted. | 2000 characters |
 | `media` | Ordered list of `{ type, src, alt, caption }`. An item with no `src` shows a photo placeholder. | |
 | `action` | One button or link: `{ label, link }`. | |
 | `topics` | Child topics, same shape, any depth (the admin edits three levels). | |
@@ -52,7 +52,9 @@ A topic file holds one topic and its children. English is the full topic; Gujara
 
 **Links** in `action.link`: a site path (`/visit#tickets`, made language-aware), an anchor (`#about`), an external address, `tel:`, or `todo:<note>` for a link whose page doesn't exist yet. `todo:` renders as `href="#"` with the yellow to-do marker, as in v5.
 
-**Placeholders** are unchanged from v5: `<mark class="todo">[X]</mark>` inside the text, highlighted yellow.
+**No HTML in the files.** Every field is plain text (descriptions are Markdown); `lib/text.js` turns it into HTML at build time, escaping `&` and `<`.
+
+**Placeholders** are plain text in square brackets, `[X]` or `[PHOTO NEEDED: museum entrance or exterior]`. The build highlights every `[…]` with `<mark class="todo">`, as v5 did by hand.
 
 ### Documents
 
@@ -126,7 +128,7 @@ Each page is built in English at `path`, and at `/gu/…` and `/hi/…`. `src/pa
 | Topic | a top-level topic file, or a child in its `topics` list | `id` is the stable key |
 | Topic › Title | `title` | |
 | Topic › Sub heading (≤100) | `subheading` | all current values are within 100 characters |
-| Topic › Description (rich text, ≤2000) | `description` (HTML) | all within 2000; HTML inline tags only (`<p>`, `<a>`, `<mark>`, `<br>`, `<strong>`) |
+| Topic › Description (rich text, ≤2000) | `description` (Markdown) | all within 2000; render with `lib/text.js` (or any CommonMark renderer) to get WebNext rich text |
 | Topic › Media list (image/video, caption, alt) | `media[]` `{ type, src, alt, caption }` | `src` is a site path under `/images/`; upload the file and swap in the WebNext media reference |
 | Topic › Action button (label + link) | `action` `{ label, link }` | `todo:` links need a real destination first |
 | Topic › child topics | `topics[]` | same shape, nested |
@@ -162,7 +164,7 @@ Each page is built in English at `path`, and at `/gu/…` and `/hi/…`. `src/pa
 - **Section names.** A section that has no visible heading (Key facts, Today at the museum, the exhibit timeline band) uses its topic `title` as the screen-reader name. Where a section has a visible heading *and* a different screen-reader name (Home "Welcome", "The museum in numbers"; footer "Visit and learn"), the name is a label in `strings/labels.json`.
 - **Page titles.** Kept in a `meta` topic per document; WebNext pages likely have their own SEO title field.
 - **Component settings.** `headingId`, `imagePosition` (Ajanta's photo is framed "center 30%") and `lazyImages` are presentation switches on the component, not content.
-- **Inline HTML in text.** 273 `<mark class="todo">` placeholders, and three strings with inline link styles (the phone link in the footer address, the Mandir link in the footer, the audio-guide "Transcript" link). These need tidying when the real content goes in.
+- **Placeholders and link colours.** 273 `[…]` placeholders sit in the text (highlighted at build time). Three links get their colour from the design rather than the text (footer phone number, footer Mandir link, audio-guide "Transcript"); WebNext styles links itself.
 - **Repeated card text.** The "Nearby" and "Other galleries" cards repeat each exhibit's name, kind and image description on every page that shows them, as in v5 (some translations differ page to page). A later clean-up could make them references to one shared card topic per exhibit, if WebNext supports topic references.
 - **The ticket form** is an app (a booking widget), modelled as topics only so its labels are editable. In WebNext it would probably be an embed.
 - **Breadcrumbs and menus** are topics here (lists of actions). WebNext may generate these from the page tree.

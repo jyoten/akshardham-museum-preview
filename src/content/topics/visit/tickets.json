@@ -11,11 +11,11 @@
       },
       {
         "id": "free-changes",
-        "description": "Free changes up to <mark class=\"todo\">[X]</mark> hours before"
+        "description": "Free changes up to [X] hours before"
       },
       {
         "id": "groups",
-        "description": "Group of <mark class=\"todo\">[X]</mark> or more? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">Book as a group</a>"
+        "description": "Group of [X] or more? [Book as a group](todo:Group%20booking%20(no%20section))"
       },
       {
         "id": "booking",
@@ -35,22 +35,22 @@
               {
                 "id": "morning",
                 "title": "Morning",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "midday",
                 "title": "Midday",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "afternoon",
                 "title": "Afternoon",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "evening",
                 "title": "Evening",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               }
             ]
           },
@@ -61,17 +61,17 @@
               {
                 "id": "adult",
                 "title": "Adult",
-                "subheading": "Ages <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "Ages [X]+ · [PRICE]"
               },
               {
                 "id": "child",
                 "title": "Child",
-                "subheading": "Ages <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "Ages [X]–[X] · [PRICE]"
               },
               {
                 "id": "senior",
                 "title": "Senior",
-                "subheading": "Ages <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "Ages [X]+ · [PRICE]"
               },
               {
                 "id": "member",
@@ -85,11 +85,11 @@
             "topics": [
               {
                 "id": "show",
-                "title": "Add a multimedia show · <mark class=\"todo\">[PRICE]</mark>"
+                "title": "Add a multimedia show · [PRICE]"
               },
               {
                 "id": "tour",
-                "title": "Add a guided tour · <mark class=\"todo\">[PRICE]</mark>"
+                "title": "Add a guided tour · [PRICE]"
               }
             ]
           }
@@ -108,11 +108,11 @@
       },
       {
         "id": "free-changes",
-        "description": "<mark class=\"todo\">[X]</mark> કલાક પહેલાં સુધી નિઃશુલ્ક ફેરફાર"
+        "description": "[X] કલાક પહેલાં સુધી નિઃશુલ્ક ફેરફાર"
       },
       {
         "id": "groups",
-        "description": "<mark class=\"todo\">[X]</mark> કે તેથી વધુ લોકોનું જૂથ છે? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">જૂથ તરીકે બુક કરો</a>"
+        "description": "[X] કે તેથી વધુ લોકોનું જૂથ છે? [જૂથ તરીકે બુક કરો](todo:Group%20booking%20(no%20section))"
       },
       {
         "id": "booking",
@@ -132,22 +132,22 @@
               {
                 "id": "morning",
                 "title": "સવાર",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "midday",
                 "title": "મધ્યાહ્ન",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "afternoon",
                 "title": "બપોર",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "evening",
                 "title": "સાંજ",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               }
             ]
           },
@@ -158,17 +158,17 @@
               {
                 "id": "adult",
                 "title": "પુખ્ત",
-                "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "ઉંમર [X]+ · [PRICE]"
               },
               {
                 "id": "child",
                 "title": "બાળક",
-                "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "ઉંમર [X]–[X] · [PRICE]"
               },
               {
                 "id": "senior",
                 "title": "વરિષ્ઠ નાગરિક",
-                "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "ઉંમર [X]+ · [PRICE]"
               },
               {
                 "id": "member",
@@ -182,11 +182,11 @@
             "topics": [
               {
                 "id": "show",
-                "title": "મલ્ટિમીડિયા શો ઉમેરો · <mark class=\"todo\">[PRICE]</mark>"
+                "title": "મલ્ટિમીડિયા શો ઉમેરો · [PRICE]"
               },
               {
                 "id": "tour",
-                "title": "માર્ગદર્શિત પ્રવાસ ઉમેરો · <mark class=\"todo\">[PRICE]</mark>"
+                "title": "માર્ગદર્શિત પ્રવાસ ઉમેરો · [PRICE]"
               }
             ]
           }
@@ -205,11 +205,11 @@
       },
       {
         "id": "free-changes",
-        "description": "<mark class=\"todo\">[X]</mark> घंटे पहले तक निःशुल्क बदलाव"
+        "description": "[X] घंटे पहले तक निःशुल्क बदलाव"
       },
       {
         "id": "groups",
-        "description": "<mark class=\"todo\">[X]</mark> या अधिक लोगों का समूह है? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">समूह के रूप में बुक करें</a>"
+        "description": "[X] या अधिक लोगों का समूह है? [समूह के रूप में बुक करें](todo:Group%20booking%20(no%20section))"
       },
       {
         "id": "booking",
@@ -229,22 +229,22 @@
               {
                 "id": "morning",
                 "title": "सुबह",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "midday",
                 "title": "मध्याह्न",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "afternoon",
                 "title": "दोपहर",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               },
               {
                 "id": "evening",
                 "title": "शाम",
-                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+                "subheading": "[TIME RANGE]"
               }
             ]
           },
@@ -255,17 +255,17 @@
               {
                 "id": "adult",
                 "title": "वयस्क",
-                "subheading": "आयु <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "आयु [X]+ · [PRICE]"
               },
               {
                 "id": "child",
                 "title": "बच्चा",
-                "subheading": "आयु <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "आयु [X]–[X] · [PRICE]"
               },
               {
                 "id": "senior",
                 "title": "वरिष्ठ नागरिक",
-                "subheading": "आयु <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+                "subheading": "आयु [X]+ · [PRICE]"
               },
               {
                 "id": "member",
@@ -279,11 +279,11 @@
             "topics": [
               {
                 "id": "show",
-                "title": "मल्टीमीडिया शो जोड़ें · <mark class=\"todo\">[PRICE]</mark>"
+                "title": "मल्टीमीडिया शो जोड़ें · [PRICE]"
               },
               {
                 "id": "tour",
-                "title": "निर्देशित भ्रमण जोड़ें · <mark class=\"todo\">[PRICE]</mark>"
+                "title": "निर्देशित भ्रमण जोड़ें · [PRICE]"
               }
             ]
           }

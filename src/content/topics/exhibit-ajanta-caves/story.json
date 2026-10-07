@@ -6,7 +6,7 @@
         "id": "chapter-1",
         "title": "The original",
         "subheading": "CHAPTER 01",
-        "description": "<p>Around thirty caves line a horseshoe bend of the Waghur river. The earliest were carved around the 2nd century BCE; a second great wave of work followed in the 5th century CE. Some are viharas, monasteries where monks lived and studied. Others are chaityas, prayer halls built around a stupa.</p>\n<p>Their wall paintings — courtly scenes, animals, stories of the Buddha’s past lives — are among the most important surviving examples of ancient Indian painting. Abandoned and overgrown, the caves were brought to wider attention in 1819.</p>"
+        "description": "Around thirty caves line a horseshoe bend of the Waghur river. The earliest were carved around the 2nd century BCE; a second great wave of work followed in the 5th century CE. Some are viharas, monasteries where monks lived and studied. Others are chaityas, prayer halls built around a stupa.\n\nTheir wall paintings — courtly scenes, animals, stories of the Buddha’s past lives — are among the most important surviving examples of ancient Indian painting. Abandoned and overgrown, the caves were brought to wider attention in 1819."
       },
       {
         "id": "chapter-2",
@@ -37,15 +37,15 @@
         "id": "chapter-3",
         "title": "Shared roots",
         "subheading": "CHAPTER 03",
-        "description": "<p>Ajanta is a Buddhist site, and it stands here deliberately. The museum explores the shared origins of Hinduism, Jainism, Sikhism and Buddhism — traditions that grew from the same soil and still share ideas such as karma, ahimsa and the search for liberation.</p>"
+        "description": "Ajanta is a Buddhist site, and it stands here deliberately. The museum explores the shared origins of Hinduism, Jainism, Sikhism and Buddhism — traditions that grew from the same soil and still share ideas such as karma, ahimsa and the search for liberation."
       },
       {
         "id": "chapter-4",
         "title": "Making the replica",
         "subheading": "CHAPTER 04",
-        "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "description": "Stone and materials for the museum were brought from India and assembled in New Jersey. [ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]",
         "action": {
-          "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
+          "label": "Watch: how it was made · [DURATION]",
           "link": "#"
         }
       }
@@ -57,7 +57,7 @@
         "id": "chapter-1",
         "title": "મૂળ સ્વરૂપ",
         "subheading": "પ્રકરણ 01",
-        "description": "<p>વાઘુર નદીના ઘોડાની નાળ જેવા વળાંક પર આશરે ત્રીસ ગુફાઓ આવેલી છે. સૌથી પ્રાચીન ગુફાઓ આશરે ઈ.સ.પૂ. 2જી સદીમાં કોતરવામાં આવી હતી; ત્યાર બાદ ઈ.સ. 5મી સદીમાં કાર્યનો બીજો મહાન તબક્કો આવ્યો. કેટલીક ગુફાઓ વિહાર છે — મઠો, જ્યાં ભિક્ષુઓ રહેતા અને અભ્યાસ કરતા. અન્ય ચૈત્ય છે — સ્તૂપની આસપાસ રચાયેલા પ્રાર્થના ખંડો.</p>\n<p>તેમનાં ભીંતચિત્રો — રાજદરબારનાં દૃશ્યો, પ્રાણીઓ અને બુદ્ધના પૂર્વજન્મોની કથાઓ — પ્રાચીન ભારતીય ચિત્રકળાનાં બચેલાં સૌથી મહત્ત્વનાં ઉદાહરણોમાં સ્થાન ધરાવે છે. ત્યજી દેવાયેલી અને વનસ્પતિથી ઢંકાઈ ગયેલી આ ગુફાઓ 1819માં વ્યાપક ધ્યાનમાં આવી.</p>"
+        "description": "વાઘુર નદીના ઘોડાની નાળ જેવા વળાંક પર આશરે ત્રીસ ગુફાઓ આવેલી છે. સૌથી પ્રાચીન ગુફાઓ આશરે ઈ.સ.પૂ. 2જી સદીમાં કોતરવામાં આવી હતી; ત્યાર બાદ ઈ.સ. 5મી સદીમાં કાર્યનો બીજો મહાન તબક્કો આવ્યો. કેટલીક ગુફાઓ વિહાર છે — મઠો, જ્યાં ભિક્ષુઓ રહેતા અને અભ્યાસ કરતા. અન્ય ચૈત્ય છે — સ્તૂપની આસપાસ રચાયેલા પ્રાર્થના ખંડો.\n\nતેમનાં ભીંતચિત્રો — રાજદરબારનાં દૃશ્યો, પ્રાણીઓ અને બુદ્ધના પૂર્વજન્મોની કથાઓ — પ્રાચીન ભારતીય ચિત્રકળાનાં બચેલાં સૌથી મહત્ત્વનાં ઉદાહરણોમાં સ્થાન ધરાવે છે. ત્યજી દેવાયેલી અને વનસ્પતિથી ઢંકાઈ ગયેલી આ ગુફાઓ 1819માં વ્યાપક ધ્યાનમાં આવી."
       },
       {
         "id": "chapter-2",
@@ -88,15 +88,15 @@
         "id": "chapter-3",
         "title": "સહિયારાં મૂળ",
         "subheading": "પ્રકરણ 03",
-        "description": "<p>અજંતા એક બૌદ્ધ સ્થળ છે, અને તેને અહીં સમજીવિચારીને સ્થાન આપવામાં આવ્યું છે. આ સંગ્રહાલય હિંદુ, જૈન, શીખ અને બૌદ્ધ ધર્મનાં સહિયારાં ઉદ્ભવસ્થાનોનું અન્વેષણ કરે છે — એવી પરંપરાઓ, જે એક જ ભૂમિમાંથી પાંગરી અને આજે પણ કર્મ, અહિંસા અને મોક્ષની શોધ જેવા વિચારો સહિયારા ધરાવે છે.</p>"
+        "description": "અજંતા એક બૌદ્ધ સ્થળ છે, અને તેને અહીં સમજીવિચારીને સ્થાન આપવામાં આવ્યું છે. આ સંગ્રહાલય હિંદુ, જૈન, શીખ અને બૌદ્ધ ધર્મનાં સહિયારાં ઉદ્ભવસ્થાનોનું અન્વેષણ કરે છે — એવી પરંપરાઓ, જે એક જ ભૂમિમાંથી પાંગરી અને આજે પણ કર્મ, અહિંસા અને મોક્ષની શોધ જેવા વિચારો સહિયારા ધરાવે છે."
       },
       {
         "id": "chapter-4",
         "title": "પ્રતિકૃતિનું નિર્માણ",
         "subheading": "પ્રકરણ 04",
-        "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં અને ન્યૂ જર્સીમાં જોડવામાં આવ્યાં. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "description": "સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં અને ન્યૂ જર્સીમાં જોડવામાં આવ્યાં. [ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]",
         "action": {
-          "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
+          "label": "જુઓ: તે કેવી રીતે બન્યું · [DURATION]"
         }
       }
     ]
@@ -107,7 +107,7 @@
         "id": "chapter-1",
         "title": "मूल स्वरूप",
         "subheading": "अध्याय 01",
-        "description": "<p>वाघुर नदी के घोड़े की नाल जैसे मोड़ पर लगभग तीस गुफाएँ स्थित हैं। सबसे प्राचीन गुफाएँ लगभग ई.पू. 2री शताब्दी में तराशी गईं; इसके बाद ई. 5वीं शताब्दी में कार्य का दूसरा महान दौर आया। कुछ गुफाएँ विहार हैं — मठ, जहाँ भिक्षु रहते और अध्ययन करते थे। अन्य चैत्य हैं — स्तूप के चारों ओर बने प्रार्थना कक्ष।</p>\n<p>इनके भित्तिचित्र — राजदरबार के दृश्य, पशु-पक्षी और बुद्ध के पूर्वजन्मों की कथाएँ — प्राचीन भारतीय चित्रकला के बचे हुए सबसे महत्त्वपूर्ण उदाहरणों में से हैं। परित्यक्त और वनस्पतियों से ढकी ये गुफाएँ 1819 में व्यापक रूप से प्रकाश में आईं।</p>"
+        "description": "वाघुर नदी के घोड़े की नाल जैसे मोड़ पर लगभग तीस गुफाएँ स्थित हैं। सबसे प्राचीन गुफाएँ लगभग ई.पू. 2री शताब्दी में तराशी गईं; इसके बाद ई. 5वीं शताब्दी में कार्य का दूसरा महान दौर आया। कुछ गुफाएँ विहार हैं — मठ, जहाँ भिक्षु रहते और अध्ययन करते थे। अन्य चैत्य हैं — स्तूप के चारों ओर बने प्रार्थना कक्ष।\n\nइनके भित्तिचित्र — राजदरबार के दृश्य, पशु-पक्षी और बुद्ध के पूर्वजन्मों की कथाएँ — प्राचीन भारतीय चित्रकला के बचे हुए सबसे महत्त्वपूर्ण उदाहरणों में से हैं। परित्यक्त और वनस्पतियों से ढकी ये गुफाएँ 1819 में व्यापक रूप से प्रकाश में आईं।"
       },
       {
         "id": "chapter-2",
@@ -138,15 +138,15 @@
         "id": "chapter-3",
         "title": "साझी जड़ें",
         "subheading": "अध्याय 03",
-        "description": "<p>अजंता एक बौद्ध स्थल है, और इसे यहाँ सोच-समझकर स्थान दिया गया है। यह संग्रहालय हिंदू, जैन, सिख और बौद्ध धर्मों के साझे उद्गम का अन्वेषण करता है — ऐसी परंपराएँ जो एक ही धरती से पनपीं और आज भी कर्म, अहिंसा और मोक्ष की खोज जैसे विचार साझा करती हैं।</p>"
+        "description": "अजंता एक बौद्ध स्थल है, और इसे यहाँ सोच-समझकर स्थान दिया गया है। यह संग्रहालय हिंदू, जैन, सिख और बौद्ध धर्मों के साझे उद्गम का अन्वेषण करता है — ऐसी परंपराएँ जो एक ही धरती से पनपीं और आज भी कर्म, अहिंसा और मोक्ष की खोज जैसे विचार साझा करती हैं।"
       },
       {
         "id": "chapter-4",
         "title": "प्रतिकृति का निर्माण",
         "subheading": "अध्याय 04",
-        "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "description": "संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। [ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]",
         "action": {
-          "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
+          "label": "देखें: यह कैसे बना · [DURATION]"
         }
       }
     ]

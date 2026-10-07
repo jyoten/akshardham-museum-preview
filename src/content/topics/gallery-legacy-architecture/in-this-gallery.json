@@ -2,7 +2,7 @@
   "en": {
     "id": "in-this-gallery",
     "title": "In this gallery",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "ajanta-caves",
@@ -83,7 +83,7 @@
   },
   "gu": {
     "title": "આ ગેલેરીમાં",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "ajanta-caves",
@@ -139,7 +139,7 @@
   },
   "hi": {
     "title": "इस गैलरी में",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "ajanta-caves",

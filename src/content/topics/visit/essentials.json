@@ -6,19 +6,19 @@
       {
         "id": "hours",
         "title": "Hours",
-        "subheading": "Closed <mark class=\"todo\">[DAYS]</mark>",
-        "description": "<mark class=\"todo\">[HOURS]</mark>"
+        "subheading": "Closed [DAYS]",
+        "description": "[HOURS]"
       },
       {
         "id": "admission",
         "title": "Admission",
         "subheading": "Members visit free",
-        "description": "<mark class=\"todo\">[ADMISSION]</mark>"
+        "description": "[ADMISSION]"
       },
       {
         "id": "address",
         "title": "Address",
-        "description": "112 North Main Street<br>Robbinsville, NJ 08561"
+        "description": "112 North Main Street\\\nRobbinsville, NJ 08561"
       },
       {
         "id": "phone",
@@ -36,19 +36,19 @@
       {
         "id": "hours",
         "title": "સમય",
-        "subheading": "<mark class=\"todo\">[DAYS]</mark> બંધ",
-        "description": "<mark class=\"todo\">[HOURS]</mark>"
+        "subheading": "[DAYS] બંધ",
+        "description": "[HOURS]"
       },
       {
         "id": "admission",
         "title": "પ્રવેશ",
         "subheading": "સભ્યો માટે પ્રવેશ નિઃશુલ્ક",
-        "description": "<mark class=\"todo\">[ADMISSION]</mark>"
+        "description": "[ADMISSION]"
       },
       {
         "id": "address",
         "title": "સરનામું",
-        "description": "112 North Main Street<br>Robbinsville, NJ 08561"
+        "description": "112 North Main Street\\\nRobbinsville, NJ 08561"
       },
       {
         "id": "phone",
@@ -65,19 +65,19 @@
       {
         "id": "hours",
         "title": "समय",
-        "subheading": "<mark class=\"todo\">[DAYS]</mark> बंद",
-        "description": "<mark class=\"todo\">[HOURS]</mark>"
+        "subheading": "[DAYS] बंद",
+        "description": "[HOURS]"
       },
       {
         "id": "admission",
         "title": "प्रवेश",
         "subheading": "सदस्यों के लिए प्रवेश निःशुल्क",
-        "description": "<mark class=\"todo\">[ADMISSION]</mark>"
+        "description": "[ADMISSION]"
       },
       {
         "id": "address",
         "title": "पता",
-        "description": "112 North Main Street<br>Robbinsville, NJ 08561"
+        "description": "112 North Main Street\\\nRobbinsville, NJ 08561"
       },
       {
         "id": "phone",

@@ -2,7 +2,7 @@
   "en": {
     "id": "in-this-gallery",
     "title": "In this gallery",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "rishis-of-india",
@@ -25,7 +25,7 @@
   },
   "gu": {
     "title": "આ ગેલેરીમાં",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "rishis-of-india",
@@ -46,7 +46,7 @@
   },
   "hi": {
     "title": "इस गैलरी में",
-    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "description": "[GALLERY INTRODUCTION]",
     "topics": [
       {
         "id": "rishis-of-india",

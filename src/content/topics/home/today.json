@@ -6,17 +6,17 @@
       {
         "id": "open-today",
         "title": "Open today",
-        "description": "<mark class=\"todo\">[HOURS]</mark>"
+        "description": "[HOURS]"
       },
       {
         "id": "next-show",
         "title": "Next show",
-        "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
+        "description": "[SHOW TITLE] · [TIME]"
       },
       {
         "id": "quietest-time",
         "title": "Quietest time today",
-        "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
+        "description": "[TIME WINDOW]"
       },
       {
         "id": "getting-here",
@@ -34,17 +34,17 @@
       {
         "id": "open-today",
         "title": "આજે ખુલ્લું",
-        "description": "<mark class=\"todo\">[HOURS]</mark>"
+        "description": "[HOURS]"
       },
       {
         "id": "next-show",
         "title": "આગામી શો",
-        "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
+        "description": "[SHOW TITLE] · [TIME]"
       },
       {
         "id": "quietest-time",
         "title": "આજનો સૌથી શાંત સમય",
-        "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
+        "description": "[TIME WINDOW]"
       },
       {
         "id": "getting-here",
@@ -61,17 +61,17 @@
       {
         "id": "open-today",
         "title": "आज खुला है",
-        "description": "<mark class=\"todo\">[HOURS]</mark>"
+        "description": "[HOURS]"
       },
       {
         "id": "next-show",
         "title": "अगला शो",
-        "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
+        "description": "[SHOW TITLE] · [TIME]"
       },
       {
         "id": "quietest-time",
         "title": "आज का सबसे शांत समय",
-        "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
+        "description": "[TIME WINDOW]"
       },
       {
         "id": "getting-here",

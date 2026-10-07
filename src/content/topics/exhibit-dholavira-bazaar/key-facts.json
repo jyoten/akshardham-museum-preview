@@ -21,7 +21,7 @@
       {
         "id": "fact-4",
         "title": "In the museum",
-        "description": "Floor <mark class=\"todo\">[X]</mark> · Gallery <mark class=\"todo\">[X]</mark>"
+        "description": "Floor [X] · Gallery [X]"
       }
     ]
   },
@@ -46,7 +46,7 @@
       {
         "id": "fact-4",
         "title": "સંગ્રહાલયમાં",
-        "description": "માળ <mark class=\"todo\">[X]</mark> · ગેલેરી <mark class=\"todo\">[X]</mark>"
+        "description": "માળ [X] · ગેલેરી [X]"
       }
     ]
   },
@@ -71,7 +71,7 @@
       {
         "id": "fact-4",
         "title": "संग्रहालय में",
-        "description": "तल <mark class=\"todo\">[X]</mark> · गैलरी <mark class=\"todo\">[X]</mark>"
+        "description": "तल [X] · गैलरी [X]"
       }
     ]
   }
