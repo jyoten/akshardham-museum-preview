@@ -1,4 +1,5 @@
 {
+  "name": "Legacy Architecture",
   "path": "/explore/legacy-architecture/",
   "nav": "explore",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

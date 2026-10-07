@@ -1,36 +1,102 @@
-# Builds the site with Eleventy and publishes it to GitHub Pages on every push to main.
+# Builds the review site and publishes it to GitHub Pages, together with a preview of each open change
+# (pull request) under /previews/pr-<number>/, and comments on the change with what it does.
+#
+# Runs when main changes, and when a pull request that touches content is opened, updated, closed or merged.
+# A closed or merged change is left out of the next publish, which removes its preview.
+#
+# Safety: everything is built with main's own code (the checkout below is always main). From a pull request
+# only the content and images are used (scripts/build-preview.mjs), after the same content check as any change,
+# so no code from a pull request runs here. Pull requests from forks get nothing.
 name: Publish preview to GitHub Pages
 
 on:
   push:
     branches: [main]
+  pull_request_target:
+    types: [opened, synchronize, reopened, closed]
+    paths: ["src/content/**", "src/images/**"]
   workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
+
+permissions: {}
 
 jobs:
   build:
+    if: github.event_name != 'pull_request_target' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    env:
+      # The repository name becomes the URL path: https://<owner>.github.io/<repo>/
+      # SITE_REVIEW=1: not indexed, no /admin, "preview" note on every page.
+      SITE_PREFIX: /${{ github.event.repository.name }}
+      SITE_REVIEW: "1"
+      PR: ${{ github.event.pull_request.number }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: npm
       - run: npm ci
-      # The repository name becomes the URL path: https://<owner>.github.io/<repo>/
-      # SITE_REVIEW=1: not indexed, no /admin, "preview" note on every page.
       - run: npm run build
+
+      # Each open change from this repository: only the pages it changes, in /previews/pr-<n>/.
+      - name: Previews of open changes
         env:
-          SITE_PREFIX: /${{ github.event.repository.name }}
-          SITE_REVIEW: "1"
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr list --repo "$GITHUB_REPOSITORY" --state open --limit 50 --json number,headRefOid,isCrossRepository \
+            --jq '.[] | select(.isCrossRepository | not) | "\(.number) \(.headRefOid)"' > open-changes.txt
+          while read -r n sha; do
+            git fetch --quiet --no-tags "https://github.com/$GITHUB_REPOSITORY.git" "pull/$n/head"
+            node scripts/build-preview.mjs --pr "$n" --ref "$sha" --site _site || echo "::warning::No preview for #$n"
+          done < open-changes.txt
+
+      # For the change that triggered this run: before/after screenshots and the summary comment.
+      - name: Before/after screenshots
+        if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
+        run: |
+          mkdir -p shots
+          if [ -d ".previews/pr-$PR/site" ]; then
+            npx playwright install --with-deps chromium
+            node scripts/pr-screenshots.mjs --main _site --preview ".previews/pr-$PR/site" --manifest ".previews/pr-$PR/manifest.json" --out shots
+          fi
+      - name: Upload screenshots
+        id: shots
+        if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
+        uses: actions/upload-artifact@v4
+        with:
+          name: change-${{ github.event.pull_request.number }}-before-after
+          path: shots
+          retention-days: 14
+          if-no-files-found: ignore
+      - name: Write the summary
+        if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
+        env:
+          SITE_ORIGIN: ${{ vars.SITE_ORIGIN || format('https://{0}.github.io', github.repository_owner) }}
+          ARTIFACT_URL: ${{ steps.shots.outputs.artifact-url }}
+          # Optional, for later hosting with its own deploy previews, e.g. https://pr-{pr}.museum.pages.dev{path}
+          PREVIEW_URL_TEMPLATE: ${{ vars.PREVIEW_URL_TEMPLATE }}
+        run: |
+          git fetch --quiet --no-tags "https://github.com/$GITHUB_REPOSITORY.git" "pull/$PR/head"
+          node scripts/pr-summary.mjs --base HEAD --head "${{ github.event.pull_request.head.sha }}" --manifest ".previews/pr-$PR/manifest.json" --out summary.md
+      - name: Keep the summary for the comment
+        if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
+        uses: actions/upload-artifact@v4
+        with:
+          name: change-summary
+          path: summary.md
+          retention-days: 1
+
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site
@@ -38,9 +104,27 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  comment:
+    needs: [build, deploy]
+    if: github.event_name == 'pull_request_target' && github.event.action != 'closed'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: change-summary
+      # One comment per change, updated each time the change is updated.
+      - run: gh pr comment "${{ github.event.pull_request.number }}" --repo "$GITHUB_REPOSITORY" --body-file summary.md --edit-last --create-if-none
+        env:
+          GH_TOKEN: ${{ github.token }}

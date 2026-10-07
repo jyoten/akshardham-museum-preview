@@ -21,7 +21,7 @@
 window.tx = function (k, vars) { var s = window.I18N[k] || k; for (var v in vars || {}) s = s.split("{" + v + "}").join(vars[v]); return s; };</script>
 </head>
 <body>
-{% if site.review %}<div class="notice notice-info review-note" role="note"><div class="notice-inner"><p>{{ "review_banner" | ui(lang) }}</p></div></div>
+{% if site.review %}<div class="notice notice-info review-note" role="note"><div class="notice-inner"><p>{% if site.previewOf %}{{ "preview_banner" | label(lang) | replace("{n}", site.previewOf) | safe }}{% else %}{{ "review_banner" | ui(lang) }}{% endif %}</p></div></div>
 {% endif %}{% include "partials/wrapper-open.html" %}
 {{ content | safe }}
 {% include "partials/footer.njk" %}

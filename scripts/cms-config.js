@@ -60,8 +60,9 @@ function yaml(v, indent = 0) {
 }
 
 // ---- the topic fields (WebNext: title, sub heading, description, media, action, child topics) ----
-function topicFields(depth) {
+function topicFields(depth, top = false) {
   const fields = [
+    ...(top ? [{ name: "used_on", label: "Used on", widget: "used-on", required: false, i18n: false }] : []),
     { name: "id", label: "ID", widget: "string", i18n: "duplicate", required: true, pattern: ["^[a-z0-9-]+$", "Lower-case letters, numbers and hyphens"], hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use." },
     { name: "title", label: "Title", widget: "string", i18n: true, required: false },
     { name: "subheading", label: "Sub heading", widget: "string", i18n: true, required: false, pattern: ["^.{0,100}$", "At most 100 characters"], hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added." },
@@ -159,6 +160,15 @@ const short = (s, n) => (s.length > n ? s.slice(0, n - 1) + "…" : s);
 const docs = fs.readdirSync(path.join(CONTENT, "topics")).filter((d) => fs.statSync(path.join(CONTENT, "topics", d)).isDirectory());
 const order = Object.keys(DOCUMENTS).filter((d) => docs.includes(d)).concat(docs.filter((d) => !DOCUMENTS[d]));
 
+// Which pages show a document's topics, by name, for the cards in the Workflow view: "Plan your visit · Getting here".
+const pageList = fs.readdirSync(path.join(CONTENT, "pages")).filter((f) => f.endsWith(".json")).map((f) => readJson(path.join(CONTENT, "pages", f)));
+function pageNames(d) {
+  if (d === "global") return "Every page";
+  const names = pageList.filter((p) => (p.components || []).some((c) => c.topic && c.topic.startsWith(d + "/"))).map((p) => p.name);
+  if (names.length === pageList.length) return "Every page";
+  return names.join(", ") || d;
+}
+
 const topicCollections = order.map((d) => ({
   name: `topics-${d}`,
   label: `Text — ${DOCUMENTS[d] || d}`,
@@ -166,11 +176,11 @@ const topicCollections = order.map((d) => ({
   description: "Each entry is a topic: title, sub heading, description, media, an action button and child topics, in English, Gujarati and Hindi. Leave a Gujarati or Hindi field empty to show the English text there.",
   folder: `${CONTENT}/topics/${d}`,
   extension: "json", format: "json",
-  identifier_field: "id", slug: "{{slug}}", summary: "{{id}} — {{title}}",
+  identifier_field: "id", slug: "{{slug}}", summary: `${pageNames(d)} · {{fields.title}}`,
   create: true, delete: false,
   i18n,
-  editor: { preview: false },
-  fields: topicFields(3),
+  editor: { preview: true },
+  fields: topicFields(3, true),
 }));
 
 // Interface text: labels for screen readers and form controls, and the wording the page scripts use.
@@ -197,9 +207,10 @@ const styles = fs.readdirSync("src/_includes/components").filter((f) => f.endsWi
 const pagesCollection = {
   name: "pages", label: "Page layouts", label_singular: "page",
   description: "Which components make up each page, in order. Each component is a style (a design in src/_includes/components) showing one topic. Changing these changes the page structure; new styles need a developer.",
-  folder: `${CONTENT}/pages`, extension: "json", format: "json", identifier_field: "path", slug: "{{slug}}", summary: "{{path}}",
+  folder: `${CONTENT}/pages`, extension: "json", format: "json", identifier_field: "path", slug: "{{slug}}", summary: "{{name}} ({{path}})",
   create: false, delete: false, editor: { preview: false },
   fields: [
+    { name: "name", label: "Page name", widget: "string", hint: "What editors call this page, e.g. Plan your visit" },
     { name: "path", label: "Address", widget: "string" },
     { name: "nav", label: "Highlighted menu item", widget: "string", required: false },
     { name: "meta", label: "Page title topic", widget: "string", hint: "document/topic whose title is the browser-tab title" },

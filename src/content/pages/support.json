@@ -1,4 +1,5 @@
 {
+  "name": "Support",
   "path": "/support/",
   "nav": "support",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

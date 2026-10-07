@@ -344,7 +344,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Every page · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -355,8 +355,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -776,7 +781,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Home · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -787,8 +792,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -1208,7 +1218,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Explore · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -1219,8 +1229,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -1640,7 +1655,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Lifelike Scenes & Statues · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -1651,8 +1666,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -2072,7 +2092,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Legacy Architecture · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -2083,8 +2103,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -2504,7 +2529,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Walking into Scripture · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -2515,8 +2540,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -2936,7 +2966,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "A Living Tapestry · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -2947,8 +2977,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -3368,7 +3403,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Ajanta Caves · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -3379,8 +3414,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -3800,7 +3840,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Rani-ki-Vav · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -3811,8 +3851,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -4232,7 +4277,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Konark Wheel · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -4243,8 +4288,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -4664,7 +4714,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Traditional Haveli · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -4675,8 +4725,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -5096,7 +5151,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Dholavira Bazaar · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -5107,8 +5162,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -5528,7 +5588,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Timeline · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -5539,8 +5599,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -5960,7 +6025,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Plan your visit · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -5971,8 +6036,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -6392,7 +6462,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Learn · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -6403,8 +6473,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -6824,7 +6899,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Support · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -6835,8 +6910,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -7256,7 +7336,7 @@ collections:
     format: "json"
     identifier_field: "id"
     slug: "{{slug}}"
-    summary: "{{id}} — {{title}}"
+    summary: "Page not found · {{fields.title}}"
     create: true
     delete: false
     i18n:
@@ -7267,8 +7347,13 @@ collections:
         - "hi"
       default_locale: "en"
     editor:
-      preview: false
+      preview: true
     fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
       - name: "id"
         label: "ID"
         widget: "string"
@@ -7931,6 +8016,11 @@ collections:
             widget: "string"
             i18n: true
             required: false
+          - name: "preview_banner"
+            label: "Preview of change #{n}, not live.  (preview_banner)"
+            widget: "string"
+            i18n: true
+            required: false
       - name: "ui"
         label: "Cookie prompt, hours wording & page scripts"
         file: "src/content/strings/ui.json"
@@ -8315,12 +8405,16 @@ collections:
     format: "json"
     identifier_field: "path"
     slug: "{{slug}}"
-    summary: "{{path}}"
+    summary: "{{name}} ({{path}})"
     create: false
     delete: false
     editor:
       preview: false
     fields:
+      - name: "name"
+        label: "Page name"
+        widget: "string"
+        hint: "What editors call this page, e.g. Plan your visit"
       - name: "path"
         label: "Address"
         widget: "string"

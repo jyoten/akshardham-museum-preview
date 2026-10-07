@@ -1,4 +1,5 @@
 {
+  "name": "Ajanta Caves",
   "path": "/ajanta/",
   "nav": "explore",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

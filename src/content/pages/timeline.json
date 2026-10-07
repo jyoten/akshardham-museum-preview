@@ -1,4 +1,5 @@
 {
+  "name": "Timeline",
   "path": "/timeline/",
   "nav": "timeline",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

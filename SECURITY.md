@@ -25,6 +25,12 @@ This file covers what the code already does, and the setup that needs your own a
 
 **Sign-in service (`auth/`)**: see below. Tests: `npm test` (or `node --test auth/test/`).
 
+**Previews of changes** (`.github/workflows/pages.yml`, `scripts/build-preview.mjs`)
+- Built only from **main's code**: the workflow always checks out main; from a pull request it takes only `src/content` and `src/images`, runs the content check on them, and builds. No code from a pull request runs, so `pull_request_target` is safe here. Pull requests from **forks** get no preview, screenshots or comment.
+- Uses only the default `GITHUB_TOKEN`: the build job can read (contents, pull requests); publishing has `pages: write` and `id-token: write`; commenting has `pull-requests: write`. No other secrets.
+- Previews are **unlisted but public**: anyone with the address `…/previews/pr-<n>/` can open them while the pull request is open, because this repository and its GitHub Pages site are public. Every preview page is `noindex`, and robots.txt keeps search engines out. Don't put anything in a draft that mustn't be seen before it is published. A merged or closed pull request's preview disappears at the next publish.
+- The `/admin` editor and the `auth/` service are never part of the site or a preview.
+
 ## Setup that needs your accounts
 
 Do these once the site has its real GitHub repository and hosting. None of it can be done from code.

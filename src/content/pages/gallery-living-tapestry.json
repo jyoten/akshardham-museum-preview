@@ -1,4 +1,5 @@
 {
+  "name": "A Living Tapestry",
   "path": "/explore/living-tapestry/",
   "nav": "explore",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

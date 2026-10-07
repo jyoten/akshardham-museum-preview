@@ -1,4 +1,5 @@
 {
+  "name": "Learn",
   "path": "/learn/",
   "nav": "learn",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

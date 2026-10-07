@@ -1,0 +1,4 @@
+{#- The components of a page in order (used by src/pages.njk, and by the editor previews with preview=true, which marks each section). -#}
+{% for c in pg.components %}{% set t = (c.topic | topic(lang)) if c.topic else {} %}{% set s = c.settings or {} %}
+{% if preview %}<div data-topic="{{ c.topic }}" style="display:contents">{% endif %}{% include "components/" + c.style + ".njk" %}{% if preview %}</div>{% endif %}
+{% endfor %}

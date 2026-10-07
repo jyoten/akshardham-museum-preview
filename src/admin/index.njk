@@ -17,6 +17,12 @@ const eleventyExcludeFromCollections = true;
   <!-- Decap CMS: edits the JSON files in src/ (hours, notices, site text) and proposes each change as a pull request.
        Pinned to one release; the integrity hash makes the browser refuse the file if the CDN ever serves anything else.
        To upgrade: change the version in both places and the hash (see SECURITY.md). -->
+  <script src="manual-init.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/decap-cms@{{ adminCsp.decapVersion }}/dist/decap-cms.js" integrity="{{ adminCsp.decapIntegrity }}" crossorigin="anonymous"></script>
+  <!-- The previews ("Preview", "Changes") and "Used on": the site's own templates and content rules, served from this site. -->
+  <script src="vendor/nunjucks-slim.min.js"></script>
+  <script src="vendor/markdown-it.min.js"></script>
+  <script src="preview-templates.js"></script>
+  <script type="module" src="editor.js"></script>
 </body>
 </html>

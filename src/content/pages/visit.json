@@ -1,4 +1,5 @@
 {
+  "name": "Plan your visit",
   "path": "/visit/",
   "nav": "visit",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

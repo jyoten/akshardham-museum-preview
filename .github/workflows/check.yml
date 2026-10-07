@@ -20,8 +20,10 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check-content
-      - run: node --test auth/test/
+      - run: node --test auth/test/ test/
       - run: npm run build
         env:
           SITE_PREFIX: /${{ github.event.repository.name }}
           SITE_REVIEW: "1"
+      # The editor's previews draw pages exactly like the build.
+      - run: npm run build -- --output=_site-full && node scripts/check-preview-render.mjs _site-full

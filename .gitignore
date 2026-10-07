@@ -5,3 +5,4 @@ auth/wrangler.toml
 auth/.dev.vars
 .dev.vars
 .env*
+.previews/

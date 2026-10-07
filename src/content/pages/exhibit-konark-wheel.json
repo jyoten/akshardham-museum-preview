@@ -1,4 +1,5 @@
 {
+  "name": "Konark Wheel",
   "path": "/explore/konark-wheel/",
   "nav": "explore",
   "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",

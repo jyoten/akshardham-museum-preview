@@ -18,8 +18,18 @@ npm run cms-config   # regenerate the admin setup after adding a document, style
 - **Editing and security**: the editor at `/admin/` saves every change as a pull request; `auth/` is its sign-in service; `npm test` runs the sign-in tests and the content checks. See **SECURITY.md**.
 - `scripts/migrate-v5-content.mjs` turned the v5 text files into topics, and `scripts/convert-v4.py` turned the v4 pages into templates. Both are kept for reference.
 
+## Reviewing a change
+
+Every change made in the editor is a pull request. Reviewers can see it in three places:
+
+- **In the editor**, the preview pane (eye icon) has **Preview** (the page with the edited section outlined) and **Changes**: **Text** shows each changed field word by word per language (removed in red, added in green, or "No changes"); **Visual** shows Before (published) and After (this edit) side by side. Pages are drawn with the site's own templates, CSS, fonts and images, by the same code as the build (`lib/site.js`, `lib/text-core.js`, precompiled templates); `npm run check-previews` checks that they match the build exactly. Each topic says where it is **Used on**, and Workflow cards name the page: "Plan your visit · …".
+- **On the pull request**, a comment lists the pages and languages it changes, the before/after of every changed field, links to a **live preview** of each affected page, and side-by-side **screenshots** (a download, kept 14 days).
+- **Live preview**: `https://<owner>.github.io/<repo>/previews/pr-<number>/`. It holds only the pages that change, in the languages that change (about 70 KB for a text edit on two pages; a new photo adds its own size; the whole site is 6.8 MB). Styles, scripts, fonts and other images come from the main site, and links to pages that didn't change go to the live site. Each preview page says "Preview of change #N, not live" and is not indexed. Merging or closing the pull request removes it at the next publish.
+  Because the preview uses the main site's current CSS and scripts (they are not fingerprinted), it always shows the change as it would look on today's site; if the design changes while a pull request is open, its preview follows. Previews are rebuilt every time anything is published, so this stays consistent.
+- With hosting that has its own deploy previews (Cloudflare Pages, Netlify), set the repository variable `PREVIEW_URL_TEMPLATE` (e.g. `https://pr-{pr}.museum.pages.dev{path}`) and the comment links those instead.
+
 ## Review preview on GitHub Pages
-`.github/workflows/pages.yml` builds and publishes the site on every push to `main` of the GitHub repository. It uses two build settings:
+`.github/workflows/pages.yml` builds and publishes the site on every push to `main`, and whenever a pull request that changes content is opened, updated or closed (to add, refresh or remove its preview). It uses two build settings:
 - `SITE_PREFIX=/<repo-name>`: the site lives under `https://<owner>.github.io/<repo-name>/`.
 - `SITE_REVIEW=1`: search engines are told not to index it, `/admin` is left out, and every page carries a "Preview for review" note.
 

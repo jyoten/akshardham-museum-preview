@@ -1,0 +1,23 @@
+/* The editor's preview pane (src/admin/editor.js). */
+body { margin: 0; font: 15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; color: #1C1410; background: #F7F4EF; }
+.cms-pane { padding: 16px; }
+.cms-bar { display: flex; flex-wrap: wrap; gap: 10px 16px; align-items: center; margin-bottom: 8px; }
+.cms-tabs { display: inline-flex; border: 1px solid #CFC3B3; border-radius: 6px; overflow: hidden; background: #fff; }
+.cms-tabs button { font: inherit; font-size: 14px; border: 0; background: transparent; padding: 6px 14px; cursor: pointer; color: #1C1410; }
+.cms-tabs button + button { border-left: 1px solid #CFC3B3; }
+.cms-tabs button.on { background: #1C1410; color: #fff; }
+.cms-bar select { font: inherit; font-size: 14px; padding: 5px 8px; border-radius: 6px; border: 1px solid #CFC3B3; background: #fff; }
+.cms-where { margin: 4px 0 14px; font-size: 13px; color: #6B5D50; }
+.cms-none { font-size: 16px; font-weight: 600; color: #2F6B2F; background: #E9F3E6; padding: 12px 14px; border-radius: 6px; }
+.cms-note { color: #6B5D50; }
+.cms-lang h3 { font-size: 13px; letter-spacing: .12em; text-transform: uppercase; color: #8A5A2B; margin: 18px 0 8px; }
+.cms-change { background: #fff; border: 1px solid #E4DAD0; border-radius: 6px; padding: 10px 14px; margin-bottom: 10px; }
+.cms-change h4 { margin: 0 0 6px; font-size: 13px; color: #6B5D50; font-weight: 600; }
+.cms-diff { margin: 0; font-size: 16px; line-height: 1.6; white-space: pre-wrap; }
+.cms-diff del { background: #FBE3E1; color: #A3241B; text-decoration: line-through; }
+.cms-diff ins { background: #E1F3DE; color: #1E6B1E; text-decoration: none; }
+.cms-sides { display: flex; gap: 16px; align-items: flex-start; }
+.cms-sides figure { margin: 0; }
+.cms-sides figcaption { font-size: 13px; font-weight: 600; margin-bottom: 6px; }
+.cms-frame { overflow: hidden; border: 1px solid #CFC3B3; background: #fff; }
+.cms-frame iframe { border: 0; transform-origin: 0 0; display: block; }
