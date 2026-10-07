@@ -1,68 +1,68 @@
 {
- "en": {
-  "id": "intro",
-  "title": "Dholavira Bazaar",
-  "subheading": "Diorama · Floor <mark class=\"todo\">[X]</mark>",
-  "description": "A market street in one of the great planned cities of the Indus–Sarasvati civilisation.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/dholavira-bazaar.jpg",
-    "alt": "A recreated ancient market street with stalls and figures",
-    "caption": "The Dholavira Bazaar diorama in the Akshardham Museum."
-   }
-  ],
-  "topics": [
-   {
-    "id": "audio-guide",
-    "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
-    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
-    "action": {
-     "label": "Play audio guide, stop [#]"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "ધોળાવીરાનું બજાર",
-  "subheading": "ડાયોરામા · માળ <mark class=\"todo\">[X]</mark>",
-  "description": "સિંધુ–સરસ્વતી સભ્યતાનાં મહાન આયોજિત નગરોમાંના એકની બજારની શેરી.",
-  "media": [
-   {
-    "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃસર્જિત પ્રાચીન બજારની શેરી",
-    "caption": "અક્ષરધામ મ્યુઝિયમમાં ધોળાવીરાના બજારનો ડાયોરામા."
-   }
-  ],
-  "topics": [
-   {
-    "id": "audio-guide",
-    "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ <mark class=\"todo\">[#]</mark>",
-    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
-    "action": {
-     "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "धोलावीरा का बाज़ार",
-  "subheading": "डायोरामा · तल <mark class=\"todo\">[X]</mark>",
-  "description": "सिंधु–सरस्वती सभ्यता के महान नियोजित नगरों में से एक की बाज़ार की गली।",
-  "media": [
-   {
-    "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली",
-    "caption": "अक्षरधाम म्यूज़ियम में धोलावीरा के बाज़ार का डायोरामा।"
-   }
-  ],
-  "topics": [
-   {
-    "id": "audio-guide",
-    "title": "ऑडियो गाइड · स्टॉप <mark class=\"todo\">[#]</mark>",
-    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
-    "action": {
-     "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "intro",
+    "title": "Dholavira Bazaar",
+    "subheading": "Diorama · Floor <mark class=\"todo\">[X]</mark>",
+    "description": "A market street in one of the great planned cities of the Indus–Sarasvati civilisation.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/dholavira-bazaar.jpg",
+        "alt": "A recreated ancient market street with stalls and figures",
+        "caption": "The Dholavira Bazaar diorama in the Akshardham Museum."
+      }
+    ],
+    "topics": [
+      {
+        "id": "audio-guide",
+        "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
+        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
+        "action": {
+          "label": "Play audio guide, stop [#]"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "ધોળાવીરાનું બજાર",
+    "subheading": "ડાયોરામા · માળ <mark class=\"todo\">[X]</mark>",
+    "description": "સિંધુ–સરસ્વતી સભ્યતાનાં મહાન આયોજિત નગરોમાંના એકની બજારની શેરી.",
+    "media": [
+      {
+        "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃસર્જિત પ્રાચીન બજારની શેરી",
+        "caption": "અક્ષરધામ મ્યુઝિયમમાં ધોળાવીરાના બજારનો ડાયોરામા."
+      }
+    ],
+    "topics": [
+      {
+        "id": "audio-guide",
+        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ <mark class=\"todo\">[#]</mark>",
+        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
+        "action": {
+          "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "धोलावीरा का बाज़ार",
+    "subheading": "डायोरामा · तल <mark class=\"todo\">[X]</mark>",
+    "description": "सिंधु–सरस्वती सभ्यता के महान नियोजित नगरों में से एक की बाज़ार की गली।",
+    "media": [
+      {
+        "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली",
+        "caption": "अक्षरधाम म्यूज़ियम में धोलावीरा के बाज़ार का डायोरामा।"
+      }
+    ],
+    "topics": [
+      {
+        "id": "audio-guide",
+        "title": "ऑडियो गाइड · स्टॉप <mark class=\"todo\">[#]</mark>",
+        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
+        "action": {
+          "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
+        }
+      }
+    ]
+  }
 }

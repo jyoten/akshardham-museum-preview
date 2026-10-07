@@ -1,259 +1,259 @@
 {
- "en": {
-  "id": "adopt-an-exhibit",
-  "title": "Care for a piece of the story",
-  "subheading": "Adopt an exhibit",
-  "description": "Yajman sponsors fund the upkeep, restoration and renewal of a specific statue, show, gallery, diorama or replica — with lasting recognition beside it.",
-  "action": {
-   "label": "Talk to our team",
-   "link": "#"
+  "en": {
+    "id": "adopt-an-exhibit",
+    "title": "Care for a piece of the story",
+    "subheading": "Adopt an exhibit",
+    "description": "Yajman sponsors fund the upkeep, restoration and renewal of a specific statue, show, gallery, diorama or replica — with lasting recognition beside it.",
+    "action": {
+      "label": "Talk to our team",
+      "link": "#"
+    },
+    "topics": [
+      {
+        "id": "rishi-yajman",
+        "title": "Rishi Yajman",
+        "subheading": "A lifelike statue · 200 statues",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/rishis-statues.jpg",
+            "alt": "Lifelike statues of two rishis in a museum gallery"
+          }
+        ],
+        "action": {
+          "label": "Enquire",
+          "link": "todo:Sponsorship enquiry (no page)"
+        }
+      },
+      {
+        "id": "saraswat-yajman",
+        "title": "Saraswat Yajman",
+        "subheading": "A multimedia show · 40 shows",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/cosmos-theater.jpg",
+            "alt": "A theatre with rows of seats facing a vivid image of the cosmos"
+          }
+        ],
+        "action": {
+          "label": "Enquire",
+          "link": "todo:Sponsorship enquiry (no page)"
+        }
+      },
+      {
+        "id": "kalash-yajman",
+        "title": "Kalash Yajman",
+        "subheading": "A gallery section · 60 sections",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/performing-arts-gallery.jpg",
+            "alt": "The “India, a land of performing arts” gallery"
+          }
+        ],
+        "action": {
+          "label": "Enquire",
+          "link": "todo:Sponsorship enquiry (no page)"
+        }
+      },
+      {
+        "id": "tilak-yajman",
+        "title": "Tilak Yajman",
+        "subheading": "An immersive diorama · 25 dioramas",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/dholavira-bazaar.jpg",
+            "alt": "A recreated ancient market street with stalls and figures"
+          }
+        ],
+        "action": {
+          "label": "Enquire",
+          "link": "todo:Sponsorship enquiry (no page)"
+        }
+      },
+      {
+        "id": "sanskruti-yajman",
+        "title": "Sanskruti Yajman",
+        "subheading": "An architectural replica · 12 replicas",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/ajanta-prayer-hall.jpg",
+            "alt": "The Ajanta prayer hall replica, with its ribbed ceiling and stupa"
+          }
+        ],
+        "action": {
+          "label": "Enquire",
+          "link": "todo:Sponsorship enquiry (no page)"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "rishi-yajman",
-    "title": "Rishi Yajman",
-    "subheading": "A lifelike statue · 200 statues",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/rishis-statues.jpg",
-      "alt": "Lifelike statues of two rishis in a museum gallery"
-     }
-    ],
+  "gu": {
+    "title": "આ ગાથાના એક અંશની સંભાળ લો",
+    "subheading": "એક પ્રદર્શન દત્તક લો",
+    "description": "યજમાન દાતાઓ કોઈ ચોક્કસ પ્રતિમા, શો, ગેલેરી, ડાયોરામા કે પ્રતિકૃતિની જાળવણી, પુનઃસ્થાપન અને નવીનીકરણ માટે યોગદાન આપે છે — અને તેની પાસે જ તેમનું કાયમી સન્માન અંકિત થાય છે.",
     "action": {
-     "label": "Enquire",
-     "link": "todo:Sponsorship enquiry (no page)"
-    }
-   },
-   {
-    "id": "saraswat-yajman",
-    "title": "Saraswat Yajman",
-    "subheading": "A multimedia show · 40 shows",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/cosmos-theater.jpg",
-      "alt": "A theatre with rows of seats facing a vivid image of the cosmos"
-     }
-    ],
-    "action": {
-     "label": "Enquire",
-     "link": "todo:Sponsorship enquiry (no page)"
-    }
-   },
-   {
-    "id": "kalash-yajman",
-    "title": "Kalash Yajman",
-    "subheading": "A gallery section · 60 sections",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/performing-arts-gallery.jpg",
-      "alt": "The “India, a land of performing arts” gallery"
-     }
-    ],
-    "action": {
-     "label": "Enquire",
-     "link": "todo:Sponsorship enquiry (no page)"
-    }
-   },
-   {
-    "id": "tilak-yajman",
-    "title": "Tilak Yajman",
-    "subheading": "An immersive diorama · 25 dioramas",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/dholavira-bazaar.jpg",
-      "alt": "A recreated ancient market street with stalls and figures"
-     }
-    ],
-    "action": {
-     "label": "Enquire",
-     "link": "todo:Sponsorship enquiry (no page)"
-    }
-   },
-   {
-    "id": "sanskruti-yajman",
-    "title": "Sanskruti Yajman",
-    "subheading": "An architectural replica · 12 replicas",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/ajanta-prayer-hall.jpg",
-      "alt": "The Ajanta prayer hall replica, with its ribbed ceiling and stupa"
-     }
-    ],
-    "action": {
-     "label": "Enquire",
-     "link": "todo:Sponsorship enquiry (no page)"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "આ ગાથાના એક અંશની સંભાળ લો",
-  "subheading": "એક પ્રદર્શન દત્તક લો",
-  "description": "યજમાન દાતાઓ કોઈ ચોક્કસ પ્રતિમા, શો, ગેલેરી, ડાયોરામા કે પ્રતિકૃતિની જાળવણી, પુનઃસ્થાપન અને નવીનીકરણ માટે યોગદાન આપે છે — અને તેની પાસે જ તેમનું કાયમી સન્માન અંકિત થાય છે.",
-  "action": {
-   "label": "અમારી ટીમ સાથે વાત કરો"
+      "label": "અમારી ટીમ સાથે વાત કરો"
+    },
+    "topics": [
+      {
+        "id": "rishi-yajman",
+        "title": "ઋષિ યજમાન",
+        "subheading": "એક જીવંત પ્રતિમા · 200 પ્રતિમાઓ",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "સંગ્રહાલયની ગેલેરીમાં બે ઋષિઓની જીવંત પ્રતિમાઓ"
+          }
+        ],
+        "action": {
+          "label": "પૂછપરછ કરો"
+        }
+      },
+      {
+        "id": "saraswat-yajman",
+        "title": "સારસ્વત યજમાન",
+        "subheading": "એક મલ્ટિમીડિયા શો · 40 શો",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "બ્રહ્માંડના રંગબેરંગી ચિત્ર સામે બેઠકોની હરોળોવાળું થિયેટર"
+          }
+        ],
+        "action": {
+          "label": "પૂછપરછ કરો"
+        }
+      },
+      {
+        "id": "kalash-yajman",
+        "title": "કળશ યજમાન",
+        "subheading": "એક ગેલેરી વિભાગ · 60 વિભાગો",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "“ભારત, મંચીય કલાઓની ભૂમિ” ગેલેરી"
+          }
+        ],
+        "action": {
+          "label": "પૂછપરછ કરો"
+        }
+      },
+      {
+        "id": "tilak-yajman",
+        "title": "તિલક યજમાન",
+        "subheading": "એક અનુભૂતિસભર ડાયોરામા · 25 ડાયોરામા",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃનિર્મિત પ્રાચીન બજારની શેરી"
+          }
+        ],
+        "action": {
+          "label": "પૂછપરછ કરો"
+        }
+      },
+      {
+        "id": "sanskruti-yajman",
+        "title": "સંસ્કૃતિ યજમાન",
+        "subheading": "એક સ્થાપત્ય પ્રતિકૃતિ · 12 પ્રતિકૃતિઓ",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "પાંસળીદાર છત અને સ્તૂપ સાથે અજંતાના પ્રાર્થના ખંડની પ્રતિકૃતિ"
+          }
+        ],
+        "action": {
+          "label": "પૂછપરછ કરો"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "rishi-yajman",
-    "title": "ઋષિ યજમાન",
-    "subheading": "એક જીવંત પ્રતિમા · 200 પ્રતિમાઓ",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "સંગ્રહાલયની ગેલેરીમાં બે ઋષિઓની જીવંત પ્રતિમાઓ"
-     }
-    ],
+  "hi": {
+    "title": "इस गाथा के एक अंश की देखभाल करें",
+    "subheading": "किसी प्रदर्श को अपनाएँ",
+    "description": "यजमान दाता किसी विशेष प्रतिमा, शो, गैलरी, डायोरामा या प्रतिकृति के रखरखाव, जीर्णोद्धार और नवीनीकरण में योगदान देते हैं — और उसके पास ही उनका स्थायी सम्मान अंकित होता है।",
     "action": {
-     "label": "પૂછપરછ કરો"
-    }
-   },
-   {
-    "id": "saraswat-yajman",
-    "title": "સારસ્વત યજમાન",
-    "subheading": "એક મલ્ટિમીડિયા શો · 40 શો",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "બ્રહ્માંડના રંગબેરંગી ચિત્ર સામે બેઠકોની હરોળોવાળું થિયેટર"
-     }
-    ],
-    "action": {
-     "label": "પૂછપરછ કરો"
-    }
-   },
-   {
-    "id": "kalash-yajman",
-    "title": "કળશ યજમાન",
-    "subheading": "એક ગેલેરી વિભાગ · 60 વિભાગો",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "“ભારત, મંચીય કલાઓની ભૂમિ” ગેલેરી"
-     }
-    ],
-    "action": {
-     "label": "પૂછપરછ કરો"
-    }
-   },
-   {
-    "id": "tilak-yajman",
-    "title": "તિલક યજમાન",
-    "subheading": "એક અનુભૂતિસભર ડાયોરામા · 25 ડાયોરામા",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃનિર્મિત પ્રાચીન બજારની શેરી"
-     }
-    ],
-    "action": {
-     "label": "પૂછપરછ કરો"
-    }
-   },
-   {
-    "id": "sanskruti-yajman",
-    "title": "સંસ્કૃતિ યજમાન",
-    "subheading": "એક સ્થાપત્ય પ્રતિકૃતિ · 12 પ્રતિકૃતિઓ",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "પાંસળીદાર છત અને સ્તૂપ સાથે અજંતાના પ્રાર્થના ખંડની પ્રતિકૃતિ"
-     }
-    ],
-    "action": {
-     "label": "પૂછપરછ કરો"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "इस गाथा के एक अंश की देखभाल करें",
-  "subheading": "किसी प्रदर्श को अपनाएँ",
-  "description": "यजमान दाता किसी विशेष प्रतिमा, शो, गैलरी, डायोरामा या प्रतिकृति के रखरखाव, जीर्णोद्धार और नवीनीकरण में योगदान देते हैं — और उसके पास ही उनका स्थायी सम्मान अंकित होता है।",
-  "action": {
-   "label": "हमारी टीम से बात करें"
-  },
-  "topics": [
-   {
-    "id": "rishi-yajman",
-    "title": "ऋषि यजमान",
-    "subheading": "एक सजीव प्रतिमा · 200 प्रतिमाएँ",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "संग्रहालय की गैलरी में दो ऋषियों की सजीव प्रतिमाएँ"
-     }
-    ],
-    "action": {
-     "label": "पूछताछ करें"
-    }
-   },
-   {
-    "id": "saraswat-yajman",
-    "title": "सारस्वत यजमान",
-    "subheading": "एक मल्टीमीडिया शो · 40 शो",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "ब्रह्मांड के रंगीन चित्र के सामने सीटों की पंक्तियों वाला थिएटर"
-     }
-    ],
-    "action": {
-     "label": "पूछताछ करें"
-    }
-   },
-   {
-    "id": "kalash-yajman",
-    "title": "कलश यजमान",
-    "subheading": "एक गैलरी खंड · 60 खंड",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "“भारत, प्रदर्शन कलाओं की भूमि” गैलरी"
-     }
-    ],
-    "action": {
-     "label": "पूछताछ करें"
-    }
-   },
-   {
-    "id": "tilak-yajman",
-    "title": "तिलक यजमान",
-    "subheading": "एक जीवंत अनुभव कराने वाला डायोरामा · 25 डायोरामा",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली"
-     }
-    ],
-    "action": {
-     "label": "पूछताछ करें"
-    }
-   },
-   {
-    "id": "sanskruti-yajman",
-    "title": "संस्कृति यजमान",
-    "subheading": "एक स्थापत्य प्रतिकृति · 12 प्रतिकृतियाँ",
-    "description": "<mark class=\"todo\">[AMOUNT]</mark>",
-    "media": [
-     {
-      "alt": "पसलीदार छत और स्तूप के साथ अजंता के प्रार्थना कक्ष की प्रतिकृति"
-     }
-    ],
-    "action": {
-     "label": "पूछताछ करें"
-    }
-   }
-  ]
- }
+      "label": "हमारी टीम से बात करें"
+    },
+    "topics": [
+      {
+        "id": "rishi-yajman",
+        "title": "ऋषि यजमान",
+        "subheading": "एक सजीव प्रतिमा · 200 प्रतिमाएँ",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "संग्रहालय की गैलरी में दो ऋषियों की सजीव प्रतिमाएँ"
+          }
+        ],
+        "action": {
+          "label": "पूछताछ करें"
+        }
+      },
+      {
+        "id": "saraswat-yajman",
+        "title": "सारस्वत यजमान",
+        "subheading": "एक मल्टीमीडिया शो · 40 शो",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "ब्रह्मांड के रंगीन चित्र के सामने सीटों की पंक्तियों वाला थिएटर"
+          }
+        ],
+        "action": {
+          "label": "पूछताछ करें"
+        }
+      },
+      {
+        "id": "kalash-yajman",
+        "title": "कलश यजमान",
+        "subheading": "एक गैलरी खंड · 60 खंड",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "“भारत, प्रदर्शन कलाओं की भूमि” गैलरी"
+          }
+        ],
+        "action": {
+          "label": "पूछताछ करें"
+        }
+      },
+      {
+        "id": "tilak-yajman",
+        "title": "तिलक यजमान",
+        "subheading": "एक जीवंत अनुभव कराने वाला डायोरामा · 25 डायोरामा",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली"
+          }
+        ],
+        "action": {
+          "label": "पूछताछ करें"
+        }
+      },
+      {
+        "id": "sanskruti-yajman",
+        "title": "संस्कृति यजमान",
+        "subheading": "एक स्थापत्य प्रतिकृति · 12 प्रतिकृतियाँ",
+        "description": "<mark class=\"todo\">[AMOUNT]</mark>",
+        "media": [
+          {
+            "alt": "पसलीदार छत और स्तूप के साथ अजंता के प्रार्थना कक्ष की प्रतिकृति"
+          }
+        ],
+        "action": {
+          "label": "पूछताछ करें"
+        }
+      }
+    ]
+  }
 }

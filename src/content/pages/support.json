@@ -1,35 +1,35 @@
 {
- "path": "/support/",
- "nav": "support",
- "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
- "meta": "support/meta",
- "components": [
-  {
-   "style": "site-header"
-  },
-  {
-   "style": "support-hero",
-   "topic": "support/hero"
-  },
-  {
-   "style": "membership-tiers",
-   "topic": "support/membership"
-  },
-  {
-   "style": "sponsorship-row",
-   "topic": "support/adopt-an-exhibit"
-  },
-  {
-   "style": "feature-split",
-   "topic": "support/legacy-passes"
-  },
-  {
-   "style": "legacy-hall",
-   "topic": "support/legacy-hall"
-  },
-  {
-   "style": "link-cards",
-   "topic": "support/more-ways-to-give"
-  }
- ]
+  "path": "/support/",
+  "nav": "support",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "support/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "support-hero",
+      "topic": "support/hero"
+    },
+    {
+      "style": "membership-tiers",
+      "topic": "support/membership"
+    },
+    {
+      "style": "sponsorship-row",
+      "topic": "support/adopt-an-exhibit"
+    },
+    {
+      "style": "feature-split",
+      "topic": "support/legacy-passes"
+    },
+    {
+      "style": "legacy-hall",
+      "topic": "support/legacy-hall"
+    },
+    {
+      "style": "link-cards",
+      "topic": "support/more-ways-to-give"
+    }
+  ]
 }

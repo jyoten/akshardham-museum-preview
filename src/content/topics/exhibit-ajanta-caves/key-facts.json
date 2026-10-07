@@ -1,78 +1,78 @@
 {
- "en": {
-  "id": "key-facts",
-  "title": "Key facts",
-  "topics": [
-   {
-    "id": "fact-1",
-    "title": "Original site",
-    "description": "Waghur river gorge, Maharashtra, India"
-   },
-   {
-    "id": "fact-2",
-    "title": "Carved",
-    "description": "c. 2nd century BCE – 5th century CE"
-   },
-   {
-    "id": "fact-3",
-    "title": "Recognition",
-    "description": "UNESCO World Heritage Site, 1983"
-   },
-   {
-    "id": "fact-4",
-    "title": "In the museum",
-    "description": "Floor <mark class=\"todo\">[X]</mark> · Gallery <mark class=\"todo\">[X]</mark>"
-   }
-  ]
- },
- "gu": {
-  "title": "મુખ્ય તથ્યો",
-  "topics": [
-   {
-    "id": "fact-1",
-    "title": "મૂળ સ્થળ",
-    "description": "વાઘુર નદીની ખીણ, મહારાષ્ટ્ર, ભારત"
-   },
-   {
-    "id": "fact-2",
-    "title": "કોતરણીનો કાળ",
-    "description": "આશરે ઈ.સ.પૂ. 2જી સદી – ઈ.સ. 5મી સદી"
-   },
-   {
-    "id": "fact-3",
-    "title": "માન્યતા",
-    "description": "યુનેસ્કો વિશ્વ ધરોહર સ્થળ, 1983"
-   },
-   {
-    "id": "fact-4",
-    "title": "સંગ્રહાલયમાં",
-    "description": "માળ <mark class=\"todo\">[X]</mark> · ગેલેરી <mark class=\"todo\">[X]</mark>"
-   }
-  ]
- },
- "hi": {
-  "title": "मुख्य तथ्य",
-  "topics": [
-   {
-    "id": "fact-1",
-    "title": "मूल स्थल",
-    "description": "वाघुर नदी घाटी, महाराष्ट्र, भारत"
-   },
-   {
-    "id": "fact-2",
-    "title": "उत्कीर्णन काल",
-    "description": "लगभग ई.पू. 2री शताब्दी – ई. 5वीं शताब्दी"
-   },
-   {
-    "id": "fact-3",
-    "title": "मान्यता",
-    "description": "यूनेस्को विश्व धरोहर स्थल, 1983"
-   },
-   {
-    "id": "fact-4",
-    "title": "संग्रहालय में",
-    "description": "तल <mark class=\"todo\">[X]</mark> · गैलरी <mark class=\"todo\">[X]</mark>"
-   }
-  ]
- }
+  "en": {
+    "id": "key-facts",
+    "title": "Key facts",
+    "topics": [
+      {
+        "id": "fact-1",
+        "title": "Original site",
+        "description": "Waghur river gorge, Maharashtra, India"
+      },
+      {
+        "id": "fact-2",
+        "title": "Carved",
+        "description": "c. 2nd century BCE – 5th century CE"
+      },
+      {
+        "id": "fact-3",
+        "title": "Recognition",
+        "description": "UNESCO World Heritage Site, 1983"
+      },
+      {
+        "id": "fact-4",
+        "title": "In the museum",
+        "description": "Floor <mark class=\"todo\">[X]</mark> · Gallery <mark class=\"todo\">[X]</mark>"
+      }
+    ]
+  },
+  "gu": {
+    "title": "મુખ્ય તથ્યો",
+    "topics": [
+      {
+        "id": "fact-1",
+        "title": "મૂળ સ્થળ",
+        "description": "વાઘુર નદીની ખીણ, મહારાષ્ટ્ર, ભારત"
+      },
+      {
+        "id": "fact-2",
+        "title": "કોતરણીનો કાળ",
+        "description": "આશરે ઈ.સ.પૂ. 2જી સદી – ઈ.સ. 5મી સદી"
+      },
+      {
+        "id": "fact-3",
+        "title": "માન્યતા",
+        "description": "યુનેસ્કો વિશ્વ ધરોહર સ્થળ, 1983"
+      },
+      {
+        "id": "fact-4",
+        "title": "સંગ્રહાલયમાં",
+        "description": "માળ <mark class=\"todo\">[X]</mark> · ગેલેરી <mark class=\"todo\">[X]</mark>"
+      }
+    ]
+  },
+  "hi": {
+    "title": "मुख्य तथ्य",
+    "topics": [
+      {
+        "id": "fact-1",
+        "title": "मूल स्थल",
+        "description": "वाघुर नदी घाटी, महाराष्ट्र, भारत"
+      },
+      {
+        "id": "fact-2",
+        "title": "उत्कीर्णन काल",
+        "description": "लगभग ई.पू. 2री शताब्दी – ई. 5वीं शताब्दी"
+      },
+      {
+        "id": "fact-3",
+        "title": "मान्यता",
+        "description": "यूनेस्को विश्व धरोहर स्थल, 1983"
+      },
+      {
+        "id": "fact-4",
+        "title": "संग्रहालय में",
+        "description": "तल <mark class=\"todo\">[X]</mark> · गैलरी <mark class=\"todo\">[X]</mark>"
+      }
+    ]
+  }
 }

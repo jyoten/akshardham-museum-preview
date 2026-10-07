@@ -1,196 +1,196 @@
 {
- "en": {
-  "id": "in-this-gallery",
-  "title": "In this gallery",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "ajanta-caves",
-    "title": "The Ajanta Caves",
-    "subheading": "Architectural replica",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/ajanta-prayer-hall.jpg",
-      "alt": "Replica of an Ajanta prayer hall, with a ribbed vaulted ceiling, carved pillars and a stupa"
-     }
-    ],
-    "action": {
-     "link": "/ajanta"
-    }
-   },
-   {
-    "id": "rani-ki-vav",
-    "title": "Rani-ki-Vav",
-    "subheading": "Stepwell replica",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/rani-ki-vav.jpg",
-      "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold"
-     }
-    ],
-    "action": {
-     "link": "/explore/rani-ki-vav"
-    }
-   },
-   {
-    "id": "konark-wheel",
-    "title": "Konark Wheel",
-    "subheading": "Temple sundial replica",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/konark-wheel.jpg",
-      "alt": "Two great carved stone wheels from the Konark temple"
-     }
-    ],
-    "action": {
-     "link": "/explore/konark-wheel"
-    }
-   },
-   {
-    "id": "traditional-haveli",
-    "title": "Traditional Haveli",
-    "subheading": "Architectural replica",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/haveli.jpg",
-      "alt": "A carved wooden haveli facade with balconies"
-     }
-    ],
-    "action": {
-     "link": "/explore/haveli"
-    }
-   },
-   {
-    "id": "dholavira-bazaar",
-    "title": "Dholavira Bazaar",
-    "subheading": "Diorama",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/dholavira-bazaar.jpg",
-      "alt": "A recreated ancient market street with stalls and figures"
-     }
-    ],
-    "action": {
-     "link": "/explore/dholavira-bazaar"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "આ ગેલેરીમાં",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "ajanta-caves",
-    "title": "અજંતાની ગુફાઓ",
-    "subheading": "સ્થાપત્ય પ્રતિકૃતિ",
-    "media": [
-     {
-      "alt": "પાંસળીદાર કમાનાકાર છત, કોતરણીવાળા સ્તંભો અને સ્તૂપ સાથે અજંતાના પ્રાર્થના ખંડની પ્રતિકૃતિ"
-     }
+  "en": {
+    "id": "in-this-gallery",
+    "title": "In this gallery",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "ajanta-caves",
+        "title": "The Ajanta Caves",
+        "subheading": "Architectural replica",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/ajanta-prayer-hall.jpg",
+            "alt": "Replica of an Ajanta prayer hall, with a ribbed vaulted ceiling, carved pillars and a stupa"
+          }
+        ],
+        "action": {
+          "link": "/ajanta"
+        }
+      },
+      {
+        "id": "rani-ki-vav",
+        "title": "Rani-ki-Vav",
+        "subheading": "Stepwell replica",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/rani-ki-vav.jpg",
+            "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold"
+          }
+        ],
+        "action": {
+          "link": "/explore/rani-ki-vav"
+        }
+      },
+      {
+        "id": "konark-wheel",
+        "title": "Konark Wheel",
+        "subheading": "Temple sundial replica",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/konark-wheel.jpg",
+            "alt": "Two great carved stone wheels from the Konark temple"
+          }
+        ],
+        "action": {
+          "link": "/explore/konark-wheel"
+        }
+      },
+      {
+        "id": "traditional-haveli",
+        "title": "Traditional Haveli",
+        "subheading": "Architectural replica",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/haveli.jpg",
+            "alt": "A carved wooden haveli facade with balconies"
+          }
+        ],
+        "action": {
+          "link": "/explore/haveli"
+        }
+      },
+      {
+        "id": "dholavira-bazaar",
+        "title": "Dholavira Bazaar",
+        "subheading": "Diorama",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/dholavira-bazaar.jpg",
+            "alt": "A recreated ancient market street with stalls and figures"
+          }
+        ],
+        "action": {
+          "link": "/explore/dholavira-bazaar"
+        }
+      }
     ]
-   },
-   {
-    "id": "rani-ki-vav",
-    "title": "રાણકી વાવ",
-    "subheading": "વાવની પ્રતિકૃતિ",
-    "media": [
-     {
-      "alt": "ઉષ્માભર્યા સોનેરી પ્રકાશમાં ઝળહળતી રાણકી વાવની પ્રતિકૃતિની કોતરણીવાળી પથ્થરની પરસાળો"
-     }
+  },
+  "gu": {
+    "title": "આ ગેલેરીમાં",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "ajanta-caves",
+        "title": "અજંતાની ગુફાઓ",
+        "subheading": "સ્થાપત્ય પ્રતિકૃતિ",
+        "media": [
+          {
+            "alt": "પાંસળીદાર કમાનાકાર છત, કોતરણીવાળા સ્તંભો અને સ્તૂપ સાથે અજંતાના પ્રાર્થના ખંડની પ્રતિકૃતિ"
+          }
+        ]
+      },
+      {
+        "id": "rani-ki-vav",
+        "title": "રાણકી વાવ",
+        "subheading": "વાવની પ્રતિકૃતિ",
+        "media": [
+          {
+            "alt": "ઉષ્માભર્યા સોનેરી પ્રકાશમાં ઝળહળતી રાણકી વાવની પ્રતિકૃતિની કોતરણીવાળી પથ્થરની પરસાળો"
+          }
+        ]
+      },
+      {
+        "id": "konark-wheel",
+        "title": "કોણાર્કનું ચક્ર",
+        "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ",
+        "media": [
+          {
+            "alt": "કોણાર્ક મંદિરનાં બે વિશાળ કોતરણીવાળાં પથ્થરનાં ચક્રો"
+          }
+        ]
+      },
+      {
+        "id": "traditional-haveli",
+        "title": "પરંપરાગત હવેલી",
+        "subheading": "સ્થાપત્ય પ્રતિકૃતિ",
+        "media": [
+          {
+            "alt": "ઝરૂખાઓ સાથેનો કોતરણીવાળો લાકડાની હવેલીનો અગ્રભાગ"
+          }
+        ]
+      },
+      {
+        "id": "dholavira-bazaar",
+        "title": "ધોળાવીરાનું બજાર",
+        "subheading": "ડાયોરામા",
+        "media": [
+          {
+            "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃનિર્મિત પ્રાચીન બજારની શેરી"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "konark-wheel",
-    "title": "કોણાર્કનું ચક્ર",
-    "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ",
-    "media": [
-     {
-      "alt": "કોણાર્ક મંદિરનાં બે વિશાળ કોતરણીવાળાં પથ્થરનાં ચક્રો"
-     }
+  },
+  "hi": {
+    "title": "इस गैलरी में",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "ajanta-caves",
+        "title": "अजंता की गुफाएँ",
+        "subheading": "स्थापत्य प्रतिकृति",
+        "media": [
+          {
+            "alt": "पसलीदार मेहराबदार छत, नक्काशीदार स्तंभों और स्तूप के साथ अजंता के प्रार्थना कक्ष की प्रतिकृति"
+          }
+        ]
+      },
+      {
+        "id": "rani-ki-vav",
+        "title": "रानी की वाव",
+        "subheading": "बावड़ी की प्रतिकृति",
+        "media": [
+          {
+            "alt": "गर्म सुनहरी रोशनी में आलोकित रानी की वाव की प्रतिकृति के नक्काशीदार पत्थर के गलियारे"
+          }
+        ]
+      },
+      {
+        "id": "konark-wheel",
+        "title": "कोणार्क चक्र",
+        "subheading": "मंदिर की सूर्यघड़ी की प्रतिकृति",
+        "media": [
+          {
+            "alt": "कोणार्क मंदिर के दो विशाल नक्काशीदार पत्थर के चक्र"
+          }
+        ]
+      },
+      {
+        "id": "traditional-haveli",
+        "title": "पारंपरिक हवेली",
+        "subheading": "स्थापत्य प्रतिकृति",
+        "media": [
+          {
+            "alt": "झरोखों वाला नक्काशीदार लकड़ी की हवेली का अग्रभाग"
+          }
+        ]
+      },
+      {
+        "id": "dholavira-bazaar",
+        "title": "धोलावीरा का बाज़ार",
+        "subheading": "डायोरामा",
+        "media": [
+          {
+            "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "traditional-haveli",
-    "title": "પરંપરાગત હવેલી",
-    "subheading": "સ્થાપત્ય પ્રતિકૃતિ",
-    "media": [
-     {
-      "alt": "ઝરૂખાઓ સાથેનો કોતરણીવાળો લાકડાની હવેલીનો અગ્રભાગ"
-     }
-    ]
-   },
-   {
-    "id": "dholavira-bazaar",
-    "title": "ધોળાવીરાનું બજાર",
-    "subheading": "ડાયોરામા",
-    "media": [
-     {
-      "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃનિર્મિત પ્રાચીન બજારની શેરી"
-     }
-    ]
-   }
-  ]
- },
- "hi": {
-  "title": "इस गैलरी में",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "ajanta-caves",
-    "title": "अजंता की गुफाएँ",
-    "subheading": "स्थापत्य प्रतिकृति",
-    "media": [
-     {
-      "alt": "पसलीदार मेहराबदार छत, नक्काशीदार स्तंभों और स्तूप के साथ अजंता के प्रार्थना कक्ष की प्रतिकृति"
-     }
-    ]
-   },
-   {
-    "id": "rani-ki-vav",
-    "title": "रानी की वाव",
-    "subheading": "बावड़ी की प्रतिकृति",
-    "media": [
-     {
-      "alt": "गर्म सुनहरी रोशनी में आलोकित रानी की वाव की प्रतिकृति के नक्काशीदार पत्थर के गलियारे"
-     }
-    ]
-   },
-   {
-    "id": "konark-wheel",
-    "title": "कोणार्क चक्र",
-    "subheading": "मंदिर की सूर्यघड़ी की प्रतिकृति",
-    "media": [
-     {
-      "alt": "कोणार्क मंदिर के दो विशाल नक्काशीदार पत्थर के चक्र"
-     }
-    ]
-   },
-   {
-    "id": "traditional-haveli",
-    "title": "पारंपरिक हवेली",
-    "subheading": "स्थापत्य प्रतिकृति",
-    "media": [
-     {
-      "alt": "झरोखों वाला नक्काशीदार लकड़ी की हवेली का अग्रभाग"
-     }
-    ]
-   },
-   {
-    "id": "dholavira-bazaar",
-    "title": "धोलावीरा का बाज़ार",
-    "subheading": "डायोरामा",
-    "media": [
-     {
-      "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

@@ -1,25 +1,25 @@
 {
- "en": {
-  "id": "hero",
-  "title": "One continuous story, ten thousand years long.",
-  "subheading": "The 10,000-year timeline",
-  "description": "Choose an era to see what was happening — and where to find it in the museum.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/timeline-corridor.jpg",
-    "alt": ""
-   }
-  ]
- },
- "gu": {
-  "title": "એક અખંડ કથા, દસ હજાર વર્ષ લાંબી.",
-  "subheading": "10,000 વર્ષની સમયરેખા",
-  "description": "કોઈ યુગ પસંદ કરો અને જાણો કે તે સમયે શું બની રહ્યું હતું — અને સંગ્રહાલયમાં તે ક્યાં જોવા મળશે."
- },
- "hi": {
-  "title": "एक अखंड कथा, दस हज़ार वर्ष लंबी।",
-  "subheading": "10,000 वर्षों की समयरेखा",
-  "description": "कोई युग चुनें और जानें कि उस समय क्या हो रहा था — और संग्रहालय में उसे कहाँ देखा जा सकता है।"
- }
+  "en": {
+    "id": "hero",
+    "title": "One continuous story, ten thousand years long.",
+    "subheading": "The 10,000-year timeline",
+    "description": "Choose an era to see what was happening — and where to find it in the museum.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/timeline-corridor.jpg",
+        "alt": ""
+      }
+    ]
+  },
+  "gu": {
+    "title": "એક અખંડ કથા, દસ હજાર વર્ષ લાંબી.",
+    "subheading": "10,000 વર્ષની સમયરેખા",
+    "description": "કોઈ યુગ પસંદ કરો અને જાણો કે તે સમયે શું બની રહ્યું હતું — અને સંગ્રહાલયમાં તે ક્યાં જોવા મળશે."
+  },
+  "hi": {
+    "title": "एक अखंड कथा, दस हज़ार वर्ष लंबी।",
+    "subheading": "10,000 वर्षों की समयरेखा",
+    "description": "कोई युग चुनें और जानें कि उस समय क्या हो रहा था — और संग्रहालय में उसे कहाँ देखा जा सकता है।"
+  }
 }

@@ -1,100 +1,100 @@
 {
- "en": {
-  "id": "footer-legal",
-  "title": "Legal",
-  "subheading": "© BAPS Swaminarayan Akshardham",
-  "description": "Festivals and worship take place at the <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS Swaminarayan Akshardham Mandir</a> on the same campus.",
-  "topics": [
-   {
-    "id": "accessibility",
-    "action": {
-     "label": "Accessibility",
-     "link": "#"
-    }
-   },
-   {
-    "id": "privacy",
-    "action": {
-     "label": "Privacy",
-     "link": "#"
-    }
-   },
-   {
-    "id": "press",
-    "action": {
-     "label": "Press",
-     "link": "#"
-    }
-   },
-   {
-    "id": "careers",
-    "action": {
-     "label": "Careers",
-     "link": "#"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "કાનૂની",
-  "subheading": "© BAPS સ્વામિનારાયણ અક્ષરધામ",
-  "description": "ઉત્સવો અને પૂજા-અર્ચના આ જ પરિસરમાં આવેલા <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS સ્વામિનારાયણ અક્ષરધામ મંદિર</a>માં થાય છે.",
-  "topics": [
-   {
-    "id": "accessibility",
-    "action": {
-     "label": "સુલભતા"
-    }
-   },
-   {
-    "id": "privacy",
-    "action": {
-     "label": "ગોપનીયતા"
-    }
-   },
-   {
-    "id": "press",
-    "action": {
-     "label": "પ્રેસ"
-    }
-   },
-   {
-    "id": "careers",
-    "action": {
-     "label": "કારકિર્દી"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "कानूनी",
-  "subheading": "© BAPS स्वामीनारायण अक्षरधाम",
-  "description": "उत्सव और पूजा-अर्चना इसी परिसर में स्थित <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS स्वामीनारायण अक्षरधाम मंदिर</a> में होते हैं।",
-  "topics": [
-   {
-    "id": "accessibility",
-    "action": {
-     "label": "सुगम्यता"
-    }
-   },
-   {
-    "id": "privacy",
-    "action": {
-     "label": "गोपनीयता"
-    }
-   },
-   {
-    "id": "press",
-    "action": {
-     "label": "प्रेस"
-    }
-   },
-   {
-    "id": "careers",
-    "action": {
-     "label": "करियर"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "footer-legal",
+    "title": "Legal",
+    "subheading": "© BAPS Swaminarayan Akshardham",
+    "description": "Festivals and worship take place at the <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS Swaminarayan Akshardham Mandir</a> on the same campus.",
+    "topics": [
+      {
+        "id": "accessibility",
+        "action": {
+          "label": "Accessibility",
+          "link": "#"
+        }
+      },
+      {
+        "id": "privacy",
+        "action": {
+          "label": "Privacy",
+          "link": "#"
+        }
+      },
+      {
+        "id": "press",
+        "action": {
+          "label": "Press",
+          "link": "#"
+        }
+      },
+      {
+        "id": "careers",
+        "action": {
+          "label": "Careers",
+          "link": "#"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "કાનૂની",
+    "subheading": "© BAPS સ્વામિનારાયણ અક્ષરધામ",
+    "description": "ઉત્સવો અને પૂજા-અર્ચના આ જ પરિસરમાં આવેલા <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS સ્વામિનારાયણ અક્ષરધામ મંદિર</a>માં થાય છે.",
+    "topics": [
+      {
+        "id": "accessibility",
+        "action": {
+          "label": "સુલભતા"
+        }
+      },
+      {
+        "id": "privacy",
+        "action": {
+          "label": "ગોપનીયતા"
+        }
+      },
+      {
+        "id": "press",
+        "action": {
+          "label": "પ્રેસ"
+        }
+      },
+      {
+        "id": "careers",
+        "action": {
+          "label": "કારકિર્દી"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "कानूनी",
+    "subheading": "© BAPS स्वामीनारायण अक्षरधाम",
+    "description": "उत्सव और पूजा-अर्चना इसी परिसर में स्थित <a href=\"https://usa.akshardham.org\" style=\"color:var(--gold)\">BAPS स्वामीनारायण अक्षरधाम मंदिर</a> में होते हैं।",
+    "topics": [
+      {
+        "id": "accessibility",
+        "action": {
+          "label": "सुगम्यता"
+        }
+      },
+      {
+        "id": "privacy",
+        "action": {
+          "label": "गोपनीयता"
+        }
+      },
+      {
+        "id": "press",
+        "action": {
+          "label": "प्रेस"
+        }
+      },
+      {
+        "id": "careers",
+        "action": {
+          "label": "करियर"
+        }
+      }
+    ]
+  }
 }

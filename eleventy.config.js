@@ -2,6 +2,7 @@
 // Text lives in topic files (src/content/topics/<document>/<topic>.json) and pages are assembled
 // from page layouts (src/content/pages/<page>.json). See CONTENT-MODEL.md.
 import fs from "node:fs";
+import { createHash } from "node:crypto";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 import path from "node:path";
 
@@ -12,6 +13,45 @@ const PREFIX = (process.env.SITE_PREFIX || "").replace(/\/$/, "");
 // Review builds: not indexed, no admin, a "preview" note on every page
 const REVIEW = process.env.SITE_REVIEW === "1";
 const ASSET = /^\/(css|js|fonts|images|data|admin|favicon|apple-touch)/;
+// `eleventy --serve` (npm run dev): the admin may also talk to the local decap-server.
+const DEV = process.env.ELEVENTY_RUN_MODE === "serve";
+
+// Decap CMS, pinned. To upgrade, change both and see SECURITY.md for how to get the hash.
+const DECAP_VERSION = "3.16.3";
+const DECAP_INTEGRITY = "sha384-A/Gdn928CNLufmnGWGs9RM4Q9o8bSNLeJERqBFrBjwzL7FRpoLT3MPF8Tl0+Wd2p";
+
+// Content-Security-Policy for public pages. Inline scripts are allowed by hash only (worked out per page at build
+// time); styles allow inline because the design uses style attributes. Anything from another site (analytics,
+// maps, video) has to be added here first.
+const publicCsp = (scriptHashes) => [
+  "default-src 'self'",
+  `script-src 'self' ${scriptHashes.join(" ")}`.trim(),
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data:",
+  "font-src 'self'",
+  "connect-src 'self'",
+  "media-src 'self'",
+  "frame-src 'none'",
+  "object-src 'none'",
+  "base-uri 'self'",
+  "form-action 'self'",
+  "upgrade-insecure-requests",
+].join("; ");
+// The admin: Decap's script from the CDN, GitHub's API, avatars and blob: previews of uploaded images.
+// 'unsafe-eval' is needed because Decap checks its config with ajv, which compiles code at runtime; it is
+// limited to the admin page, which runs no other scripts.
+const adminCsp = () => [
+  "default-src 'self'",
+  `script-src 'self' 'unsafe-eval' https://cdn.jsdelivr.net/npm/decap-cms@${DECAP_VERSION}/dist/decap-cms.js`,
+  "style-src 'self' 'unsafe-inline'",
+  "img-src 'self' data: blob: https://avatars.githubusercontent.com https://raw.githubusercontent.com",
+  "font-src 'self' data:",
+  `connect-src 'self' https://api.github.com${DEV ? " http://localhost:8081" : ""}`,
+  "frame-src 'self' blob:",
+  "object-src 'none'",
+  "base-uri 'none'",
+  "form-action 'none'",
+].join("; ");
 
 const readJson = (f) => JSON.parse(fs.readFileSync(f, "utf8"));
 
@@ -68,6 +108,7 @@ function localize(en, v, lang) {
 export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addGlobalData("site", { prefix: PREFIX, review: REVIEW });
+  eleventyConfig.addGlobalData("adminCsp", { policy: adminCsp(), decapVersion: DECAP_VERSION, decapIntegrity: DECAP_INTEGRITY });
   let content = loadContent();
   let cache = {};
   eleventyConfig.on("eleventy.before", () => { content = loadContent(); cache = {}; });
@@ -140,9 +181,24 @@ export default function (eleventyConfig) {
     return JSON.stringify(out).replace(/</g, "\\u003c");
   });
 
-  for (const dir of ["css", "js", "fonts", "images", "data"].concat(REVIEW ? [] : ["admin"])) {
+  // Public pages: a Content-Security-Policy that allows each page's own inline script by its hash, and a referrer policy.
+  eleventyConfig.addTransform("security-headers", function (content) {
+    const out = this.page.outputPath || "";
+    if (!out.endsWith(".html") || !content.includes("<!-- security-meta -->")) return content;
+    const hashes = [];
+    for (const m of content.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script>/g)) {
+      if (/\bsrc=/.test(m[1]) || /type="(application\/json|text\/plain)"/.test(m[1])) continue;
+      hashes.push(`'sha256-${createHash("sha256").update(m[2], "utf8").digest("base64")}'`);
+    }
+    const meta = `<meta http-equiv="Content-Security-Policy" content="${publicCsp([...new Set(hashes)])}">\n<meta name="referrer" content="strict-origin-when-cross-origin">`;
+    return content.replace("<!-- security-meta -->", meta);
+  });
+
+  for (const dir of ["css", "js", "fonts", "images", "data"]) {
     eleventyConfig.addPassthroughCopy({ [`src/${dir}`]: dir });
   }
+  // The admin (src/admin/index.njk renders the page) is left out of review builds.
+  if (!REVIEW) eleventyConfig.addPassthroughCopy({ "src/admin/config.yml": "admin/config.yml" });
   for (const f of ["favicon.svg", "favicon-32.png", "favicon.ico", "apple-touch-icon.png"]) {
     eleventyConfig.addPassthroughCopy({ [`src/${f}`]: f });
   }

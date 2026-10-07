@@ -1,41 +1,41 @@
 {
- "path": "/ajanta/",
- "nav": "explore",
- "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
- "meta": "exhibit-ajanta-caves/meta",
- "components": [
-  {
-   "style": "site-header"
-  },
-  {
-   "style": "breadcrumb",
-   "topic": "exhibit-ajanta-caves/breadcrumb"
-  },
-  {
-   "style": "exhibit-hero",
-   "topic": "exhibit-ajanta-caves/intro",
-   "settings": {
-    "imagePosition": "center 30%"
-   }
-  },
-  {
-   "style": "key-facts",
-   "topic": "exhibit-ajanta-caves/key-facts"
-  },
-  {
-   "style": "chapters",
-   "topic": "exhibit-ajanta-caves/story"
-  },
-  {
-   "style": "nearby-cards",
-   "topic": "exhibit-ajanta-caves/nearby",
-   "settings": {
-    "lazyImages": false
-   }
-  },
-  {
-   "style": "timeline-band",
-   "topic": "exhibit-ajanta-caves/on-the-timeline"
-  }
- ]
+  "path": "/ajanta/",
+  "nav": "explore",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "exhibit-ajanta-caves/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "breadcrumb",
+      "topic": "exhibit-ajanta-caves/breadcrumb"
+    },
+    {
+      "style": "exhibit-hero",
+      "topic": "exhibit-ajanta-caves/intro",
+      "settings": {
+        "imagePosition": "center 30%"
+      }
+    },
+    {
+      "style": "key-facts",
+      "topic": "exhibit-ajanta-caves/key-facts"
+    },
+    {
+      "style": "chapters",
+      "topic": "exhibit-ajanta-caves/story"
+    },
+    {
+      "style": "nearby-cards",
+      "topic": "exhibit-ajanta-caves/nearby",
+      "settings": {
+        "lazyImages": false
+      }
+    },
+    {
+      "style": "timeline-band",
+      "topic": "exhibit-ajanta-caves/on-the-timeline"
+    }
+  ]
 }

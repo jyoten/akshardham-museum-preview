@@ -1,65 +1,65 @@
 {
- "en": {
-  "id": "breadcrumb",
-  "topics": [
-   {
-    "id": "explore",
-    "action": {
-     "label": "Explore",
-     "link": "/explore"
-    }
-   },
-   {
-    "id": "legacy-architecture",
-    "action": {
-     "label": "Legacy Architecture",
-     "link": "/explore/legacy-architecture"
-    }
-   },
-   {
-    "id": "current",
-    "title": "Ajanta Caves"
-   }
-  ]
- },
- "gu": {
-  "topics": [
-   {
-    "id": "explore",
-    "action": {
-     "label": "અન્વેષણ"
-    }
-   },
-   {
-    "id": "legacy-architecture",
-    "action": {
-     "label": "વારસાનું સ્થાપત્ય"
-    }
-   },
-   {
-    "id": "current",
-    "title": "અજંતાની ગુફાઓ"
-   }
-  ]
- },
- "hi": {
-  "topics": [
-   {
-    "id": "explore",
-    "action": {
-     "label": "अन्वेषण"
-    }
-   },
-   {
-    "id": "legacy-architecture",
-    "action": {
-     "label": "विरासत का स्थापत्य"
-    }
-   },
-   {
-    "id": "current",
-    "title": "अजंता की गुफाएँ"
-   }
-  ]
- }
+  "en": {
+    "id": "breadcrumb",
+    "topics": [
+      {
+        "id": "explore",
+        "action": {
+          "label": "Explore",
+          "link": "/explore"
+        }
+      },
+      {
+        "id": "legacy-architecture",
+        "action": {
+          "label": "Legacy Architecture",
+          "link": "/explore/legacy-architecture"
+        }
+      },
+      {
+        "id": "current",
+        "title": "Ajanta Caves"
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "explore",
+        "action": {
+          "label": "અન્વેષણ"
+        }
+      },
+      {
+        "id": "legacy-architecture",
+        "action": {
+          "label": "વારસાનું સ્થાપત્ય"
+        }
+      },
+      {
+        "id": "current",
+        "title": "અજંતાની ગુફાઓ"
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "explore",
+        "action": {
+          "label": "अन्वेषण"
+        }
+      },
+      {
+        "id": "legacy-architecture",
+        "action": {
+          "label": "विरासत का स्थापत्य"
+        }
+      },
+      {
+        "id": "current",
+        "title": "अजंता की गुफाएँ"
+      }
+    ]
+  }
 }

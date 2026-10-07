@@ -702,7 +702,7 @@ page("not-found", {
 // ======================================================================
 const write = (file, data) => {
   fs.mkdirSync(path.dirname(file), { recursive: true });
-  fs.writeFileSync(file, JSON.stringify(data, null, 1) + "\n");
+  fs.writeFileSync(file, JSON.stringify(data, null, 2) + "\n");
 };
 fs.rmSync(path.join(OUT, "topics"), { recursive: true, force: true });
 fs.rmSync(path.join(OUT, "pages"), { recursive: true, force: true });

@@ -1,40 +1,40 @@
 {
- "path": "/",
- "nav": "",
- "headerStyle": "position:absolute;top:0;left:0;right:0;z-index:3;color:var(--cream)",
- "meta": "home/meta",
- "components": [
-  {
-   "style": "home-hero",
-   "topic": "home/hero"
-  },
-  {
-   "style": "today-strip",
-   "topic": "home/today"
-  },
-  {
-   "style": "intro-split",
-   "topic": "home/about"
-  },
-  {
-   "style": "feature-cards",
-   "topic": "home/explore-and-learn"
-  },
-  {
-   "style": "stats-band",
-   "topic": "home/in-numbers"
-  },
-  {
-   "style": "timeline-teaser",
-   "topic": "home/timeline"
-  },
-  {
-   "style": "quotes",
-   "topic": "home/visitor-voices"
-  },
-  {
-   "style": "cta-band",
-   "topic": "home/membership"
-  }
- ]
+  "path": "/",
+  "nav": "",
+  "headerStyle": "position:absolute;top:0;left:0;right:0;z-index:3;color:var(--cream)",
+  "meta": "home/meta",
+  "components": [
+    {
+      "style": "home-hero",
+      "topic": "home/hero"
+    },
+    {
+      "style": "today-strip",
+      "topic": "home/today"
+    },
+    {
+      "style": "intro-split",
+      "topic": "home/about"
+    },
+    {
+      "style": "feature-cards",
+      "topic": "home/explore-and-learn"
+    },
+    {
+      "style": "stats-band",
+      "topic": "home/in-numbers"
+    },
+    {
+      "style": "timeline-teaser",
+      "topic": "home/timeline"
+    },
+    {
+      "style": "quotes",
+      "topic": "home/visitor-voices"
+    },
+    {
+      "style": "cta-band",
+      "topic": "home/membership"
+    }
+  ]
 }

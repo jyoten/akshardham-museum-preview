@@ -1,25 +1,25 @@
 {
- "en": {
-  "id": "hero",
-  "title": "Lifelike Scenes &amp; Statues",
-  "subheading": "Gallery 01 · Floor <mark class=\"todo\">[X]</mark>",
-  "description": "Walk among life-sized rishis, acharyas and leaders in full-scale scenes of India’s past.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/scholars-diorama.jpg",
-    "alt": ""
-   }
-  ]
- },
- "gu": {
-  "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
-  "subheading": "ગેલેરી 01 · માળ <mark class=\"todo\">[X]</mark>",
-  "description": "ભારતના ભૂતકાળનાં પૂર્ણ-કદનાં દૃશ્યોમાં જીવન-કદના ઋષિઓ, આચાર્યો અને નેતાઓ વચ્ચે વિચરણ કરો."
- },
- "hi": {
-  "title": "सजीव दृश्य और प्रतिमाएँ",
-  "subheading": "गैलरी 01 · तल <mark class=\"todo\">[X]</mark>",
-  "description": "भारत के अतीत के पूर्ण आकार के दृश्यों में आदमकद ऋषियों, आचार्यों और नेताओं के बीच विचरण करें।"
- }
+  "en": {
+    "id": "hero",
+    "title": "Lifelike Scenes &amp; Statues",
+    "subheading": "Gallery 01 · Floor <mark class=\"todo\">[X]</mark>",
+    "description": "Walk among life-sized rishis, acharyas and leaders in full-scale scenes of India’s past.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/scholars-diorama.jpg",
+        "alt": ""
+      }
+    ]
+  },
+  "gu": {
+    "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
+    "subheading": "ગેલેરી 01 · માળ <mark class=\"todo\">[X]</mark>",
+    "description": "ભારતના ભૂતકાળનાં પૂર્ણ-કદનાં દૃશ્યોમાં જીવન-કદના ઋષિઓ, આચાર્યો અને નેતાઓ વચ્ચે વિચરણ કરો."
+  },
+  "hi": {
+    "title": "सजीव दृश्य और प्रतिमाएँ",
+    "subheading": "गैलरी 01 · तल <mark class=\"todo\">[X]</mark>",
+    "description": "भारत के अतीत के पूर्ण आकार के दृश्यों में आदमकद ऋषियों, आचार्यों और नेताओं के बीच विचरण करें।"
+  }
 }

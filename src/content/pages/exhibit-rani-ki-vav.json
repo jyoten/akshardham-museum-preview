@@ -1,38 +1,38 @@
 {
- "path": "/explore/rani-ki-vav/",
- "nav": "explore",
- "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
- "meta": "exhibit-rani-ki-vav/meta",
- "components": [
-  {
-   "style": "site-header"
-  },
-  {
-   "style": "breadcrumb",
-   "topic": "exhibit-rani-ki-vav/breadcrumb"
-  },
-  {
-   "style": "exhibit-hero",
-   "topic": "exhibit-rani-ki-vav/intro",
-   "settings": {
-    "imagePosition": "center"
-   }
-  },
-  {
-   "style": "key-facts",
-   "topic": "exhibit-rani-ki-vav/key-facts"
-  },
-  {
-   "style": "chapters",
-   "topic": "exhibit-rani-ki-vav/story"
-  },
-  {
-   "style": "nearby-cards",
-   "topic": "exhibit-rani-ki-vav/nearby"
-  },
-  {
-   "style": "timeline-band",
-   "topic": "exhibit-rani-ki-vav/on-the-timeline"
-  }
- ]
+  "path": "/explore/rani-ki-vav/",
+  "nav": "explore",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "exhibit-rani-ki-vav/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "breadcrumb",
+      "topic": "exhibit-rani-ki-vav/breadcrumb"
+    },
+    {
+      "style": "exhibit-hero",
+      "topic": "exhibit-rani-ki-vav/intro",
+      "settings": {
+        "imagePosition": "center"
+      }
+    },
+    {
+      "style": "key-facts",
+      "topic": "exhibit-rani-ki-vav/key-facts"
+    },
+    {
+      "style": "chapters",
+      "topic": "exhibit-rani-ki-vav/story"
+    },
+    {
+      "style": "nearby-cards",
+      "topic": "exhibit-rani-ki-vav/nearby"
+    },
+    {
+      "style": "timeline-band",
+      "topic": "exhibit-rani-ki-vav/on-the-timeline"
+    }
+  ]
 }

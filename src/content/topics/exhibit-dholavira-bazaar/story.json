@@ -1,79 +1,79 @@
 {
- "en": {
-  "id": "story",
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "The original",
-    "subheading": "CHAPTER 01",
-    "description": "<p>Dholavira is one of the largest known cities of the Harappan (Indus–Sarasvati) civilisation, on an island in the Rann of Kutch in Gujarat.</p>\n<p>Its builders laid out a fortified citadel and a town, and managed scarce water with an elaborate system of channels and reservoirs. A large inscription in the Harappan script was found near one of its gateways.</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "Look closely",
-    "subheading": "CHAPTER 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "Making the replica",
-    "subheading": "CHAPTER 03",
-    "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
-     "link": "#"
-    }
-   }
-  ]
- },
- "gu": {
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "મૂળ સ્વરૂપ",
-    "subheading": "પ્રકરણ 01",
-    "description": "<p>ધોળાવીરા હડપ્પીય (સિંધુ–સરસ્વતી) સભ્યતાનાં જાણીતાં સૌથી મોટાં નગરોમાંનું એક છે, જે ગુજરાતમાં કચ્છના રણના એક બેટ પર આવેલું છે.</p>\n<p>તેના નિર્માતાઓએ કિલ્લેબંધ દુર્ગ અને નગરની રચના કરી, અને નહેરો તથા જળાશયોની વિસ્તૃત વ્યવસ્થા દ્વારા અછતવાળા પાણીનું વ્યવસ્થાપન કર્યું. તેના એક પ્રવેશદ્વાર પાસેથી હડપ્પીય લિપિમાં એક મોટો શિલાલેખ મળી આવ્યો હતો.</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "ધ્યાનથી જુઓ",
-    "subheading": "પ્રકરણ 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "પ્રતિકૃતિનું નિર્માણ",
-    "subheading": "પ્રકરણ 03",
-    "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
-    }
-   }
-  ]
- },
- "hi": {
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "मूल स्वरूप",
-    "subheading": "अध्याय 01",
-    "description": "<p>धोलावीरा हड़प्पा (सिंधु–सरस्वती) सभ्यता के ज्ञात सबसे बड़े नगरों में से एक है, जो गुजरात में कच्छ के रण के एक द्वीप पर स्थित है।</p>\n<p>इसके निर्माताओं ने एक किलेबंद दुर्ग और नगर की रचना की, और नहरों तथा जलाशयों की विस्तृत व्यवस्था से दुर्लभ जल का प्रबंधन किया। इसके एक प्रवेश-द्वार के पास हड़प्पा लिपि में एक बड़ा अभिलेख मिला था।</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "ध्यान से देखें",
-    "subheading": "अध्याय 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "प्रतिकृति का निर्माण",
-    "subheading": "अध्याय 03",
-    "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "story",
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "The original",
+        "subheading": "CHAPTER 01",
+        "description": "<p>Dholavira is one of the largest known cities of the Harappan (Indus–Sarasvati) civilisation, on an island in the Rann of Kutch in Gujarat.</p>\n<p>Its builders laid out a fortified citadel and a town, and managed scarce water with an elaborate system of channels and reservoirs. A large inscription in the Harappan script was found near one of its gateways.</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "Look closely",
+        "subheading": "CHAPTER 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "Making the replica",
+        "subheading": "CHAPTER 03",
+        "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
+          "link": "#"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "મૂળ સ્વરૂપ",
+        "subheading": "પ્રકરણ 01",
+        "description": "<p>ધોળાવીરા હડપ્પીય (સિંધુ–સરસ્વતી) સભ્યતાનાં જાણીતાં સૌથી મોટાં નગરોમાંનું એક છે, જે ગુજરાતમાં કચ્છના રણના એક બેટ પર આવેલું છે.</p>\n<p>તેના નિર્માતાઓએ કિલ્લેબંધ દુર્ગ અને નગરની રચના કરી, અને નહેરો તથા જળાશયોની વિસ્તૃત વ્યવસ્થા દ્વારા અછતવાળા પાણીનું વ્યવસ્થાપન કર્યું. તેના એક પ્રવેશદ્વાર પાસેથી હડપ્પીય લિપિમાં એક મોટો શિલાલેખ મળી આવ્યો હતો.</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "ધ્યાનથી જુઓ",
+        "subheading": "પ્રકરણ 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "પ્રતિકૃતિનું નિર્માણ",
+        "subheading": "પ્રકરણ 03",
+        "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "मूल स्वरूप",
+        "subheading": "अध्याय 01",
+        "description": "<p>धोलावीरा हड़प्पा (सिंधु–सरस्वती) सभ्यता के ज्ञात सबसे बड़े नगरों में से एक है, जो गुजरात में कच्छ के रण के एक द्वीप पर स्थित है।</p>\n<p>इसके निर्माताओं ने एक किलेबंद दुर्ग और नगर की रचना की, और नहरों तथा जलाशयों की विस्तृत व्यवस्था से दुर्लभ जल का प्रबंधन किया। इसके एक प्रवेश-द्वार के पास हड़प्पा लिपि में एक बड़ा अभिलेख मिला था।</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "ध्यान से देखें",
+        "subheading": "अध्याय 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "प्रतिकृति का निर्माण",
+        "subheading": "अध्याय 03",
+        "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
+        }
+      }
+    ]
+  }
 }

@@ -1,279 +1,279 @@
 {
- "en": {
-  "id": "routes",
-  "title": "How much time do you have?",
-  "subheading": "Suggested routes",
-  "topics": [
-   {
-    "id": "highlights",
-    "title": "The highlights",
-    "subheading": "About 1 hour",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/rani-ki-vav.jpg",
-      "alt": "Rani-ki-Vav stepwell replica"
-     }
-    ],
+  "en": {
+    "id": "routes",
+    "title": "How much time do you have?",
+    "subheading": "Suggested routes",
     "topics": [
-     {
-      "id": "stop-1",
-      "title": "Rani-ki-Vav stepwell"
-     },
-     {
-      "id": "stop-2",
-      "title": "The Ajanta Caves"
-     },
-     {
-      "id": "stop-3",
-      "title": "Konark Wheel"
-     },
-     {
-      "id": "stop-4",
-      "title": "One multimedia show"
-     }
+      {
+        "id": "highlights",
+        "title": "The highlights",
+        "subheading": "About 1 hour",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/rani-ki-vav.jpg",
+            "alt": "Rani-ki-Vav stepwell replica"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "Rani-ki-Vav stepwell"
+          },
+          {
+            "id": "stop-2",
+            "title": "The Ajanta Caves"
+          },
+          {
+            "id": "stop-3",
+            "title": "Konark Wheel"
+          },
+          {
+            "id": "stop-4",
+            "title": "One multimedia show"
+          }
+        ]
+      },
+      {
+        "id": "full-journey",
+        "title": "The full journey",
+        "subheading": "Half a day",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/timeline-corridor.jpg",
+            "alt": "Timeline gallery corridor"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "Guided tour of all three floors"
+          },
+          {
+            "id": "stop-2",
+            "title": "The 10,000-year timeline"
+          },
+          {
+            "id": "stop-3",
+            "title": "Two multimedia shows"
+          },
+          {
+            "id": "stop-4",
+            "title": "Walking into Scripture"
+          }
+        ]
+      },
+      {
+        "id": "young-children",
+        "title": "With young children",
+        "subheading": "1–2 hours",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/festival-street.jpg",
+            "alt": "Colourful festival street scene"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "Dholavira Bazaar"
+          },
+          {
+            "id": "stop-2",
+            "title": "Festivals of India"
+          },
+          {
+            "id": "stop-3",
+            "title": "Cosmos show"
+          },
+          {
+            "id": "stop-4",
+            "title": "Young explorers trail"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "full-journey",
-    "title": "The full journey",
-    "subheading": "Half a day",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/timeline-corridor.jpg",
-      "alt": "Timeline gallery corridor"
-     }
-    ],
+  },
+  "gu": {
+    "title": "આપની પાસે કેટલો સમય છે?",
+    "subheading": "સૂચવેલા માર્ગો",
     "topics": [
-     {
-      "id": "stop-1",
-      "title": "Guided tour of all three floors"
-     },
-     {
-      "id": "stop-2",
-      "title": "The 10,000-year timeline"
-     },
-     {
-      "id": "stop-3",
-      "title": "Two multimedia shows"
-     },
-     {
-      "id": "stop-4",
-      "title": "Walking into Scripture"
-     }
+      {
+        "id": "highlights",
+        "title": "મુખ્ય આકર્ષણો",
+        "subheading": "લગભગ 1 કલાક",
+        "media": [
+          {
+            "alt": "રાણકી વાવની પ્રતિકૃતિ"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "રાણકી વાવ"
+          },
+          {
+            "id": "stop-2",
+            "title": "અજંતાની ગુફાઓ"
+          },
+          {
+            "id": "stop-3",
+            "title": "કોણાર્કનું ચક્ર"
+          },
+          {
+            "id": "stop-4",
+            "title": "એક મલ્ટિમીડિયા શો"
+          }
+        ]
+      },
+      {
+        "id": "full-journey",
+        "title": "સંપૂર્ણ સફર",
+        "subheading": "અડધો દિવસ",
+        "media": [
+          {
+            "alt": "સમયરેખા ગેલેરીનો માર્ગ"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "ત્રણેય માળનો માર્ગદર્શિત પ્રવાસ"
+          },
+          {
+            "id": "stop-2",
+            "title": "10,000 વર્ષની સમયરેખા"
+          },
+          {
+            "id": "stop-3",
+            "title": "બે મલ્ટિમીડિયા શો"
+          },
+          {
+            "id": "stop-4",
+            "title": "શાસ્ત્રોની સફર"
+          }
+        ]
+      },
+      {
+        "id": "young-children",
+        "title": "નાનાં બાળકો સાથે",
+        "subheading": "1–2 કલાક",
+        "media": [
+          {
+            "alt": "તહેવારનું રંગબેરંગી શેરી-દૃશ્ય"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "ધોળાવીરાનું બજાર"
+          },
+          {
+            "id": "stop-2",
+            "title": "ભારતના તહેવારો"
+          },
+          {
+            "id": "stop-3",
+            "title": "બ્રહ્માંડ શો"
+          },
+          {
+            "id": "stop-4",
+            "title": "યુવા અન્વેષકો માટેનો માર્ગ"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "young-children",
-    "title": "With young children",
-    "subheading": "1–2 hours",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/festival-street.jpg",
-      "alt": "Colourful festival street scene"
-     }
-    ],
+  },
+  "hi": {
+    "title": "आपके पास कितना समय है?",
+    "subheading": "सुझाए गए मार्ग",
     "topics": [
-     {
-      "id": "stop-1",
-      "title": "Dholavira Bazaar"
-     },
-     {
-      "id": "stop-2",
-      "title": "Festivals of India"
-     },
-     {
-      "id": "stop-3",
-      "title": "Cosmos show"
-     },
-     {
-      "id": "stop-4",
-      "title": "Young explorers trail"
-     }
+      {
+        "id": "highlights",
+        "title": "मुख्य आकर्षण",
+        "subheading": "लगभग 1 घंटा",
+        "media": [
+          {
+            "alt": "रानी की वाव की प्रतिकृति"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "रानी की वाव"
+          },
+          {
+            "id": "stop-2",
+            "title": "अजंता की गुफाएँ"
+          },
+          {
+            "id": "stop-3",
+            "title": "कोणार्क चक्र"
+          },
+          {
+            "id": "stop-4",
+            "title": "एक मल्टीमीडिया शो"
+          }
+        ]
+      },
+      {
+        "id": "full-journey",
+        "title": "संपूर्ण यात्रा",
+        "subheading": "आधा दिन",
+        "media": [
+          {
+            "alt": "समयरेखा गैलरी का गलियारा"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "तीनों तलों का निर्देशित भ्रमण"
+          },
+          {
+            "id": "stop-2",
+            "title": "10,000 वर्षों की समयरेखा"
+          },
+          {
+            "id": "stop-3",
+            "title": "दो मल्टीमीडिया शो"
+          },
+          {
+            "id": "stop-4",
+            "title": "शास्त्रों की यात्रा"
+          }
+        ]
+      },
+      {
+        "id": "young-children",
+        "title": "छोटे बच्चों के साथ",
+        "subheading": "1–2 घंटे",
+        "media": [
+          {
+            "alt": "त्योहार का रंग-बिरंगा सड़क दृश्य"
+          }
+        ],
+        "topics": [
+          {
+            "id": "stop-1",
+            "title": "धोलावीरा का बाज़ार"
+          },
+          {
+            "id": "stop-2",
+            "title": "भारत के त्योहार"
+          },
+          {
+            "id": "stop-3",
+            "title": "ब्रह्मांड शो"
+          },
+          {
+            "id": "stop-4",
+            "title": "युवा अन्वेषकों के लिए मार्ग"
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- "gu": {
-  "title": "આપની પાસે કેટલો સમય છે?",
-  "subheading": "સૂચવેલા માર્ગો",
-  "topics": [
-   {
-    "id": "highlights",
-    "title": "મુખ્ય આકર્ષણો",
-    "subheading": "લગભગ 1 કલાક",
-    "media": [
-     {
-      "alt": "રાણકી વાવની પ્રતિકૃતિ"
-     }
-    ],
-    "topics": [
-     {
-      "id": "stop-1",
-      "title": "રાણકી વાવ"
-     },
-     {
-      "id": "stop-2",
-      "title": "અજંતાની ગુફાઓ"
-     },
-     {
-      "id": "stop-3",
-      "title": "કોણાર્કનું ચક્ર"
-     },
-     {
-      "id": "stop-4",
-      "title": "એક મલ્ટિમીડિયા શો"
-     }
-    ]
-   },
-   {
-    "id": "full-journey",
-    "title": "સંપૂર્ણ સફર",
-    "subheading": "અડધો દિવસ",
-    "media": [
-     {
-      "alt": "સમયરેખા ગેલેરીનો માર્ગ"
-     }
-    ],
-    "topics": [
-     {
-      "id": "stop-1",
-      "title": "ત્રણેય માળનો માર્ગદર્શિત પ્રવાસ"
-     },
-     {
-      "id": "stop-2",
-      "title": "10,000 વર્ષની સમયરેખા"
-     },
-     {
-      "id": "stop-3",
-      "title": "બે મલ્ટિમીડિયા શો"
-     },
-     {
-      "id": "stop-4",
-      "title": "શાસ્ત્રોની સફર"
-     }
-    ]
-   },
-   {
-    "id": "young-children",
-    "title": "નાનાં બાળકો સાથે",
-    "subheading": "1–2 કલાક",
-    "media": [
-     {
-      "alt": "તહેવારનું રંગબેરંગી શેરી-દૃશ્ય"
-     }
-    ],
-    "topics": [
-     {
-      "id": "stop-1",
-      "title": "ધોળાવીરાનું બજાર"
-     },
-     {
-      "id": "stop-2",
-      "title": "ભારતના તહેવારો"
-     },
-     {
-      "id": "stop-3",
-      "title": "બ્રહ્માંડ શો"
-     },
-     {
-      "id": "stop-4",
-      "title": "યુવા અન્વેષકો માટેનો માર્ગ"
-     }
-    ]
-   }
-  ]
- },
- "hi": {
-  "title": "आपके पास कितना समय है?",
-  "subheading": "सुझाए गए मार्ग",
-  "topics": [
-   {
-    "id": "highlights",
-    "title": "मुख्य आकर्षण",
-    "subheading": "लगभग 1 घंटा",
-    "media": [
-     {
-      "alt": "रानी की वाव की प्रतिकृति"
-     }
-    ],
-    "topics": [
-     {
-      "id": "stop-1",
-      "title": "रानी की वाव"
-     },
-     {
-      "id": "stop-2",
-      "title": "अजंता की गुफाएँ"
-     },
-     {
-      "id": "stop-3",
-      "title": "कोणार्क चक्र"
-     },
-     {
-      "id": "stop-4",
-      "title": "एक मल्टीमीडिया शो"
-     }
-    ]
-   },
-   {
-    "id": "full-journey",
-    "title": "संपूर्ण यात्रा",
-    "subheading": "आधा दिन",
-    "media": [
-     {
-      "alt": "समयरेखा गैलरी का गलियारा"
-     }
-    ],
-    "topics": [
-     {
-      "id": "stop-1",
-      "title": "तीनों तलों का निर्देशित भ्रमण"
-     },
-     {
-      "id": "stop-2",
-      "title": "10,000 वर्षों की समयरेखा"
-     },
-     {
-      "id": "stop-3",
-      "title": "दो मल्टीमीडिया शो"
-     },
-     {
-      "id": "stop-4",
-      "title": "शास्त्रों की यात्रा"
-     }
-    ]
-   },
-   {
-    "id": "young-children",
-    "title": "छोटे बच्चों के साथ",
-    "subheading": "1–2 घंटे",
-    "media": [
-     {
-      "alt": "त्योहार का रंग-बिरंगा सड़क दृश्य"
-     }
-    ],
-    "topics": [
-     {
-      "id": "stop-1",
-      "title": "धोलावीरा का बाज़ार"
-     },
-     {
-      "id": "stop-2",
-      "title": "भारत के त्योहार"
-     },
-     {
-      "id": "stop-3",
-      "title": "ब्रह्मांड शो"
-     },
-     {
-      "id": "stop-4",
-      "title": "युवा अन्वेषकों के लिए मार्ग"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

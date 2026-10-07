@@ -1,79 +1,79 @@
 {
- "en": {
-  "id": "story",
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "The original",
-    "subheading": "CHAPTER 01",
-    "description": "<p>Havelis are traditional townhouses and mansions found across western and northern India, especially in Gujarat and Rajasthan. Many are built around inner courtyards that keep the house cool and private.</p>\n<p>Their street facades are often richly carved, with overhanging balconies and enclosed windows (jharokhas) from which the family could watch the life of the street.</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "Look closely",
-    "subheading": "CHAPTER 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "Making the replica",
-    "subheading": "CHAPTER 03",
-    "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
-     "link": "#"
-    }
-   }
-  ]
- },
- "gu": {
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "મૂળ સ્વરૂપ",
-    "subheading": "પ્રકરણ 01",
-    "description": "<p>હવેલીઓ પશ્ચિમ અને ઉત્તર ભારતમાં, વિશેષ કરીને ગુજરાત અને રાજસ્થાનમાં જોવા મળતાં પરંપરાગત નગરગૃહો અને ભવ્ય નિવાસો છે. ઘણી હવેલીઓ અંદરના ચોકની આસપાસ બાંધવામાં આવે છે, જે ઘરને ઠંડું અને એકાંતભર્યું રાખે છે.</p>\n<p>તેમના શેરી તરફના અગ્રભાગ ઘણી વાર સમૃદ્ધ કોતરણીથી શોભે છે, જેમાં બહાર નીકળતી અટારીઓ અને બંધ બારીઓ (ઝરૂખા) હોય છે, જ્યાંથી પરિવાર શેરીનું જીવન નિહાળી શકતો.</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "ધ્યાનથી જુઓ",
-    "subheading": "પ્રકરણ 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "પ્રતિકૃતિનું નિર્માણ",
-    "subheading": "પ્રકરણ 03",
-    "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
-    }
-   }
-  ]
- },
- "hi": {
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "मूल स्वरूप",
-    "subheading": "अध्याय 01",
-    "description": "<p>हवेलियाँ पश्चिमी और उत्तरी भारत में, विशेषकर गुजरात और राजस्थान में पाए जाने वाले पारंपरिक नगर-भवन और भव्य आवास हैं। अनेक हवेलियाँ भीतरी आँगन के चारों ओर बनाई जाती हैं, जो घर को ठंडा और निजी बनाए रखता है।</p>\n<p>गली की ओर उनके अग्रभाग प्रायः समृद्ध नक्काशी से सजे होते हैं, जिनमें बाहर निकले छज्जे और बंद खिड़कियाँ (झरोखे) होती हैं, जहाँ से परिवार गली का जीवन देख सकता था।</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "ध्यान से देखें",
-    "subheading": "अध्याय 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "प्रतिकृति का निर्माण",
-    "subheading": "अध्याय 03",
-    "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "story",
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "The original",
+        "subheading": "CHAPTER 01",
+        "description": "<p>Havelis are traditional townhouses and mansions found across western and northern India, especially in Gujarat and Rajasthan. Many are built around inner courtyards that keep the house cool and private.</p>\n<p>Their street facades are often richly carved, with overhanging balconies and enclosed windows (jharokhas) from which the family could watch the life of the street.</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "Look closely",
+        "subheading": "CHAPTER 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "Making the replica",
+        "subheading": "CHAPTER 03",
+        "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
+          "link": "#"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "મૂળ સ્વરૂપ",
+        "subheading": "પ્રકરણ 01",
+        "description": "<p>હવેલીઓ પશ્ચિમ અને ઉત્તર ભારતમાં, વિશેષ કરીને ગુજરાત અને રાજસ્થાનમાં જોવા મળતાં પરંપરાગત નગરગૃહો અને ભવ્ય નિવાસો છે. ઘણી હવેલીઓ અંદરના ચોકની આસપાસ બાંધવામાં આવે છે, જે ઘરને ઠંડું અને એકાંતભર્યું રાખે છે.</p>\n<p>તેમના શેરી તરફના અગ્રભાગ ઘણી વાર સમૃદ્ધ કોતરણીથી શોભે છે, જેમાં બહાર નીકળતી અટારીઓ અને બંધ બારીઓ (ઝરૂખા) હોય છે, જ્યાંથી પરિવાર શેરીનું જીવન નિહાળી શકતો.</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "ધ્યાનથી જુઓ",
+        "subheading": "પ્રકરણ 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "પ્રતિકૃતિનું નિર્માણ",
+        "subheading": "પ્રકરણ 03",
+        "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "मूल स्वरूप",
+        "subheading": "अध्याय 01",
+        "description": "<p>हवेलियाँ पश्चिमी और उत्तरी भारत में, विशेषकर गुजरात और राजस्थान में पाए जाने वाले पारंपरिक नगर-भवन और भव्य आवास हैं। अनेक हवेलियाँ भीतरी आँगन के चारों ओर बनाई जाती हैं, जो घर को ठंडा और निजी बनाए रखता है।</p>\n<p>गली की ओर उनके अग्रभाग प्रायः समृद्ध नक्काशी से सजे होते हैं, जिनमें बाहर निकले छज्जे और बंद खिड़कियाँ (झरोखे) होती हैं, जहाँ से परिवार गली का जीवन देख सकता था।</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "ध्यान से देखें",
+        "subheading": "अध्याय 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "प्रतिकृति का निर्माण",
+        "subheading": "अध्याय 03",
+        "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
+        }
+      }
+    ]
+  }
 }

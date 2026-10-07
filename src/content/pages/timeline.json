@@ -1,31 +1,31 @@
 {
- "path": "/timeline/",
- "nav": "timeline",
- "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
- "meta": "timeline/meta",
- "components": [
-  {
-   "style": "site-header"
-  },
-  {
-   "style": "timeline-hero",
-   "topic": "timeline/hero"
-  },
-  {
-   "style": "era-picker",
-   "topic": "timeline/eras"
-  },
-  {
-   "style": "era-panel",
-   "topic": "timeline/eras"
-  },
-  {
-   "style": "footnote",
-   "topic": "timeline/note-on-dates"
-  },
-  {
-   "style": "era-data",
-   "topic": "timeline/eras"
-  }
- ]
+  "path": "/timeline/",
+  "nav": "timeline",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "timeline/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "timeline-hero",
+      "topic": "timeline/hero"
+    },
+    {
+      "style": "era-picker",
+      "topic": "timeline/eras"
+    },
+    {
+      "style": "era-panel",
+      "topic": "timeline/eras"
+    },
+    {
+      "style": "footnote",
+      "topic": "timeline/note-on-dates"
+    },
+    {
+      "style": "era-data",
+      "topic": "timeline/eras"
+    }
+  ]
 }

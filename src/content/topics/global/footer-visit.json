@@ -1,113 +1,113 @@
 {
- "en": {
-  "id": "footer-visit",
-  "title": "Visit &amp; learn",
-  "topics": [
-   {
-    "id": "plan",
-    "action": {
-     "label": "Plan your visit",
-     "link": "/visit"
-    }
-   },
-   {
-    "id": "tickets",
-    "action": {
-     "label": "Tickets",
-     "link": "/visit#tickets"
-    }
-   },
-   {
-    "id": "accessibility",
-    "action": {
-     "label": "Accessibility",
-     "link": "/visit#access"
-    }
-   },
-   {
-    "id": "learn",
-    "action": {
-     "label": "Learn",
-     "link": "/learn"
-    }
-   },
-   {
-    "id": "shop",
-    "action": {
-     "label": "Shop",
-     "link": "todo:Shop (no page in the design)"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "મુલાકાત અને અભ્યાસ",
-  "topics": [
-   {
-    "id": "plan",
-    "action": {
-     "label": "આપની મુલાકાતનું આયોજન"
-    }
-   },
-   {
-    "id": "tickets",
-    "action": {
-     "label": "ટિકિટ"
-    }
-   },
-   {
-    "id": "accessibility",
-    "action": {
-     "label": "સુલભતા"
-    }
-   },
-   {
-    "id": "learn",
-    "action": {
-     "label": "શીખો"
-    }
-   },
-   {
-    "id": "shop",
-    "action": {
-     "label": "દુકાન"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "भ्रमण और अध्ययन",
-  "topics": [
-   {
-    "id": "plan",
-    "action": {
-     "label": "अपनी यात्रा की योजना"
-    }
-   },
-   {
-    "id": "tickets",
-    "action": {
-     "label": "टिकट"
-    }
-   },
-   {
-    "id": "accessibility",
-    "action": {
-     "label": "सुगम्यता"
-    }
-   },
-   {
-    "id": "learn",
-    "action": {
-     "label": "सीखें"
-    }
-   },
-   {
-    "id": "shop",
-    "action": {
-     "label": "दुकान"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "footer-visit",
+    "title": "Visit &amp; learn",
+    "topics": [
+      {
+        "id": "plan",
+        "action": {
+          "label": "Plan your visit",
+          "link": "/visit"
+        }
+      },
+      {
+        "id": "tickets",
+        "action": {
+          "label": "Tickets",
+          "link": "/visit#tickets"
+        }
+      },
+      {
+        "id": "accessibility",
+        "action": {
+          "label": "Accessibility",
+          "link": "/visit#access"
+        }
+      },
+      {
+        "id": "learn",
+        "action": {
+          "label": "Learn",
+          "link": "/learn"
+        }
+      },
+      {
+        "id": "shop",
+        "action": {
+          "label": "Shop",
+          "link": "todo:Shop (no page in the design)"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "મુલાકાત અને અભ્યાસ",
+    "topics": [
+      {
+        "id": "plan",
+        "action": {
+          "label": "આપની મુલાકાતનું આયોજન"
+        }
+      },
+      {
+        "id": "tickets",
+        "action": {
+          "label": "ટિકિટ"
+        }
+      },
+      {
+        "id": "accessibility",
+        "action": {
+          "label": "સુલભતા"
+        }
+      },
+      {
+        "id": "learn",
+        "action": {
+          "label": "શીખો"
+        }
+      },
+      {
+        "id": "shop",
+        "action": {
+          "label": "દુકાન"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "भ्रमण और अध्ययन",
+    "topics": [
+      {
+        "id": "plan",
+        "action": {
+          "label": "अपनी यात्रा की योजना"
+        }
+      },
+      {
+        "id": "tickets",
+        "action": {
+          "label": "टिकट"
+        }
+      },
+      {
+        "id": "accessibility",
+        "action": {
+          "label": "सुगम्यता"
+        }
+      },
+      {
+        "id": "learn",
+        "action": {
+          "label": "सीखें"
+        }
+      },
+      {
+        "id": "shop",
+        "action": {
+          "label": "दुकान"
+        }
+      }
+    ]
+  }
 }

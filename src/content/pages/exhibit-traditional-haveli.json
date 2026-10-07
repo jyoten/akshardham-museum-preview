@@ -1,38 +1,38 @@
 {
- "path": "/explore/haveli/",
- "nav": "explore",
- "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
- "meta": "exhibit-traditional-haveli/meta",
- "components": [
-  {
-   "style": "site-header"
-  },
-  {
-   "style": "breadcrumb",
-   "topic": "exhibit-traditional-haveli/breadcrumb"
-  },
-  {
-   "style": "exhibit-hero",
-   "topic": "exhibit-traditional-haveli/intro",
-   "settings": {
-    "imagePosition": "center"
-   }
-  },
-  {
-   "style": "key-facts",
-   "topic": "exhibit-traditional-haveli/key-facts"
-  },
-  {
-   "style": "chapters",
-   "topic": "exhibit-traditional-haveli/story"
-  },
-  {
-   "style": "nearby-cards",
-   "topic": "exhibit-traditional-haveli/nearby"
-  },
-  {
-   "style": "timeline-band",
-   "topic": "exhibit-traditional-haveli/on-the-timeline"
-  }
- ]
+  "path": "/explore/haveli/",
+  "nav": "explore",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "exhibit-traditional-haveli/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "breadcrumb",
+      "topic": "exhibit-traditional-haveli/breadcrumb"
+    },
+    {
+      "style": "exhibit-hero",
+      "topic": "exhibit-traditional-haveli/intro",
+      "settings": {
+        "imagePosition": "center"
+      }
+    },
+    {
+      "style": "key-facts",
+      "topic": "exhibit-traditional-haveli/key-facts"
+    },
+    {
+      "style": "chapters",
+      "topic": "exhibit-traditional-haveli/story"
+    },
+    {
+      "style": "nearby-cards",
+      "topic": "exhibit-traditional-haveli/nearby"
+    },
+    {
+      "style": "timeline-band",
+      "topic": "exhibit-traditional-haveli/on-the-timeline"
+    }
+  ]
 }

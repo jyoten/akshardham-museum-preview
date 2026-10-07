@@ -1,85 +1,85 @@
 {
- "en": {
-  "id": "in-this-gallery",
-  "title": "In this gallery",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "performing-arts-of-india",
-    "title": "Performing Arts of India",
-    "subheading": "Gallery",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/performing-arts-gallery.jpg",
-      "alt": "The “India, a land of performing arts” gallery"
-     }
+  "en": {
+    "id": "in-this-gallery",
+    "title": "In this gallery",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "performing-arts-of-india",
+        "title": "Performing Arts of India",
+        "subheading": "Gallery",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/performing-arts-gallery.jpg",
+            "alt": "The “India, a land of performing arts” gallery"
+          }
+        ]
+      },
+      {
+        "id": "festivals-of-india",
+        "title": "Festivals of India",
+        "subheading": "Gallery",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/festival-street.jpg",
+            "alt": "Visitors walking through a colourful festival street scene"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "festivals-of-india",
-    "title": "Festivals of India",
-    "subheading": "Gallery",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/festival-street.jpg",
-      "alt": "Visitors walking through a colourful festival street scene"
-     }
+  },
+  "gu": {
+    "title": "આ ગેલેરીમાં",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "performing-arts-of-india",
+        "title": "ભારતની મંચીય કલાઓ",
+        "subheading": "ગેલેરી",
+        "media": [
+          {
+            "alt": "“ભારત, મંચીય કલાઓની ભૂમિ” ગેલેરી"
+          }
+        ]
+      },
+      {
+        "id": "festivals-of-india",
+        "title": "ભારતના ઉત્સવો",
+        "subheading": "ગેલેરી",
+        "media": [
+          {
+            "alt": "રંગબેરંગી ઉત્સવની શેરીના દૃશ્યમાંથી પસાર થતા મુલાકાતીઓ"
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- "gu": {
-  "title": "આ ગેલેરીમાં",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "performing-arts-of-india",
-    "title": "ભારતની મંચીય કલાઓ",
-    "subheading": "ગેલેરી",
-    "media": [
-     {
-      "alt": "“ભારત, મંચીય કલાઓની ભૂમિ” ગેલેરી"
-     }
+  },
+  "hi": {
+    "title": "इस गैलरी में",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "performing-arts-of-india",
+        "title": "भारत की प्रदर्शन कलाएँ",
+        "subheading": "गैलरी",
+        "media": [
+          {
+            "alt": "“भारत, प्रदर्शन कलाओं की भूमि” गैलरी"
+          }
+        ]
+      },
+      {
+        "id": "festivals-of-india",
+        "title": "भारत के उत्सव",
+        "subheading": "गैलरी",
+        "media": [
+          {
+            "alt": "रंग-बिरंगे उत्सव की गली के दृश्य से गुज़रते आगंतुक"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "festivals-of-india",
-    "title": "ભારતના ઉત્સવો",
-    "subheading": "ગેલેરી",
-    "media": [
-     {
-      "alt": "રંગબેરંગી ઉત્સવની શેરીના દૃશ્યમાંથી પસાર થતા મુલાકાતીઓ"
-     }
-    ]
-   }
-  ]
- },
- "hi": {
-  "title": "इस गैलरी में",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "performing-arts-of-india",
-    "title": "भारत की प्रदर्शन कलाएँ",
-    "subheading": "गैलरी",
-    "media": [
-     {
-      "alt": "“भारत, प्रदर्शन कलाओं की भूमि” गैलरी"
-     }
-    ]
-   },
-   {
-    "id": "festivals-of-india",
-    "title": "भारत के उत्सव",
-    "subheading": "गैलरी",
-    "media": [
-     {
-      "alt": "रंग-बिरंगे उत्सव की गली के दृश्य से गुज़रते आगंतुक"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

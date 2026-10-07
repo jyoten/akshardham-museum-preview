@@ -1,0 +1,22 @@
+---js
+// The Decap CMS admin. Left out of review builds (SITE_REVIEW=1) entirely.
+const permalink = (data) => (data.site.review ? false : "/admin/index.html");
+const eleventyExcludeFromCollections = true;
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="{{ adminCsp.policy | safe }}">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site admin — Akshardham Museum</title>
+</head>
+<body>
+  <!-- Decap CMS: edits the JSON files in src/ (hours, notices, site text) and proposes each change as a pull request.
+       Pinned to one release; the integrity hash makes the browser refuse the file if the CDN ever serves anything else.
+       To upgrade: change the version in both places and the hash (see SECURITY.md). -->
+  <script src="https://cdn.jsdelivr.net/npm/decap-cms@{{ adminCsp.decapVersion }}/dist/decap-cms.js" integrity="{{ adminCsp.decapIntegrity }}" crossorigin="anonymous"></script>
+</body>
+</html>

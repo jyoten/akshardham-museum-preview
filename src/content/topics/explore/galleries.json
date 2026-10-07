@@ -1,176 +1,176 @@
 {
- "en": {
-  "id": "galleries",
-  "title": "Four ways into India",
-  "subheading": "Explore the museum",
-  "description": "Four galleries across three floors: monuments in stone, lifelike scenes, the ideas of scripture, and India’s living culture.",
-  "topics": [
-   {
-    "id": "lifelike-scenes",
-    "title": "Lifelike Scenes &amp; Statues",
-    "subheading": "01",
-    "description": "Walk among life-sized rishis, acharyas and leaders in full-scale scenes of India’s past.",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/scholars-diorama.jpg",
-      "alt": "Life-size statues of ancient scholars in a diorama of a teaching hall"
-     }
-    ],
-    "action": {
-     "link": "/explore/lifelike-scenes"
-    }
-   },
-   {
-    "id": "legacy-architecture",
-    "title": "Legacy Architecture",
-    "subheading": "02",
-    "description": "Scaled replicas of Ajanta and Ellora, grand mandir shikhars and more.",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/sandstone-temple-facade.jpg",
-      "alt": "Replica of an intricately carved sandstone temple facade"
-     }
-    ],
-    "action": {
-     "link": "/explore/legacy-architecture"
-    }
-   },
-   {
-    "id": "walking-into-scripture",
-    "title": "Walking into Scripture",
-    "subheading": "03",
-    "description": "Yoga, karma, ahimsa and bhakti, and the shared roots of India’s dharmic traditions.",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/sage-scripture-panels.jpg",
-      "alt": "Bronze statue of a seated sage before tall blue panels of scripture"
-     }
-    ],
-    "action": {
-     "link": "/explore/walking-into-scripture"
-    }
-   },
-   {
-    "id": "living-tapestry",
-    "title": "A Living Tapestry",
-    "subheading": "04",
-    "description": "Festivals, food, clothing and dance — with interactive stations for young visitors.",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/festival-street.jpg",
-      "alt": "Visitors walking through a colourful festival street scene"
-     }
-    ],
-    "action": {
-     "link": "/explore/living-tapestry"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "ભારતમાં પ્રવેશના ચાર માર્ગ",
-  "subheading": "મ્યુઝિયમનું અન્વેષણ કરો",
-  "description": "ત્રણ માળમાં ચાર ગેલેરીઓ: પથ્થરમાં કંડારાયેલાં સ્મારકો, જીવંત દૃશ્યો, શાસ્ત્રોના વિચારો અને ભારતની જીવંત સંસ્કૃતિ.",
-  "topics": [
-   {
-    "id": "lifelike-scenes",
-    "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
-    "subheading": "01",
-    "description": "ભારતના ભૂતકાળનાં પૂર્ણ કદનાં દૃશ્યોમાં જીવનકદના ઋષિઓ, આચાર્યો અને મહાનુભાવો વચ્ચેથી પસાર થાઓ.",
-    "media": [
-     {
-      "alt": "એક અધ્યયન ખંડના ડાયોરામામાં પ્રાચીન વિદ્વાનોની જીવનકદની પ્રતિમાઓ"
-     }
+  "en": {
+    "id": "galleries",
+    "title": "Four ways into India",
+    "subheading": "Explore the museum",
+    "description": "Four galleries across three floors: monuments in stone, lifelike scenes, the ideas of scripture, and India’s living culture.",
+    "topics": [
+      {
+        "id": "lifelike-scenes",
+        "title": "Lifelike Scenes &amp; Statues",
+        "subheading": "01",
+        "description": "Walk among life-sized rishis, acharyas and leaders in full-scale scenes of India’s past.",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/scholars-diorama.jpg",
+            "alt": "Life-size statues of ancient scholars in a diorama of a teaching hall"
+          }
+        ],
+        "action": {
+          "link": "/explore/lifelike-scenes"
+        }
+      },
+      {
+        "id": "legacy-architecture",
+        "title": "Legacy Architecture",
+        "subheading": "02",
+        "description": "Scaled replicas of Ajanta and Ellora, grand mandir shikhars and more.",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/sandstone-temple-facade.jpg",
+            "alt": "Replica of an intricately carved sandstone temple facade"
+          }
+        ],
+        "action": {
+          "link": "/explore/legacy-architecture"
+        }
+      },
+      {
+        "id": "walking-into-scripture",
+        "title": "Walking into Scripture",
+        "subheading": "03",
+        "description": "Yoga, karma, ahimsa and bhakti, and the shared roots of India’s dharmic traditions.",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/sage-scripture-panels.jpg",
+            "alt": "Bronze statue of a seated sage before tall blue panels of scripture"
+          }
+        ],
+        "action": {
+          "link": "/explore/walking-into-scripture"
+        }
+      },
+      {
+        "id": "living-tapestry",
+        "title": "A Living Tapestry",
+        "subheading": "04",
+        "description": "Festivals, food, clothing and dance — with interactive stations for young visitors.",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/festival-street.jpg",
+            "alt": "Visitors walking through a colourful festival street scene"
+          }
+        ],
+        "action": {
+          "link": "/explore/living-tapestry"
+        }
+      }
     ]
-   },
-   {
-    "id": "legacy-architecture",
-    "title": "વારસાનું સ્થાપત્ય",
-    "subheading": "02",
-    "description": "અજંતા અને ઇલોરાની પ્રમાણસર પ્રતિકૃતિઓ, ભવ્ય મંદિર શિખરો અને ઘણું બધું.",
-    "media": [
-     {
-      "alt": "બારીક કોતરણીવાળા રેતિયા પથ્થરના મંદિરના અગ્રભાગની પ્રતિકૃતિ"
-     }
+  },
+  "gu": {
+    "title": "ભારતમાં પ્રવેશના ચાર માર્ગ",
+    "subheading": "મ્યુઝિયમનું અન્વેષણ કરો",
+    "description": "ત્રણ માળમાં ચાર ગેલેરીઓ: પથ્થરમાં કંડારાયેલાં સ્મારકો, જીવંત દૃશ્યો, શાસ્ત્રોના વિચારો અને ભારતની જીવંત સંસ્કૃતિ.",
+    "topics": [
+      {
+        "id": "lifelike-scenes",
+        "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
+        "subheading": "01",
+        "description": "ભારતના ભૂતકાળનાં પૂર્ણ કદનાં દૃશ્યોમાં જીવનકદના ઋષિઓ, આચાર્યો અને મહાનુભાવો વચ્ચેથી પસાર થાઓ.",
+        "media": [
+          {
+            "alt": "એક અધ્યયન ખંડના ડાયોરામામાં પ્રાચીન વિદ્વાનોની જીવનકદની પ્રતિમાઓ"
+          }
+        ]
+      },
+      {
+        "id": "legacy-architecture",
+        "title": "વારસાનું સ્થાપત્ય",
+        "subheading": "02",
+        "description": "અજંતા અને ઇલોરાની પ્રમાણસર પ્રતિકૃતિઓ, ભવ્ય મંદિર શિખરો અને ઘણું બધું.",
+        "media": [
+          {
+            "alt": "બારીક કોતરણીવાળા રેતિયા પથ્થરના મંદિરના અગ્રભાગની પ્રતિકૃતિ"
+          }
+        ]
+      },
+      {
+        "id": "walking-into-scripture",
+        "title": "શાસ્ત્રોની સફર",
+        "subheading": "03",
+        "description": "યોગ, કર્મ, અહિંસા અને ભક્તિ, તથા ભારતની ધાર્મિક પરંપરાઓનાં સહિયારાં મૂળ.",
+        "media": [
+          {
+            "alt": "શાસ્ત્રોની ઊંચી વાદળી પેનલો સમક્ષ બિરાજમાન એક ઋષિની કાંસ્ય પ્રતિમા"
+          }
+        ]
+      },
+      {
+        "id": "living-tapestry",
+        "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
+        "subheading": "04",
+        "description": "ઉત્સવો, ભોજન, વસ્ત્રો અને નૃત્ય — બાળ મુલાકાતીઓ માટે ઇન્ટરેક્ટિવ સ્ટેશનો સાથે.",
+        "media": [
+          {
+            "alt": "રંગબેરંગી ઉત્સવના શેરી દૃશ્યમાંથી પસાર થતા મુલાકાતીઓ"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "walking-into-scripture",
-    "title": "શાસ્ત્રોની સફર",
-    "subheading": "03",
-    "description": "યોગ, કર્મ, અહિંસા અને ભક્તિ, તથા ભારતની ધાર્મિક પરંપરાઓનાં સહિયારાં મૂળ.",
-    "media": [
-     {
-      "alt": "શાસ્ત્રોની ઊંચી વાદળી પેનલો સમક્ષ બિરાજમાન એક ઋષિની કાંસ્ય પ્રતિમા"
-     }
+  },
+  "hi": {
+    "title": "भारत में प्रवेश के चार मार्ग",
+    "subheading": "म्यूज़ियम का अन्वेषण करें",
+    "description": "तीन तलों में चार गैलरियाँ: पत्थर में तराशे स्मारक, सजीव दृश्य, शास्त्रों के विचार और भारत की जीवंत संस्कृति।",
+    "topics": [
+      {
+        "id": "lifelike-scenes",
+        "title": "सजीव दृश्य और प्रतिमाएँ",
+        "subheading": "01",
+        "description": "भारत के अतीत के पूर्ण आकार के दृश्यों में आदमकद ऋषिगण, आचार्यों और महापुरुषों के बीच से गुज़रें।",
+        "media": [
+          {
+            "alt": "एक अध्ययन-कक्ष के डायोरामा में प्राचीन विद्वानों की आदमकद प्रतिमाएँ"
+          }
+        ]
+      },
+      {
+        "id": "legacy-architecture",
+        "title": "विरासत का स्थापत्य",
+        "subheading": "02",
+        "description": "अजंता और एलोरा की अनुपातिक प्रतिकृतियाँ, भव्य मंदिर शिखर और बहुत कुछ।",
+        "media": [
+          {
+            "alt": "बारीक नक्काशी वाले बलुआ पत्थर के मंदिर के अग्रभाग की प्रतिकृति"
+          }
+        ]
+      },
+      {
+        "id": "walking-into-scripture",
+        "title": "शास्त्रों की यात्रा",
+        "subheading": "03",
+        "description": "योग, कर्म, अहिंसा और भक्ति, तथा भारत की धार्मिक परंपराओं की साझा जड़ें।",
+        "media": [
+          {
+            "alt": "शास्त्रों के ऊँचे नीले पैनलों के सामने विराजमान एक ऋषि की कांस्य प्रतिमा"
+          }
+        ]
+      },
+      {
+        "id": "living-tapestry",
+        "title": "जीवंत संस्कृति का ताना-बाना",
+        "subheading": "04",
+        "description": "उत्सव, भोजन, वेशभूषा और नृत्य — युवा आगंतुकों के लिए इंटरैक्टिव स्टेशनों के साथ।",
+        "media": [
+          {
+            "alt": "एक रंग-बिरंगे उत्सव के गली-दृश्य से गुज़रते आगंतुक"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "living-tapestry",
-    "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
-    "subheading": "04",
-    "description": "ઉત્સવો, ભોજન, વસ્ત્રો અને નૃત્ય — બાળ મુલાકાતીઓ માટે ઇન્ટરેક્ટિવ સ્ટેશનો સાથે.",
-    "media": [
-     {
-      "alt": "રંગબેરંગી ઉત્સવના શેરી દૃશ્યમાંથી પસાર થતા મુલાકાતીઓ"
-     }
-    ]
-   }
-  ]
- },
- "hi": {
-  "title": "भारत में प्रवेश के चार मार्ग",
-  "subheading": "म्यूज़ियम का अन्वेषण करें",
-  "description": "तीन तलों में चार गैलरियाँ: पत्थर में तराशे स्मारक, सजीव दृश्य, शास्त्रों के विचार और भारत की जीवंत संस्कृति।",
-  "topics": [
-   {
-    "id": "lifelike-scenes",
-    "title": "सजीव दृश्य और प्रतिमाएँ",
-    "subheading": "01",
-    "description": "भारत के अतीत के पूर्ण आकार के दृश्यों में आदमकद ऋषिगण, आचार्यों और महापुरुषों के बीच से गुज़रें।",
-    "media": [
-     {
-      "alt": "एक अध्ययन-कक्ष के डायोरामा में प्राचीन विद्वानों की आदमकद प्रतिमाएँ"
-     }
-    ]
-   },
-   {
-    "id": "legacy-architecture",
-    "title": "विरासत का स्थापत्य",
-    "subheading": "02",
-    "description": "अजंता और एलोरा की अनुपातिक प्रतिकृतियाँ, भव्य मंदिर शिखर और बहुत कुछ।",
-    "media": [
-     {
-      "alt": "बारीक नक्काशी वाले बलुआ पत्थर के मंदिर के अग्रभाग की प्रतिकृति"
-     }
-    ]
-   },
-   {
-    "id": "walking-into-scripture",
-    "title": "शास्त्रों की यात्रा",
-    "subheading": "03",
-    "description": "योग, कर्म, अहिंसा और भक्ति, तथा भारत की धार्मिक परंपराओं की साझा जड़ें।",
-    "media": [
-     {
-      "alt": "शास्त्रों के ऊँचे नीले पैनलों के सामने विराजमान एक ऋषि की कांस्य प्रतिमा"
-     }
-    ]
-   },
-   {
-    "id": "living-tapestry",
-    "title": "जीवंत संस्कृति का ताना-बाना",
-    "subheading": "04",
-    "description": "उत्सव, भोजन, वेशभूषा और नृत्य — युवा आगंतुकों के लिए इंटरैक्टिव स्टेशनों के साथ।",
-    "media": [
-     {
-      "alt": "एक रंग-बिरंगे उत्सव के गली-दृश्य से गुज़रते आगंतुक"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

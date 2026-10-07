@@ -1,294 +1,294 @@
 {
- "en": {
-  "id": "tickets",
-  "title": "Reserve a timed entry",
-  "subheading": "Tickets",
-  "description": "Timed entry keeps the galleries comfortable. Choose your day and entry window, then add a show or guided tour if you like.",
-  "topics": [
-   {
-    "id": "mobile-tickets",
-    "description": "Mobile tickets; no printing needed"
-   },
-   {
-    "id": "free-changes",
-    "description": "Free changes up to <mark class=\"todo\">[X]</mark> hours before"
-   },
-   {
-    "id": "groups",
-    "description": "Group of <mark class=\"todo\">[X]</mark> or more? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">Book as a group</a>"
-   },
-   {
-    "id": "booking",
-    "title": "Ticket booking",
-    "action": {
-     "label": "Continue to checkout"
-    },
+  "en": {
+    "id": "tickets",
+    "title": "Reserve a timed entry",
+    "subheading": "Tickets",
+    "description": "Timed entry keeps the galleries comfortable. Choose your day and entry window, then add a show or guided tour if you like.",
     "topics": [
-     {
-      "id": "date",
-      "title": "1. Date"
-     },
-     {
-      "id": "entry-window",
-      "title": "2. Entry window",
-      "topics": [
-       {
-        "id": "morning",
-        "title": "Morning",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "midday",
-        "title": "Midday",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "afternoon",
-        "title": "Afternoon",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "evening",
-        "title": "Evening",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       }
-      ]
-     },
-     {
-      "id": "visitors",
-      "title": "3. Visitors",
-      "topics": [
-       {
-        "id": "adult",
-        "title": "Adult",
-        "subheading": "Ages <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "child",
-        "title": "Child",
-        "subheading": "Ages <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "senior",
-        "title": "Senior",
-        "subheading": "Ages <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "member",
-        "title": "Member",
-        "subheading": "Bring your card · Free"
-       }
-      ]
-     },
-     {
-      "id": "add-ons",
-      "topics": [
-       {
-        "id": "show",
-        "title": "Add a multimedia show · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "tour",
-        "title": "Add a guided tour · <mark class=\"todo\">[PRICE]</mark>"
-       }
-      ]
-     }
+      {
+        "id": "mobile-tickets",
+        "description": "Mobile tickets; no printing needed"
+      },
+      {
+        "id": "free-changes",
+        "description": "Free changes up to <mark class=\"todo\">[X]</mark> hours before"
+      },
+      {
+        "id": "groups",
+        "description": "Group of <mark class=\"todo\">[X]</mark> or more? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">Book as a group</a>"
+      },
+      {
+        "id": "booking",
+        "title": "Ticket booking",
+        "action": {
+          "label": "Continue to checkout"
+        },
+        "topics": [
+          {
+            "id": "date",
+            "title": "1. Date"
+          },
+          {
+            "id": "entry-window",
+            "title": "2. Entry window",
+            "topics": [
+              {
+                "id": "morning",
+                "title": "Morning",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "midday",
+                "title": "Midday",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "afternoon",
+                "title": "Afternoon",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "evening",
+                "title": "Evening",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              }
+            ]
+          },
+          {
+            "id": "visitors",
+            "title": "3. Visitors",
+            "topics": [
+              {
+                "id": "adult",
+                "title": "Adult",
+                "subheading": "Ages <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "child",
+                "title": "Child",
+                "subheading": "Ages <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "senior",
+                "title": "Senior",
+                "subheading": "Ages <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "member",
+                "title": "Member",
+                "subheading": "Bring your card · Free"
+              }
+            ]
+          },
+          {
+            "id": "add-ons",
+            "topics": [
+              {
+                "id": "show",
+                "title": "Add a multimedia show · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "tour",
+                "title": "Add a guided tour · <mark class=\"todo\">[PRICE]</mark>"
+              }
+            ]
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- "gu": {
-  "title": "નિર્ધારિત સમયે પ્રવેશ માટે આરક્ષણ કરો",
-  "subheading": "ટિકિટ",
-  "description": "નિર્ધારિત સમયના પ્રવેશથી ગેલેરીઓમાં ભીડ ઓછી રહે છે અને મુલાકાત આરામદાયક બને છે. આપનો દિવસ અને પ્રવેશનો સમયગાળો પસંદ કરો, પછી આપ ઇચ્છો તો શો અથવા માર્ગદર્શિત પ્રવાસ ઉમેરો.",
-  "topics": [
-   {
-    "id": "mobile-tickets",
-    "description": "મોબાઇલ ટિકિટ; પ્રિન્ટ કરવાની જરૂર નથી"
-   },
-   {
-    "id": "free-changes",
-    "description": "<mark class=\"todo\">[X]</mark> કલાક પહેલાં સુધી નિઃશુલ્ક ફેરફાર"
-   },
-   {
-    "id": "groups",
-    "description": "<mark class=\"todo\">[X]</mark> કે તેથી વધુ લોકોનું જૂથ છે? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">જૂથ તરીકે બુક કરો</a>"
-   },
-   {
-    "id": "booking",
-    "title": "ટિકિટ બુકિંગ",
-    "action": {
-     "label": "ચેકઆઉટ તરફ આગળ વધો"
-    },
+  },
+  "gu": {
+    "title": "નિર્ધારિત સમયે પ્રવેશ માટે આરક્ષણ કરો",
+    "subheading": "ટિકિટ",
+    "description": "નિર્ધારિત સમયના પ્રવેશથી ગેલેરીઓમાં ભીડ ઓછી રહે છે અને મુલાકાત આરામદાયક બને છે. આપનો દિવસ અને પ્રવેશનો સમયગાળો પસંદ કરો, પછી આપ ઇચ્છો તો શો અથવા માર્ગદર્શિત પ્રવાસ ઉમેરો.",
     "topics": [
-     {
-      "id": "date",
-      "title": "1. તારીખ"
-     },
-     {
-      "id": "entry-window",
-      "title": "2. પ્રવેશનો સમયગાળો",
-      "topics": [
-       {
-        "id": "morning",
-        "title": "સવાર",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "midday",
-        "title": "મધ્યાહ્ન",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "afternoon",
-        "title": "બપોર",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "evening",
-        "title": "સાંજ",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       }
-      ]
-     },
-     {
-      "id": "visitors",
-      "title": "3. મુલાકાતીઓ",
-      "topics": [
-       {
-        "id": "adult",
-        "title": "પુખ્ત",
-        "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "child",
-        "title": "બાળક",
-        "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "senior",
-        "title": "વરિષ્ઠ નાગરિક",
-        "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "member",
-        "title": "સભ્ય",
-        "subheading": "આપનું કાર્ડ સાથે લાવો · નિઃશુલ્ક"
-       }
-      ]
-     },
-     {
-      "id": "add-ons",
-      "topics": [
-       {
-        "id": "show",
-        "title": "મલ્ટિમીડિયા શો ઉમેરો · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "tour",
-        "title": "માર્ગદર્શિત પ્રવાસ ઉમેરો · <mark class=\"todo\">[PRICE]</mark>"
-       }
-      ]
-     }
+      {
+        "id": "mobile-tickets",
+        "description": "મોબાઇલ ટિકિટ; પ્રિન્ટ કરવાની જરૂર નથી"
+      },
+      {
+        "id": "free-changes",
+        "description": "<mark class=\"todo\">[X]</mark> કલાક પહેલાં સુધી નિઃશુલ્ક ફેરફાર"
+      },
+      {
+        "id": "groups",
+        "description": "<mark class=\"todo\">[X]</mark> કે તેથી વધુ લોકોનું જૂથ છે? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">જૂથ તરીકે બુક કરો</a>"
+      },
+      {
+        "id": "booking",
+        "title": "ટિકિટ બુકિંગ",
+        "action": {
+          "label": "ચેકઆઉટ તરફ આગળ વધો"
+        },
+        "topics": [
+          {
+            "id": "date",
+            "title": "1. તારીખ"
+          },
+          {
+            "id": "entry-window",
+            "title": "2. પ્રવેશનો સમયગાળો",
+            "topics": [
+              {
+                "id": "morning",
+                "title": "સવાર",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "midday",
+                "title": "મધ્યાહ્ન",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "afternoon",
+                "title": "બપોર",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "evening",
+                "title": "સાંજ",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              }
+            ]
+          },
+          {
+            "id": "visitors",
+            "title": "3. મુલાકાતીઓ",
+            "topics": [
+              {
+                "id": "adult",
+                "title": "પુખ્ત",
+                "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "child",
+                "title": "બાળક",
+                "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "senior",
+                "title": "વરિષ્ઠ નાગરિક",
+                "subheading": "ઉંમર <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "member",
+                "title": "સભ્ય",
+                "subheading": "આપનું કાર્ડ સાથે લાવો · નિઃશુલ્ક"
+              }
+            ]
+          },
+          {
+            "id": "add-ons",
+            "topics": [
+              {
+                "id": "show",
+                "title": "મલ્ટિમીડિયા શો ઉમેરો · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "tour",
+                "title": "માર્ગદર્શિત પ્રવાસ ઉમેરો · <mark class=\"todo\">[PRICE]</mark>"
+              }
+            ]
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- "hi": {
-  "title": "निर्धारित समय पर प्रवेश के लिए आरक्षण करें",
-  "subheading": "टिकट",
-  "description": "निर्धारित समय पर प्रवेश से गैलरियों में भीड़ कम रहती है और भ्रमण आरामदायक बनता है। अपना दिन और प्रवेश का समय चुनें, फिर आप चाहें तो कोई शो या निर्देशित भ्रमण जोड़ें।",
-  "topics": [
-   {
-    "id": "mobile-tickets",
-    "description": "मोबाइल टिकट; प्रिंट करने की आवश्यकता नहीं"
-   },
-   {
-    "id": "free-changes",
-    "description": "<mark class=\"todo\">[X]</mark> घंटे पहले तक निःशुल्क बदलाव"
-   },
-   {
-    "id": "groups",
-    "description": "<mark class=\"todo\">[X]</mark> या अधिक लोगों का समूह है? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">समूह के रूप में बुक करें</a>"
-   },
-   {
-    "id": "booking",
-    "title": "टिकट बुकिंग",
-    "action": {
-     "label": "चेकआउट पर आगे बढ़ें"
-    },
+  },
+  "hi": {
+    "title": "निर्धारित समय पर प्रवेश के लिए आरक्षण करें",
+    "subheading": "टिकट",
+    "description": "निर्धारित समय पर प्रवेश से गैलरियों में भीड़ कम रहती है और भ्रमण आरामदायक बनता है। अपना दिन और प्रवेश का समय चुनें, फिर आप चाहें तो कोई शो या निर्देशित भ्रमण जोड़ें।",
     "topics": [
-     {
-      "id": "date",
-      "title": "1. तिथि"
-     },
-     {
-      "id": "entry-window",
-      "title": "2. प्रवेश का समय",
-      "topics": [
-       {
-        "id": "morning",
-        "title": "सुबह",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "midday",
-        "title": "मध्याह्न",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "afternoon",
-        "title": "दोपहर",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       },
-       {
-        "id": "evening",
-        "title": "शाम",
-        "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
-       }
-      ]
-     },
-     {
-      "id": "visitors",
-      "title": "3. आगंतुक",
-      "topics": [
-       {
-        "id": "adult",
-        "title": "वयस्क",
-        "subheading": "आयु <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "child",
-        "title": "बच्चा",
-        "subheading": "आयु <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "senior",
-        "title": "वरिष्ठ नागरिक",
-        "subheading": "आयु <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "member",
-        "title": "सदस्य",
-        "subheading": "अपना कार्ड साथ लाएँ · निःशुल्क"
-       }
-      ]
-     },
-     {
-      "id": "add-ons",
-      "topics": [
-       {
-        "id": "show",
-        "title": "मल्टीमीडिया शो जोड़ें · <mark class=\"todo\">[PRICE]</mark>"
-       },
-       {
-        "id": "tour",
-        "title": "निर्देशित भ्रमण जोड़ें · <mark class=\"todo\">[PRICE]</mark>"
-       }
-      ]
-     }
+      {
+        "id": "mobile-tickets",
+        "description": "मोबाइल टिकट; प्रिंट करने की आवश्यकता नहीं"
+      },
+      {
+        "id": "free-changes",
+        "description": "<mark class=\"todo\">[X]</mark> घंटे पहले तक निःशुल्क बदलाव"
+      },
+      {
+        "id": "groups",
+        "description": "<mark class=\"todo\">[X]</mark> या अधिक लोगों का समूह है? <a href=\"#\" class=\"todo-link\" data-todo=\"Group booking (no section)\">समूह के रूप में बुक करें</a>"
+      },
+      {
+        "id": "booking",
+        "title": "टिकट बुकिंग",
+        "action": {
+          "label": "चेकआउट पर आगे बढ़ें"
+        },
+        "topics": [
+          {
+            "id": "date",
+            "title": "1. तिथि"
+          },
+          {
+            "id": "entry-window",
+            "title": "2. प्रवेश का समय",
+            "topics": [
+              {
+                "id": "morning",
+                "title": "सुबह",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "midday",
+                "title": "मध्याह्न",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "afternoon",
+                "title": "दोपहर",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              },
+              {
+                "id": "evening",
+                "title": "शाम",
+                "subheading": "<mark class=\"todo\">[TIME RANGE]</mark>"
+              }
+            ]
+          },
+          {
+            "id": "visitors",
+            "title": "3. आगंतुक",
+            "topics": [
+              {
+                "id": "adult",
+                "title": "वयस्क",
+                "subheading": "आयु <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "child",
+                "title": "बच्चा",
+                "subheading": "आयु <mark class=\"todo\">[X]</mark>–<mark class=\"todo\">[X]</mark> · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "senior",
+                "title": "वरिष्ठ नागरिक",
+                "subheading": "आयु <mark class=\"todo\">[X]</mark>+ · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "member",
+                "title": "सदस्य",
+                "subheading": "अपना कार्ड साथ लाएँ · निःशुल्क"
+              }
+            ]
+          },
+          {
+            "id": "add-ons",
+            "topics": [
+              {
+                "id": "show",
+                "title": "मल्टीमीडिया शो जोड़ें · <mark class=\"todo\">[PRICE]</mark>"
+              },
+              {
+                "id": "tour",
+                "title": "निर्देशित भ्रमण जोड़ें · <mark class=\"todo\">[PRICE]</mark>"
+              }
+            ]
+          }
+        ]
+      }
     ]
-   }
-  ]
- }
+  }
 }

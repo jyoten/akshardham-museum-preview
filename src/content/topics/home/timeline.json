@@ -1,213 +1,213 @@
 {
- "en": {
-  "id": "timeline",
-  "title": "Walk the whole story, from first villages to today.",
-  "subheading": "The 10,000-year timeline",
-  "description": "Every era links to the galleries where you can see it for yourself.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/timeline-corridor.jpg",
-    "alt": "A long curved gallery corridor lined with timeline panels"
-   }
-  ],
-  "action": {
-   "label": "Explore the timeline",
-   "link": "/timeline"
+  "en": {
+    "id": "timeline",
+    "title": "Walk the whole story, from first villages to today.",
+    "subheading": "The 10,000-year timeline",
+    "description": "Every era links to the galleries where you can see it for yourself.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/timeline-corridor.jpg",
+        "alt": "A long curved gallery corridor lined with timeline panels"
+      }
+    ],
+    "action": {
+      "label": "Explore the timeline",
+      "link": "/timeline"
+    },
+    "topics": [
+      {
+        "id": "era-01",
+        "title": "First villages",
+        "subheading": "c. 7000 BCE",
+        "action": {
+          "link": "/timeline#era-01"
+        }
+      },
+      {
+        "id": "era-02",
+        "title": "Indus–Sarasvati cities",
+        "subheading": "c. 3300 BCE",
+        "action": {
+          "link": "/timeline#era-02"
+        }
+      },
+      {
+        "id": "era-03",
+        "title": "The Vedic age",
+        "subheading": "c. 1500 BCE",
+        "action": {
+          "link": "/timeline#era-03"
+        }
+      },
+      {
+        "id": "era-04",
+        "title": "Seers &amp; science",
+        "subheading": "c. 600 BCE",
+        "action": {
+          "link": "/timeline#era-04"
+        }
+      },
+      {
+        "id": "era-05",
+        "title": "The classical age",
+        "subheading": "c. 200 BCE",
+        "action": {
+          "link": "/timeline#era-05"
+        }
+      },
+      {
+        "id": "era-06",
+        "title": "Temple builders",
+        "subheading": "c. 600 CE",
+        "action": {
+          "link": "/timeline#era-06"
+        }
+      },
+      {
+        "id": "era-07",
+        "title": "Bhakti",
+        "subheading": "c. 600 CE",
+        "action": {
+          "link": "/timeline#era-07"
+        }
+      },
+      {
+        "id": "era-08",
+        "title": "Bhagwan Swaminarayan",
+        "subheading": "1781",
+        "action": {
+          "link": "/timeline#era-08"
+        }
+      },
+      {
+        "id": "era-09",
+        "title": "A global family",
+        "subheading": "Today",
+        "action": {
+          "link": "/timeline#era-09"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "era-01",
-    "title": "First villages",
-    "subheading": "c. 7000 BCE",
+  "gu": {
+    "title": "પ્રથમ ગામોથી આજ સુધીની સમગ્ર ગાથામાંથી પસાર થાઓ.",
+    "subheading": "10,000 વર્ષની સમયરેખા",
+    "description": "દરેક યુગ એ ગેલેરીઓ સાથે જોડાયેલો છે, જ્યાં આપ તેને પ્રત્યક્ષ નિહાળી શકો છો.",
+    "media": [
+      {
+        "alt": "સમયરેખાની પેનલોથી સુશોભિત એક લાંબો, વળાંકવાળો ગેલેરી પરસાળ"
+      }
+    ],
     "action": {
-     "link": "/timeline#era-01"
-    }
-   },
-   {
-    "id": "era-02",
-    "title": "Indus–Sarasvati cities",
-    "subheading": "c. 3300 BCE",
-    "action": {
-     "link": "/timeline#era-02"
-    }
-   },
-   {
-    "id": "era-03",
-    "title": "The Vedic age",
-    "subheading": "c. 1500 BCE",
-    "action": {
-     "link": "/timeline#era-03"
-    }
-   },
-   {
-    "id": "era-04",
-    "title": "Seers &amp; science",
-    "subheading": "c. 600 BCE",
-    "action": {
-     "link": "/timeline#era-04"
-    }
-   },
-   {
-    "id": "era-05",
-    "title": "The classical age",
-    "subheading": "c. 200 BCE",
-    "action": {
-     "link": "/timeline#era-05"
-    }
-   },
-   {
-    "id": "era-06",
-    "title": "Temple builders",
-    "subheading": "c. 600 CE",
-    "action": {
-     "link": "/timeline#era-06"
-    }
-   },
-   {
-    "id": "era-07",
-    "title": "Bhakti",
-    "subheading": "c. 600 CE",
-    "action": {
-     "link": "/timeline#era-07"
-    }
-   },
-   {
-    "id": "era-08",
-    "title": "Bhagwan Swaminarayan",
-    "subheading": "1781",
-    "action": {
-     "link": "/timeline#era-08"
-    }
-   },
-   {
-    "id": "era-09",
-    "title": "A global family",
-    "subheading": "Today",
-    "action": {
-     "link": "/timeline#era-09"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "પ્રથમ ગામોથી આજ સુધીની સમગ્ર ગાથામાંથી પસાર થાઓ.",
-  "subheading": "10,000 વર્ષની સમયરેખા",
-  "description": "દરેક યુગ એ ગેલેરીઓ સાથે જોડાયેલો છે, જ્યાં આપ તેને પ્રત્યક્ષ નિહાળી શકો છો.",
-  "media": [
-   {
-    "alt": "સમયરેખાની પેનલોથી સુશોભિત એક લાંબો, વળાંકવાળો ગેલેરી પરસાળ"
-   }
-  ],
-  "action": {
-   "label": "સમયરેખાનું અન્વેષણ કરો"
+      "label": "સમયરેખાનું અન્વેષણ કરો"
+    },
+    "topics": [
+      {
+        "id": "era-01",
+        "title": "પ્રથમ ગામો",
+        "subheading": "આશરે ઈ.સ.પૂ. 7000"
+      },
+      {
+        "id": "era-02",
+        "title": "સિંધુ–સરસ્વતીનાં નગરો",
+        "subheading": "આશરે ઈ.સ.પૂ. 3300"
+      },
+      {
+        "id": "era-03",
+        "title": "વૈદિક યુગ",
+        "subheading": "આશરે ઈ.સ.પૂ. 1500"
+      },
+      {
+        "id": "era-04",
+        "title": "ઋષિઓ અને વિજ્ઞાન",
+        "subheading": "આશરે ઈ.સ.પૂ. 600"
+      },
+      {
+        "id": "era-05",
+        "title": "શાસ્ત્રીય યુગ",
+        "subheading": "આશરે ઈ.સ.પૂ. 200"
+      },
+      {
+        "id": "era-06",
+        "title": "મંદિર નિર્માતાઓ",
+        "subheading": "આશરે ઈ.સ. 600"
+      },
+      {
+        "id": "era-07",
+        "title": "ભક્તિ",
+        "subheading": "આશરે ઈ.સ. 600"
+      },
+      {
+        "id": "era-08",
+        "title": "ભગવાન સ્વામિનારાયણ",
+        "subheading": "1781"
+      },
+      {
+        "id": "era-09",
+        "title": "એક વૈશ્વિક પરિવાર",
+        "subheading": "આજે"
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "era-01",
-    "title": "પ્રથમ ગામો",
-    "subheading": "આશરે ઈ.સ.પૂ. 7000"
-   },
-   {
-    "id": "era-02",
-    "title": "સિંધુ–સરસ્વતીનાં નગરો",
-    "subheading": "આશરે ઈ.સ.પૂ. 3300"
-   },
-   {
-    "id": "era-03",
-    "title": "વૈદિક યુગ",
-    "subheading": "આશરે ઈ.સ.પૂ. 1500"
-   },
-   {
-    "id": "era-04",
-    "title": "ઋષિઓ અને વિજ્ઞાન",
-    "subheading": "આશરે ઈ.સ.પૂ. 600"
-   },
-   {
-    "id": "era-05",
-    "title": "શાસ્ત્રીય યુગ",
-    "subheading": "આશરે ઈ.સ.પૂ. 200"
-   },
-   {
-    "id": "era-06",
-    "title": "મંદિર નિર્માતાઓ",
-    "subheading": "આશરે ઈ.સ. 600"
-   },
-   {
-    "id": "era-07",
-    "title": "ભક્તિ",
-    "subheading": "આશરે ઈ.સ. 600"
-   },
-   {
-    "id": "era-08",
-    "title": "ભગવાન સ્વામિનારાયણ",
-    "subheading": "1781"
-   },
-   {
-    "id": "era-09",
-    "title": "એક વૈશ્વિક પરિવાર",
-    "subheading": "આજે"
-   }
-  ]
- },
- "hi": {
-  "title": "प्रथम गाँवों से आज तक की पूरी कहानी से होकर गुज़रें।",
-  "subheading": "10,000 वर्षों की समयरेखा",
-  "description": "हर युग उन गैलरियों से जुड़ा है जहाँ आप उसे स्वयं देख सकते हैं।",
-  "media": [
-   {
-    "alt": "समयरेखा पैनलों से सुसज्जित एक लंबा, घुमावदार गैलरी गलियारा"
-   }
-  ],
-  "action": {
-   "label": "समयरेखा का अन्वेषण करें"
-  },
-  "topics": [
-   {
-    "id": "era-01",
-    "title": "प्रथम गाँव",
-    "subheading": "लगभग 7000 ई.पू."
-   },
-   {
-    "id": "era-02",
-    "title": "सिंधु–सरस्वती के नगर",
-    "subheading": "लगभग 3300 ई.पू."
-   },
-   {
-    "id": "era-03",
-    "title": "वैदिक युग",
-    "subheading": "लगभग 1500 ई.पू."
-   },
-   {
-    "id": "era-04",
-    "title": "ऋषिगण और विज्ञान",
-    "subheading": "लगभग 600 ई.पू."
-   },
-   {
-    "id": "era-05",
-    "title": "शास्त्रीय युग",
-    "subheading": "लगभग 200 ई.पू."
-   },
-   {
-    "id": "era-06",
-    "title": "मंदिर निर्माता",
-    "subheading": "लगभग 600 ई."
-   },
-   {
-    "id": "era-07",
-    "title": "भक्ति",
-    "subheading": "लगभग 600 ई."
-   },
-   {
-    "id": "era-08",
-    "title": "भगवान स्वामीनारायण",
-    "subheading": "1781"
-   },
-   {
-    "id": "era-09",
-    "title": "एक वैश्विक परिवार",
-    "subheading": "आज"
-   }
-  ]
- }
+  "hi": {
+    "title": "प्रथम गाँवों से आज तक की पूरी कहानी से होकर गुज़रें।",
+    "subheading": "10,000 वर्षों की समयरेखा",
+    "description": "हर युग उन गैलरियों से जुड़ा है जहाँ आप उसे स्वयं देख सकते हैं।",
+    "media": [
+      {
+        "alt": "समयरेखा पैनलों से सुसज्जित एक लंबा, घुमावदार गैलरी गलियारा"
+      }
+    ],
+    "action": {
+      "label": "समयरेखा का अन्वेषण करें"
+    },
+    "topics": [
+      {
+        "id": "era-01",
+        "title": "प्रथम गाँव",
+        "subheading": "लगभग 7000 ई.पू."
+      },
+      {
+        "id": "era-02",
+        "title": "सिंधु–सरस्वती के नगर",
+        "subheading": "लगभग 3300 ई.पू."
+      },
+      {
+        "id": "era-03",
+        "title": "वैदिक युग",
+        "subheading": "लगभग 1500 ई.पू."
+      },
+      {
+        "id": "era-04",
+        "title": "ऋषिगण और विज्ञान",
+        "subheading": "लगभग 600 ई.पू."
+      },
+      {
+        "id": "era-05",
+        "title": "शास्त्रीय युग",
+        "subheading": "लगभग 200 ई.पू."
+      },
+      {
+        "id": "era-06",
+        "title": "मंदिर निर्माता",
+        "subheading": "लगभग 600 ई."
+      },
+      {
+        "id": "era-07",
+        "title": "भक्ति",
+        "subheading": "लगभग 600 ई."
+      },
+      {
+        "id": "era-08",
+        "title": "भगवान स्वामीनारायण",
+        "subheading": "1781"
+      },
+      {
+        "id": "era-09",
+        "title": "एक वैश्विक परिवार",
+        "subheading": "आज"
+      }
+    ]
+  }
 }

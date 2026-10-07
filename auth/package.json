@@ -1,0 +1,11 @@
+{
+  "name": "museum-editor-auth",
+  "private": true,
+  "type": "module",
+  "description": "Sign-in service for the museum website's Decap CMS editor (GitHub backend). No dependencies.",
+  "scripts": {
+    "test": "node --test test/",
+    "dev": "node scripts/dev.mjs",
+    "hash-password": "node scripts/hash-password.mjs"
+  }
+}

@@ -1,79 +1,79 @@
 {
- "en": {
-  "id": "story",
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "The original",
-    "subheading": "CHAPTER 01",
-    "description": "<p>The Sun Temple at Konark was built in the 13th century under King Narasimhadeva I of the Eastern Ganga dynasty. It was conceived as the colossal chariot of Surya, the sun god, drawn by horses on twenty-four carved stone wheels.</p>\n<p>Each wheel is covered in fine carving, and the wheels are often described as sundials, their spokes marking the hours of the day.</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "Look closely",
-    "subheading": "CHAPTER 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "Making the replica",
-    "subheading": "CHAPTER 03",
-    "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
-     "link": "#"
-    }
-   }
-  ]
- },
- "gu": {
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "મૂળ સ્વરૂપ",
-    "subheading": "પ્રકરણ 01",
-    "description": "<p>કોણાર્કનું સૂર્યમંદિર 13મી સદીમાં પૂર્વી ગંગ વંશના રાજા નરસિંહદેવ પ્રથમના શાસનકાળમાં બંધાયું હતું. તેની કલ્પના સૂર્યદેવના વિરાટ રથ તરીકે કરવામાં આવી હતી, જેને અશ્વો ખેંચે છે અને જે પથ્થરમાં કોતરેલાં ચોવીસ ચક્રો પર ઊભો છે.</p>\n<p>દરેક ચક્ર બારીક કોતરણીથી શોભે છે, અને આ ચક્રોને ઘણી વાર સૂર્યઘડિયાળ તરીકે વર્ણવવામાં આવે છે, જેના આરા દિવસના પ્રહરો દર્શાવે છે.</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "ધ્યાનથી જુઓ",
-    "subheading": "પ્રકરણ 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "પ્રતિકૃતિનું નિર્માણ",
-    "subheading": "પ્રકરણ 03",
-    "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
-    }
-   }
-  ]
- },
- "hi": {
-  "topics": [
-   {
-    "id": "chapter-1",
-    "title": "मूल स्वरूप",
-    "subheading": "अध्याय 01",
-    "description": "<p>कोणार्क का सूर्य मंदिर 13वीं शताब्दी में पूर्वी गंग वंश के राजा नरसिंहदेव प्रथम के शासनकाल में बना था। इसकी परिकल्पना सूर्यदेव के विराट रथ के रूप में की गई थी, जिसे अश्व खींचते हैं और जो पत्थर में तराशे गए चौबीस चक्रों पर खड़ा है।</p>\n<p>प्रत्येक चक्र बारीक नक्काशी से सुसज्जित है, और इन चक्रों को प्रायः सूर्य-घड़ी कहा जाता है, जिनकी तीलियाँ दिन के प्रहर दर्शाती हैं।</p>"
-   },
-   {
-    "id": "chapter-2",
-    "title": "ध्यान से देखें",
-    "subheading": "अध्याय 02",
-    "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
-   },
-   {
-    "id": "chapter-3",
-    "title": "प्रतिकृति का निर्माण",
-    "subheading": "अध्याय 03",
-    "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
-    "action": {
-     "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "story",
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "The original",
+        "subheading": "CHAPTER 01",
+        "description": "<p>The Sun Temple at Konark was built in the 13th century under King Narasimhadeva I of the Eastern Ganga dynasty. It was conceived as the colossal chariot of Surya, the sun god, drawn by horses on twenty-four carved stone wheels.</p>\n<p>Each wheel is covered in fine carving, and the wheels are often described as sundials, their spokes marking the hours of the day.</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "Look closely",
+        "subheading": "CHAPTER 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "Making the replica",
+        "subheading": "CHAPTER 03",
+        "description": "<p>Stone and materials for the museum were brought from India and assembled in New Jersey. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "Watch: how it was made · <mark class=\"todo\">[DURATION]</mark>",
+          "link": "#"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "મૂળ સ્વરૂપ",
+        "subheading": "પ્રકરણ 01",
+        "description": "<p>કોણાર્કનું સૂર્યમંદિર 13મી સદીમાં પૂર્વી ગંગ વંશના રાજા નરસિંહદેવ પ્રથમના શાસનકાળમાં બંધાયું હતું. તેની કલ્પના સૂર્યદેવના વિરાટ રથ તરીકે કરવામાં આવી હતી, જેને અશ્વો ખેંચે છે અને જે પથ્થરમાં કોતરેલાં ચોવીસ ચક્રો પર ઊભો છે.</p>\n<p>દરેક ચક્ર બારીક કોતરણીથી શોભે છે, અને આ ચક્રોને ઘણી વાર સૂર્યઘડિયાળ તરીકે વર્ણવવામાં આવે છે, જેના આરા દિવસના પ્રહરો દર્શાવે છે.</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "ધ્યાનથી જુઓ",
+        "subheading": "પ્રકરણ 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "પ્રતિકૃતિનું નિર્માણ",
+        "subheading": "પ્રકરણ 03",
+        "description": "<p>સંગ્રહાલય માટેના પથ્થર અને સામગ્રી ભારતથી લાવવામાં આવ્યાં હતાં અને ન્યૂ જર્સીમાં તેમની જોડણી કરવામાં આવી હતી. <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "જુઓ: તે કેવી રીતે બન્યું · <mark class=\"todo\">[DURATION]</mark>"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "chapter-1",
+        "title": "मूल स्वरूप",
+        "subheading": "अध्याय 01",
+        "description": "<p>कोणार्क का सूर्य मंदिर 13वीं शताब्दी में पूर्वी गंग वंश के राजा नरसिंहदेव प्रथम के शासनकाल में बना था। इसकी परिकल्पना सूर्यदेव के विराट रथ के रूप में की गई थी, जिसे अश्व खींचते हैं और जो पत्थर में तराशे गए चौबीस चक्रों पर खड़ा है।</p>\n<p>प्रत्येक चक्र बारीक नक्काशी से सुसज्जित है, और इन चक्रों को प्रायः सूर्य-घड़ी कहा जाता है, जिनकी तीलियाँ दिन के प्रहर दर्शाती हैं।</p>"
+      },
+      {
+        "id": "chapter-2",
+        "title": "ध्यान से देखें",
+        "subheading": "अध्याय 02",
+        "description": "<p><mark class=\"todo\">[WHAT TO LOOK FOR IN THIS REPLICA]</mark></p>"
+      },
+      {
+        "id": "chapter-3",
+        "title": "प्रतिकृति का निर्माण",
+        "subheading": "अध्याय 03",
+        "description": "<p>संग्रहालय के लिए पत्थर और सामग्री भारत से लाई गई और न्यू जर्सी में जोड़ी गई। <mark class=\"todo\">[ARTISANS, MATERIALS, SCALE AND TIME TAKEN TO BUILD THIS REPLICA.]</mark></p>",
+        "action": {
+          "label": "देखें: यह कैसे बना · <mark class=\"todo\">[DURATION]</mark>"
+        }
+      }
+    ]
+  }
 }

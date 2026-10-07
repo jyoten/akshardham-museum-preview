@@ -1,46 +1,46 @@
 {
- "en": {
-  "id": "breadcrumb",
-  "topics": [
-   {
-    "id": "explore",
-    "action": {
-     "label": "Explore",
-     "link": "/explore"
-    }
-   },
-   {
-    "id": "current",
-    "title": "Lifelike Scenes &amp; Statues"
-   }
-  ]
- },
- "gu": {
-  "topics": [
-   {
-    "id": "explore",
-    "action": {
-     "label": "અન્વેષણ"
-    }
-   },
-   {
-    "id": "current",
-    "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ"
-   }
-  ]
- },
- "hi": {
-  "topics": [
-   {
-    "id": "explore",
-    "action": {
-     "label": "अन्वेषण"
-    }
-   },
-   {
-    "id": "current",
-    "title": "सजीव दृश्य और प्रतिमाएँ"
-   }
-  ]
- }
+  "en": {
+    "id": "breadcrumb",
+    "topics": [
+      {
+        "id": "explore",
+        "action": {
+          "label": "Explore",
+          "link": "/explore"
+        }
+      },
+      {
+        "id": "current",
+        "title": "Lifelike Scenes &amp; Statues"
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "explore",
+        "action": {
+          "label": "અન્વેષણ"
+        }
+      },
+      {
+        "id": "current",
+        "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ"
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "explore",
+        "action": {
+          "label": "अन्वेषण"
+        }
+      },
+      {
+        "id": "current",
+        "title": "सजीव दृश्य और प्रतिमाएँ"
+      }
+    ]
+  }
 }

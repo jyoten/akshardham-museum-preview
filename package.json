@@ -7,7 +7,11 @@
     "dev": "eleventy --serve --port 8090",
     "cms": "decap-server",
     "translations": "node scripts/untranslated.js",
-    "cms-config": "node scripts/cms-config.js"
+    "cms-config": "node scripts/cms-config.js",
+    "check-content": "node scripts/check-content.js",
+    "test": "node --test auth/test/ && node scripts/check-content.js",
+    "auth:dev": "node auth/scripts/dev.mjs",
+    "hash-password": "node auth/scripts/hash-password.mjs"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.6",

@@ -1,102 +1,102 @@
 {
- "en": {
-  "id": "explore-and-learn",
-  "title": "Explore and learn",
-  "topics": [
-   {
-    "id": "explore",
-    "title": "Explore the galleries",
-    "description": "Four ways into India: monuments in stone, lifelike scenes, scripture and living culture.",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/rani-ki-vav.jpg",
-      "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica"
-     }
-    ],
-    "action": {
-     "label": "See the galleries",
-     "link": "/explore"
-    }
-   },
-   {
-    "id": "learn",
-    "title": "Learn with us",
-    "description": "School and group visits, a trail for young explorers, and big ideas explained simply.",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/young-visitor-carved-model.jpg",
-      "alt": "A young visitor looking up at a towering carved model of an ancient building"
-     }
-    ],
-    "action": {
-     "label": "Start learning",
-     "link": "/learn"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "અન્વેષણ કરો અને શીખો",
-  "topics": [
-   {
-    "id": "explore",
-    "title": "ગેલેરીઓનું અન્વેષણ કરો",
-    "description": "ભારતમાં પ્રવેશના ચાર માર્ગ: પથ્થરમાં કંડારાયેલાં સ્મારકો, જીવંત દૃશ્યો, શાસ્ત્રો અને જીવંત સંસ્કૃતિ.",
-    "media": [
-     {
-      "alt": "રાણકી વાવની પ્રતિકૃતિની કોતરણીયુક્ત પથ્થરની ગેલેરીઓ"
-     }
-    ],
-    "action": {
-     "label": "ગેલેરીઓ જુઓ"
-    }
-   },
-   {
-    "id": "learn",
-    "title": "અમારી સાથે શીખો",
-    "description": "શાળા અને સમૂહ મુલાકાતો, યુવા અન્વેષકો માટે ખાસ માર્ગ, અને મોટા વિચારોની સરળ સમજૂતી.",
-    "media": [
-     {
-      "alt": "એક પ્રાચીન ઇમારતના ઊંચા, કોતરણીયુક્ત નમૂના તરફ ઊંચે જોતો એક બાળ મુલાકાતી"
-     }
-    ],
-    "action": {
-     "label": "શીખવાનું શરૂ કરો"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "अन्वेषण करें और सीखें",
-  "topics": [
-   {
-    "id": "explore",
-    "title": "गैलरियों का अन्वेषण करें",
-    "description": "भारत में प्रवेश के चार मार्ग: पत्थर में तराशे स्मारक, सजीव दृश्य, शास्त्र और जीवंत संस्कृति।",
-    "media": [
-     {
-      "alt": "रानी की वाव की प्रतिकृति की नक्काशीदार पत्थर की गैलरियाँ"
-     }
-    ],
-    "action": {
-     "label": "गैलरियाँ देखें"
-    }
-   },
-   {
-    "id": "learn",
-    "title": "हमारे साथ सीखें",
-    "description": "विद्यालय और समूह भ्रमण, युवा खोजकर्ताओं के लिए विशेष मार्ग, और बड़े विचारों की सरल व्याख्या।",
-    "media": [
-     {
-      "alt": "एक प्राचीन भवन के ऊँचे, नक्काशीदार मॉडल को ऊपर निहारता एक युवा आगंतुक"
-     }
-    ],
-    "action": {
-     "label": "सीखना शुरू करें"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "explore-and-learn",
+    "title": "Explore and learn",
+    "topics": [
+      {
+        "id": "explore",
+        "title": "Explore the galleries",
+        "description": "Four ways into India: monuments in stone, lifelike scenes, scripture and living culture.",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/rani-ki-vav.jpg",
+            "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica"
+          }
+        ],
+        "action": {
+          "label": "See the galleries",
+          "link": "/explore"
+        }
+      },
+      {
+        "id": "learn",
+        "title": "Learn with us",
+        "description": "School and group visits, a trail for young explorers, and big ideas explained simply.",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/young-visitor-carved-model.jpg",
+            "alt": "A young visitor looking up at a towering carved model of an ancient building"
+          }
+        ],
+        "action": {
+          "label": "Start learning",
+          "link": "/learn"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "અન્વેષણ કરો અને શીખો",
+    "topics": [
+      {
+        "id": "explore",
+        "title": "ગેલેરીઓનું અન્વેષણ કરો",
+        "description": "ભારતમાં પ્રવેશના ચાર માર્ગ: પથ્થરમાં કંડારાયેલાં સ્મારકો, જીવંત દૃશ્યો, શાસ્ત્રો અને જીવંત સંસ્કૃતિ.",
+        "media": [
+          {
+            "alt": "રાણકી વાવની પ્રતિકૃતિની કોતરણીયુક્ત પથ્થરની ગેલેરીઓ"
+          }
+        ],
+        "action": {
+          "label": "ગેલેરીઓ જુઓ"
+        }
+      },
+      {
+        "id": "learn",
+        "title": "અમારી સાથે શીખો",
+        "description": "શાળા અને સમૂહ મુલાકાતો, યુવા અન્વેષકો માટે ખાસ માર્ગ, અને મોટા વિચારોની સરળ સમજૂતી.",
+        "media": [
+          {
+            "alt": "એક પ્રાચીન ઇમારતના ઊંચા, કોતરણીયુક્ત નમૂના તરફ ઊંચે જોતો એક બાળ મુલાકાતી"
+          }
+        ],
+        "action": {
+          "label": "શીખવાનું શરૂ કરો"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "अन्वेषण करें और सीखें",
+    "topics": [
+      {
+        "id": "explore",
+        "title": "गैलरियों का अन्वेषण करें",
+        "description": "भारत में प्रवेश के चार मार्ग: पत्थर में तराशे स्मारक, सजीव दृश्य, शास्त्र और जीवंत संस्कृति।",
+        "media": [
+          {
+            "alt": "रानी की वाव की प्रतिकृति की नक्काशीदार पत्थर की गैलरियाँ"
+          }
+        ],
+        "action": {
+          "label": "गैलरियाँ देखें"
+        }
+      },
+      {
+        "id": "learn",
+        "title": "हमारे साथ सीखें",
+        "description": "विद्यालय और समूह भ्रमण, युवा खोजकर्ताओं के लिए विशेष मार्ग, और बड़े विचारों की सरल व्याख्या।",
+        "media": [
+          {
+            "alt": "एक प्राचीन भवन के ऊँचे, नक्काशीदार मॉडल को ऊपर निहारता एक युवा आगंतुक"
+          }
+        ],
+        "action": {
+          "label": "सीखना शुरू करें"
+        }
+      }
+    ]
+  }
 }

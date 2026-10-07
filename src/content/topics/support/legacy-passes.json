@@ -1,63 +1,63 @@
 {
- "en": {
-  "id": "legacy-passes",
-  "title": "Give a classroom the museum",
-  "subheading": "Charity Legacy Passes",
-  "description": "Your gift opens the doors for students and community groups who could not otherwise visit — so every child can walk through ten thousand years of history and leave a little prouder.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/young-visitor-carved-model.jpg",
-    "alt": "A young visitor looking up at a towering carved model"
-   }
-  ],
-  "action": {
-   "label": "Sponsor a class visit",
-   "link": "#"
+  "en": {
+    "id": "legacy-passes",
+    "title": "Give a classroom the museum",
+    "subheading": "Charity Legacy Passes",
+    "description": "Your gift opens the doors for students and community groups who could not otherwise visit — so every child can walk through ten thousand years of history and leave a little prouder.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/young-visitor-carved-model.jpg",
+        "alt": "A young visitor looking up at a towering carved model"
+      }
+    ],
+    "action": {
+      "label": "Sponsor a class visit",
+      "link": "#"
+    },
+    "topics": [
+      {
+        "id": "impact",
+        "description": "<mark class=\"todo\">[NUMBER]</mark> students have visited through Legacy Passes since opening."
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "impact",
-    "description": "<mark class=\"todo\">[NUMBER]</mark> students have visited through Legacy Passes since opening."
-   }
-  ]
- },
- "gu": {
-  "title": "એક વર્ગખંડને સંગ્રહાલયની ભેટ આપો",
-  "subheading": "ચેરિટી લેગસી પાસ",
-  "description": "આપનું દાન એવા વિદ્યાર્થીઓ અને સામુદાયિક જૂથો માટે દ્વાર ખોલે છે, જેઓ અન્યથા મુલાકાત લઈ શકતા નથી — જેથી દરેક બાળક દસ હજાર વર્ષના ઇતિહાસમાંથી પસાર થઈ શકે અને થોડા વધુ ગૌરવ સાથે પાછું ફરે.",
-  "media": [
-   {
-    "alt": "ઊંચા કોતરણીવાળા મૉડેલ તરફ ઊંચે નિહાળતો એક યુવાન મુલાકાતી"
-   }
-  ],
-  "action": {
-   "label": "વર્ગની મુલાકાત પ્રાયોજિત કરો"
+  "gu": {
+    "title": "એક વર્ગખંડને સંગ્રહાલયની ભેટ આપો",
+    "subheading": "ચેરિટી લેગસી પાસ",
+    "description": "આપનું દાન એવા વિદ્યાર્થીઓ અને સામુદાયિક જૂથો માટે દ્વાર ખોલે છે, જેઓ અન્યથા મુલાકાત લઈ શકતા નથી — જેથી દરેક બાળક દસ હજાર વર્ષના ઇતિહાસમાંથી પસાર થઈ શકે અને થોડા વધુ ગૌરવ સાથે પાછું ફરે.",
+    "media": [
+      {
+        "alt": "ઊંચા કોતરણીવાળા મૉડેલ તરફ ઊંચે નિહાળતો એક યુવાન મુલાકાતી"
+      }
+    ],
+    "action": {
+      "label": "વર્ગની મુલાકાત પ્રાયોજિત કરો"
+    },
+    "topics": [
+      {
+        "id": "impact",
+        "description": "શરૂઆતથી અત્યાર સુધીમાં <mark class=\"todo\">[NUMBER]</mark> વિદ્યાર્થીઓએ લેગસી પાસ દ્વારા મુલાકાત લીધી છે."
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "impact",
-    "description": "શરૂઆતથી અત્યાર સુધીમાં <mark class=\"todo\">[NUMBER]</mark> વિદ્યાર્થીઓએ લેગસી પાસ દ્વારા મુલાકાત લીધી છે."
-   }
-  ]
- },
- "hi": {
-  "title": "एक कक्षा को संग्रहालय का उपहार दें",
-  "subheading": "चैरिटी लेगेसी पास",
-  "description": "आपका दान उन विद्यार्थियों और सामुदायिक समूहों के लिए द्वार खोलता है जो अन्यथा यहाँ नहीं आ पाते — ताकि हर बच्चा दस हज़ार वर्षों के इतिहास से होकर गुज़रे और थोड़े अधिक गर्व के साथ लौटे।",
-  "media": [
-   {
-    "alt": "एक ऊँचे नक्काशीदार मॉडल को ऊपर निहारता एक युवा आगंतुक"
-   }
-  ],
-  "action": {
-   "label": "एक कक्षा के भ्रमण को प्रायोजित करें"
-  },
-  "topics": [
-   {
-    "id": "impact",
-    "description": "शुरुआत से अब तक <mark class=\"todo\">[NUMBER]</mark> विद्यार्थी लेगेसी पास के माध्यम से भ्रमण कर चुके हैं।"
-   }
-  ]
- }
+  "hi": {
+    "title": "एक कक्षा को संग्रहालय का उपहार दें",
+    "subheading": "चैरिटी लेगेसी पास",
+    "description": "आपका दान उन विद्यार्थियों और सामुदायिक समूहों के लिए द्वार खोलता है जो अन्यथा यहाँ नहीं आ पाते — ताकि हर बच्चा दस हज़ार वर्षों के इतिहास से होकर गुज़रे और थोड़े अधिक गर्व के साथ लौटे।",
+    "media": [
+      {
+        "alt": "एक ऊँचे नक्काशीदार मॉडल को ऊपर निहारता एक युवा आगंतुक"
+      }
+    ],
+    "action": {
+      "label": "एक कक्षा के भ्रमण को प्रायोजित करें"
+    },
+    "topics": [
+      {
+        "id": "impact",
+        "description": "शुरुआत से अब तक <mark class=\"todo\">[NUMBER]</mark> विद्यार्थी लेगेसी पास के माध्यम से भ्रमण कर चुके हैं।"
+      }
+    ]
+  }
 }

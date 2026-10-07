@@ -1,25 +1,25 @@
 {
- "en": {
-  "id": "hero",
-  "title": "Walking into Scripture",
-  "subheading": "Gallery 03 · Floor <mark class=\"todo\">[X]</mark>",
-  "description": "Yoga, karma, ahimsa and bhakti, and the shared roots of India’s dharmic traditions.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/sage-scripture-panels.jpg",
-    "alt": ""
-   }
-  ]
- },
- "gu": {
-  "title": "શાસ્ત્રોની સફર",
-  "subheading": "ગેલેરી 03 · માળ <mark class=\"todo\">[X]</mark>",
-  "description": "યોગ, કર્મ, અહિંસા અને ભક્તિ, તથા ભારતની ધાર્મિક પરંપરાઓનાં સહિયારાં મૂળ."
- },
- "hi": {
-  "title": "शास्त्रों की यात्रा",
-  "subheading": "गैलरी 03 · तल <mark class=\"todo\">[X]</mark>",
-  "description": "योग, कर्म, अहिंसा और भक्ति, तथा भारत की धार्मिक परंपराओं की साझी जड़ें।"
- }
+  "en": {
+    "id": "hero",
+    "title": "Walking into Scripture",
+    "subheading": "Gallery 03 · Floor <mark class=\"todo\">[X]</mark>",
+    "description": "Yoga, karma, ahimsa and bhakti, and the shared roots of India’s dharmic traditions.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/sage-scripture-panels.jpg",
+        "alt": ""
+      }
+    ]
+  },
+  "gu": {
+    "title": "શાસ્ત્રોની સફર",
+    "subheading": "ગેલેરી 03 · માળ <mark class=\"todo\">[X]</mark>",
+    "description": "યોગ, કર્મ, અહિંસા અને ભક્તિ, તથા ભારતની ધાર્મિક પરંપરાઓનાં સહિયારાં મૂળ."
+  },
+  "hi": {
+    "title": "शास्त्रों की यात्रा",
+    "subheading": "गैलरी 03 · तल <mark class=\"todo\">[X]</mark>",
+    "description": "योग, कर्म, अहिंसा और भक्ति, तथा भारत की धार्मिक परंपराओं की साझी जड़ें।"
+  }
 }

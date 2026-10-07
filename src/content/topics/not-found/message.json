@@ -1,53 +1,53 @@
 {
- "en": {
-  "id": "message",
-  "title": "This gallery isn’t on the map.",
-  "subheading": "Page not found",
-  "description": "The page you were looking for may have moved. Start from the home page, or plan your visit.",
-  "action": {
-   "label": "Go to the home page",
-   "link": "/"
-  },
-  "topics": [
-   {
-    "id": "secondary",
+  "en": {
+    "id": "message",
+    "title": "This gallery isn’t on the map.",
+    "subheading": "Page not found",
+    "description": "The page you were looking for may have moved. Start from the home page, or plan your visit.",
     "action": {
-     "label": "Plan your visit",
-     "link": "/visit"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "આ ગેલેરી નકશા પર નથી.",
-  "subheading": "પૃષ્ઠ મળ્યું નથી",
-  "description": "આપ જે પૃષ્ઠ શોધી રહ્યા છો તે કદાચ બીજે ખસેડાયું હશે. મુખપૃષ્ઠથી શરૂઆત કરો, અથવા આપની મુલાકાતનું આયોજન કરો.",
-  "action": {
-   "label": "મુખપૃષ્ઠ પર જાઓ"
+      "label": "Go to the home page",
+      "link": "/"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "Plan your visit",
+          "link": "/visit"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "secondary",
+  "gu": {
+    "title": "આ ગેલેરી નકશા પર નથી.",
+    "subheading": "પૃષ્ઠ મળ્યું નથી",
+    "description": "આપ જે પૃષ્ઠ શોધી રહ્યા છો તે કદાચ બીજે ખસેડાયું હશે. મુખપૃષ્ઠથી શરૂઆત કરો, અથવા આપની મુલાકાતનું આયોજન કરો.",
     "action": {
-     "label": "આપની મુલાકાતનું આયોજન"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "यह गैलरी नक्शे पर नहीं है।",
-  "subheading": "पृष्ठ नहीं मिला",
-  "description": "आप जिस पृष्ठ को खोज रहे हैं, वह संभवतः कहीं और स्थानांतरित हो गया है। मुखपृष्ठ से आरंभ करें, या अपनी यात्रा की योजना बनाएँ।",
-  "action": {
-   "label": "मुखपृष्ठ पर जाएँ"
+      "label": "મુખપૃષ્ઠ પર જાઓ"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "આપની મુલાકાતનું આયોજન"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "secondary",
+  "hi": {
+    "title": "यह गैलरी नक्शे पर नहीं है।",
+    "subheading": "पृष्ठ नहीं मिला",
+    "description": "आप जिस पृष्ठ को खोज रहे हैं, वह संभवतः कहीं और स्थानांतरित हो गया है। मुखपृष्ठ से आरंभ करें, या अपनी यात्रा की योजना बनाएँ।",
     "action": {
-     "label": "अपनी यात्रा की योजना"
-    }
-   }
-  ]
- }
+      "label": "मुखपृष्ठ पर जाएँ"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "अपनी यात्रा की योजना"
+        }
+      }
+    ]
+  }
 }

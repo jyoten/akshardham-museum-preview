@@ -1,706 +1,706 @@
 {
- "en": {
-  "id": "eras",
-  "title": "Eras",
-  "topics": [
-   {
-    "id": "era-01",
-    "title": "First villages",
-    "subheading": "c. 7000 BCE",
-    "description": "At Mehrgarh, in the hills west of the Indus, people grow wheat and barley, herd cattle and build mud-brick homes — among the earliest farming communities in South Asia.",
+  "en": {
+    "id": "eras",
+    "title": "Eras",
     "topics": [
-     {
-      "id": "key-names",
-      "description": "Mehrgarh · early farming · mud-brick settlements"
-     },
-     {
-      "id": "see-1",
-      "title": "[Related exhibit]",
-      "subheading": "Gallery",
-      "description": "Floor [X]",
-      "action": {
-       "link": "#"
+      {
+        "id": "era-01",
+        "title": "First villages",
+        "subheading": "c. 7000 BCE",
+        "description": "At Mehrgarh, in the hills west of the Indus, people grow wheat and barley, herd cattle and build mud-brick homes — among the earliest farming communities in South Asia.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Mehrgarh · early farming · mud-brick settlements"
+          },
+          {
+            "id": "see-1",
+            "title": "[Related exhibit]",
+            "subheading": "Gallery",
+            "description": "Floor [X]",
+            "action": {
+              "link": "#"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-02",
+        "title": "Indus–Sarasvati cities",
+        "subheading": "c. 3300–1300 BCE",
+        "description": "Planned cities rise with grid streets, covered drains, great reservoirs and standard weights. Dholavira, in Gujarat, carefully managed every drop of water in a dry land.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Dholavira · Harappa · Mohenjo-daro · town planning"
+          },
+          {
+            "id": "see-1",
+            "title": "Dholavira town entrance",
+            "subheading": "Architectural replica",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/dholavira-bazaar.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/dholavira-bazaar"
+            }
+          },
+          {
+            "id": "see-2",
+            "title": "Dholavira Bazaar",
+            "subheading": "Diorama",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/dholavira-bazaar.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/dholavira-bazaar"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-03",
+        "title": "The Vedic age",
+        "subheading": "c. 1500–500 BCE",
+        "description": "The Vedas are composed and memorized with extraordinary precision, passed down orally for generations. Sanskrit becomes the language of ritual, philosophy and science.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Rigveda · Upanishads · Sanskrit"
+          },
+          {
+            "id": "see-1",
+            "title": "History of Sanskrit",
+            "subheading": "Gallery section",
+            "description": "Floor [X]",
+            "action": {
+              "link": "/explore/walking-into-scripture"
+            }
+          },
+          {
+            "id": "see-2",
+            "title": "Shanti Mantra",
+            "subheading": "Exhibit",
+            "description": "Floor [X]",
+            "action": {
+              "link": "/explore/walking-into-scripture"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-04",
+        "title": "Seers, schools & science",
+        "subheading": "c. 600–200 BCE",
+        "description": "Teachers question the nature of the self and the world. Mahavira and the Buddha found new paths, Panini writes a complete grammar of Sanskrit, and traditions of medicine take shape.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Panini · Mahavira · the Buddha · traditions of Sushruta and Charaka"
+          },
+          {
+            "id": "see-1",
+            "title": "Rishis of India",
+            "subheading": "Lifelike statues",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/rishis-statues.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/lifelike-scenes"
+            }
+          },
+          {
+            "id": "see-2",
+            "title": "Scientific Achievements of Ancient India",
+            "subheading": "Diorama",
+            "description": "Floor [X]",
+            "action": {
+              "link": "/explore/lifelike-scenes"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-05",
+        "title": "The classical age",
+        "subheading": "c. 200 BCE–600 CE",
+        "description": "Artisans carve and paint Ajanta. Aryabhata calculates the motions of the planets, and great centres of learning like Nalanda draw students from across Asia.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Ajanta · Aryabhata · Nalanda · place-value numerals"
+          },
+          {
+            "id": "see-1",
+            "title": "The Ajanta Caves",
+            "subheading": "Architectural replica",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/ajanta-prayer-hall.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/ajanta"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-06",
+        "title": "The great temple builders",
+        "subheading": "c. 600–1300 CE",
+        "description": "Builders carve the Kailasa temple at Ellora from a single rock, a queen commissions the Rani-ki-Vav stepwell, and the Sun Temple at Konark is built as a colossal stone chariot.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Ellora · Rani-ki-Vav · Konark"
+          },
+          {
+            "id": "see-1",
+            "title": "Rani-ki-Vav",
+            "subheading": "Stepwell replica",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/rani-ki-vav.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/rani-ki-vav"
+            }
+          },
+          {
+            "id": "see-2",
+            "title": "Konark Wheel",
+            "subheading": "Temple sundial replica",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/konark-wheel.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/konark-wheel"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-07",
+        "title": "The Bhakti movement",
+        "subheading": "c. 600–1700 CE",
+        "description": "Poet-saints in every regional language sing of personal devotion to God, open to all regardless of birth. Their songs are still sung across India today.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Alvars and Nayanars · Mirabai · Tulsidas · Narsinh Mehta"
+          },
+          {
+            "id": "see-1",
+            "title": "Bhakti & Yoga",
+            "subheading": "Gallery section",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/sage-scripture-panels.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/walking-into-scripture"
+            }
+          },
+          {
+            "id": "see-2",
+            "title": "Performing Arts of India",
+            "subheading": "Gallery section",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/performing-arts-gallery.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/living-tapestry"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-08",
+        "title": "Bhagwan Swaminarayan",
+        "subheading": "1781–1830",
+        "description": "Born in Chhapaiya, he travels across India before settling in Gujarat, teaching devotion and moral living, building mandirs and leading social reform.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Swaminarayan tradition · Gujarat · social reform"
+          },
+          {
+            "id": "see-1",
+            "title": "Walking into Scripture",
+            "subheading": "Gallery",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/sage-scripture-panels.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/walking-into-scripture"
+            }
+          }
+        ]
+      },
+      {
+        "id": "era-09",
+        "title": "A global family",
+        "subheading": "20th century – today",
+        "description": "Hindu traditions travel with families to every continent. BAPS has built over 1,200 mandirs worldwide, and in 2023 Akshardham opened in Robbinsville, New Jersey.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "Diaspora · mandirs worldwide · Akshardham, Robbinsville"
+          },
+          {
+            "id": "see-1",
+            "title": "A Living Tapestry",
+            "subheading": "Gallery",
+            "description": "Floor [X]",
+            "media": [
+              {
+                "type": "image",
+                "src": "/images/festival-street.jpg",
+                "alt": ""
+              }
+            ],
+            "action": {
+              "link": "/explore/living-tapestry"
+            }
+          }
+        ]
       }
-     }
     ]
-   },
-   {
-    "id": "era-02",
-    "title": "Indus–Sarasvati cities",
-    "subheading": "c. 3300–1300 BCE",
-    "description": "Planned cities rise with grid streets, covered drains, great reservoirs and standard weights. Dholavira, in Gujarat, carefully managed every drop of water in a dry land.",
+  },
+  "gu": {
+    "title": "યુગો",
     "topics": [
-     {
-      "id": "key-names",
-      "description": "Dholavira · Harappa · Mohenjo-daro · town planning"
-     },
-     {
-      "id": "see-1",
-      "title": "Dholavira town entrance",
-      "subheading": "Architectural replica",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/dholavira-bazaar.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/dholavira-bazaar"
+      {
+        "id": "era-01",
+        "title": "પ્રથમ ગામો",
+        "subheading": "આશરે ઈ.સ.પૂ. 7000",
+        "description": "સિંધુની પશ્ચિમે આવેલી ટેકરીઓમાં, મેહરગઢમાં લોકો ઘઉં અને જવ ઉગાડે છે, ઢોર પાળે છે અને માટીની ઈંટોનાં ઘર બાંધે છે — દક્ષિણ એશિયાના સૌથી પ્રાચીન ખેડૂત સમુદાયોમાંનો એક.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "મેહરગઢ · પ્રારંભિક ખેતી · માટીની ઈંટોની વસાહતો"
+          },
+          {
+            "id": "see-1",
+            "title": "[Related exhibit]",
+            "subheading": "ગેલેરી",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-02",
+        "title": "સિંધુ–સરસ્વતીનાં નગરો",
+        "subheading": "આશરે ઈ.સ.પૂ. 3300–1300",
+        "description": "ગ્રીડ જેવી સીધી શેરીઓ, ઢાંકેલી ગટરો, વિશાળ જળાશયો અને પ્રમાણિત વજનો સાથે સુઆયોજિત નગરો ઊભાં થાય છે. ગુજરાતનું ધોળાવીરા સૂકી ધરતી પર પાણીના એક-એક ટીપાનું કાળજીપૂર્વક વ્યવસ્થાપન કરતું હતું.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "ધોળાવીરા · હડપ્પા · મોહેં-જો-દડો · નગર આયોજન"
+          },
+          {
+            "id": "see-1",
+            "title": "ધોળાવીરા નગરનું પ્રવેશદ્વાર",
+            "subheading": "સ્થાપત્યની પ્રતિકૃતિ",
+            "description": "માળ [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "ધોળાવીરાનું બજાર",
+            "subheading": "ડાયોરામા",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-03",
+        "title": "વૈદિક યુગ",
+        "subheading": "આશરે ઈ.સ.પૂ. 1500–500",
+        "description": "વેદોની રચના થાય છે અને અસાધારણ ચોકસાઈથી તેમને કંઠસ્થ કરવામાં આવે છે, અને પેઢીઓ સુધી મૌખિક પરંપરાથી આગળ વધારવામાં આવે છે. સંસ્કૃત વિધિ, તત્ત્વજ્ઞાન અને વિજ્ઞાનની ભાષા બને છે.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "ઋગ્વેદ · ઉપનિષદો · સંસ્કૃત"
+          },
+          {
+            "id": "see-1",
+            "title": "સંસ્કૃતનો ઇતિહાસ",
+            "subheading": "ગેલેરી વિભાગ",
+            "description": "માળ [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "શાંતિ મંત્ર",
+            "subheading": "પ્રદર્શિત કૃતિ",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-04",
+        "title": "ઋષિ-દ્રષ્ટાઓ, દર્શન-પરંપરાઓ અને વિજ્ઞાન",
+        "subheading": "આશરે ઈ.સ.પૂ. 600–200",
+        "description": "આચાર્યો આત્મા અને જગતના સ્વરૂપ વિશે પ્રશ્નો કરે છે. મહાવીર અને બુદ્ધ નવા માર્ગો સ્થાપે છે, પાણિનિ સંસ્કૃતનું સંપૂર્ણ વ્યાકરણ રચે છે, અને ચિકિત્સાની પરંપરાઓ આકાર લે છે.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "પાણિનિ · મહાવીર · બુદ્ધ · સુશ્રુત અને ચરકની પરંપરાઓ"
+          },
+          {
+            "id": "see-1",
+            "title": "ભારતના ઋષિઓ",
+            "subheading": "જીવંત પ્રતિમાઓ",
+            "description": "માળ [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "પ્રાચીન ભારતની વૈજ્ઞાનિક સિદ્ધિઓ",
+            "subheading": "ડાયોરામા",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-05",
+        "title": "શાસ્ત્રીય યુગ",
+        "subheading": "આશરે ઈ.સ.પૂ. 200–ઈ.સ. 600",
+        "description": "કારીગરો અજંતામાં કોતરણી અને ચિત્રકામ કરે છે. આર્યભટ ગ્રહોની ગતિની ગણતરી કરે છે, અને નાલંદા જેવાં મહાન વિદ્યાકેન્દ્રો સમગ્ર એશિયામાંથી વિદ્યાર્થીઓને આકર્ષે છે.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "અજંતા · આર્યભટ · નાલંદા · સ્થાનમૂલ્ય આધારિત અંકો"
+          },
+          {
+            "id": "see-1",
+            "title": "અજંતાની ગુફાઓ",
+            "subheading": "સ્થાપત્યની પ્રતિકૃતિ",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-06",
+        "title": "મહાન મંદિર-નિર્માતાઓ",
+        "subheading": "આશરે ઈ.સ. 600–1300",
+        "description": "શિલ્પીઓ ઇલોરામાં એક જ ખડકમાંથી કૈલાસ મંદિર કોતરે છે, એક રાણી રાણકી વાવનું નિર્માણ કરાવે છે, અને કોણાર્કનું સૂર્યમંદિર પથ્થરના વિરાટ રથ સ્વરૂપે રચાય છે.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "ઇલોરા · રાણકી વાવ · કોણાર્ક"
+          },
+          {
+            "id": "see-1",
+            "title": "રાણકી વાવ",
+            "subheading": "વાવની પ્રતિકૃતિ",
+            "description": "માળ [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "કોણાર્કનું ચક્ર",
+            "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-07",
+        "title": "ભક્તિ આંદોલન",
+        "subheading": "આશરે ઈ.સ. 600–1700",
+        "description": "દરેક પ્રાદેશિક ભાષાના સંત-કવિઓ ભગવાન પ્રત્યેની વ્યક્તિગત ભક્તિનાં ગીતો ગાય છે, જે જન્મના ભેદ વિના સૌ માટે ખુલ્લી છે. તેમનાં પદો આજે પણ સમગ્ર ભારતમાં ગવાય છે.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "આળવાર અને નાયનાર · મીરાંબાઈ · તુલસીદાસ · નરસિંહ મહેતા"
+          },
+          {
+            "id": "see-1",
+            "title": "ભક્તિ અને યોગ",
+            "subheading": "ગેલેરી વિભાગ",
+            "description": "માળ [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "ભારતની પ્રદર્શન કળાઓ",
+            "subheading": "ગેલેરી વિભાગ",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-08",
+        "title": "ભગવાન સ્વામિનારાયણ",
+        "subheading": "1781–1830",
+        "description": "છપૈયામાં જન્મેલા ભગવાન સ્વામિનારાયણ ગુજરાતમાં સ્થાયી થતાં પહેલાં સમગ્ર ભારતમાં વિચરણ કરે છે; તેઓ ભક્તિ અને નૈતિક જીવનનો ઉપદેશ આપે છે, મંદિરો રચે છે અને સામાજિક સુધારાનું નેતૃત્વ કરે છે.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "સ્વામિનારાયણ પરંપરા · ગુજરાત · સામાજિક સુધારા"
+          },
+          {
+            "id": "see-1",
+            "title": "શાસ્ત્રોની સફર",
+            "subheading": "ગેલેરી",
+            "description": "માળ [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-09",
+        "title": "એક વૈશ્વિક પરિવાર",
+        "subheading": "20મી સદી – આજ સુધી",
+        "description": "હિંદુ પરંપરાઓ પરિવારોની સાથે દરેક ખંડ સુધી પહોંચે છે. BAPS એ વિશ્વભરમાં 1,200 થી વધુ મંદિરો રચ્યાં છે, અને 2023 માં રોબિન્સવિલ, ન્યૂ જર્સીમાં અક્ષરધામનું ઉદ્ઘાટન થયું.",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "પ્રવાસી ભારતીય સમુદાય · વિશ્વભરમાં મંદિરો · અક્ષરધામ, રોબિન્સવિલ"
+          },
+          {
+            "id": "see-1",
+            "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
+            "subheading": "ગેલેરી",
+            "description": "માળ [X]"
+          }
+        ]
       }
-     },
-     {
-      "id": "see-2",
-      "title": "Dholavira Bazaar",
-      "subheading": "Diorama",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/dholavira-bazaar.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/dholavira-bazaar"
+    ]
+  },
+  "hi": {
+    "title": "युग",
+    "topics": [
+      {
+        "id": "era-01",
+        "title": "प्रथम गाँव",
+        "subheading": "लगभग 7000 ई.पू.",
+        "description": "सिंधु के पश्चिम की पहाड़ियों में, मेहरगढ़ में लोग गेहूँ और जौ उगाते हैं, पशु पालते हैं और मिट्टी की ईंटों के घर बनाते हैं — दक्षिण एशिया के सबसे प्राचीन कृषक समुदायों में से एक।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "मेहरगढ़ · प्रारंभिक खेती · मिट्टी की ईंटों की बस्तियाँ"
+          },
+          {
+            "id": "see-1",
+            "title": "[Related exhibit]",
+            "subheading": "गैलरी",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-02",
+        "title": "सिंधु–सरस्वती के नगर",
+        "subheading": "लगभग 3300–1300 ई.पू.",
+        "description": "सीधी, जालीदार सड़कों, ढकी हुई नालियों, विशाल जलाशयों और मानक बाटों के साथ सुनियोजित नगर उभरते हैं। गुजरात का धोलावीरा सूखी धरती पर पानी की एक-एक बूँद का सावधानी से प्रबंधन करता था।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "धोलावीरा · हड़प्पा · मोहनजोदड़ो · नगर नियोजन"
+          },
+          {
+            "id": "see-1",
+            "title": "धोलावीरा नगर का प्रवेश द्वार",
+            "subheading": "स्थापत्य प्रतिकृति",
+            "description": "तल [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "धोलावीरा का बाज़ार",
+            "subheading": "डायोरामा",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-03",
+        "title": "वैदिक युग",
+        "subheading": "लगभग 1500–500 ई.पू.",
+        "description": "वेदों की रचना होती है और उन्हें असाधारण सटीकता से कंठस्थ किया जाता है, तथा पीढ़ियों तक मौखिक परंपरा से आगे बढ़ाया जाता है। संस्कृत अनुष्ठान, दर्शन और विज्ञान की भाषा बन जाती है।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "ऋग्वेद · उपनिषद · संस्कृत"
+          },
+          {
+            "id": "see-1",
+            "title": "संस्कृत का इतिहास",
+            "subheading": "गैलरी खंड",
+            "description": "तल [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "शांति मंत्र",
+            "subheading": "प्रदर्शित कृति",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-04",
+        "title": "द्रष्टा, दर्शन-परंपराएँ और विज्ञान",
+        "subheading": "लगभग 600–200 ई.पू.",
+        "description": "आचार्य आत्मा और जगत के स्वरूप पर प्रश्न करते हैं। महावीर और बुद्ध नए मार्गों की स्थापना करते हैं, पाणिनि संस्कृत का संपूर्ण व्याकरण रचते हैं, और चिकित्सा की परंपराएँ आकार लेती हैं।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "पाणिनि · महावीर · बुद्ध · सुश्रुत और चरक की परंपराएँ"
+          },
+          {
+            "id": "see-1",
+            "title": "भारत के ऋषिगण",
+            "subheading": "सजीव प्रतिमाएँ",
+            "description": "तल [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "प्राचीन भारत की वैज्ञानिक उपलब्धियाँ",
+            "subheading": "डायोरामा",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-05",
+        "title": "शास्त्रीय युग",
+        "subheading": "लगभग 200 ई.पू.–600 ई.",
+        "description": "कारीगर अजंता में नक्काशी और चित्रकारी करते हैं। आर्यभट ग्रहों की गति की गणना करते हैं, और नालंदा जैसे महान विद्या-केंद्र पूरे एशिया से विद्यार्थियों को आकर्षित करते हैं।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "अजंता · आर्यभट · नालंदा · स्थानीय मान वाले अंक"
+          },
+          {
+            "id": "see-1",
+            "title": "अजंता की गुफाएँ",
+            "subheading": "स्थापत्य प्रतिकृति",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-06",
+        "title": "महान मंदिर-निर्माता",
+        "subheading": "लगभग 600–1300 ई.",
+        "description": "शिल्पी एलोरा में एक ही चट्टान से कैलाश मंदिर तराशते हैं, एक रानी रानी की वाव का निर्माण करवाती हैं, और कोणार्क का सूर्य मंदिर पत्थर के विराट रथ के रूप में बनाया जाता है।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "एलोरा · रानी की वाव · कोणार्क"
+          },
+          {
+            "id": "see-1",
+            "title": "रानी की वाव",
+            "subheading": "वाव की प्रतिकृति",
+            "description": "तल [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "कोणार्क चक्र",
+            "subheading": "मंदिर की सूर्य-घड़ी की प्रतिकृति",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-07",
+        "title": "भक्ति आंदोलन",
+        "subheading": "लगभग 600–1700 ई.",
+        "description": "हर क्षेत्रीय भाषा के संत-कवि भगवान के प्रति व्यक्तिगत भक्ति के गीत गाते हैं, जो जन्म के भेद के बिना सभी के लिए खुली है। उनके पद आज भी पूरे भारत में गाए जाते हैं।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "आलवार और नायनार · मीराबाई · तुलसीदास · नरसिंह मेहता"
+          },
+          {
+            "id": "see-1",
+            "title": "भक्ति और योग",
+            "subheading": "गैलरी खंड",
+            "description": "तल [X]"
+          },
+          {
+            "id": "see-2",
+            "title": "भारत की प्रदर्शन कलाएँ",
+            "subheading": "गैलरी खंड",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-08",
+        "title": "भगवान स्वामीनारायण",
+        "subheading": "1781–1830",
+        "description": "छपैया में जन्मे भगवान स्वामीनारायण गुजरात में बसने से पहले पूरे भारत में विचरण करते हैं; वे भक्ति और नैतिक जीवन का उपदेश देते हैं, मंदिरों का निर्माण करते हैं और सामाजिक सुधार का नेतृत्व करते हैं।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "स्वामीनारायण परंपरा · गुजरात · सामाजिक सुधार"
+          },
+          {
+            "id": "see-1",
+            "title": "शास्त्रों की यात्रा",
+            "subheading": "गैलरी",
+            "description": "तल [X]"
+          }
+        ]
+      },
+      {
+        "id": "era-09",
+        "title": "एक वैश्विक परिवार",
+        "subheading": "20वीं सदी – आज तक",
+        "description": "हिंदू परंपराएँ परिवारों के साथ हर महाद्वीप तक पहुँचती हैं। BAPS ने विश्व भर में 1,200 से अधिक मंदिरों का निर्माण किया है, और 2023 में रॉबिन्सविल, न्यू जर्सी में अक्षरधाम का उद्घाटन हुआ।",
+        "topics": [
+          {
+            "id": "key-names",
+            "description": "प्रवासी भारतीय समुदाय · विश्व भर में मंदिर · अक्षरधाम, रॉबिन्सविल"
+          },
+          {
+            "id": "see-1",
+            "title": "जीवंत संस्कृति का ताना-बाना",
+            "subheading": "गैलरी",
+            "description": "तल [X]"
+          }
+        ]
       }
-     }
     ]
-   },
-   {
-    "id": "era-03",
-    "title": "The Vedic age",
-    "subheading": "c. 1500–500 BCE",
-    "description": "The Vedas are composed and memorized with extraordinary precision, passed down orally for generations. Sanskrit becomes the language of ritual, philosophy and science.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Rigveda · Upanishads · Sanskrit"
-     },
-     {
-      "id": "see-1",
-      "title": "History of Sanskrit",
-      "subheading": "Gallery section",
-      "description": "Floor [X]",
-      "action": {
-       "link": "/explore/walking-into-scripture"
-      }
-     },
-     {
-      "id": "see-2",
-      "title": "Shanti Mantra",
-      "subheading": "Exhibit",
-      "description": "Floor [X]",
-      "action": {
-       "link": "/explore/walking-into-scripture"
-      }
-     }
-    ]
-   },
-   {
-    "id": "era-04",
-    "title": "Seers, schools & science",
-    "subheading": "c. 600–200 BCE",
-    "description": "Teachers question the nature of the self and the world. Mahavira and the Buddha found new paths, Panini writes a complete grammar of Sanskrit, and traditions of medicine take shape.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Panini · Mahavira · the Buddha · traditions of Sushruta and Charaka"
-     },
-     {
-      "id": "see-1",
-      "title": "Rishis of India",
-      "subheading": "Lifelike statues",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/rishis-statues.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/lifelike-scenes"
-      }
-     },
-     {
-      "id": "see-2",
-      "title": "Scientific Achievements of Ancient India",
-      "subheading": "Diorama",
-      "description": "Floor [X]",
-      "action": {
-       "link": "/explore/lifelike-scenes"
-      }
-     }
-    ]
-   },
-   {
-    "id": "era-05",
-    "title": "The classical age",
-    "subheading": "c. 200 BCE–600 CE",
-    "description": "Artisans carve and paint Ajanta. Aryabhata calculates the motions of the planets, and great centres of learning like Nalanda draw students from across Asia.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Ajanta · Aryabhata · Nalanda · place-value numerals"
-     },
-     {
-      "id": "see-1",
-      "title": "The Ajanta Caves",
-      "subheading": "Architectural replica",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/ajanta-prayer-hall.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/ajanta"
-      }
-     }
-    ]
-   },
-   {
-    "id": "era-06",
-    "title": "The great temple builders",
-    "subheading": "c. 600–1300 CE",
-    "description": "Builders carve the Kailasa temple at Ellora from a single rock, a queen commissions the Rani-ki-Vav stepwell, and the Sun Temple at Konark is built as a colossal stone chariot.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Ellora · Rani-ki-Vav · Konark"
-     },
-     {
-      "id": "see-1",
-      "title": "Rani-ki-Vav",
-      "subheading": "Stepwell replica",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/rani-ki-vav.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/rani-ki-vav"
-      }
-     },
-     {
-      "id": "see-2",
-      "title": "Konark Wheel",
-      "subheading": "Temple sundial replica",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/konark-wheel.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/konark-wheel"
-      }
-     }
-    ]
-   },
-   {
-    "id": "era-07",
-    "title": "The Bhakti movement",
-    "subheading": "c. 600–1700 CE",
-    "description": "Poet-saints in every regional language sing of personal devotion to God, open to all regardless of birth. Their songs are still sung across India today.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Alvars and Nayanars · Mirabai · Tulsidas · Narsinh Mehta"
-     },
-     {
-      "id": "see-1",
-      "title": "Bhakti & Yoga",
-      "subheading": "Gallery section",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/sage-scripture-panels.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/walking-into-scripture"
-      }
-     },
-     {
-      "id": "see-2",
-      "title": "Performing Arts of India",
-      "subheading": "Gallery section",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/performing-arts-gallery.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/living-tapestry"
-      }
-     }
-    ]
-   },
-   {
-    "id": "era-08",
-    "title": "Bhagwan Swaminarayan",
-    "subheading": "1781–1830",
-    "description": "Born in Chhapaiya, he travels across India before settling in Gujarat, teaching devotion and moral living, building mandirs and leading social reform.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Swaminarayan tradition · Gujarat · social reform"
-     },
-     {
-      "id": "see-1",
-      "title": "Walking into Scripture",
-      "subheading": "Gallery",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/sage-scripture-panels.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/walking-into-scripture"
-      }
-     }
-    ]
-   },
-   {
-    "id": "era-09",
-    "title": "A global family",
-    "subheading": "20th century – today",
-    "description": "Hindu traditions travel with families to every continent. BAPS has built over 1,200 mandirs worldwide, and in 2023 Akshardham opened in Robbinsville, New Jersey.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "Diaspora · mandirs worldwide · Akshardham, Robbinsville"
-     },
-     {
-      "id": "see-1",
-      "title": "A Living Tapestry",
-      "subheading": "Gallery",
-      "description": "Floor [X]",
-      "media": [
-       {
-        "type": "image",
-        "src": "/images/festival-street.jpg",
-        "alt": ""
-       }
-      ],
-      "action": {
-       "link": "/explore/living-tapestry"
-      }
-     }
-    ]
-   }
-  ]
- },
- "gu": {
-  "title": "યુગો",
-  "topics": [
-   {
-    "id": "era-01",
-    "title": "પ્રથમ ગામો",
-    "subheading": "આશરે ઈ.સ.પૂ. 7000",
-    "description": "સિંધુની પશ્ચિમે આવેલી ટેકરીઓમાં, મેહરગઢમાં લોકો ઘઉં અને જવ ઉગાડે છે, ઢોર પાળે છે અને માટીની ઈંટોનાં ઘર બાંધે છે — દક્ષિણ એશિયાના સૌથી પ્રાચીન ખેડૂત સમુદાયોમાંનો એક.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "મેહરગઢ · પ્રારંભિક ખેતી · માટીની ઈંટોની વસાહતો"
-     },
-     {
-      "id": "see-1",
-      "title": "[Related exhibit]",
-      "subheading": "ગેલેરી",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-02",
-    "title": "સિંધુ–સરસ્વતીનાં નગરો",
-    "subheading": "આશરે ઈ.સ.પૂ. 3300–1300",
-    "description": "ગ્રીડ જેવી સીધી શેરીઓ, ઢાંકેલી ગટરો, વિશાળ જળાશયો અને પ્રમાણિત વજનો સાથે સુઆયોજિત નગરો ઊભાં થાય છે. ગુજરાતનું ધોળાવીરા સૂકી ધરતી પર પાણીના એક-એક ટીપાનું કાળજીપૂર્વક વ્યવસ્થાપન કરતું હતું.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "ધોળાવીરા · હડપ્પા · મોહેં-જો-દડો · નગર આયોજન"
-     },
-     {
-      "id": "see-1",
-      "title": "ધોળાવીરા નગરનું પ્રવેશદ્વાર",
-      "subheading": "સ્થાપત્યની પ્રતિકૃતિ",
-      "description": "માળ [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "ધોળાવીરાનું બજાર",
-      "subheading": "ડાયોરામા",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-03",
-    "title": "વૈદિક યુગ",
-    "subheading": "આશરે ઈ.સ.પૂ. 1500–500",
-    "description": "વેદોની રચના થાય છે અને અસાધારણ ચોકસાઈથી તેમને કંઠસ્થ કરવામાં આવે છે, અને પેઢીઓ સુધી મૌખિક પરંપરાથી આગળ વધારવામાં આવે છે. સંસ્કૃત વિધિ, તત્ત્વજ્ઞાન અને વિજ્ઞાનની ભાષા બને છે.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "ઋગ્વેદ · ઉપનિષદો · સંસ્કૃત"
-     },
-     {
-      "id": "see-1",
-      "title": "સંસ્કૃતનો ઇતિહાસ",
-      "subheading": "ગેલેરી વિભાગ",
-      "description": "માળ [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "શાંતિ મંત્ર",
-      "subheading": "પ્રદર્શિત કૃતિ",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-04",
-    "title": "ઋષિ-દ્રષ્ટાઓ, દર્શન-પરંપરાઓ અને વિજ્ઞાન",
-    "subheading": "આશરે ઈ.સ.પૂ. 600–200",
-    "description": "આચાર્યો આત્મા અને જગતના સ્વરૂપ વિશે પ્રશ્નો કરે છે. મહાવીર અને બુદ્ધ નવા માર્ગો સ્થાપે છે, પાણિનિ સંસ્કૃતનું સંપૂર્ણ વ્યાકરણ રચે છે, અને ચિકિત્સાની પરંપરાઓ આકાર લે છે.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "પાણિનિ · મહાવીર · બુદ્ધ · સુશ્રુત અને ચરકની પરંપરાઓ"
-     },
-     {
-      "id": "see-1",
-      "title": "ભારતના ઋષિઓ",
-      "subheading": "જીવંત પ્રતિમાઓ",
-      "description": "માળ [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "પ્રાચીન ભારતની વૈજ્ઞાનિક સિદ્ધિઓ",
-      "subheading": "ડાયોરામા",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-05",
-    "title": "શાસ્ત્રીય યુગ",
-    "subheading": "આશરે ઈ.સ.પૂ. 200–ઈ.સ. 600",
-    "description": "કારીગરો અજંતામાં કોતરણી અને ચિત્રકામ કરે છે. આર્યભટ ગ્રહોની ગતિની ગણતરી કરે છે, અને નાલંદા જેવાં મહાન વિદ્યાકેન્દ્રો સમગ્ર એશિયામાંથી વિદ્યાર્થીઓને આકર્ષે છે.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "અજંતા · આર્યભટ · નાલંદા · સ્થાનમૂલ્ય આધારિત અંકો"
-     },
-     {
-      "id": "see-1",
-      "title": "અજંતાની ગુફાઓ",
-      "subheading": "સ્થાપત્યની પ્રતિકૃતિ",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-06",
-    "title": "મહાન મંદિર-નિર્માતાઓ",
-    "subheading": "આશરે ઈ.સ. 600–1300",
-    "description": "શિલ્પીઓ ઇલોરામાં એક જ ખડકમાંથી કૈલાસ મંદિર કોતરે છે, એક રાણી રાણકી વાવનું નિર્માણ કરાવે છે, અને કોણાર્કનું સૂર્યમંદિર પથ્થરના વિરાટ રથ સ્વરૂપે રચાય છે.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "ઇલોરા · રાણકી વાવ · કોણાર્ક"
-     },
-     {
-      "id": "see-1",
-      "title": "રાણકી વાવ",
-      "subheading": "વાવની પ્રતિકૃતિ",
-      "description": "માળ [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "કોણાર્કનું ચક્ર",
-      "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-07",
-    "title": "ભક્તિ આંદોલન",
-    "subheading": "આશરે ઈ.સ. 600–1700",
-    "description": "દરેક પ્રાદેશિક ભાષાના સંત-કવિઓ ભગવાન પ્રત્યેની વ્યક્તિગત ભક્તિનાં ગીતો ગાય છે, જે જન્મના ભેદ વિના સૌ માટે ખુલ્લી છે. તેમનાં પદો આજે પણ સમગ્ર ભારતમાં ગવાય છે.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "આળવાર અને નાયનાર · મીરાંબાઈ · તુલસીદાસ · નરસિંહ મહેતા"
-     },
-     {
-      "id": "see-1",
-      "title": "ભક્તિ અને યોગ",
-      "subheading": "ગેલેરી વિભાગ",
-      "description": "માળ [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "ભારતની પ્રદર્શન કળાઓ",
-      "subheading": "ગેલેરી વિભાગ",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-08",
-    "title": "ભગવાન સ્વામિનારાયણ",
-    "subheading": "1781–1830",
-    "description": "છપૈયામાં જન્મેલા ભગવાન સ્વામિનારાયણ ગુજરાતમાં સ્થાયી થતાં પહેલાં સમગ્ર ભારતમાં વિચરણ કરે છે; તેઓ ભક્તિ અને નૈતિક જીવનનો ઉપદેશ આપે છે, મંદિરો રચે છે અને સામાજિક સુધારાનું નેતૃત્વ કરે છે.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "સ્વામિનારાયણ પરંપરા · ગુજરાત · સામાજિક સુધારા"
-     },
-     {
-      "id": "see-1",
-      "title": "શાસ્ત્રોની સફર",
-      "subheading": "ગેલેરી",
-      "description": "માળ [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-09",
-    "title": "એક વૈશ્વિક પરિવાર",
-    "subheading": "20મી સદી – આજ સુધી",
-    "description": "હિંદુ પરંપરાઓ પરિવારોની સાથે દરેક ખંડ સુધી પહોંચે છે. BAPS એ વિશ્વભરમાં 1,200 થી વધુ મંદિરો રચ્યાં છે, અને 2023 માં રોબિન્સવિલ, ન્યૂ જર્સીમાં અક્ષરધામનું ઉદ્ઘાટન થયું.",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "પ્રવાસી ભારતીય સમુદાય · વિશ્વભરમાં મંદિરો · અક્ષરધામ, રોબિન્સવિલ"
-     },
-     {
-      "id": "see-1",
-      "title": "જીવંત સંસ્કૃતિનો તાણોવાણો",
-      "subheading": "ગેલેરી",
-      "description": "માળ [X]"
-     }
-    ]
-   }
-  ]
- },
- "hi": {
-  "title": "युग",
-  "topics": [
-   {
-    "id": "era-01",
-    "title": "प्रथम गाँव",
-    "subheading": "लगभग 7000 ई.पू.",
-    "description": "सिंधु के पश्चिम की पहाड़ियों में, मेहरगढ़ में लोग गेहूँ और जौ उगाते हैं, पशु पालते हैं और मिट्टी की ईंटों के घर बनाते हैं — दक्षिण एशिया के सबसे प्राचीन कृषक समुदायों में से एक।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "मेहरगढ़ · प्रारंभिक खेती · मिट्टी की ईंटों की बस्तियाँ"
-     },
-     {
-      "id": "see-1",
-      "title": "[Related exhibit]",
-      "subheading": "गैलरी",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-02",
-    "title": "सिंधु–सरस्वती के नगर",
-    "subheading": "लगभग 3300–1300 ई.पू.",
-    "description": "सीधी, जालीदार सड़कों, ढकी हुई नालियों, विशाल जलाशयों और मानक बाटों के साथ सुनियोजित नगर उभरते हैं। गुजरात का धोलावीरा सूखी धरती पर पानी की एक-एक बूँद का सावधानी से प्रबंधन करता था।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "धोलावीरा · हड़प्पा · मोहनजोदड़ो · नगर नियोजन"
-     },
-     {
-      "id": "see-1",
-      "title": "धोलावीरा नगर का प्रवेश द्वार",
-      "subheading": "स्थापत्य प्रतिकृति",
-      "description": "तल [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "धोलावीरा का बाज़ार",
-      "subheading": "डायोरामा",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-03",
-    "title": "वैदिक युग",
-    "subheading": "लगभग 1500–500 ई.पू.",
-    "description": "वेदों की रचना होती है और उन्हें असाधारण सटीकता से कंठस्थ किया जाता है, तथा पीढ़ियों तक मौखिक परंपरा से आगे बढ़ाया जाता है। संस्कृत अनुष्ठान, दर्शन और विज्ञान की भाषा बन जाती है।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "ऋग्वेद · उपनिषद · संस्कृत"
-     },
-     {
-      "id": "see-1",
-      "title": "संस्कृत का इतिहास",
-      "subheading": "गैलरी खंड",
-      "description": "तल [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "शांति मंत्र",
-      "subheading": "प्रदर्शित कृति",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-04",
-    "title": "द्रष्टा, दर्शन-परंपराएँ और विज्ञान",
-    "subheading": "लगभग 600–200 ई.पू.",
-    "description": "आचार्य आत्मा और जगत के स्वरूप पर प्रश्न करते हैं। महावीर और बुद्ध नए मार्गों की स्थापना करते हैं, पाणिनि संस्कृत का संपूर्ण व्याकरण रचते हैं, और चिकित्सा की परंपराएँ आकार लेती हैं।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "पाणिनि · महावीर · बुद्ध · सुश्रुत और चरक की परंपराएँ"
-     },
-     {
-      "id": "see-1",
-      "title": "भारत के ऋषिगण",
-      "subheading": "सजीव प्रतिमाएँ",
-      "description": "तल [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "प्राचीन भारत की वैज्ञानिक उपलब्धियाँ",
-      "subheading": "डायोरामा",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-05",
-    "title": "शास्त्रीय युग",
-    "subheading": "लगभग 200 ई.पू.–600 ई.",
-    "description": "कारीगर अजंता में नक्काशी और चित्रकारी करते हैं। आर्यभट ग्रहों की गति की गणना करते हैं, और नालंदा जैसे महान विद्या-केंद्र पूरे एशिया से विद्यार्थियों को आकर्षित करते हैं।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "अजंता · आर्यभट · नालंदा · स्थानीय मान वाले अंक"
-     },
-     {
-      "id": "see-1",
-      "title": "अजंता की गुफाएँ",
-      "subheading": "स्थापत्य प्रतिकृति",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-06",
-    "title": "महान मंदिर-निर्माता",
-    "subheading": "लगभग 600–1300 ई.",
-    "description": "शिल्पी एलोरा में एक ही चट्टान से कैलाश मंदिर तराशते हैं, एक रानी रानी की वाव का निर्माण करवाती हैं, और कोणार्क का सूर्य मंदिर पत्थर के विराट रथ के रूप में बनाया जाता है।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "एलोरा · रानी की वाव · कोणार्क"
-     },
-     {
-      "id": "see-1",
-      "title": "रानी की वाव",
-      "subheading": "वाव की प्रतिकृति",
-      "description": "तल [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "कोणार्क चक्र",
-      "subheading": "मंदिर की सूर्य-घड़ी की प्रतिकृति",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-07",
-    "title": "भक्ति आंदोलन",
-    "subheading": "लगभग 600–1700 ई.",
-    "description": "हर क्षेत्रीय भाषा के संत-कवि भगवान के प्रति व्यक्तिगत भक्ति के गीत गाते हैं, जो जन्म के भेद के बिना सभी के लिए खुली है। उनके पद आज भी पूरे भारत में गाए जाते हैं।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "आलवार और नायनार · मीराबाई · तुलसीदास · नरसिंह मेहता"
-     },
-     {
-      "id": "see-1",
-      "title": "भक्ति और योग",
-      "subheading": "गैलरी खंड",
-      "description": "तल [X]"
-     },
-     {
-      "id": "see-2",
-      "title": "भारत की प्रदर्शन कलाएँ",
-      "subheading": "गैलरी खंड",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-08",
-    "title": "भगवान स्वामीनारायण",
-    "subheading": "1781–1830",
-    "description": "छपैया में जन्मे भगवान स्वामीनारायण गुजरात में बसने से पहले पूरे भारत में विचरण करते हैं; वे भक्ति और नैतिक जीवन का उपदेश देते हैं, मंदिरों का निर्माण करते हैं और सामाजिक सुधार का नेतृत्व करते हैं।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "स्वामीनारायण परंपरा · गुजरात · सामाजिक सुधार"
-     },
-     {
-      "id": "see-1",
-      "title": "शास्त्रों की यात्रा",
-      "subheading": "गैलरी",
-      "description": "तल [X]"
-     }
-    ]
-   },
-   {
-    "id": "era-09",
-    "title": "एक वैश्विक परिवार",
-    "subheading": "20वीं सदी – आज तक",
-    "description": "हिंदू परंपराएँ परिवारों के साथ हर महाद्वीप तक पहुँचती हैं। BAPS ने विश्व भर में 1,200 से अधिक मंदिरों का निर्माण किया है, और 2023 में रॉबिन्सविल, न्यू जर्सी में अक्षरधाम का उद्घाटन हुआ।",
-    "topics": [
-     {
-      "id": "key-names",
-      "description": "प्रवासी भारतीय समुदाय · विश्व भर में मंदिर · अक्षरधाम, रॉबिन्सविल"
-     },
-     {
-      "id": "see-1",
-      "title": "जीवंत संस्कृति का ताना-बाना",
-      "subheading": "गैलरी",
-      "description": "तल [X]"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

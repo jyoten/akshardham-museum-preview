@@ -15,6 +15,7 @@ npm run cms-config   # regenerate the admin setup after adding a document, style
 - **Content**: topics in `src/content/topics/<document>/<topic>.json` (English plus Gujarati and Hindi variations), page layouts in `src/content/pages/<page>.json`, interface labels and script wording in `src/content/strings/`. See **CONTENT-MODEL.md**.
 - **Templates**: `src/pages.njk` builds every page from its layout; each component style is `src/_includes/components/<style>.njk`; the shared header and footer are in `src/_includes/partials/`, the page shell in `src/_includes/layouts/base.njk`.
 - **Hours and notices**: `src/data/site-status.json`, read by `src/js/status.js` in the browser. Admins edit it in `/admin/`; see **ADMIN.md**.
+- **Editing and security**: the editor at `/admin/` saves every change as a pull request; `auth/` is its sign-in service; `npm test` runs the sign-in tests and the content checks. See **SECURITY.md**.
 - `scripts/migrate-v5-content.mjs` turned the v5 text files into topics, and `scripts/convert-v4.py` turned the v4 pages into templates. Both are kept for reference.
 
 ## Review preview on GitHub Pages

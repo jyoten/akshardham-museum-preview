@@ -1,0 +1,17 @@
+# Example Cloudflare Workers settings. Copy to wrangler.toml (not committed) and fill in.
+# Secrets are set with `wrangler secret put NAME`, never written here:
+#   SESSION_SECRET, GITHUB_TOKEN, SIMPLE_USERS, and for SSO: SSO_CLIENT_ID, SSO_CLIENT_KEY
+name = "museum-editor-auth"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://museum.example.org"   # where /admin/ is served, no trailing slash
+AUTH_PROVIDERS = "simple"                        # "simple", "baps-sso" or "simple,baps-sso"
+# SSO_BASE_URL = "https://sso.example.org"
+# SSO_ALLOWED_EDITORS = "priya@example.org,nand"
+
+# Optional, recommended: share the failed-sign-in counts across all instances.
+# [[kv_namespaces]]
+# binding = "AUTH_KV"
+# id = "…"

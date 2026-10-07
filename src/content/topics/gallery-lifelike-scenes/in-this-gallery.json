@@ -1,68 +1,68 @@
 {
- "en": {
-  "id": "in-this-gallery",
-  "title": "In this gallery",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "rishis-of-india",
-    "title": "Rishis of India",
-    "subheading": "Lifelike statues",
-    "media": [
-     {
-      "type": "image",
-      "src": "/images/rishis-statues.jpg",
-      "alt": "Lifelike statues of two rishis in a museum gallery"
-     }
+  "en": {
+    "id": "in-this-gallery",
+    "title": "In this gallery",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "rishis-of-india",
+        "title": "Rishis of India",
+        "subheading": "Lifelike statues",
+        "media": [
+          {
+            "type": "image",
+            "src": "/images/rishis-statues.jpg",
+            "alt": "Lifelike statues of two rishis in a museum gallery"
+          }
+        ]
+      },
+      {
+        "id": "scientific-achievements",
+        "title": "Scientific Achievements of Ancient India",
+        "subheading": "Diorama"
+      }
     ]
-   },
-   {
-    "id": "scientific-achievements",
-    "title": "Scientific Achievements of Ancient India",
-    "subheading": "Diorama"
-   }
-  ]
- },
- "gu": {
-  "title": "આ ગેલેરીમાં",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "rishis-of-india",
-    "title": "ભારતના ઋષિઓ",
-    "subheading": "જીવંત પ્રતિમાઓ",
-    "media": [
-     {
-      "alt": "સંગ્રહાલયની ગેલેરીમાં બે ઋષિઓની જીવંત પ્રતિમાઓ"
-     }
+  },
+  "gu": {
+    "title": "આ ગેલેરીમાં",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "rishis-of-india",
+        "title": "ભારતના ઋષિઓ",
+        "subheading": "જીવંત પ્રતિમાઓ",
+        "media": [
+          {
+            "alt": "સંગ્રહાલયની ગેલેરીમાં બે ઋષિઓની જીવંત પ્રતિમાઓ"
+          }
+        ]
+      },
+      {
+        "id": "scientific-achievements",
+        "title": "પ્રાચીન ભારતની વૈજ્ઞાનિક સિદ્ધિઓ",
+        "subheading": "ડાયોરામા"
+      }
     ]
-   },
-   {
-    "id": "scientific-achievements",
-    "title": "પ્રાચીન ભારતની વૈજ્ઞાનિક સિદ્ધિઓ",
-    "subheading": "ડાયોરામા"
-   }
-  ]
- },
- "hi": {
-  "title": "इस गैलरी में",
-  "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
-  "topics": [
-   {
-    "id": "rishis-of-india",
-    "title": "भारत के ऋषिगण",
-    "subheading": "सजीव प्रतिमाएँ",
-    "media": [
-     {
-      "alt": "संग्रहालय की गैलरी में दो ऋषियों की सजीव प्रतिमाएँ"
-     }
+  },
+  "hi": {
+    "title": "इस गैलरी में",
+    "description": "<mark class=\"todo\">[GALLERY INTRODUCTION]</mark>",
+    "topics": [
+      {
+        "id": "rishis-of-india",
+        "title": "भारत के ऋषिगण",
+        "subheading": "सजीव प्रतिमाएँ",
+        "media": [
+          {
+            "alt": "संग्रहालय की गैलरी में दो ऋषियों की सजीव प्रतिमाएँ"
+          }
+        ]
+      },
+      {
+        "id": "scientific-achievements",
+        "title": "प्राचीन भारत की वैज्ञानिक उपलब्धियाँ",
+        "subheading": "डायोरामा"
+      }
     ]
-   },
-   {
-    "id": "scientific-achievements",
-    "title": "प्राचीन भारत की वैज्ञानिक उपलब्धियाँ",
-    "subheading": "डायोरामा"
-   }
-  ]
- }
+  }
 }

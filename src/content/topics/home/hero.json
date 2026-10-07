@@ -1,70 +1,70 @@
 {
- "en": {
-  "id": "hero",
-  "title": "Ten thousand years of India, under one roof.",
-  "subheading": "The largest Hindu museum in the Western Hemisphere",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/rani-ki-vav.jpg",
-    "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold",
-    "caption": "Rani-ki-Vav stepwell, 11th-century Gujarat · Legacy Architecture, Floor <mark class=\"todo\">[X]</mark>"
-   }
-  ],
-  "action": {
-   "label": "Book timed tickets",
-   "link": "/visit#tickets"
-  },
-  "topics": [
-   {
-    "id": "secondary",
+  "en": {
+    "id": "hero",
+    "title": "Ten thousand years of India, under one roof.",
+    "subheading": "The largest Hindu museum in the Western Hemisphere",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/rani-ki-vav.jpg",
+        "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold",
+        "caption": "Rani-ki-Vav stepwell, 11th-century Gujarat · Legacy Architecture, Floor <mark class=\"todo\">[X]</mark>"
+      }
+    ],
     "action": {
-     "label": "Plan your visit",
-     "link": "/visit"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "ભારતનાં દસ હજાર વર્ષ, એક જ છત નીચે.",
-  "subheading": "પશ્ચિમી ગોળાર્ધનું સૌથી વિશાળ હિન્દુ સંગ્રહાલય",
-  "media": [
-   {
-    "alt": "રાણકી વાવની પ્રતિકૃતિની કોતરણીયુક્ત પથ્થરની ગેલેરીઓ, ઉષ્માભર્યા સોનેરી પ્રકાશમાં ઝળહળતી",
-    "caption": "રાણકી વાવ, 11મી સદીનું ગુજરાત · વારસાનું સ્થાપત્ય, માળ <mark class=\"todo\">[X]</mark>"
-   }
-  ],
-  "action": {
-   "label": "સમયબદ્ધ ટિકિટ બુક કરો"
+      "label": "Book timed tickets",
+      "link": "/visit#tickets"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "Plan your visit",
+          "link": "/visit"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "secondary",
+  "gu": {
+    "title": "ભારતનાં દસ હજાર વર્ષ, એક જ છત નીચે.",
+    "subheading": "પશ્ચિમી ગોળાર્ધનું સૌથી વિશાળ હિન્દુ સંગ્રહાલય",
+    "media": [
+      {
+        "alt": "રાણકી વાવની પ્રતિકૃતિની કોતરણીયુક્ત પથ્થરની ગેલેરીઓ, ઉષ્માભર્યા સોનેરી પ્રકાશમાં ઝળહળતી",
+        "caption": "રાણકી વાવ, 11મી સદીનું ગુજરાત · વારસાનું સ્થાપત્ય, માળ <mark class=\"todo\">[X]</mark>"
+      }
+    ],
     "action": {
-     "label": "આપની મુલાકાતનું આયોજન"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "भारत के दस हज़ार वर्ष, एक ही छत के नीचे।",
-  "subheading": "पश्चिमी गोलार्ध का सबसे बड़ा हिंदू संग्रहालय",
-  "media": [
-   {
-    "alt": "रानी की वाव की प्रतिकृति की नक्काशीदार पत्थर की गैलरियाँ, गर्म सुनहरी रोशनी में आलोकित",
-    "caption": "रानी की वाव, 11वीं सदी का गुजरात · विरासत का स्थापत्य, तल <mark class=\"todo\">[X]</mark>"
-   }
-  ],
-  "action": {
-   "label": "समयबद्ध टिकट बुक करें"
+      "label": "સમયબદ્ધ ટિકિટ બુક કરો"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "આપની મુલાકાતનું આયોજન"
+        }
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "secondary",
+  "hi": {
+    "title": "भारत के दस हज़ार वर्ष, एक ही छत के नीचे।",
+    "subheading": "पश्चिमी गोलार्ध का सबसे बड़ा हिंदू संग्रहालय",
+    "media": [
+      {
+        "alt": "रानी की वाव की प्रतिकृति की नक्काशीदार पत्थर की गैलरियाँ, गर्म सुनहरी रोशनी में आलोकित",
+        "caption": "रानी की वाव, 11वीं सदी का गुजरात · विरासत का स्थापत्य, तल <mark class=\"todo\">[X]</mark>"
+      }
+    ],
     "action": {
-     "label": "अपनी यात्रा की योजना"
-    }
-   }
-  ]
- }
+      "label": "समयबद्ध टिकट बुक करें"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "अपनी यात्रा की योजना"
+        }
+      }
+    ]
+  }
 }

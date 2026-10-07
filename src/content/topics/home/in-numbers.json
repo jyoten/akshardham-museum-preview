@@ -1,108 +1,108 @@
 {
- "en": {
-  "id": "in-numbers",
-  "title": "One building. Every era, region and art form we could carry.",
-  "topics": [
-   {
-    "id": "floors",
-    "title": "3",
-    "subheading": "Floors"
-   },
-   {
-    "id": "replicas",
-    "title": "12",
-    "subheading": "Architectural replicas"
-   },
-   {
-    "id": "dioramas",
-    "title": "85",
-    "subheading": "Immersive dioramas"
-   },
-   {
-    "id": "shows",
-    "title": "40",
-    "subheading": "Multimedia shows"
-   },
-   {
-    "id": "statues",
-    "title": "200",
-    "subheading": "Lifelike statues"
-   },
-   {
-    "id": "square-feet",
-    "title": "100,000+",
-    "subheading": "Square feet"
-   }
-  ]
- },
- "gu": {
-  "title": "એક જ ઇમારત. અમે સમાવી શક્યા તે દરેક યુગ, પ્રદેશ અને કળાસ્વરૂપ.",
-  "topics": [
-   {
-    "id": "floors",
-    "title": "3",
-    "subheading": "માળ"
-   },
-   {
-    "id": "replicas",
-    "title": "12",
-    "subheading": "સ્થાપત્યની પ્રતિકૃતિઓ"
-   },
-   {
-    "id": "dioramas",
-    "title": "85",
-    "subheading": "તલ્લીન કરી દેતા ડાયોરામા"
-   },
-   {
-    "id": "shows",
-    "title": "40",
-    "subheading": "મલ્ટિમીડિયા શો"
-   },
-   {
-    "id": "statues",
-    "title": "200",
-    "subheading": "જીવંત પ્રતિમાઓ"
-   },
-   {
-    "id": "square-feet",
-    "title": "100,000+",
-    "subheading": "ચોરસ ફૂટ"
-   }
-  ]
- },
- "hi": {
-  "title": "एक भवन। हर वह युग, क्षेत्र और कला-रूप जिसे हम समेट सके।",
-  "topics": [
-   {
-    "id": "floors",
-    "title": "3",
-    "subheading": "तल"
-   },
-   {
-    "id": "replicas",
-    "title": "12",
-    "subheading": "स्थापत्य की प्रतिकृतियाँ"
-   },
-   {
-    "id": "dioramas",
-    "title": "85",
-    "subheading": "जीवंत डायोरामा"
-   },
-   {
-    "id": "shows",
-    "title": "40",
-    "subheading": "मल्टीमीडिया शो"
-   },
-   {
-    "id": "statues",
-    "title": "200",
-    "subheading": "सजीव प्रतिमाएँ"
-   },
-   {
-    "id": "square-feet",
-    "title": "100,000+",
-    "subheading": "वर्ग फ़ुट"
-   }
-  ]
- }
+  "en": {
+    "id": "in-numbers",
+    "title": "One building. Every era, region and art form we could carry.",
+    "topics": [
+      {
+        "id": "floors",
+        "title": "3",
+        "subheading": "Floors"
+      },
+      {
+        "id": "replicas",
+        "title": "12",
+        "subheading": "Architectural replicas"
+      },
+      {
+        "id": "dioramas",
+        "title": "85",
+        "subheading": "Immersive dioramas"
+      },
+      {
+        "id": "shows",
+        "title": "40",
+        "subheading": "Multimedia shows"
+      },
+      {
+        "id": "statues",
+        "title": "200",
+        "subheading": "Lifelike statues"
+      },
+      {
+        "id": "square-feet",
+        "title": "100,000+",
+        "subheading": "Square feet"
+      }
+    ]
+  },
+  "gu": {
+    "title": "એક જ ઇમારત. અમે સમાવી શક્યા તે દરેક યુગ, પ્રદેશ અને કળાસ્વરૂપ.",
+    "topics": [
+      {
+        "id": "floors",
+        "title": "3",
+        "subheading": "માળ"
+      },
+      {
+        "id": "replicas",
+        "title": "12",
+        "subheading": "સ્થાપત્યની પ્રતિકૃતિઓ"
+      },
+      {
+        "id": "dioramas",
+        "title": "85",
+        "subheading": "તલ્લીન કરી દેતા ડાયોરામા"
+      },
+      {
+        "id": "shows",
+        "title": "40",
+        "subheading": "મલ્ટિમીડિયા શો"
+      },
+      {
+        "id": "statues",
+        "title": "200",
+        "subheading": "જીવંત પ્રતિમાઓ"
+      },
+      {
+        "id": "square-feet",
+        "title": "100,000+",
+        "subheading": "ચોરસ ફૂટ"
+      }
+    ]
+  },
+  "hi": {
+    "title": "एक भवन। हर वह युग, क्षेत्र और कला-रूप जिसे हम समेट सके।",
+    "topics": [
+      {
+        "id": "floors",
+        "title": "3",
+        "subheading": "तल"
+      },
+      {
+        "id": "replicas",
+        "title": "12",
+        "subheading": "स्थापत्य की प्रतिकृतियाँ"
+      },
+      {
+        "id": "dioramas",
+        "title": "85",
+        "subheading": "जीवंत डायोरामा"
+      },
+      {
+        "id": "shows",
+        "title": "40",
+        "subheading": "मल्टीमीडिया शो"
+      },
+      {
+        "id": "statues",
+        "title": "200",
+        "subheading": "सजीव प्रतिमाएँ"
+      },
+      {
+        "id": "square-feet",
+        "title": "100,000+",
+        "subheading": "वर्ग फ़ुट"
+      }
+    ]
+  }
 }

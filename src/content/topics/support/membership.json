@@ -1,297 +1,297 @@
 {
- "en": {
-  "id": "membership",
-  "title": "Come back as often as you like",
-  "subheading": "Membership",
-  "topics": [
-   {
-    "id": "individual",
-    "title": "Individual",
-    "action": {
-     "label": "Join as Individual",
-     "link": "#"
-    },
+  "en": {
+    "id": "membership",
+    "title": "Come back as often as you like",
+    "subheading": "Membership",
     "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "per year"
-     },
-     {
-      "id": "benefit-1",
-      "title": "Free entry all year for one"
-     },
-     {
-      "id": "benefit-2",
-      "title": "First look at new content"
-     },
-     {
-      "id": "benefit-3",
-      "title": "Guided-tour discount"
-     },
-     {
-      "id": "benefit-4",
-      "title": "Shop discount"
-     }
+      {
+        "id": "individual",
+        "title": "Individual",
+        "action": {
+          "label": "Join as Individual",
+          "link": "#"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "per year"
+          },
+          {
+            "id": "benefit-1",
+            "title": "Free entry all year for one"
+          },
+          {
+            "id": "benefit-2",
+            "title": "First look at new content"
+          },
+          {
+            "id": "benefit-3",
+            "title": "Guided-tour discount"
+          },
+          {
+            "id": "benefit-4",
+            "title": "Shop discount"
+          }
+        ]
+      },
+      {
+        "id": "family",
+        "title": "Family",
+        "subheading": "Most popular",
+        "action": {
+          "label": "Join as Family",
+          "link": "#"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "per year"
+          },
+          {
+            "id": "benefit-1",
+            "title": "Free entry for <mark class=\"todo\">[X]</mark> adults and children"
+          },
+          {
+            "id": "benefit-2",
+            "title": "First look at new content"
+          },
+          {
+            "id": "benefit-3",
+            "title": "Guided-tour discount"
+          },
+          {
+            "id": "benefit-4",
+            "title": "Young explorers kit"
+          }
+        ]
+      },
+      {
+        "id": "patron",
+        "title": "Patron",
+        "action": {
+          "label": "Join as Patron",
+          "link": "#"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "per year"
+          },
+          {
+            "id": "benefit-1",
+            "title": "Everything in Family"
+          },
+          {
+            "id": "benefit-2",
+            "title": "Two guest passes per visit"
+          },
+          {
+            "id": "benefit-3",
+            "title": "Private curator-led tour"
+          },
+          {
+            "id": "benefit-4",
+            "title": "Recognition in Legacy Hall"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "family",
-    "title": "Family",
-    "subheading": "Most popular",
-    "action": {
-     "label": "Join as Family",
-     "link": "#"
-    },
+  },
+  "gu": {
+    "title": "આપ ઇચ્છો તેટલી વાર પધારો",
+    "subheading": "સભ્યપદ",
     "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "per year"
-     },
-     {
-      "id": "benefit-1",
-      "title": "Free entry for <mark class=\"todo\">[X]</mark> adults and children"
-     },
-     {
-      "id": "benefit-2",
-      "title": "First look at new content"
-     },
-     {
-      "id": "benefit-3",
-      "title": "Guided-tour discount"
-     },
-     {
-      "id": "benefit-4",
-      "title": "Young explorers kit"
-     }
+      {
+        "id": "individual",
+        "title": "વ્યક્તિગત",
+        "action": {
+          "label": "વ્યક્તિગત સભ્ય બનો"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "પ્રતિ વર્ષ"
+          },
+          {
+            "id": "benefit-1",
+            "title": "એક વ્યક્તિ માટે આખું વર્ષ નિઃશુલ્ક પ્રવેશ"
+          },
+          {
+            "id": "benefit-2",
+            "title": "નવી સામગ્રી સૌપ્રથમ જોવાનો અવસર"
+          },
+          {
+            "id": "benefit-3",
+            "title": "માર્ગદર્શિત પ્રવાસ પર છૂટ"
+          },
+          {
+            "id": "benefit-4",
+            "title": "દુકાનમાં ખરીદી પર છૂટ"
+          }
+        ]
+      },
+      {
+        "id": "family",
+        "title": "પરિવાર",
+        "subheading": "સૌથી લોકપ્રિય",
+        "action": {
+          "label": "પરિવાર સભ્ય બનો"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "પ્રતિ વર્ષ"
+          },
+          {
+            "id": "benefit-1",
+            "title": "<mark class=\"todo\">[X]</mark> વયસ્કો અને બાળકો માટે નિઃશુલ્ક પ્રવેશ"
+          },
+          {
+            "id": "benefit-2",
+            "title": "નવી સામગ્રી સૌપ્રથમ જોવાનો અવસર"
+          },
+          {
+            "id": "benefit-3",
+            "title": "માર્ગદર્શિત પ્રવાસ પર છૂટ"
+          },
+          {
+            "id": "benefit-4",
+            "title": "નાના અન્વેષકો માટે કિટ"
+          }
+        ]
+      },
+      {
+        "id": "patron",
+        "title": "આશ્રયદાતા",
+        "action": {
+          "label": "આશ્રયદાતા સભ્ય બનો"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "પ્રતિ વર્ષ"
+          },
+          {
+            "id": "benefit-1",
+            "title": "પરિવાર સભ્યપદના બધા લાભો"
+          },
+          {
+            "id": "benefit-2",
+            "title": "દરેક મુલાકાતે બે અતિથિ પાસ"
+          },
+          {
+            "id": "benefit-3",
+            "title": "ક્યુરેટર સાથે ખાનગી માર્ગદર્શિત પ્રવાસ"
+          },
+          {
+            "id": "benefit-4",
+            "title": "વારસા ખંડમાં સન્માન"
+          }
+        ]
+      }
     ]
-   },
-   {
-    "id": "patron",
-    "title": "Patron",
-    "action": {
-     "label": "Join as Patron",
-     "link": "#"
-    },
+  },
+  "hi": {
+    "title": "आप जितनी बार चाहें, पधारें",
+    "subheading": "सदस्यता",
     "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "per year"
-     },
-     {
-      "id": "benefit-1",
-      "title": "Everything in Family"
-     },
-     {
-      "id": "benefit-2",
-      "title": "Two guest passes per visit"
-     },
-     {
-      "id": "benefit-3",
-      "title": "Private curator-led tour"
-     },
-     {
-      "id": "benefit-4",
-      "title": "Recognition in Legacy Hall"
-     }
+      {
+        "id": "individual",
+        "title": "व्यक्तिगत",
+        "action": {
+          "label": "व्यक्तिगत सदस्य बनें"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "प्रति वर्ष"
+          },
+          {
+            "id": "benefit-1",
+            "title": "एक व्यक्ति के लिए पूरे वर्ष निःशुल्क प्रवेश"
+          },
+          {
+            "id": "benefit-2",
+            "title": "नई सामग्री सबसे पहले देखने का अवसर"
+          },
+          {
+            "id": "benefit-3",
+            "title": "मार्गदर्शित भ्रमण पर छूट"
+          },
+          {
+            "id": "benefit-4",
+            "title": "दुकान में खरीदारी पर छूट"
+          }
+        ]
+      },
+      {
+        "id": "family",
+        "title": "परिवार",
+        "subheading": "सबसे लोकप्रिय",
+        "action": {
+          "label": "परिवार सदस्य बनें"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "प्रति वर्ष"
+          },
+          {
+            "id": "benefit-1",
+            "title": "<mark class=\"todo\">[X]</mark> वयस्कों और बच्चों के लिए निःशुल्क प्रवेश"
+          },
+          {
+            "id": "benefit-2",
+            "title": "नई सामग्री सबसे पहले देखने का अवसर"
+          },
+          {
+            "id": "benefit-3",
+            "title": "मार्गदर्शित भ्रमण पर छूट"
+          },
+          {
+            "id": "benefit-4",
+            "title": "नन्हे अन्वेषकों के लिए किट"
+          }
+        ]
+      },
+      {
+        "id": "patron",
+        "title": "संरक्षक",
+        "action": {
+          "label": "संरक्षक सदस्य बनें"
+        },
+        "topics": [
+          {
+            "id": "price",
+            "title": "<mark class=\"todo\">[PRICE]</mark>",
+            "subheading": "प्रति वर्ष"
+          },
+          {
+            "id": "benefit-1",
+            "title": "परिवार सदस्यता के सभी लाभ"
+          },
+          {
+            "id": "benefit-2",
+            "title": "हर भ्रमण पर दो अतिथि पास"
+          },
+          {
+            "id": "benefit-3",
+            "title": "क्यूरेटर के साथ निजी मार्गदर्शित भ्रमण"
+          },
+          {
+            "id": "benefit-4",
+            "title": "विरासत कक्ष में सम्मान"
+          }
+        ]
+      }
     ]
-   }
-  ]
- },
- "gu": {
-  "title": "આપ ઇચ્છો તેટલી વાર પધારો",
-  "subheading": "સભ્યપદ",
-  "topics": [
-   {
-    "id": "individual",
-    "title": "વ્યક્તિગત",
-    "action": {
-     "label": "વ્યક્તિગત સભ્ય બનો"
-    },
-    "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "પ્રતિ વર્ષ"
-     },
-     {
-      "id": "benefit-1",
-      "title": "એક વ્યક્તિ માટે આખું વર્ષ નિઃશુલ્ક પ્રવેશ"
-     },
-     {
-      "id": "benefit-2",
-      "title": "નવી સામગ્રી સૌપ્રથમ જોવાનો અવસર"
-     },
-     {
-      "id": "benefit-3",
-      "title": "માર્ગદર્શિત પ્રવાસ પર છૂટ"
-     },
-     {
-      "id": "benefit-4",
-      "title": "દુકાનમાં ખરીદી પર છૂટ"
-     }
-    ]
-   },
-   {
-    "id": "family",
-    "title": "પરિવાર",
-    "subheading": "સૌથી લોકપ્રિય",
-    "action": {
-     "label": "પરિવાર સભ્ય બનો"
-    },
-    "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "પ્રતિ વર્ષ"
-     },
-     {
-      "id": "benefit-1",
-      "title": "<mark class=\"todo\">[X]</mark> વયસ્કો અને બાળકો માટે નિઃશુલ્ક પ્રવેશ"
-     },
-     {
-      "id": "benefit-2",
-      "title": "નવી સામગ્રી સૌપ્રથમ જોવાનો અવસર"
-     },
-     {
-      "id": "benefit-3",
-      "title": "માર્ગદર્શિત પ્રવાસ પર છૂટ"
-     },
-     {
-      "id": "benefit-4",
-      "title": "નાના અન્વેષકો માટે કિટ"
-     }
-    ]
-   },
-   {
-    "id": "patron",
-    "title": "આશ્રયદાતા",
-    "action": {
-     "label": "આશ્રયદાતા સભ્ય બનો"
-    },
-    "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "પ્રતિ વર્ષ"
-     },
-     {
-      "id": "benefit-1",
-      "title": "પરિવાર સભ્યપદના બધા લાભો"
-     },
-     {
-      "id": "benefit-2",
-      "title": "દરેક મુલાકાતે બે અતિથિ પાસ"
-     },
-     {
-      "id": "benefit-3",
-      "title": "ક્યુરેટર સાથે ખાનગી માર્ગદર્શિત પ્રવાસ"
-     },
-     {
-      "id": "benefit-4",
-      "title": "વારસા ખંડમાં સન્માન"
-     }
-    ]
-   }
-  ]
- },
- "hi": {
-  "title": "आप जितनी बार चाहें, पधारें",
-  "subheading": "सदस्यता",
-  "topics": [
-   {
-    "id": "individual",
-    "title": "व्यक्तिगत",
-    "action": {
-     "label": "व्यक्तिगत सदस्य बनें"
-    },
-    "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "प्रति वर्ष"
-     },
-     {
-      "id": "benefit-1",
-      "title": "एक व्यक्ति के लिए पूरे वर्ष निःशुल्क प्रवेश"
-     },
-     {
-      "id": "benefit-2",
-      "title": "नई सामग्री सबसे पहले देखने का अवसर"
-     },
-     {
-      "id": "benefit-3",
-      "title": "मार्गदर्शित भ्रमण पर छूट"
-     },
-     {
-      "id": "benefit-4",
-      "title": "दुकान में खरीदारी पर छूट"
-     }
-    ]
-   },
-   {
-    "id": "family",
-    "title": "परिवार",
-    "subheading": "सबसे लोकप्रिय",
-    "action": {
-     "label": "परिवार सदस्य बनें"
-    },
-    "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "प्रति वर्ष"
-     },
-     {
-      "id": "benefit-1",
-      "title": "<mark class=\"todo\">[X]</mark> वयस्कों और बच्चों के लिए निःशुल्क प्रवेश"
-     },
-     {
-      "id": "benefit-2",
-      "title": "नई सामग्री सबसे पहले देखने का अवसर"
-     },
-     {
-      "id": "benefit-3",
-      "title": "मार्गदर्शित भ्रमण पर छूट"
-     },
-     {
-      "id": "benefit-4",
-      "title": "नन्हे अन्वेषकों के लिए किट"
-     }
-    ]
-   },
-   {
-    "id": "patron",
-    "title": "संरक्षक",
-    "action": {
-     "label": "संरक्षक सदस्य बनें"
-    },
-    "topics": [
-     {
-      "id": "price",
-      "title": "<mark class=\"todo\">[PRICE]</mark>",
-      "subheading": "प्रति वर्ष"
-     },
-     {
-      "id": "benefit-1",
-      "title": "परिवार सदस्यता के सभी लाभ"
-     },
-     {
-      "id": "benefit-2",
-      "title": "हर भ्रमण पर दो अतिथि पास"
-     },
-     {
-      "id": "benefit-3",
-      "title": "क्यूरेटर के साथ निजी मार्गदर्शित भ्रमण"
-     },
-     {
-      "id": "benefit-4",
-      "title": "विरासत कक्ष में सम्मान"
-     }
-    ]
-   }
-  ]
- }
+  }
 }

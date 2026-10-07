@@ -46,12 +46,9 @@ Text changes are built into the pages, so they appear after the next build/deplo
 ---
 
 ## Setting it up for real (one-time, for whoever hosts the site)
-- **Repository**: put this folder in a GitHub repository and set `repo:` in `scripts/cms-config.js` (then `npm run cms-config`), or directly in `src/admin/config.yml`.
-- **Sign-in for the admin** (pick one):
-  - *Netlify*: host the site on Netlify, enable Identity + Git Gateway, and change the backend to `git-gateway`. Admins sign in with email.
-  - *GitHub Pages*: keep the `github` backend and add an OAuth helper (for example a small Cloudflare Worker such as `decap-proxy`), then set `base_url` in the config. Admins sign in with their GitHub account.
-  - *Simplest alternative*: Pages CMS (pagescms.org) can edit the same JSON files with a GitHub login and no OAuth setup.
-- **Build on every change**: a GitHub Action (or Netlify) runs `npm ci && npm run build` and publishes `_site/`.
+See **SECURITY.md**: the sign-in service in `auth/`, the GitHub token it uses, protecting the `main` branch so every change needs a review, and adding editors.
+
+Changes made in the admin become **pull requests**. In the admin, save a draft, then set it to *In review* and *Ready*; someone with merge rights reviews and publishes it (in the admin's **Workflow** tab, or on GitHub). Each pull request is checked automatically (`npm run check-content`) before it can be merged.
 
 ## Trying the admin on your own computer
 ```

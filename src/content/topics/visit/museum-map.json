@@ -1,70 +1,70 @@
 {
- "en": {
-  "id": "museum-map",
-  "title": "Three floors, one journey",
-  "subheading": "Museum map",
-  "description": "<mark class=\"todo\">[GALLERIES ON THIS FLOOR]</mark>",
-  "action": {
-   "label": "Download the printable map (PDF)",
-   "link": "#"
+  "en": {
+    "id": "museum-map",
+    "title": "Three floors, one journey",
+    "subheading": "Museum map",
+    "description": "<mark class=\"todo\">[GALLERIES ON THIS FLOOR]</mark>",
+    "action": {
+      "label": "Download the printable map (PDF)",
+      "link": "#"
+    },
+    "topics": [
+      {
+        "id": "floor-1",
+        "title": "Floor 1"
+      },
+      {
+        "id": "floor-2",
+        "title": "Floor 2"
+      },
+      {
+        "id": "floor-3",
+        "title": "Floor 3"
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "floor-1",
-    "title": "Floor 1"
-   },
-   {
-    "id": "floor-2",
-    "title": "Floor 2"
-   },
-   {
-    "id": "floor-3",
-    "title": "Floor 3"
-   }
-  ]
- },
- "gu": {
-  "title": "ત્રણ માળ, એક સફર",
-  "subheading": "સંગ્રહાલયનો નકશો",
-  "description": "<mark class=\"todo\">[GALLERIES ON THIS FLOOR]</mark>",
-  "action": {
-   "label": "છાપી શકાય તેવો નકશો ડાઉનલોડ કરો (PDF)"
+  "gu": {
+    "title": "ત્રણ માળ, એક સફર",
+    "subheading": "સંગ્રહાલયનો નકશો",
+    "description": "<mark class=\"todo\">[GALLERIES ON THIS FLOOR]</mark>",
+    "action": {
+      "label": "છાપી શકાય તેવો નકશો ડાઉનલોડ કરો (PDF)"
+    },
+    "topics": [
+      {
+        "id": "floor-1",
+        "title": "માળ 1"
+      },
+      {
+        "id": "floor-2",
+        "title": "માળ 2"
+      },
+      {
+        "id": "floor-3",
+        "title": "માળ 3"
+      }
+    ]
   },
-  "topics": [
-   {
-    "id": "floor-1",
-    "title": "માળ 1"
-   },
-   {
-    "id": "floor-2",
-    "title": "માળ 2"
-   },
-   {
-    "id": "floor-3",
-    "title": "માળ 3"
-   }
-  ]
- },
- "hi": {
-  "title": "तीन तल, एक यात्रा",
-  "subheading": "संग्रहालय का नक्शा",
-  "description": "<mark class=\"todo\">[GALLERIES ON THIS FLOOR]</mark>",
-  "action": {
-   "label": "प्रिंट करने योग्य नक्शा डाउनलोड करें (PDF)"
-  },
-  "topics": [
-   {
-    "id": "floor-1",
-    "title": "तल 1"
-   },
-   {
-    "id": "floor-2",
-    "title": "तल 2"
-   },
-   {
-    "id": "floor-3",
-    "title": "तल 3"
-   }
-  ]
- }
+  "hi": {
+    "title": "तीन तल, एक यात्रा",
+    "subheading": "संग्रहालय का नक्शा",
+    "description": "<mark class=\"todo\">[GALLERIES ON THIS FLOOR]</mark>",
+    "action": {
+      "label": "प्रिंट करने योग्य नक्शा डाउनलोड करें (PDF)"
+    },
+    "topics": [
+      {
+        "id": "floor-1",
+        "title": "तल 1"
+      },
+      {
+        "id": "floor-2",
+        "title": "तल 2"
+      },
+      {
+        "id": "floor-3",
+        "title": "तल 3"
+      }
+    ]
+  }
 }

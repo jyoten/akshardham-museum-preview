@@ -1,3 +1,7 @@
 node_modules/
 _site/
 .DS_Store
+auth/wrangler.toml
+auth/.dev.vars
+.dev.vars
+.env*

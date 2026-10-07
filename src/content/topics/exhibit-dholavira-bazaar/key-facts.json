@@ -1,78 +1,78 @@
 {
- "en": {
-  "id": "key-facts",
-  "title": "Key facts",
-  "topics": [
-   {
-    "id": "fact-1",
-    "title": "Original site",
-    "description": "Kutch, Gujarat, India"
-   },
-   {
-    "id": "fact-2",
-    "title": "Settled",
-    "description": "c. 3000–1500 BCE"
-   },
-   {
-    "id": "fact-3",
-    "title": "Recognition",
-    "description": "UNESCO World Heritage Site, 2021"
-   },
-   {
-    "id": "fact-4",
-    "title": "In the museum",
-    "description": "Floor <mark class=\"todo\">[X]</mark> · Gallery <mark class=\"todo\">[X]</mark>"
-   }
-  ]
- },
- "gu": {
-  "title": "મુખ્ય તથ્યો",
-  "topics": [
-   {
-    "id": "fact-1",
-    "title": "મૂળ સ્થળ",
-    "description": "કચ્છ, ગુજરાત, ભારત"
-   },
-   {
-    "id": "fact-2",
-    "title": "વસવાટ",
-    "description": "આશરે ઈ.સ.પૂ. 3000–1500"
-   },
-   {
-    "id": "fact-3",
-    "title": "માન્યતા",
-    "description": "યુનેસ્કો વિશ્વ ધરોહર સ્થળ, 2021"
-   },
-   {
-    "id": "fact-4",
-    "title": "સંગ્રહાલયમાં",
-    "description": "માળ <mark class=\"todo\">[X]</mark> · ગેલેરી <mark class=\"todo\">[X]</mark>"
-   }
-  ]
- },
- "hi": {
-  "title": "मुख्य तथ्य",
-  "topics": [
-   {
-    "id": "fact-1",
-    "title": "मूल स्थल",
-    "description": "कच्छ, गुजरात, भारत"
-   },
-   {
-    "id": "fact-2",
-    "title": "बसावट",
-    "description": "लगभग 3000–1500 ई.पू."
-   },
-   {
-    "id": "fact-3",
-    "title": "मान्यता",
-    "description": "यूनेस्को विश्व धरोहर स्थल, 2021"
-   },
-   {
-    "id": "fact-4",
-    "title": "संग्रहालय में",
-    "description": "तल <mark class=\"todo\">[X]</mark> · गैलरी <mark class=\"todo\">[X]</mark>"
-   }
-  ]
- }
+  "en": {
+    "id": "key-facts",
+    "title": "Key facts",
+    "topics": [
+      {
+        "id": "fact-1",
+        "title": "Original site",
+        "description": "Kutch, Gujarat, India"
+      },
+      {
+        "id": "fact-2",
+        "title": "Settled",
+        "description": "c. 3000–1500 BCE"
+      },
+      {
+        "id": "fact-3",
+        "title": "Recognition",
+        "description": "UNESCO World Heritage Site, 2021"
+      },
+      {
+        "id": "fact-4",
+        "title": "In the museum",
+        "description": "Floor <mark class=\"todo\">[X]</mark> · Gallery <mark class=\"todo\">[X]</mark>"
+      }
+    ]
+  },
+  "gu": {
+    "title": "મુખ્ય તથ્યો",
+    "topics": [
+      {
+        "id": "fact-1",
+        "title": "મૂળ સ્થળ",
+        "description": "કચ્છ, ગુજરાત, ભારત"
+      },
+      {
+        "id": "fact-2",
+        "title": "વસવાટ",
+        "description": "આશરે ઈ.સ.પૂ. 3000–1500"
+      },
+      {
+        "id": "fact-3",
+        "title": "માન્યતા",
+        "description": "યુનેસ્કો વિશ્વ ધરોહર સ્થળ, 2021"
+      },
+      {
+        "id": "fact-4",
+        "title": "સંગ્રહાલયમાં",
+        "description": "માળ <mark class=\"todo\">[X]</mark> · ગેલેરી <mark class=\"todo\">[X]</mark>"
+      }
+    ]
+  },
+  "hi": {
+    "title": "मुख्य तथ्य",
+    "topics": [
+      {
+        "id": "fact-1",
+        "title": "मूल स्थल",
+        "description": "कच्छ, गुजरात, भारत"
+      },
+      {
+        "id": "fact-2",
+        "title": "बसावट",
+        "description": "लगभग 3000–1500 ई.पू."
+      },
+      {
+        "id": "fact-3",
+        "title": "मान्यता",
+        "description": "यूनेस्को विश्व धरोहर स्थल, 2021"
+      },
+      {
+        "id": "fact-4",
+        "title": "संग्रहालय में",
+        "description": "तल <mark class=\"todo\">[X]</mark> · गैलरी <mark class=\"todo\">[X]</mark>"
+      }
+    ]
+  }
 }

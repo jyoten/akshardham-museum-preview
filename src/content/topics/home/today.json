@@ -1,85 +1,85 @@
 {
- "en": {
-  "id": "today",
-  "title": "Today at the museum",
-  "topics": [
-   {
-    "id": "open-today",
-    "title": "Open today",
-    "description": "<mark class=\"todo\">[HOURS]</mark>"
-   },
-   {
-    "id": "next-show",
-    "title": "Next show",
-    "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
-   },
-   {
-    "id": "quietest-time",
-    "title": "Quietest time today",
-    "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
-   },
-   {
-    "id": "getting-here",
-    "title": "Getting here",
-    "action": {
-     "label": "112 North Main St, Robbinsville",
-     "link": "/visit#getting-here"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "આજે મ્યુઝિયમમાં",
-  "topics": [
-   {
-    "id": "open-today",
-    "title": "આજે ખુલ્લું",
-    "description": "<mark class=\"todo\">[HOURS]</mark>"
-   },
-   {
-    "id": "next-show",
-    "title": "આગામી શો",
-    "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
-   },
-   {
-    "id": "quietest-time",
-    "title": "આજનો સૌથી શાંત સમય",
-    "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
-   },
-   {
-    "id": "getting-here",
-    "title": "અહીં કેવી રીતે પહોંચવું",
-    "action": {
-     "label": "112 North Main St, Robbinsville"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "आज म्यूज़ियम में",
-  "topics": [
-   {
-    "id": "open-today",
-    "title": "आज खुला है",
-    "description": "<mark class=\"todo\">[HOURS]</mark>"
-   },
-   {
-    "id": "next-show",
-    "title": "अगला शो",
-    "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
-   },
-   {
-    "id": "quietest-time",
-    "title": "आज का सबसे शांत समय",
-    "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
-   },
-   {
-    "id": "getting-here",
-    "title": "यहाँ कैसे पहुँचें",
-    "action": {
-     "label": "112 North Main St, Robbinsville"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "today",
+    "title": "Today at the museum",
+    "topics": [
+      {
+        "id": "open-today",
+        "title": "Open today",
+        "description": "<mark class=\"todo\">[HOURS]</mark>"
+      },
+      {
+        "id": "next-show",
+        "title": "Next show",
+        "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
+      },
+      {
+        "id": "quietest-time",
+        "title": "Quietest time today",
+        "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
+      },
+      {
+        "id": "getting-here",
+        "title": "Getting here",
+        "action": {
+          "label": "112 North Main St, Robbinsville",
+          "link": "/visit#getting-here"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "આજે મ્યુઝિયમમાં",
+    "topics": [
+      {
+        "id": "open-today",
+        "title": "આજે ખુલ્લું",
+        "description": "<mark class=\"todo\">[HOURS]</mark>"
+      },
+      {
+        "id": "next-show",
+        "title": "આગામી શો",
+        "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
+      },
+      {
+        "id": "quietest-time",
+        "title": "આજનો સૌથી શાંત સમય",
+        "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
+      },
+      {
+        "id": "getting-here",
+        "title": "અહીં કેવી રીતે પહોંચવું",
+        "action": {
+          "label": "112 North Main St, Robbinsville"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "आज म्यूज़ियम में",
+    "topics": [
+      {
+        "id": "open-today",
+        "title": "आज खुला है",
+        "description": "<mark class=\"todo\">[HOURS]</mark>"
+      },
+      {
+        "id": "next-show",
+        "title": "अगला शो",
+        "description": "<mark class=\"todo\">[SHOW TITLE]</mark> · <mark class=\"todo\">[TIME]</mark>"
+      },
+      {
+        "id": "quietest-time",
+        "title": "आज का सबसे शांत समय",
+        "description": "<mark class=\"todo\">[TIME WINDOW]</mark>"
+      },
+      {
+        "id": "getting-here",
+        "title": "यहाँ कैसे पहुँचें",
+        "action": {
+          "label": "112 North Main St, Robbinsville"
+        }
+      }
+    ]
+  }
 }

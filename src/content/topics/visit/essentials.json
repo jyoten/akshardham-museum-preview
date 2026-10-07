@@ -1,91 +1,91 @@
 {
- "en": {
-  "id": "essentials",
-  "title": "Visit essentials",
-  "topics": [
-   {
-    "id": "hours",
-    "title": "Hours",
-    "subheading": "Closed <mark class=\"todo\">[DAYS]</mark>",
-    "description": "<mark class=\"todo\">[HOURS]</mark>"
-   },
-   {
-    "id": "admission",
-    "title": "Admission",
-    "subheading": "Members visit free",
-    "description": "<mark class=\"todo\">[ADMISSION]</mark>"
-   },
-   {
-    "id": "address",
-    "title": "Address",
-    "description": "112 North Main Street<br>Robbinsville, NJ 08561"
-   },
-   {
-    "id": "phone",
-    "title": "Questions",
-    "action": {
-     "label": "(609) 918-1212",
-     "link": "tel:+16099181212"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "મુલાકાત માટેની આવશ્યક માહિતી",
-  "topics": [
-   {
-    "id": "hours",
-    "title": "સમય",
-    "subheading": "<mark class=\"todo\">[DAYS]</mark> બંધ",
-    "description": "<mark class=\"todo\">[HOURS]</mark>"
-   },
-   {
-    "id": "admission",
-    "title": "પ્રવેશ",
-    "subheading": "સભ્યો માટે પ્રવેશ નિઃશુલ્ક",
-    "description": "<mark class=\"todo\">[ADMISSION]</mark>"
-   },
-   {
-    "id": "address",
-    "title": "સરનામું",
-    "description": "112 North Main Street<br>Robbinsville, NJ 08561"
-   },
-   {
-    "id": "phone",
-    "title": "પ્રશ્નો",
-    "action": {
-     "label": "(609) 918-1212"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "भ्रमण की आवश्यक जानकारी",
-  "topics": [
-   {
-    "id": "hours",
-    "title": "समय",
-    "subheading": "<mark class=\"todo\">[DAYS]</mark> बंद",
-    "description": "<mark class=\"todo\">[HOURS]</mark>"
-   },
-   {
-    "id": "admission",
-    "title": "प्रवेश",
-    "subheading": "सदस्यों के लिए प्रवेश निःशुल्क",
-    "description": "<mark class=\"todo\">[ADMISSION]</mark>"
-   },
-   {
-    "id": "address",
-    "title": "पता",
-    "description": "112 North Main Street<br>Robbinsville, NJ 08561"
-   },
-   {
-    "id": "phone",
-    "title": "प्रश्न",
-    "action": {
-     "label": "(609) 918-1212"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "essentials",
+    "title": "Visit essentials",
+    "topics": [
+      {
+        "id": "hours",
+        "title": "Hours",
+        "subheading": "Closed <mark class=\"todo\">[DAYS]</mark>",
+        "description": "<mark class=\"todo\">[HOURS]</mark>"
+      },
+      {
+        "id": "admission",
+        "title": "Admission",
+        "subheading": "Members visit free",
+        "description": "<mark class=\"todo\">[ADMISSION]</mark>"
+      },
+      {
+        "id": "address",
+        "title": "Address",
+        "description": "112 North Main Street<br>Robbinsville, NJ 08561"
+      },
+      {
+        "id": "phone",
+        "title": "Questions",
+        "action": {
+          "label": "(609) 918-1212",
+          "link": "tel:+16099181212"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "મુલાકાત માટેની આવશ્યક માહિતી",
+    "topics": [
+      {
+        "id": "hours",
+        "title": "સમય",
+        "subheading": "<mark class=\"todo\">[DAYS]</mark> બંધ",
+        "description": "<mark class=\"todo\">[HOURS]</mark>"
+      },
+      {
+        "id": "admission",
+        "title": "પ્રવેશ",
+        "subheading": "સભ્યો માટે પ્રવેશ નિઃશુલ્ક",
+        "description": "<mark class=\"todo\">[ADMISSION]</mark>"
+      },
+      {
+        "id": "address",
+        "title": "સરનામું",
+        "description": "112 North Main Street<br>Robbinsville, NJ 08561"
+      },
+      {
+        "id": "phone",
+        "title": "પ્રશ્નો",
+        "action": {
+          "label": "(609) 918-1212"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "भ्रमण की आवश्यक जानकारी",
+    "topics": [
+      {
+        "id": "hours",
+        "title": "समय",
+        "subheading": "<mark class=\"todo\">[DAYS]</mark> बंद",
+        "description": "<mark class=\"todo\">[HOURS]</mark>"
+      },
+      {
+        "id": "admission",
+        "title": "प्रवेश",
+        "subheading": "सदस्यों के लिए प्रवेश निःशुल्क",
+        "description": "<mark class=\"todo\">[ADMISSION]</mark>"
+      },
+      {
+        "id": "address",
+        "title": "पता",
+        "description": "112 North Main Street<br>Robbinsville, NJ 08561"
+      },
+      {
+        "id": "phone",
+        "title": "प्रश्न",
+        "action": {
+          "label": "(609) 918-1212"
+        }
+      }
+    ]
+  }
 }

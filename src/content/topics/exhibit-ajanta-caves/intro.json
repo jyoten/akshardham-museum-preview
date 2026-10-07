@@ -1,68 +1,68 @@
 {
- "en": {
-  "id": "intro",
-  "title": "The Ajanta Caves",
-  "subheading": "Architectural replica · Floor <mark class=\"todo\">[X]</mark>",
-  "description": "For seven hundred years, monks and artisans carved prayer halls and monasteries straight into the living rock of a river gorge — then the jungle hid them for more than a thousand more.",
-  "media": [
-   {
-    "type": "image",
-    "src": "/images/ajanta-prayer-hall.jpg",
-    "alt": "The Ajanta replica: a long prayer hall with a ribbed vaulted ceiling, rows of carved pillars and a domed stupa at its far end",
-    "caption": "The replica prayer hall in the Akshardham Museum."
-   }
-  ],
-  "topics": [
-   {
-    "id": "audio-guide",
-    "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
-    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
-    "action": {
-     "label": "Play audio guide, stop [#]"
-    }
-   }
-  ]
- },
- "gu": {
-  "title": "અજંતાની ગુફાઓ",
-  "subheading": "સ્થાપત્ય પ્રતિકૃતિ · માળ <mark class=\"todo\">[X]</mark>",
-  "description": "સાતસો વર્ષ સુધી ભિક્ષુઓ અને કારીગરોએ નદીની ખીણના જીવંત ખડકમાં સીધા જ પ્રાર્થના ખંડો અને વિહારો કોતર્યા — પછી એક હજારથી વધુ વર્ષ સુધી જંગલે તેમને છુપાવી રાખ્યા.",
-  "media": [
-   {
-    "alt": "અજંતાની પ્રતિકૃતિ: પાંસળીદાર કમાનાકાર છત, કોતરણીવાળા સ્તંભોની હરોળો અને છેડે ઘુમ્મટાકાર સ્તૂપ ધરાવતો લાંબો પ્રાર્થના ખંડ",
-    "caption": "અક્ષરધામ મ્યુઝિયમમાં પ્રાર્થના ખંડની પ્રતિકૃતિ."
-   }
-  ],
-  "topics": [
-   {
-    "id": "audio-guide",
-    "title": "ઑડિયો માર્ગદર્શિકા · પડાવ <mark class=\"todo\">[#]</mark>",
-    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
-    "action": {
-     "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, પડાવ [#]"
-    }
-   }
-  ]
- },
- "hi": {
-  "title": "अजंता की गुफाएँ",
-  "subheading": "स्थापत्य प्रतिकृति · तल <mark class=\"todo\">[X]</mark>",
-  "description": "सात सौ वर्षों तक भिक्षुओं और शिल्पकारों ने एक नदी घाटी की जीवंत चट्टान में सीधे प्रार्थना कक्ष और विहार तराशे — फिर एक हज़ार से अधिक वर्षों तक जंगल ने उन्हें छिपाए रखा।",
-  "media": [
-   {
-    "alt": "अजंता की प्रतिकृति: पसलीदार मेहराबदार छत, नक्काशीदार स्तंभों की पंक्तियों और दूर छोर पर गुंबदनुमा स्तूप वाला एक लंबा प्रार्थना कक्ष",
-    "caption": "अक्षरधाम म्यूज़ियम में प्रार्थना कक्ष की प्रतिकृति।"
-   }
-  ],
-  "topics": [
-   {
-    "id": "audio-guide",
-    "title": "ऑडियो गाइड · पड़ाव <mark class=\"todo\">[#]</mark>",
-    "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
-    "action": {
-     "label": "ऑडियो गाइड चलाएँ, पड़ाव [#]"
-    }
-   }
-  ]
- }
+  "en": {
+    "id": "intro",
+    "title": "The Ajanta Caves",
+    "subheading": "Architectural replica · Floor <mark class=\"todo\">[X]</mark>",
+    "description": "For seven hundred years, monks and artisans carved prayer halls and monasteries straight into the living rock of a river gorge — then the jungle hid them for more than a thousand more.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/ajanta-prayer-hall.jpg",
+        "alt": "The Ajanta replica: a long prayer hall with a ribbed vaulted ceiling, rows of carved pillars and a domed stupa at its far end",
+        "caption": "The replica prayer hall in the Akshardham Museum."
+      }
+    ],
+    "topics": [
+      {
+        "id": "audio-guide",
+        "title": "Audio guide · Stop <mark class=\"todo\">[#]</mark>",
+        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">Transcript</a>",
+        "action": {
+          "label": "Play audio guide, stop [#]"
+        }
+      }
+    ]
+  },
+  "gu": {
+    "title": "અજંતાની ગુફાઓ",
+    "subheading": "સ્થાપત્ય પ્રતિકૃતિ · માળ <mark class=\"todo\">[X]</mark>",
+    "description": "સાતસો વર્ષ સુધી ભિક્ષુઓ અને કારીગરોએ નદીની ખીણના જીવંત ખડકમાં સીધા જ પ્રાર્થના ખંડો અને વિહારો કોતર્યા — પછી એક હજારથી વધુ વર્ષ સુધી જંગલે તેમને છુપાવી રાખ્યા.",
+    "media": [
+      {
+        "alt": "અજંતાની પ્રતિકૃતિ: પાંસળીદાર કમાનાકાર છત, કોતરણીવાળા સ્તંભોની હરોળો અને છેડે ઘુમ્મટાકાર સ્તૂપ ધરાવતો લાંબો પ્રાર્થના ખંડ",
+        "caption": "અક્ષરધામ મ્યુઝિયમમાં પ્રાર્થના ખંડની પ્રતિકૃતિ."
+      }
+    ],
+    "topics": [
+      {
+        "id": "audio-guide",
+        "title": "ઑડિયો માર્ગદર્શિકા · પડાવ <mark class=\"todo\">[#]</mark>",
+        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">લેખિત પાઠ</a>",
+        "action": {
+          "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, પડાવ [#]"
+        }
+      }
+    ]
+  },
+  "hi": {
+    "title": "अजंता की गुफाएँ",
+    "subheading": "स्थापत्य प्रतिकृति · तल <mark class=\"todo\">[X]</mark>",
+    "description": "सात सौ वर्षों तक भिक्षुओं और शिल्पकारों ने एक नदी घाटी की जीवंत चट्टान में सीधे प्रार्थना कक्ष और विहार तराशे — फिर एक हज़ार से अधिक वर्षों तक जंगल ने उन्हें छिपाए रखा।",
+    "media": [
+      {
+        "alt": "अजंता की प्रतिकृति: पसलीदार मेहराबदार छत, नक्काशीदार स्तंभों की पंक्तियों और दूर छोर पर गुंबदनुमा स्तूप वाला एक लंबा प्रार्थना कक्ष",
+        "caption": "अक्षरधाम म्यूज़ियम में प्रार्थना कक्ष की प्रतिकृति।"
+      }
+    ],
+    "topics": [
+      {
+        "id": "audio-guide",
+        "title": "ऑडियो गाइड · पड़ाव <mark class=\"todo\">[#]</mark>",
+        "description": "<mark class=\"todo\">[DURATION]</mark> · English, ગુજરાતી, हिन्दी · <a href=\"#\" style=\"color:var(--muted)\">लिखित पाठ</a>",
+        "action": {
+          "label": "ऑडियो गाइड चलाएँ, पड़ाव [#]"
+        }
+      }
+    ]
+  }
 }

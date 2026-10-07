@@ -1,0 +1,27 @@
+# Checks every pull request (including the ones the editor opens) before it can be merged:
+# content rules (limits, safe HTML, image types and sizes), the sign-in service's tests, and a full build.
+name: Check
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run check-content
+      - run: node --test auth/test/
+      - run: npm run build
+        env:
+          SITE_PREFIX: /${{ github.event.repository.name }}
+          SITE_REVIEW: "1"

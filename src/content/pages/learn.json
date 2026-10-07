@@ -1,22 +1,22 @@
 {
- "path": "/learn/",
- "nav": "learn",
- "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
- "meta": "learn/meta",
- "components": [
-  {
-   "style": "site-header"
-  },
-  {
-   "style": "page-hero",
-   "topic": "learn/hero",
-   "settings": {
-    "headingId": "learn-h"
-   }
-  },
-  {
-   "style": "learning-paths",
-   "topic": "learn/ways-to-learn"
-  }
- ]
+  "path": "/learn/",
+  "nav": "learn",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "learn/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "page-hero",
+      "topic": "learn/hero",
+      "settings": {
+        "headingId": "learn-h"
+      }
+    },
+    {
+      "style": "learning-paths",
+      "topic": "learn/ways-to-learn"
+    }
+  ]
 }
