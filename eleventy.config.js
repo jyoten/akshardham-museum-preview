@@ -202,7 +202,6 @@ export default function (eleventyConfig) {
   for (const f of ["favicon.svg", "favicon-32.png", "favicon.ico", "apple-touch-icon.png"]) {
     eleventyConfig.addPassthroughCopy({ [`src/${f}`]: f });
   }
-  eleventyConfig.ignores.add(CONTENT + "/**");
 
   return {
     dir: { input: "src", output: "_site", includes: "_includes", data: "_data" },
