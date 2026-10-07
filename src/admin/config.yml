@@ -7327,6 +7327,880 @@ collections:
                         required: false
                         i18n: "duplicate"
                         hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+  - name: "topics-accessibility"
+    label: "Text — Accessibility"
+    label_singular: "topic"
+    description: "Each entry is a topic: title, sub heading, description, media, an action button and child topics, in English, Gujarati and Hindi. Leave a Gujarati or Hindi field empty to show the English text there."
+    folder: "src/content/topics/accessibility"
+    extension: "json"
+    format: "json"
+    identifier_field: "id"
+    slug: "{{slug}}"
+    summary: "Accessibility · {{fields.title}}"
+    create: true
+    delete: false
+    i18n:
+      structure: "single_file"
+      locales:
+        - "en"
+        - "gu"
+        - "hi"
+      default_locale: "en"
+    editor:
+      preview: true
+    fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
+      - name: "id"
+        label: "ID"
+        widget: "string"
+        i18n: "duplicate"
+        required: true
+        pattern:
+          - "^[a-z0-9-]+$"
+          - "Lower-case letters, numbers and hyphens"
+        hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+      - name: "title"
+        label: "Title"
+        widget: "string"
+        i18n: true
+        required: false
+      - name: "subheading"
+        label: "Sub heading"
+        widget: "string"
+        i18n: true
+        required: false
+        pattern:
+          - "^.{0,100}$"
+          - "At most 100 characters"
+        hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+      - name: "description"
+        label: "Description"
+        widget: "markdown"
+        i18n: true
+        required: false
+        modes:
+          - "rich_text"
+        buttons:
+          - "bold"
+          - "italic"
+          - "link"
+        editor_components: []
+        pattern:
+          - "^[\\s\\S]{0,2000}$"
+          - "At most 2000 characters"
+        hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+      - name: "media"
+        label: "Media"
+        label_singular: "image or video"
+        widget: "list"
+        i18n: true
+        required: false
+        summary: "{{fields.src}}"
+        fields:
+          - name: "type"
+            label: "Type"
+            widget: "select"
+            options:
+              - "image"
+              - "video"
+            default: "image"
+            i18n: "duplicate"
+          - name: "src"
+            label: "File"
+            widget: "image"
+            required: false
+            i18n: "duplicate"
+            choose_url: false
+            media_library:
+              allow_multiple: false
+              config:
+                max_file_size: 2097152
+            hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+          - name: "alt"
+            label: "Alt text"
+            widget: "string"
+            required: false
+            i18n: true
+            hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+          - name: "caption"
+            label: "Caption"
+            widget: "string"
+            required: false
+            i18n: true
+      - name: "action"
+        label: "Action button"
+        widget: "object"
+        i18n: true
+        required: false
+        collapsed: true
+        fields:
+          - name: "label"
+            label: "Label"
+            widget: "string"
+            required: false
+            i18n: true
+          - name: "link"
+            label: "Link"
+            widget: "string"
+            required: false
+            i18n: "duplicate"
+            hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+      - name: "topics"
+        label: "Child topics"
+        label_singular: "child topic"
+        widget: "list"
+        i18n: true
+        required: false
+        summary: "{{fields.id}} {{fields.title}}"
+        collapsed: true
+        hint: "In Gujarati and Hindi, a child is matched to the English one by its ID; anything left empty shows the English text."
+        fields:
+          - name: "id"
+            label: "ID"
+            widget: "string"
+            i18n: "duplicate"
+            required: true
+            pattern:
+              - "^[a-z0-9-]+$"
+              - "Lower-case letters, numbers and hyphens"
+            hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+          - name: "title"
+            label: "Title"
+            widget: "string"
+            i18n: true
+            required: false
+          - name: "subheading"
+            label: "Sub heading"
+            widget: "string"
+            i18n: true
+            required: false
+            pattern:
+              - "^.{0,100}$"
+              - "At most 100 characters"
+            hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+          - name: "description"
+            label: "Description"
+            widget: "markdown"
+            i18n: true
+            required: false
+            modes:
+              - "rich_text"
+            buttons:
+              - "bold"
+              - "italic"
+              - "link"
+            editor_components: []
+            pattern:
+              - "^[\\s\\S]{0,2000}$"
+              - "At most 2000 characters"
+            hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+          - name: "media"
+            label: "Media"
+            label_singular: "image or video"
+            widget: "list"
+            i18n: true
+            required: false
+            summary: "{{fields.src}}"
+            fields:
+              - name: "type"
+                label: "Type"
+                widget: "select"
+                options:
+                  - "image"
+                  - "video"
+                default: "image"
+                i18n: "duplicate"
+              - name: "src"
+                label: "File"
+                widget: "image"
+                required: false
+                i18n: "duplicate"
+                choose_url: false
+                media_library:
+                  allow_multiple: false
+                  config:
+                    max_file_size: 2097152
+                hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+              - name: "alt"
+                label: "Alt text"
+                widget: "string"
+                required: false
+                i18n: true
+                hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+              - name: "caption"
+                label: "Caption"
+                widget: "string"
+                required: false
+                i18n: true
+          - name: "action"
+            label: "Action button"
+            widget: "object"
+            i18n: true
+            required: false
+            collapsed: true
+            fields:
+              - name: "label"
+                label: "Label"
+                widget: "string"
+                required: false
+                i18n: true
+              - name: "link"
+                label: "Link"
+                widget: "string"
+                required: false
+                i18n: "duplicate"
+                hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+          - name: "topics"
+            label: "Child topics"
+            label_singular: "child topic"
+            widget: "list"
+            i18n: true
+            required: false
+            summary: "{{fields.id}} {{fields.title}}"
+            collapsed: true
+            hint: "In Gujarati and Hindi, a child is matched to the English one by its ID; anything left empty shows the English text."
+            fields:
+              - name: "id"
+                label: "ID"
+                widget: "string"
+                i18n: "duplicate"
+                required: true
+                pattern:
+                  - "^[a-z0-9-]+$"
+                  - "Lower-case letters, numbers and hyphens"
+                hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+              - name: "title"
+                label: "Title"
+                widget: "string"
+                i18n: true
+                required: false
+              - name: "subheading"
+                label: "Sub heading"
+                widget: "string"
+                i18n: true
+                required: false
+                pattern:
+                  - "^.{0,100}$"
+                  - "At most 100 characters"
+                hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+              - name: "description"
+                label: "Description"
+                widget: "markdown"
+                i18n: true
+                required: false
+                modes:
+                  - "rich_text"
+                buttons:
+                  - "bold"
+                  - "italic"
+                  - "link"
+                editor_components: []
+                pattern:
+                  - "^[\\s\\S]{0,2000}$"
+                  - "At most 2000 characters"
+                hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+              - name: "media"
+                label: "Media"
+                label_singular: "image or video"
+                widget: "list"
+                i18n: true
+                required: false
+                summary: "{{fields.src}}"
+                fields:
+                  - name: "type"
+                    label: "Type"
+                    widget: "select"
+                    options:
+                      - "image"
+                      - "video"
+                    default: "image"
+                    i18n: "duplicate"
+                  - name: "src"
+                    label: "File"
+                    widget: "image"
+                    required: false
+                    i18n: "duplicate"
+                    choose_url: false
+                    media_library:
+                      allow_multiple: false
+                      config:
+                        max_file_size: 2097152
+                    hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+                  - name: "alt"
+                    label: "Alt text"
+                    widget: "string"
+                    required: false
+                    i18n: true
+                    hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+                  - name: "caption"
+                    label: "Caption"
+                    widget: "string"
+                    required: false
+                    i18n: true
+              - name: "action"
+                label: "Action button"
+                widget: "object"
+                i18n: true
+                required: false
+                collapsed: true
+                fields:
+                  - name: "label"
+                    label: "Label"
+                    widget: "string"
+                    required: false
+                    i18n: true
+                  - name: "link"
+                    label: "Link"
+                    widget: "string"
+                    required: false
+                    i18n: "duplicate"
+                    hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+              - name: "topics"
+                label: "Child topics"
+                label_singular: "child topic"
+                widget: "list"
+                i18n: true
+                required: false
+                summary: "{{fields.id}} {{fields.title}}"
+                collapsed: true
+                hint: "In Gujarati and Hindi, a child is matched to the English one by its ID; anything left empty shows the English text."
+                fields:
+                  - name: "id"
+                    label: "ID"
+                    widget: "string"
+                    i18n: "duplicate"
+                    required: true
+                    pattern:
+                      - "^[a-z0-9-]+$"
+                      - "Lower-case letters, numbers and hyphens"
+                    hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+                  - name: "title"
+                    label: "Title"
+                    widget: "string"
+                    i18n: true
+                    required: false
+                  - name: "subheading"
+                    label: "Sub heading"
+                    widget: "string"
+                    i18n: true
+                    required: false
+                    pattern:
+                      - "^.{0,100}$"
+                      - "At most 100 characters"
+                    hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+                  - name: "description"
+                    label: "Description"
+                    widget: "markdown"
+                    i18n: true
+                    required: false
+                    modes:
+                      - "rich_text"
+                    buttons:
+                      - "bold"
+                      - "italic"
+                      - "link"
+                    editor_components: []
+                    pattern:
+                      - "^[\\s\\S]{0,2000}$"
+                      - "At most 2000 characters"
+                    hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+                  - name: "media"
+                    label: "Media"
+                    label_singular: "image or video"
+                    widget: "list"
+                    i18n: true
+                    required: false
+                    summary: "{{fields.src}}"
+                    fields:
+                      - name: "type"
+                        label: "Type"
+                        widget: "select"
+                        options:
+                          - "image"
+                          - "video"
+                        default: "image"
+                        i18n: "duplicate"
+                      - name: "src"
+                        label: "File"
+                        widget: "image"
+                        required: false
+                        i18n: "duplicate"
+                        choose_url: false
+                        media_library:
+                          allow_multiple: false
+                          config:
+                            max_file_size: 2097152
+                        hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+                      - name: "alt"
+                        label: "Alt text"
+                        widget: "string"
+                        required: false
+                        i18n: true
+                        hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+                      - name: "caption"
+                        label: "Caption"
+                        widget: "string"
+                        required: false
+                        i18n: true
+                  - name: "action"
+                    label: "Action button"
+                    widget: "object"
+                    i18n: true
+                    required: false
+                    collapsed: true
+                    fields:
+                      - name: "label"
+                        label: "Label"
+                        widget: "string"
+                        required: false
+                        i18n: true
+                      - name: "link"
+                        label: "Link"
+                        widget: "string"
+                        required: false
+                        i18n: "duplicate"
+                        hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+  - name: "topics-privacy"
+    label: "Text — Privacy"
+    label_singular: "topic"
+    description: "Each entry is a topic: title, sub heading, description, media, an action button and child topics, in English, Gujarati and Hindi. Leave a Gujarati or Hindi field empty to show the English text there."
+    folder: "src/content/topics/privacy"
+    extension: "json"
+    format: "json"
+    identifier_field: "id"
+    slug: "{{slug}}"
+    summary: "Privacy · {{fields.title}}"
+    create: true
+    delete: false
+    i18n:
+      structure: "single_file"
+      locales:
+        - "en"
+        - "gu"
+        - "hi"
+      default_locale: "en"
+    editor:
+      preview: true
+    fields:
+      - name: "used_on"
+        label: "Used on"
+        widget: "used-on"
+        required: false
+        i18n: false
+      - name: "id"
+        label: "ID"
+        widget: "string"
+        i18n: "duplicate"
+        required: true
+        pattern:
+          - "^[a-z0-9-]+$"
+          - "Lower-case letters, numbers and hyphens"
+        hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+      - name: "title"
+        label: "Title"
+        widget: "string"
+        i18n: true
+        required: false
+      - name: "subheading"
+        label: "Sub heading"
+        widget: "string"
+        i18n: true
+        required: false
+        pattern:
+          - "^.{0,100}$"
+          - "At most 100 characters"
+        hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+      - name: "description"
+        label: "Description"
+        widget: "markdown"
+        i18n: true
+        required: false
+        modes:
+          - "rich_text"
+        buttons:
+          - "bold"
+          - "italic"
+          - "link"
+        editor_components: []
+        pattern:
+          - "^[\\s\\S]{0,2000}$"
+          - "At most 2000 characters"
+        hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+      - name: "media"
+        label: "Media"
+        label_singular: "image or video"
+        widget: "list"
+        i18n: true
+        required: false
+        summary: "{{fields.src}}"
+        fields:
+          - name: "type"
+            label: "Type"
+            widget: "select"
+            options:
+              - "image"
+              - "video"
+            default: "image"
+            i18n: "duplicate"
+          - name: "src"
+            label: "File"
+            widget: "image"
+            required: false
+            i18n: "duplicate"
+            choose_url: false
+            media_library:
+              allow_multiple: false
+              config:
+                max_file_size: 2097152
+            hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+          - name: "alt"
+            label: "Alt text"
+            widget: "string"
+            required: false
+            i18n: true
+            hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+          - name: "caption"
+            label: "Caption"
+            widget: "string"
+            required: false
+            i18n: true
+      - name: "action"
+        label: "Action button"
+        widget: "object"
+        i18n: true
+        required: false
+        collapsed: true
+        fields:
+          - name: "label"
+            label: "Label"
+            widget: "string"
+            required: false
+            i18n: true
+          - name: "link"
+            label: "Link"
+            widget: "string"
+            required: false
+            i18n: "duplicate"
+            hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+      - name: "topics"
+        label: "Child topics"
+        label_singular: "child topic"
+        widget: "list"
+        i18n: true
+        required: false
+        summary: "{{fields.id}} {{fields.title}}"
+        collapsed: true
+        hint: "In Gujarati and Hindi, a child is matched to the English one by its ID; anything left empty shows the English text."
+        fields:
+          - name: "id"
+            label: "ID"
+            widget: "string"
+            i18n: "duplicate"
+            required: true
+            pattern:
+              - "^[a-z0-9-]+$"
+              - "Lower-case letters, numbers and hyphens"
+            hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+          - name: "title"
+            label: "Title"
+            widget: "string"
+            i18n: true
+            required: false
+          - name: "subheading"
+            label: "Sub heading"
+            widget: "string"
+            i18n: true
+            required: false
+            pattern:
+              - "^.{0,100}$"
+              - "At most 100 characters"
+            hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+          - name: "description"
+            label: "Description"
+            widget: "markdown"
+            i18n: true
+            required: false
+            modes:
+              - "rich_text"
+            buttons:
+              - "bold"
+              - "italic"
+              - "link"
+            editor_components: []
+            pattern:
+              - "^[\\s\\S]{0,2000}$"
+              - "At most 2000 characters"
+            hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+          - name: "media"
+            label: "Media"
+            label_singular: "image or video"
+            widget: "list"
+            i18n: true
+            required: false
+            summary: "{{fields.src}}"
+            fields:
+              - name: "type"
+                label: "Type"
+                widget: "select"
+                options:
+                  - "image"
+                  - "video"
+                default: "image"
+                i18n: "duplicate"
+              - name: "src"
+                label: "File"
+                widget: "image"
+                required: false
+                i18n: "duplicate"
+                choose_url: false
+                media_library:
+                  allow_multiple: false
+                  config:
+                    max_file_size: 2097152
+                hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+              - name: "alt"
+                label: "Alt text"
+                widget: "string"
+                required: false
+                i18n: true
+                hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+              - name: "caption"
+                label: "Caption"
+                widget: "string"
+                required: false
+                i18n: true
+          - name: "action"
+            label: "Action button"
+            widget: "object"
+            i18n: true
+            required: false
+            collapsed: true
+            fields:
+              - name: "label"
+                label: "Label"
+                widget: "string"
+                required: false
+                i18n: true
+              - name: "link"
+                label: "Link"
+                widget: "string"
+                required: false
+                i18n: "duplicate"
+                hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+          - name: "topics"
+            label: "Child topics"
+            label_singular: "child topic"
+            widget: "list"
+            i18n: true
+            required: false
+            summary: "{{fields.id}} {{fields.title}}"
+            collapsed: true
+            hint: "In Gujarati and Hindi, a child is matched to the English one by its ID; anything left empty shows the English text."
+            fields:
+              - name: "id"
+                label: "ID"
+                widget: "string"
+                i18n: "duplicate"
+                required: true
+                pattern:
+                  - "^[a-z0-9-]+$"
+                  - "Lower-case letters, numbers and hyphens"
+                hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+              - name: "title"
+                label: "Title"
+                widget: "string"
+                i18n: true
+                required: false
+              - name: "subheading"
+                label: "Sub heading"
+                widget: "string"
+                i18n: true
+                required: false
+                pattern:
+                  - "^.{0,100}$"
+                  - "At most 100 characters"
+                hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+              - name: "description"
+                label: "Description"
+                widget: "markdown"
+                i18n: true
+                required: false
+                modes:
+                  - "rich_text"
+                buttons:
+                  - "bold"
+                  - "italic"
+                  - "link"
+                editor_components: []
+                pattern:
+                  - "^[\\s\\S]{0,2000}$"
+                  - "At most 2000 characters"
+                hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+              - name: "media"
+                label: "Media"
+                label_singular: "image or video"
+                widget: "list"
+                i18n: true
+                required: false
+                summary: "{{fields.src}}"
+                fields:
+                  - name: "type"
+                    label: "Type"
+                    widget: "select"
+                    options:
+                      - "image"
+                      - "video"
+                    default: "image"
+                    i18n: "duplicate"
+                  - name: "src"
+                    label: "File"
+                    widget: "image"
+                    required: false
+                    i18n: "duplicate"
+                    choose_url: false
+                    media_library:
+                      allow_multiple: false
+                      config:
+                        max_file_size: 2097152
+                    hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+                  - name: "alt"
+                    label: "Alt text"
+                    widget: "string"
+                    required: false
+                    i18n: true
+                    hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+                  - name: "caption"
+                    label: "Caption"
+                    widget: "string"
+                    required: false
+                    i18n: true
+              - name: "action"
+                label: "Action button"
+                widget: "object"
+                i18n: true
+                required: false
+                collapsed: true
+                fields:
+                  - name: "label"
+                    label: "Label"
+                    widget: "string"
+                    required: false
+                    i18n: true
+                  - name: "link"
+                    label: "Link"
+                    widget: "string"
+                    required: false
+                    i18n: "duplicate"
+                    hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
+              - name: "topics"
+                label: "Child topics"
+                label_singular: "child topic"
+                widget: "list"
+                i18n: true
+                required: false
+                summary: "{{fields.id}} {{fields.title}}"
+                collapsed: true
+                hint: "In Gujarati and Hindi, a child is matched to the English one by its ID; anything left empty shows the English text."
+                fields:
+                  - name: "id"
+                    label: "ID"
+                    widget: "string"
+                    i18n: "duplicate"
+                    required: true
+                    pattern:
+                      - "^[a-z0-9-]+$"
+                      - "Lower-case letters, numbers and hyphens"
+                    hint: "A stable name. Page layouts and translations find this topic by it, so don't change it once it is in use."
+                  - name: "title"
+                    label: "Title"
+                    widget: "string"
+                    i18n: true
+                    required: false
+                  - name: "subheading"
+                    label: "Sub heading"
+                    widget: "string"
+                    i18n: true
+                    required: false
+                    pattern:
+                      - "^.{0,100}$"
+                      - "At most 100 characters"
+                    hint: "Up to 100 characters. Often the small line above a heading, or a label. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+                  - name: "description"
+                    label: "Description"
+                    widget: "markdown"
+                    i18n: true
+                    required: false
+                    modes:
+                      - "rich_text"
+                    buttons:
+                      - "bold"
+                      - "italic"
+                      - "link"
+                    editor_components: []
+                    pattern:
+                      - "^[\\s\\S]{0,2000}$"
+                      - "At most 2000 characters"
+                    hint: "Up to 2000 characters. Text in [SQUARE BRACKETS] is a reminder of what still needs to be added."
+                  - name: "media"
+                    label: "Media"
+                    label_singular: "image or video"
+                    widget: "list"
+                    i18n: true
+                    required: false
+                    summary: "{{fields.src}}"
+                    fields:
+                      - name: "type"
+                        label: "Type"
+                        widget: "select"
+                        options:
+                          - "image"
+                          - "video"
+                        default: "image"
+                        i18n: "duplicate"
+                      - name: "src"
+                        label: "File"
+                        widget: "image"
+                        required: false
+                        i18n: "duplicate"
+                        choose_url: false
+                        media_library:
+                          allow_multiple: false
+                          config:
+                            max_file_size: 2097152
+                        hint: "Upload into the site's image folder: JPEG, PNG, WebP or AVIF, up to 2 MB. Leave empty for a placeholder."
+                      - name: "alt"
+                        label: "Alt text"
+                        widget: "string"
+                        required: false
+                        i18n: true
+                        hint: "What the image shows, for people who can't see it. Empty if it's only decoration."
+                      - name: "caption"
+                        label: "Caption"
+                        widget: "string"
+                        required: false
+                        i18n: true
+                  - name: "action"
+                    label: "Action button"
+                    widget: "object"
+                    i18n: true
+                    required: false
+                    collapsed: true
+                    fields:
+                      - name: "label"
+                        label: "Label"
+                        widget: "string"
+                        required: false
+                        i18n: true
+                      - name: "link"
+                        label: "Link"
+                        widget: "string"
+                        required: false
+                        i18n: "duplicate"
+                        hint: "/visit, /visit#tickets, https://… or todo:<note> for a link that has no page yet."
   - name: "topics-not-found"
     label: "Text — Page not found"
     label_singular: "topic"
@@ -8501,5 +9375,9 @@ collections:
                 required: false
               - name: "lazyImages"
                 label: "Load images lazily"
+                widget: "boolean"
+                required: false
+              - name: "continuous"
+                label: "Chapters: show all at once (no tabs)"
                 widget: "boolean"
                 required: false

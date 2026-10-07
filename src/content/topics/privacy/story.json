@@ -1,0 +1,159 @@
+{
+  "en": {
+    "id": "story",
+    "topics": [
+      {
+        "id": "in-short",
+        "subheading": "IN SHORT",
+        "title": "The short version",
+        "description": "This website doesn't ask for your name, doesn't track you and sets no cookies. It doesn't use advertising or analytics. Nothing you type into its forms is sent anywhere yet.\n\nThis page describes what the website actually does today. [CONFIRM: review this page before the site goes live, and whenever analytics, forms or ticketing are added.]"
+      },
+      {
+        "id": "on-your-device",
+        "subheading": "ON YOUR DEVICE",
+        "title": "What your browser remembers",
+        "description": "**Your cookie choice:** when you answer the cookie message, your browser remembers your answer (as “museum-consent”) so the message doesn't appear again. No analytics or marketing cookies are used, whatever you choose.\n\n**Closed notices:** if you close a notice at the top of a page, your browser remembers that (as “museum-notices-dismissed”).\n\nBoth are kept only in your browser's own storage on your device and are never sent to us. You can clear them in your browser's settings at any time."
+      },
+      {
+        "id": "what-we-load",
+        "subheading": "WHAT THE PAGES LOAD",
+        "title": "Fonts, images and scripts",
+        "description": "Everything on these pages, including the text, images, fonts and scripts, comes from this website itself. We don't load anything from other companies' servers, so they don't learn that you visited.\n\nLinks to other websites, such as the [BAPS Swaminarayan Akshardham Mandir](https://usa.akshardham.org), take you to sites with their own privacy policies."
+      },
+      {
+        "id": "forms",
+        "subheading": "FORMS",
+        "title": "Forms on this website",
+        "description": "The newsletter sign-up, the ticket booking and the Legacy Hall sponsor search are previews. They don't send what you type anywhere, and nothing is stored.\n\n[CONFIRM: before these forms go live, add who receives the information, what it is used for, and how long it is kept.]"
+      },
+      {
+        "id": "hosting",
+        "subheading": "OUR WEB HOST",
+        "title": "When you load a page",
+        "description": "This website is hosted on GitHub Pages. Like any web server, it receives your device's IP address and basic browser details when you load a page, and GitHub keeps a record of visitors' IP addresses for security purposes. See [GitHub's privacy statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).\n\n[CONFIRM: update this section if the website moves to another host.]"
+      },
+      {
+        "id": "editors",
+        "subheading": "EDITORS",
+        "title": "If you edit the website",
+        "description": "Only the museum's editors sign in, at a separate address that visitors never use. Signing in sets two short-lived cookies: one protects the sign-in form (up to 15 minutes) and one finishes signing in (up to 5 minutes, used once). Changes that editors make are saved, with the editor's name, in the museum's GitHub repository."
+      },
+      {
+        "id": "children",
+        "subheading": "CHILDREN",
+        "title": "Children",
+        "description": "The website doesn't collect information from anyone, including children. [CONFIRM: the museum's approach to children's information, for example school-group bookings, before any form goes live.]"
+      },
+      {
+        "id": "contact-and-changes",
+        "subheading": "QUESTIONS AND CHANGES",
+        "title": "Contact us",
+        "description": "For questions about privacy, contact [CONFIRM: privacy contact email or postal address].\n\nIf this page changes, we'll update it here and change the date below.\n\nEffective date: [CONFIRM: date]"
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "in-short",
+        "subheading": "ટૂંકમાં",
+        "title": "ટૂંકમાં કહીએ તો",
+        "description": "આ વેબસાઇટ આપનું નામ માગતી નથી, આપને ટ્રૅક કરતી નથી અને કોઈ કૂકીઝ સેટ કરતી નથી. તે જાહેરાતો કે ઍનાલિટિક્સનો ઉપયોગ કરતી નથી. તેનાં ફોર્મમાં આપ જે લખો તે હજુ ક્યાંય મોકલાતું નથી.\n\nઆ પાનું વેબસાઇટ આજે ખરેખર શું કરે છે તે જણાવે છે. [CONFIRM: review this page before the site goes live, and whenever analytics, forms or ticketing are added.]"
+      },
+      {
+        "id": "on-your-device",
+        "subheading": "આપના ઉપકરણ પર",
+        "title": "આપનું બ્રાઉઝર શું યાદ રાખે છે",
+        "description": "**કૂકીઝ અંગેની આપની પસંદગી:** આપ કૂકીઝ સંદેશનો જવાબ આપો ત્યારે આપનું બ્રાઉઝર આપનો જવાબ (“museum-consent” તરીકે) યાદ રાખે છે, જેથી સંદેશ ફરી દેખાય નહીં. આપ જે પણ પસંદ કરો, ઍનાલિટિક્સ કે માર્કેટિંગ કૂકીઝનો ઉપયોગ થતો નથી.\n\n**બંધ કરેલી સૂચનાઓ:** આપ પાનાની ઉપરની કોઈ સૂચના બંધ કરો તો આપનું બ્રાઉઝર તે (“museum-notices-dismissed” તરીકે) યાદ રાખે છે.\n\nઆ બંને માત્ર આપના ઉપકરણ પર આપના બ્રાઉઝરના પોતાના સંગ્રહમાં રહે છે અને ક્યારેય અમને મોકલાતાં નથી. આપ ગમે ત્યારે આપના બ્રાઉઝરનાં સેટિંગ્સમાંથી તેમને દૂર કરી શકો છો."
+      },
+      {
+        "id": "what-we-load",
+        "subheading": "પાનાં શું લોડ કરે છે",
+        "title": "ફૉન્ટ, ચિત્રો અને સ્ક્રિપ્ટ",
+        "description": "આ પાનાં પરનું બધું, જેમાં લખાણ, ચિત્રો, ફૉન્ટ અને સ્ક્રિપ્ટનો સમાવેશ થાય છે, આ જ વેબસાઇટ પરથી આવે છે. અમે અન્ય કંપનીઓના સર્વર પરથી કંઈ લોડ કરતા નથી, તેથી આપે મુલાકાત લીધી તે તેમને ખબર પડતી નથી.\n\nઅન્ય વેબસાઇટની લિંક, જેમ કે [BAPS સ્વામિનારાયણ અક્ષરધામ મંદિર](https://usa.akshardham.org), આપને એવી સાઇટ પર લઈ જાય છે જેની પોતાની ગોપનીયતા નીતિ હોય છે."
+      },
+      {
+        "id": "forms",
+        "subheading": "ફોર્મ",
+        "title": "આ વેબસાઇટ પરનાં ફોર્મ",
+        "description": "ન્યૂઝલેટર નોંધણી, ટિકિટ બુકિંગ અને વારસા ખંડમાં પ્રાયોજકોની શોધ હાલ નમૂનારૂપ છે. આપ જે લખો તે ક્યાંય મોકલાતું નથી અને કંઈ સંગ્રહાતું નથી.\n\n[CONFIRM: before these forms go live, add who receives the information, what it is used for, and how long it is kept.]"
+      },
+      {
+        "id": "hosting",
+        "subheading": "અમારું વેબ હોસ્ટ",
+        "title": "આપ પાનું ખોલો ત્યારે",
+        "description": "આ વેબસાઇટ GitHub Pages પર હોસ્ટ થયેલી છે. કોઈ પણ વેબ સર્વરની જેમ, આપ પાનું ખોલો ત્યારે તેને આપના ઉપકરણનું IP સરનામું અને બ્રાઉઝરની મૂળભૂત વિગતો મળે છે, અને GitHub સુરક્ષા માટે મુલાકાતીઓનાં IP સરનામાંની નોંધ રાખે છે. જુઓ [GitHubનું ગોપનીયતા નિવેદન](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).\n\n[CONFIRM: update this section if the website moves to another host.]"
+      },
+      {
+        "id": "editors",
+        "subheading": "સંપાદકો",
+        "title": "જો આપ વેબસાઇટનું સંપાદન કરતા હો",
+        "description": "માત્ર મ્યુઝિયમના સંપાદકો જ એક અલગ સરનામે સાઇન ઇન કરે છે, જેનો મુલાકાતીઓ ક્યારેય ઉપયોગ કરતા નથી. સાઇન ઇન કરતી વખતે બે અલ્પ સમયની કૂકીઝ સેટ થાય છે: એક સાઇન-ઇન ફોર્મનું રક્ષણ કરે છે (વધુમાં વધુ 15 મિનિટ) અને બીજી સાઇન ઇન પૂર્ણ કરે છે (વધુમાં વધુ 5 મિનિટ, એક જ વાર વપરાય છે). સંપાદકો જે ફેરફારો કરે છે તે સંપાદકના નામ સાથે મ્યુઝિયમના GitHub ભંડારમાં સાચવવામાં આવે છે."
+      },
+      {
+        "id": "children",
+        "subheading": "બાળકો",
+        "title": "બાળકો",
+        "description": "આ વેબસાઇટ બાળકો સહિત કોઈની પણ માહિતી એકઠી કરતી નથી. [CONFIRM: the museum's approach to children's information, for example school-group bookings, before any form goes live.]"
+      },
+      {
+        "id": "contact-and-changes",
+        "subheading": "પ્રશ્નો અને ફેરફારો",
+        "title": "અમારો સંપર્ક કરો",
+        "description": "ગોપનીયતા વિશેના પ્રશ્નો માટે [CONFIRM: privacy contact email or postal address] પર સંપર્ક કરો.\n\nઆ પાનામાં ફેરફાર થશે તો અમે તેને અહીં અદ્યતન કરીશું અને નીચેની તારીખ બદલીશું.\n\nઅમલની તારીખ: [CONFIRM: date]"
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "in-short",
+        "subheading": "संक्षेप में",
+        "title": "संक्षेप में कहें तो",
+        "description": "यह वेबसाइट आपका नाम नहीं माँगती, आपको ट्रैक नहीं करती और कोई कुकीज़ सेट नहीं करती। यह विज्ञापन या एनालिटिक्स का उपयोग नहीं करती। इसके फ़ॉर्म में आप जो लिखते हैं, वह अभी कहीं नहीं भेजा जाता।\n\nयह पृष्ठ बताता है कि वेबसाइट आज वास्तव में क्या करती है। [CONFIRM: review this page before the site goes live, and whenever analytics, forms or ticketing are added.]"
+      },
+      {
+        "id": "on-your-device",
+        "subheading": "आपके उपकरण पर",
+        "title": "आपका ब्राउज़र क्या याद रखता है",
+        "description": "**कुकीज़ के बारे में आपकी पसंद:** जब आप कुकीज़ संदेश का उत्तर देते हैं, तो आपका ब्राउज़र आपका उत्तर (“museum-consent” के रूप में) याद रखता है, ताकि संदेश दोबारा न दिखे। आप जो भी चुनें, एनालिटिक्स या मार्केटिंग कुकीज़ का उपयोग नहीं होता।\n\n**बंद की गई सूचनाएँ:** यदि आप किसी पृष्ठ के ऊपर की कोई सूचना बंद करते हैं, तो आपका ब्राउज़र यह (“museum-notices-dismissed” के रूप में) याद रखता है।\n\nदोनों केवल आपके उपकरण पर आपके ब्राउज़र के अपने भंडार में रहते हैं और कभी हमें नहीं भेजे जाते। आप कभी भी अपने ब्राउज़र की सेटिंग्स से इन्हें हटा सकते हैं।"
+      },
+      {
+        "id": "what-we-load",
+        "subheading": "पृष्ठ क्या लोड करते हैं",
+        "title": "फ़ॉन्ट, चित्र और स्क्रिप्ट",
+        "description": "इन पृष्ठों पर सब कुछ, जिसमें पाठ, चित्र, फ़ॉन्ट और स्क्रिप्ट शामिल हैं, इसी वेबसाइट से आता है। हम अन्य कंपनियों के सर्वर से कुछ भी लोड नहीं करते, इसलिए उन्हें पता नहीं चलता कि आपने भ्रमण किया।\n\nअन्य वेबसाइटों के लिंक, जैसे [BAPS स्वामीनारायण अक्षरधाम मंदिर](https://usa.akshardham.org), आपको ऐसी साइटों पर ले जाते हैं जिनकी अपनी गोपनीयता नीतियाँ होती हैं।"
+      },
+      {
+        "id": "forms",
+        "subheading": "फ़ॉर्म",
+        "title": "इस वेबसाइट के फ़ॉर्म",
+        "description": "न्यूज़लेटर पंजीकरण, टिकट बुकिंग और विरासत कक्ष में प्रायोजकों की खोज अभी नमूने के रूप में हैं। आप जो लिखते हैं वह कहीं नहीं भेजा जाता और कुछ भी संग्रहीत नहीं होता।\n\n[CONFIRM: before these forms go live, add who receives the information, what it is used for, and how long it is kept.]"
+      },
+      {
+        "id": "hosting",
+        "subheading": "हमारा वेब होस्ट",
+        "title": "जब आप कोई पृष्ठ खोलते हैं",
+        "description": "यह वेबसाइट GitHub Pages पर होस्ट की गई है। किसी भी वेब सर्वर की तरह, जब आप कोई पृष्ठ खोलते हैं तो उसे आपके उपकरण का IP पता और ब्राउज़र की बुनियादी जानकारी मिलती है, और GitHub सुरक्षा के लिए आगंतुकों के IP पतों का रिकॉर्ड रखता है। देखें [GitHub का गोपनीयता कथन](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement)।\n\n[CONFIRM: update this section if the website moves to another host.]"
+      },
+      {
+        "id": "editors",
+        "subheading": "संपादक",
+        "title": "यदि आप वेबसाइट का संपादन करते हैं",
+        "description": "केवल संग्रहालय के संपादक ही एक अलग पते पर साइन इन करते हैं, जिसका उपयोग आगंतुक कभी नहीं करते। साइन इन करते समय दो अल्पकालिक कुकीज़ सेट होती हैं: एक साइन-इन फ़ॉर्म की सुरक्षा करती है (अधिकतम 15 मिनट) और दूसरी साइन इन पूरा करती है (अधिकतम 5 मिनट, केवल एक बार उपयोग)। संपादकों द्वारा किए गए परिवर्तन संपादक के नाम के साथ संग्रहालय के GitHub भंडार में सहेजे जाते हैं।"
+      },
+      {
+        "id": "children",
+        "subheading": "बच्चे",
+        "title": "बच्चे",
+        "description": "यह वेबसाइट बच्चों सहित किसी की भी जानकारी एकत्र नहीं करती। [CONFIRM: the museum's approach to children's information, for example school-group bookings, before any form goes live.]"
+      },
+      {
+        "id": "contact-and-changes",
+        "subheading": "प्रश्न और परिवर्तन",
+        "title": "हमसे संपर्क करें",
+        "description": "गोपनीयता से जुड़े प्रश्नों के लिए [CONFIRM: privacy contact email or postal address] पर संपर्क करें।\n\nयदि यह पृष्ठ बदलता है, तो हम इसे यहाँ अद्यतन करेंगे और नीचे दी गई तिथि बदल देंगे।\n\nप्रभावी तिथि: [CONFIRM: date]"
+      }
+    ]
+  }
+}

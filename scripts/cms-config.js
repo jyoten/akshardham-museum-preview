@@ -33,6 +33,8 @@ const DOCUMENTS = {
   visit: "Plan your visit",
   learn: "Learn",
   support: "Support",
+  accessibility: "Accessibility",
+  privacy: "Privacy",
   "not-found": "Page not found",
 };
 
@@ -226,6 +228,7 @@ const pagesCollection = {
             { name: "headingId", label: "Heading id", widget: "string", required: false },
             { name: "imagePosition", label: "Image position (CSS object-position)", widget: "string", required: false },
             { name: "lazyImages", label: "Load images lazily", widget: "boolean", required: false },
+            { name: "continuous", label: "Chapters: show all at once (no tabs)", widget: "boolean", required: false },
           ],
         },
       ],

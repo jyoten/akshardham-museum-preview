@@ -59,7 +59,7 @@
   banner.setAttribute('aria-label', 'Cookie consent');
   banner.innerHTML =
     '<div class="consent-inner">' +
-    '<p class="consent-text"><strong>' + tx('title', 'Cookies on this site.') + '</strong><span class="consent-mid"> ' + tx('short', 'We use necessary cookies to make the site work.') + '</span><span class="consent-more"> ' + tx('more', 'With your permission we’d also like to use analytics cookies to understand how it’s used.') + '</span> <a href="#" class="todo-link" data-todo="Privacy page (no page yet)">' + tx('privacy', 'Privacy policy') + '</a></p>' +
+    '<p class="consent-text"><strong>' + tx('title', 'Cookies on this site.') + '</strong><span class="consent-mid"> ' + tx('short', 'We use necessary cookies to make the site work.') + '</span><span class="consent-more"> ' + tx('more', 'With your permission we’d also like to use analytics cookies to understand how it’s used.') + '</span> <a href="' + (window.SITE_BASE || '') + (window.SITE_LANG && window.SITE_LANG !== 'en' ? '/' + window.SITE_LANG : '') + '/privacy/">' + tx('privacy', 'Privacy policy') + '</a></p>' +
     '<div class="consent-actions">' +
     '<button type="button" class="c-btn c-primary" data-act="all">' + '<span class="consent-full">' + tx('accept_full', 'Accept all') + '</span><span class="consent-short" aria-hidden="true">' + tx('accept', 'Accept') + '</span></button>' +
     '<button type="button" class="c-btn c-secondary" data-act="none">' + '<span class="consent-full">' + tx('reject_full', 'Reject non-essential') + '</span><span class="consent-short" aria-hidden="true">' + tx('reject', 'Reject') + '</span></button>' +

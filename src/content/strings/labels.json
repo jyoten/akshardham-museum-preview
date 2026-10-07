@@ -96,7 +96,8 @@
     "sponsor_levels": "સહયોગનાં સ્તરો (વધુ જોવા માટે સ્ક્રોલ કરો)",
     "legacy_hall_search": "સ્થાપક દાતાઓ શોધો",
     "legacy_hall_placeholder": "પરિવાર અથવા દાતાનું નામ",
-    "legacy_hall_button": "શોધો"
+    "legacy_hall_button": "શોધો",
+    "preview_banner": "ફેરફાર #{n}નું પૂર્વાવલોકન, હજુ પ્રકાશિત નથી."
   },
   "hi": {
     "home_link": "अक्षरधाम म्यूज़ियम मुखपृष्ठ",
@@ -145,6 +146,7 @@
     "sponsor_levels": "सहयोग के स्तर (और देखने के लिए स्क्रॉल करें)",
     "legacy_hall_search": "संस्थापक दाताओं को खोजें",
     "legacy_hall_placeholder": "परिवार या दाता का नाम",
-    "legacy_hall_button": "खोजें"
+    "legacy_hall_button": "खोजें",
+    "preview_banner": "परिवर्तन #{n} का पूर्वावलोकन, अभी प्रकाशित नहीं।"
   }
 }

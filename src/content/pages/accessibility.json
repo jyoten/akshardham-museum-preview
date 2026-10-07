@@ -1,0 +1,26 @@
+{
+  "name": "Accessibility",
+  "path": "/accessibility/",
+  "nav": "",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "accessibility/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "page-hero",
+      "topic": "accessibility/hero",
+      "settings": {
+        "headingId": "acc-page-h"
+      }
+    },
+    {
+      "style": "chapters",
+      "topic": "accessibility/story",
+      "settings": {
+        "continuous": true
+      }
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-<article style="padding:clamp(45px,5.00vw,72px) 0 48px">
+<article{% if s.continuous %} data-continuous{% endif %} style="padding:clamp(45px,5.00vw,72px) 0 48px">
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;display:flex;flex-direction:column;gap:58px">
 {% for ch in t.topics %}<section aria-labelledby="ch{{ loop.index }}" style="display:flex;flex-wrap:wrap;gap:24px 80px">
 <div style="flex:1 1 260px;display:flex;flex-direction:column;gap:12px"><span style="font-size:13px;font-weight:600;letter-spacing:.18em;color:var(--accent)">{{ ch.subheading | safe }}</span><h2 id="ch{{ loop.index }}" style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:40px;line-height:1.1;margin:0">{{ ch.title | safe }}</h2></div>

@@ -216,7 +216,8 @@
   }
 
   var article = $('article');
-  if (article && $('#ch1')) {
+  // (pages with data-continuous, such as Privacy, show every section in order instead)
+  if (article && $('#ch1') && !article.hasAttribute('data-continuous')) {
     // reading progress
     var bar = document.createElement('div');
     bar.className = 'read-progress';

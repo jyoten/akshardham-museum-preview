@@ -1,0 +1,25 @@
+{
+  "en": {
+    "id": "hero",
+    "title": "A museum for every visitor",
+    "subheading": "Accessibility",
+    "description": "How to plan a comfortable visit, and how we make this website easy to use.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/young-visitor-carved-model.jpg",
+        "alt": ""
+      }
+    ]
+  },
+  "gu": {
+    "title": "દરેક મુલાકાતી માટેનું મ્યુઝિયમ",
+    "subheading": "સુલભતા",
+    "description": "આરામદાયક મુલાકાતનું આયોજન કેવી રીતે કરવું, અને અમે આ વેબસાઇટને વાપરવામાં સરળ કેવી રીતે બનાવીએ છીએ."
+  },
+  "hi": {
+    "title": "हर आगंतुक के लिए संग्रहालय",
+    "subheading": "सुगम्यता",
+    "description": "आरामदायक भ्रमण की योजना कैसे बनाएँ, और हम इस वेबसाइट को उपयोग में आसान कैसे बनाते हैं।"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "en": {
+    "id": "hero",
+    "title": "Your privacy on this website",
+    "subheading": "Privacy",
+    "description": "In plain language: what this website does, and doesn't do, with your information.",
+    "media": [
+      {
+        "type": "image",
+        "src": "/images/timeline-corridor.jpg",
+        "alt": ""
+      }
+    ]
+  },
+  "gu": {
+    "title": "આ વેબસાઇટ પર આપની ગોપનીયતા",
+    "subheading": "ગોપનીયતા",
+    "description": "સરળ ભાષામાં: આ વેબસાઇટ આપની માહિતી સાથે શું કરે છે અને શું નથી કરતી."
+  },
+  "hi": {
+    "title": "इस वेबसाइट पर आपकी गोपनीयता",
+    "subheading": "गोपनीयता",
+    "description": "सरल भाषा में: यह वेबसाइट आपकी जानकारी के साथ क्या करती है और क्या नहीं करती।"
+  }
+}

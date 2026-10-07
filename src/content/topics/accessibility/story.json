@@ -1,0 +1,87 @@
+{
+  "en": {
+    "id": "story",
+    "topics": [
+      {
+        "id": "visiting",
+        "subheading": "VISITING THE MUSEUM",
+        "title": "Getting around",
+        "description": "**Wheelchairs:** [CONFIRM: wheelchairs to borrow, free of charge, and where to ask for one].\n\n**Elevators:** [CONFIRM: elevator access to all three floors].\n\n**Seating:** [CONFIRM: where to find benches and seating in the galleries].\n\n**Parking and restrooms:** [CONFIRM: accessible parking spaces and accessible restrooms, and where they are]."
+      },
+      {
+        "id": "during-your-visit",
+        "subheading": "DURING YOUR VISIT",
+        "title": "Help, quiet and sound",
+        "description": "**Service animals:** [CONFIRM: service animals are welcome in all galleries].\n\n**Quiet spaces:** [CONFIRM: a quiet room or calmer areas, and any sensory-friendly hours].\n\n**Shows:** [CONFIRM: captions on all multimedia shows].\n\n**Audio guide:** [CONFIRM: audio guide in English, Gujarati and Hindi, with transcripts].\n\n**Help from our team:** [CONFIRM: staff and volunteers can help at the entrance and in every gallery]. You can also call us before your visit on [(609) 918-1212](tel:+16099181212)."
+      },
+      {
+        "id": "this-website",
+        "subheading": "THIS WEBSITE",
+        "title": "Using this website",
+        "description": "We aim for this website to meet the Web Content Accessibility Guidelines (WCAG) 2.2 at level AA. [CONFIRM: the standard the museum commits to, and when the site was last checked against it.]\n\nThe pages are built to work with a keyboard and with screen readers: they have clear headings and landmarks, images have text descriptions, and controls are labelled. Movement and animation switch off when your device is set to reduce motion.\n\nThe website is in English, Gujarati and Hindi. Choose a language from the menu at the top of any page."
+      },
+      {
+        "id": "report-a-problem",
+        "subheading": "TELL US",
+        "title": "Report a problem",
+        "description": "If something on this website or at the museum is hard to use, or you need information in another format, please tell us at [CONFIRM: email address for accessibility questions] or call [(609) 918-1212](tel:+16099181212). We aim to reply within [CONFIRM: number of working days]."
+      }
+    ]
+  },
+  "gu": {
+    "topics": [
+      {
+        "id": "visiting",
+        "subheading": "મ્યુઝિયમની મુલાકાત",
+        "title": "હરવું-ફરવું",
+        "description": "**વ્હીલચેર:** [CONFIRM: wheelchairs to borrow, free of charge, and where to ask for one].\n\n**લિફ્ટ:** [CONFIRM: elevator access to all three floors].\n\n**બેઠક વ્યવસ્થા:** [CONFIRM: where to find benches and seating in the galleries].\n\n**પાર્કિંગ અને શૌચાલય:** [CONFIRM: accessible parking spaces and accessible restrooms, and where they are]."
+      },
+      {
+        "id": "during-your-visit",
+        "subheading": "આપની મુલાકાત દરમિયાન",
+        "title": "મદદ, શાંતિ અને અવાજ",
+        "description": "**સેવા પ્રાણીઓ:** [CONFIRM: service animals are welcome in all galleries].\n\n**શાંત સ્થળો:** [CONFIRM: a quiet room or calmer areas, and any sensory-friendly hours].\n\n**શો:** [CONFIRM: captions on all multimedia shows].\n\n**ઑડિયો માર્ગદર્શિકા:** [CONFIRM: audio guide in English, Gujarati and Hindi, with transcripts].\n\n**અમારી ટીમની મદદ:** [CONFIRM: staff and volunteers can help at the entrance and in every gallery]. આપની મુલાકાત પહેલાં આપ અમને [(609) 918-1212](tel:+16099181212) પર ફોન પણ કરી શકો છો."
+      },
+      {
+        "id": "this-website",
+        "subheading": "આ વેબસાઇટ",
+        "title": "આ વેબસાઇટનો ઉપયોગ",
+        "description": "અમારો પ્રયત્ન છે કે આ વેબસાઇટ વેબ કન્ટેન્ટ ઍક્સેસિબિલિટી ગાઇડલાઇન્સ (WCAG) 2.2ના AA સ્તરને અનુરૂપ રહે. [CONFIRM: the standard the museum commits to, and when the site was last checked against it.]\n\nઆ પાનાં કીબોર્ડ અને સ્ક્રીન રીડર સાથે કામ કરે તે રીતે બનાવાયાં છે: તેમાં સ્પષ્ટ શીર્ષકો અને વિભાગો છે, ચિત્રોનું લખાણમાં વર્ણન છે અને બટનો તથા નિયંત્રણોને નામ આપેલાં છે. આપનું ઉપકરણ હલનચલન ઓછું કરવા માટે ગોઠવેલું હોય ત્યારે હલનચલન અને ઍનિમેશન બંધ થઈ જાય છે.\n\nઆ વેબસાઇટ અંગ્રેજી, ગુજરાતી અને હિન્દીમાં ઉપલબ્ધ છે. કોઈ પણ પાનાની ઉપરના મેનૂમાંથી ભાષા પસંદ કરો."
+      },
+      {
+        "id": "report-a-problem",
+        "subheading": "અમને જણાવો",
+        "title": "મુશ્કેલી જણાવો",
+        "description": "આ વેબસાઇટ પર કે મ્યુઝિયમમાં કંઈ વાપરવું મુશ્કેલ લાગે, અથવા આપને માહિતી અન્ય સ્વરૂપમાં જોઈતી હોય, તો કૃપા કરી અમને [CONFIRM: email address for accessibility questions] પર જણાવો અથવા [(609) 918-1212](tel:+16099181212) પર ફોન કરો. અમે [CONFIRM: number of working days]માં જવાબ આપવાનો પ્રયત્ન કરીએ છીએ."
+      }
+    ]
+  },
+  "hi": {
+    "topics": [
+      {
+        "id": "visiting",
+        "subheading": "संग्रहालय का भ्रमण",
+        "title": "आना-जाना",
+        "description": "**व्हीलचेयर:** [CONFIRM: wheelchairs to borrow, free of charge, and where to ask for one].\n\n**लिफ़्ट:** [CONFIRM: elevator access to all three floors].\n\n**बैठने की व्यवस्था:** [CONFIRM: where to find benches and seating in the galleries].\n\n**पार्किंग और शौचालय:** [CONFIRM: accessible parking spaces and accessible restrooms, and where they are]."
+      },
+      {
+        "id": "during-your-visit",
+        "subheading": "आपके भ्रमण के दौरान",
+        "title": "सहायता, शांति और ध्वनि",
+        "description": "**सेवा पशु:** [CONFIRM: service animals are welcome in all galleries].\n\n**शांत स्थान:** [CONFIRM: a quiet room or calmer areas, and any sensory-friendly hours].\n\n**शो:** [CONFIRM: captions on all multimedia shows].\n\n**ऑडियो गाइड:** [CONFIRM: audio guide in English, Gujarati and Hindi, with transcripts].\n\n**हमारी टीम की सहायता:** [CONFIRM: staff and volunteers can help at the entrance and in every gallery]. आप अपने भ्रमण से पहले हमें [(609) 918-1212](tel:+16099181212) पर फ़ोन भी कर सकते हैं।"
+      },
+      {
+        "id": "this-website",
+        "subheading": "यह वेबसाइट",
+        "title": "इस वेबसाइट का उपयोग",
+        "description": "हमारा प्रयास है कि यह वेबसाइट वेब कंटेंट एक्सेसिबिलिटी गाइडलाइन्स (WCAG) 2.2 के AA स्तर के अनुरूप हो। [CONFIRM: the standard the museum commits to, and when the site was last checked against it.]\n\nये पृष्ठ कीबोर्ड और स्क्रीन रीडर के साथ काम करने के लिए बनाए गए हैं: इनमें स्पष्ट शीर्षक और खंड हैं, चित्रों का लिखित विवरण है और बटनों व नियंत्रणों के नाम दिए गए हैं। जब आपका उपकरण गति कम करने के लिए सेट हो, तो हलचल और एनिमेशन बंद हो जाते हैं।\n\nयह वेबसाइट अंग्रेज़ी, गुजराती और हिंदी में उपलब्ध है। किसी भी पृष्ठ के ऊपर दिए मेनू से भाषा चुनें।"
+      },
+      {
+        "id": "report-a-problem",
+        "subheading": "हमें बताएँ",
+        "title": "समस्या बताएँ",
+        "description": "यदि इस वेबसाइट पर या संग्रहालय में कुछ उपयोग करना कठिन लगे, या आपको जानकारी किसी अन्य रूप में चाहिए, तो कृपया हमें [CONFIRM: email address for accessibility questions] पर बताएँ या [(609) 918-1212](tel:+16099181212) पर फ़ोन करें। हम [CONFIRM: number of working days] में उत्तर देने का प्रयास करते हैं।"
+      }
+    ]
+  }
+}

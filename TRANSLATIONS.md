@@ -2,7 +2,7 @@
 
 Text files: each topic file in `src/content/topics/` has an `en` part and `gu` and `hi` variations with the same field names; child topics are matched by `id`. Interface labels are in `src/content/strings/labels.json` and `ui.json`. A missing or empty value shows the English text on the site. See CONTENT-MODEL.md.
 
-The current Gujarati and Hindi text is a **first draft prepared with AI assistance**. Please have a fluent reader, ideally someone familiar with BAPS usage, review it before launch, especially names, devotional terms and the opening of each page.
+The current Gujarati and Hindi text is a **first draft prepared with AI assistance**. The **Accessibility** and **Privacy** pages (added October 2026) are the newest first drafts and need the same review; in Hindi they use सुगम्यता for "accessibility", as the rest of the site does. Please have a fluent reader, ideally someone familiar with BAPS usage, review it before launch, especially names, devotional terms and the opening of each page.
 
 ## Rules
 - Translate only the words. In the editor, keep links and bold/italic where the English has them. In the files, descriptions are Markdown: keep `[link text](/visit)` link targets and `\` line breaks as they are.
@@ -52,6 +52,8 @@ The current Gujarati and Hindi text is a **first draft prepared with AI assistan
 | Legacy Hall | વારસા ખંડ | विरासत कक्ष |
 | Charity Legacy Passes | ચેરિટી લેગસી પાસ | चैरिटी लेगेसी पास |
 | membership: Individual / Family / Patron | વ્યક્તિગત / પરિવાર / આશ્રયદાતા | व्यक्तिगत / परिवार / संरक्षक |
+| Accessibility | સુલભતા | सुगम्यता |
+| Privacy | ગોપનીયતા | गोपनीयता |
 | UNESCO World Heritage Site | યુનેસ્કો વિશ્વ ધરોહર સ્થળ | यूनेस्को विश्व धरोहर स्थल |
 | c. (circa) | આશરે | लगभग |
 | BCE / CE | ઈ.સ.પૂ. / ઈ.સ. | ई.पू. / ई. |

@@ -9,28 +9,14 @@
         "id": "accessibility",
         "action": {
           "label": "Accessibility",
-          "link": "#"
+          "link": "/accessibility"
         }
       },
       {
         "id": "privacy",
         "action": {
           "label": "Privacy",
-          "link": "#"
-        }
-      },
-      {
-        "id": "press",
-        "action": {
-          "label": "Press",
-          "link": "#"
-        }
-      },
-      {
-        "id": "careers",
-        "action": {
-          "label": "Careers",
-          "link": "#"
+          "link": "/privacy"
         }
       }
     ]
@@ -51,18 +37,6 @@
         "action": {
           "label": "ગોપનીયતા"
         }
-      },
-      {
-        "id": "press",
-        "action": {
-          "label": "પ્રેસ"
-        }
-      },
-      {
-        "id": "careers",
-        "action": {
-          "label": "કારકિર્દી"
-        }
       }
     ]
   },
@@ -81,18 +55,6 @@
         "id": "privacy",
         "action": {
           "label": "गोपनीयता"
-        }
-      },
-      {
-        "id": "press",
-        "action": {
-          "label": "प्रेस"
-        }
-      },
-      {
-        "id": "careers",
-        "action": {
-          "label": "करियर"
         }
       }
     ]

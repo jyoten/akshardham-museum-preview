@@ -1,0 +1,26 @@
+{
+  "name": "Privacy",
+  "path": "/privacy/",
+  "nav": "",
+  "headerStyle": "position:relative;background:var(--ink);color:var(--cream)",
+  "meta": "privacy/meta",
+  "components": [
+    {
+      "style": "site-header"
+    },
+    {
+      "style": "page-hero",
+      "topic": "privacy/hero",
+      "settings": {
+        "headingId": "privacy-h"
+      }
+    },
+    {
+      "style": "chapters",
+      "topic": "privacy/story",
+      "settings": {
+        "continuous": true
+      }
+    }
+  ]
+}
