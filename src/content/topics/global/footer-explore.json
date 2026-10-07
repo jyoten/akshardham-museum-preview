@@ -18,17 +18,10 @@
     }
    },
    {
-    "id": "statues",
+    "id": "lifelike-scenes",
     "action": {
-     "label": "Statues &amp; luminaries",
+     "label": "Lifelike Scenes &amp; Statues",
      "link": "/explore/lifelike-scenes"
-    }
-   },
-   {
-    "id": "shows",
-    "action": {
-     "label": "Shows &amp; films",
-     "link": "#"
     }
    },
    {
@@ -63,15 +56,9 @@
     }
    },
    {
-    "id": "statues",
+    "id": "lifelike-scenes",
     "action": {
-     "label": "પ્રતિમાઓ અને મહાનુભાવો"
-    }
-   },
-   {
-    "id": "shows",
-    "action": {
-     "label": "શો અને ફિલ્મો"
+     "label": "જીવંત દૃશ્યો અને પ્રતિમાઓ"
     }
    },
    {
@@ -104,15 +91,9 @@
     }
    },
    {
-    "id": "statues",
+    "id": "lifelike-scenes",
     "action": {
-     "label": "प्रतिमाएँ और महापुरुष"
-    }
-   },
-   {
-    "id": "shows",
-    "action": {
-     "label": "शो और फ़िल्में"
+     "label": "सजीव दृश्य और प्रतिमाएँ"
     }
    },
    {

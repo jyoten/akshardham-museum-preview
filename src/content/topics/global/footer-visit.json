@@ -25,17 +25,10 @@
     }
    },
    {
-    "id": "schools",
+    "id": "learn",
     "action": {
-     "label": "School visits",
-     "link": "/learn#schools"
-    }
-   },
-   {
-    "id": "young-explorers",
-    "action": {
-     "label": "For young explorers",
-     "link": "/learn#explorers"
+     "label": "Learn",
+     "link": "/learn"
     }
    },
    {
@@ -69,15 +62,9 @@
     }
    },
    {
-    "id": "schools",
+    "id": "learn",
     "action": {
-     "label": "શાળા મુલાકાતો"
-    }
-   },
-   {
-    "id": "young-explorers",
-    "action": {
-     "label": "યુવા અન્વેષકો માટે"
+     "label": "શીખો"
     }
    },
    {
@@ -110,15 +97,9 @@
     }
    },
    {
-    "id": "schools",
+    "id": "learn",
     "action": {
-     "label": "विद्यालय भ्रमण"
-    }
-   },
-   {
-    "id": "young-explorers",
-    "action": {
-     "label": "युवा खोजकर्ताओं के लिए"
+     "label": "सीखें"
     }
    },
    {

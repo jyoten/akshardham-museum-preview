@@ -3,6 +3,8 @@
 //
 //   node scripts/migrate-v5-content.mjs <v5 content dir>     e.g. ../v5/src/content
 //
+// Written against iteration-5 as of de00770 (the footer with one link per page).
+//
 // Every v5 key must end up somewhere; the script lists any it didn't use.
 import fs from "node:fs";
 import path from "node:path";
@@ -160,7 +162,7 @@ doc("global", [
     title: k("common_006"),
     topics: [
       ["galleries", "common_015", "/explore"], ["replicas", "common_016", "/explore/legacy-architecture"],
-      ["statues", "common_017", "/explore/lifelike-scenes"], ["shows", "common_018", "#"],
+      ["lifelike-scenes", "common_017", "/explore/lifelike-scenes"],
       ["timeline", "common_019", "/timeline"], ["virtual-tour", "common_020", "#"],
     ].map(([id, key, link]) => T(id, { action: { label: k(key), link } })),
   }),
@@ -168,7 +170,7 @@ doc("global", [
     title: k("common_022"),
     topics: [
       ["plan", "common_023", "/visit"], ["tickets", "common_024", "/visit#tickets"], ["accessibility", "common_025", "/visit#access"],
-      ["schools", "common_026", "/learn#schools"], ["young-explorers", "common_027", "/learn#explorers"],
+      ["learn", "common_009", "/learn"],
       ["shop", "common_011", "todo:Shop (no page in the design)"],
     ].map(([id, key, link]) => T(id, { action: { label: k(key), link } })),
   }),
