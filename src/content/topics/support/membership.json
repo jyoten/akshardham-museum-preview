@@ -28,10 +28,6 @@
           {
             "id": "benefit-3",
             "title": "Guided-tour discount"
-          },
-          {
-            "id": "benefit-4",
-            "title": "Shop discount"
           }
         ]
       },
@@ -127,10 +123,6 @@
           {
             "id": "benefit-3",
             "title": "માર્ગદર્શિત પ્રવાસ પર છૂટ"
-          },
-          {
-            "id": "benefit-4",
-            "title": "દુકાનમાં ખરીદી પર છૂટ"
           }
         ]
       },
@@ -224,10 +216,6 @@
           {
             "id": "benefit-3",
             "title": "मार्गदर्शित भ्रमण पर छूट"
-          },
-          {
-            "id": "benefit-4",
-            "title": "दुकान में खरीदारी पर छूट"
           }
         ]
       },

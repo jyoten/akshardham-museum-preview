@@ -25,7 +25,6 @@ The current Gujarati and Hindi text is a **first draft prepared with AI assistan
 | Visit (nav) | મુલાકાત | भ्रमण |
 | Learn (nav) | શીખો | सीखें |
 | Support (nav) | સહયોગ | सहयोग |
-| Shop (nav) | દુકાન | दुकान |
 | Book tickets | ટિકિટ બુક કરો | टिकट बुक करें |
 | Plan your visit | આપની મુલાકાતનું આયોજન | अपनी यात्रा की योजना |
 | Lifelike Scenes & Statues | જીવંત દૃશ્યો અને પ્રતિમાઓ | सजीव दृश्य और प्रतिमाएँ |

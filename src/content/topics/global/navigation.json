@@ -36,13 +36,6 @@
           "label": "Support",
           "link": "/support"
         }
-      },
-      {
-        "id": "shop",
-        "action": {
-          "label": "Shop",
-          "link": "todo:Shop (no page in the design)"
-        }
       }
     ]
   },
@@ -77,12 +70,6 @@
         "action": {
           "label": "સહયોગ"
         }
-      },
-      {
-        "id": "shop",
-        "action": {
-          "label": "દુકાન"
-        }
       }
     ]
   },
@@ -116,12 +103,6 @@
         "id": "support",
         "action": {
           "label": "सहयोग"
-        }
-      },
-      {
-        "id": "shop",
-        "action": {
-          "label": "दुकान"
         }
       }
     ]

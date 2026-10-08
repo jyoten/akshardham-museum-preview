@@ -30,13 +30,6 @@
           "label": "Learn",
           "link": "/learn"
         }
-      },
-      {
-        "id": "shop",
-        "action": {
-          "label": "Shop",
-          "link": "todo:Shop (no page in the design)"
-        }
       }
     ]
   },
@@ -66,12 +59,6 @@
         "action": {
           "label": "શીખો"
         }
-      },
-      {
-        "id": "shop",
-        "action": {
-          "label": "દુકાન"
-        }
       }
     ]
   },
@@ -100,12 +87,6 @@
         "id": "learn",
         "action": {
           "label": "सीखें"
-        }
-      },
-      {
-        "id": "shop",
-        "action": {
-          "label": "दुकान"
         }
       }
     ]
