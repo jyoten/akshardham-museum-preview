@@ -75,7 +75,7 @@ const eleventyExcludeFromCollections = true;
                 {% if item.view %}
                   <div class="views">
                     {% for link in item.view %}
-                      <a class="view" href="{{ reviewTracker.previewBase }}{{ link.href }}" target="_blank" rel="noopener noreferrer">{% if link.label %}{{ link.label }}{% else %}View{% endif %}<span class="vh"> (opens in a new tab)</span></a>
+                      <a class="view" href="{{ reviewTracker.previewBase }}{{ link.href }}{% if link.text %}{{ link.text | textFragment }}{% endif %}" target="_blank" rel="noopener noreferrer">{% if link.label %}{{ link.label }}{% else %}View{% endif %}<span class="vh"> (opens in a new tab)</span></a>
                     {% endfor %}
                   </div>
                 {% endif %}

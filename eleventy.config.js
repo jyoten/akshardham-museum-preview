@@ -6,6 +6,7 @@ import { createHash } from "node:crypto";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 import path from "node:path";
 import * as text from "./lib/text.js";
+import { textFragment } from "./lib/text-fragment.js";
 import { createSite, LANGS } from "./lib/site.js";
 import nunjucks from "nunjucks";
 
@@ -91,6 +92,7 @@ export default function (eleventyConfig) {
     return { ...data, counts };
   });
   eleventyConfig.addFilter("statusKey", (s) => String(s).toLowerCase().replace(/ /g, "-"));
+  eleventyConfig.addFilter("textFragment", textFragment);
   const site = createSite({ content: loadContent(), text, prefix: PREFIX });
   const { lurl } = site;
   eleventyConfig.on("eleventy.before", () => site.setContent(loadContent()));
