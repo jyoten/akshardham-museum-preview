@@ -11,16 +11,6 @@
         "alt": "The carved stone galleries of the Rani-ki-Vav stepwell replica, lit in warm gold",
         "caption": "The Rani-ki-Vav replica in the Akshardham Museum."
       }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "Audio guide · Stop [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [Transcript](#)",
-        "action": {
-          "label": "Play audio guide, stop [#]"
-        }
-      }
     ]
   },
   "gu": {
@@ -32,16 +22,6 @@
         "alt": "રાણકી વાવની પ્રતિકૃતિની પથ્થરમાં કોતરેલી ગેલેરીઓ, હૂંફાળા સોનેરી પ્રકાશમાં",
         "caption": "અક્ષરધામ મ્યુઝિયમમાં રાણકી વાવની પ્રતિકૃતિ."
       }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [લેખિત પાઠ](#)",
-        "action": {
-          "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
-        }
-      }
     ]
   },
   "hi": {
@@ -52,16 +32,6 @@
       {
         "alt": "रानी की वाव की प्रतिकृति की पत्थर में तराशी गई दीर्घाएँ, गर्म सुनहरी रोशनी में",
         "caption": "अक्षरधाम म्यूज़ियम में रानी की वाव की प्रतिकृति।"
-      }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "ऑडियो गाइड · स्टॉप [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [लिखित पाठ](#)",
-        "action": {
-          "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
-        }
       }
     ]
   }

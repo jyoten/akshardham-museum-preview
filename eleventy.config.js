@@ -142,17 +142,20 @@ export default function (eleventyConfig) {
       "node_modules/markdown-it/dist/markdown-it.min.js": "admin/vendor/markdown-it.min.js",
     });
     // The site's templates, precompiled for the browser, and the published content they show.
-    eleventyConfig.on("eleventy.after", ({ dir }) => {
+    // `directories.output` is the directory this build actually wrote (including `eleventy --output`).
+    // `dir.output` is the config default and stays `_site` when the CLI overrides it (Eleventy 3).
+    eleventyConfig.on("eleventy.after", ({ dir, directories }) => {
+      const output = directories?.output || dir.output;
       const inc = path.join("src", "_includes");
       const files = [];
       const walk = (d) => { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walk(p); else if (/\.(njk|html)$/.test(f)) files.push(p); } };
       walk(inc);
       const js = files.sort().map((f) => nunjucks.precompileString(fs.readFileSync(f, "utf8"), { name: path.relative(inc, f).split(path.sep).join("/") })).join("\n");
-      fs.mkdirSync(path.join(dir.output, "admin"), { recursive: true });
-      fs.writeFileSync(path.join(dir.output, "admin", "preview-templates.js"), js);
+      fs.mkdirSync(path.join(output, "admin"), { recursive: true });
+      fs.writeFileSync(path.join(output, "admin", "preview-templates.js"), js);
       const c = loadContent();
       const data = { ...c, languages: readJson("src/_data/languages.json"), langs: readJson("src/_data/langs.json") };
-      fs.writeFileSync(path.join(dir.output, "admin", "site-data.json"), JSON.stringify(data));
+      fs.writeFileSync(path.join(output, "admin", "site-data.json"), JSON.stringify(data));
     });
   }
   for (const f of ["favicon.svg", "favicon-32.png", "favicon.ico", "apple-touch-icon.png"]) {

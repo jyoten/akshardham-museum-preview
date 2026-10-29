@@ -30,10 +30,6 @@
     {
       "style": "nearby-cards",
       "topic": "exhibit-dholavira-bazaar/nearby"
-    },
-    {
-      "style": "timeline-band",
-      "topic": "exhibit-dholavira-bazaar/on-the-timeline"
     }
   ]
 }

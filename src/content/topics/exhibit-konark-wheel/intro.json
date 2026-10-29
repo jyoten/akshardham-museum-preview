@@ -3,7 +3,7 @@
     "id": "intro",
     "title": "Konark Wheel",
     "subheading": "Temple sundial replica · Floor [X]",
-    "description": "One of the great stone wheels of the Sun Temple at Konark, carved for a temple shaped as the chariot of the sun god.",
+    "description": "The famous temple in Konark was dedicated to the Sun God and designed in the shape of his chariot. Come see a grand replica of the stone wheel from that heritage place.",
     "media": [
       {
         "type": "image",
@@ -11,57 +11,27 @@
         "alt": "Two great carved stone wheels from the Konark temple",
         "caption": "The Konark Wheel replica in the Akshardham Museum."
       }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "Audio guide · Stop [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [Transcript](#)",
-        "action": {
-          "label": "Play audio guide, stop [#]"
-        }
-      }
     ]
   },
   "gu": {
     "title": "કોણાર્કનું ચક્ર",
     "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ · માળ [X]",
-    "description": "કોણાર્કના સૂર્યમંદિરનાં પથ્થરનાં વિશાળ ચક્રોમાંનું એક, જે સૂર્યદેવના રથના આકારમાં રચાયેલા મંદિર માટે કોતરવામાં આવ્યું હતું.",
+    "description": "કોણાર્કનું પ્રસિદ્ધ મંદિર સૂર્યદેવને સમર્પિત હતું અને તેમના રથના આકારમાં રચાયું હતું. તે વારસાસ્થળના પથ્થરના ચક્રની ભવ્ય પ્રતિકૃતિ જોવા આવો.",
     "media": [
       {
         "alt": "કોણાર્ક મંદિરનાં પથ્થરમાં કોતરેલાં બે વિશાળ ચક્રો",
         "caption": "અક્ષરધામ મ્યુઝિયમમાં કોણાર્કના ચક્રની પ્રતિકૃતિ."
-      }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [લેખિત પાઠ](#)",
-        "action": {
-          "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
-        }
       }
     ]
   },
   "hi": {
     "title": "कोणार्क चक्र",
     "subheading": "मंदिर की सूर्य-घड़ी की प्रतिकृति · तल [X]",
-    "description": "कोणार्क के सूर्य मंदिर के पत्थर के विशाल चक्रों में से एक, जिसे सूर्यदेव के रथ के आकार में रचे गए मंदिर के लिए तराशा गया था।",
+    "description": "कोणार्क का प्रसिद्ध मंदिर सूर्यदेव को समर्पित था और उनके रथ के आकार में रचा गया था। उस विरासत-स्थल के पत्थर के चक्र की भव्य प्रतिकृति देखने आइए।",
     "media": [
       {
         "alt": "कोणार्क मंदिर के पत्थर में तराशे गए दो विशाल चक्र",
         "caption": "अक्षरधाम म्यूज़ियम में कोणार्क चक्र की प्रतिकृति।"
-      }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "ऑडियो गाइड · स्टॉप [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [लिखित पाठ](#)",
-        "action": {
-          "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
-        }
       }
     ]
   }
