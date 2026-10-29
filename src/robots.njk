@@ -8,4 +8,7 @@ Disallow: /
 Allow: /
 Disallow: /admin/
 Disallow: /previews/
+Disallow: /review/
+{% if site.prefix %}Disallow: {{ site.prefix }}/review/
+{% endif %}
 {% endif %}

@@ -82,6 +82,15 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addGlobalData("site", { prefix: PREFIX, review: REVIEW || !!PREVIEW_OF, previewOf: PREVIEW_OF });
   eleventyConfig.addGlobalData("adminCsp", { policy: adminCsp(), decapVersion: DECAP_VERSION, decapIntegrity: DECAP_INTEGRITY });
+  // Unlisted English review page (src/review.njk). Not a content page, so it is not in the nav.
+  eleventyConfig.addGlobalData("reviewTracker", () => {
+    const data = readJson(path.join(CONTENT, "review-tracker.json"));
+    const counts = {};
+    for (const label of data.statuses || []) counts[label] = 0;
+    for (const item of data.items || []) counts[item.status] = (counts[item.status] || 0) + 1;
+    return { ...data, counts };
+  });
+  eleventyConfig.addFilter("statusKey", (s) => String(s).toLowerCase().replace(/ /g, "-"));
   const site = createSite({ content: loadContent(), text, prefix: PREFIX });
   const { lurl } = site;
   eleventyConfig.on("eleventy.before", () => site.setContent(loadContent()));
