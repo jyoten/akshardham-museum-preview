@@ -1,0 +1,344 @@
+{
+  "previewBase": "https://jyoten.github.io/akshardham-museum-preview/previews/pr-1/",
+  "statuses": ["Updated", "Partly updated", "To discuss Saturday", "Not needed"],
+  "items": [
+    {
+      "n": 1,
+      "page": "Home",
+      "change": "Hero eyebrow",
+      "before": "THE LARGEST HINDU MUSEUM IN THE WESTERN HEMISPHERE",
+      "after": "A ONE-OF-A-KIND HINDU MUSEUM IN THE WESTERN HEMISPHERE",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 2,
+      "page": "Home",
+      "change": "Hero headline",
+      "before": "Ten thousand years of India, under one roof.",
+      "after": "Thousands of years of Hindu Dharma under one roof",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 3,
+      "page": "Home",
+      "change": "Hero image caption",
+      "before": "Rani-ki-Vav stepwell, 11th-century Gujarat · Legacy Architecture, Floor",
+      "after": "Rani-ki-Vav stepwell, 11th-century Gujarat",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 4,
+      "page": "Home",
+      "change": "Intro heading",
+      "before": "TELLING OUR STORY, OUR WAY\nIf we do not tell our story, others will tell it for us.",
+      "after": "Authentic and Awe-Inspiring\nLearn about authentic Hinduism from expert sources.",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 5,
+      "page": "Home",
+      "change": "Intro paragraph",
+      "before": "The Akshardham Museum is a one-of-a-kind cultural immersion. Across three floors, lifelike scenes, scaled replicas of India's great monuments and immersive shows trace a civilization from its first cities to the present day.",
+      "after": "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India.",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 6,
+      "page": "Home",
+      "change": "Audience cards",
+      "before": "For our children\nA confident answer to \"Who am I?\" — pride, understanding and belonging, discovered one gallery at a time.\n\nFor the world\nAn authentic gateway to India's contributions to science, ethics, art and spirituality — beyond brief impressions.",
+      "after": "For the world\nAn authentic gateway to Hinduism's contribution to science, ethics, art, and spirituality.\n\nFor Hindu children:\nA place to imbibe pride in being the best of both Hindu and American.",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 7,
+      "page": "Home",
+      "change": "Stats band",
+      "before": "One building. Every era, region and art form we could carry.\n3 floors · 12 architectural replicas · 85 immersive dioramas · 40 multimedia shows · 200 lifelike statues · 99,018 square feet",
+      "after": "The actual figures are still needed.",
+      "status": "To discuss Saturday",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 8,
+      "page": "Home",
+      "change": "Timeline teaser",
+      "before": "Walk the whole story, from first villages to today.\nEvery era links to the galleries where you can see it for yourself.",
+      "after": "This section has been removed.",
+      "status": "Not needed",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 9,
+      "page": "Home",
+      "change": "Membership band",
+      "before": "Make it yours. Become a member.\nUnlimited visits all year, first looks at new content, and discounts on guided tours.",
+      "after": "The membership section is removed. Where support should go is still to discuss.",
+      "status": "Partly updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 10,
+      "page": "Home",
+      "change": "Timeline section",
+      "before": "THE 10,000-YEAR TIMELINE\nc. 7000 BCE First villages … Today A global family",
+      "after": "Removed.",
+      "status": "Updated",
+      "view": [{ "href": "" }]
+    },
+    {
+      "n": 11,
+      "page": "Galleries",
+      "change": "Ajanta Caves line",
+      "before": "Step inside a faithful replica of a rock-cut prayer hall carved into a Maharashtra gorge some two thousand years ago.",
+      "after": "Step inside a faithful replica of a rock-cut prayer hall carved into a Maharashtra mountain over two thousand years ago.",
+      "status": "Updated",
+      "view": [{ "href": "explore/" }]
+    },
+    {
+      "n": 12,
+      "page": "Galleries",
+      "change": "Section subhead",
+      "before": "Four galleries across three floors: monuments in stone, lifelike scenes, the ideas of scripture, and India's living culture.",
+      "after": "Four galleries across three floors.",
+      "status": "Updated",
+      "view": [{ "href": "explore/" }]
+    },
+    {
+      "n": 13,
+      "page": "Galleries",
+      "change": "Gallery card text",
+      "before": "Lifelike Scenes & Statues\nWalk among life-sized rishis, acharyas and leaders in full-scale scenes of India's past.\n\nLegacy Architecture\nScaled replicas of Ajanta and Ellora, grand mandir shikhars and more.\n\nWalking into Scripture\nYoga, karma, ahimsa and bhakti, and the shared roots of India's dharmic traditions.\n\nA Living Tapestry\nFestivals, food, clothing and dance — with interactive stations for young visitors.",
+      "after": "Lifelike Scenes & Statues\nWalk among life-sized sages, philosophers, and leaders in full-scale scenes from India's past.\n\nLegacy Architecture\nGrand replicas of Ajanta and Ellora, Konark, mandir spires, and more.\n\nWalking into Scripture\nWalk into Hinduism's scriptures by experiencing various traditions directly.\n\nA Living Tapestry\nExperience some of India's festivals, food, clothing, and dance – all in one place.",
+      "status": "Updated",
+      "view": [{ "href": "explore/" }]
+    },
+    {
+      "n": 14,
+      "page": "Gallery pages",
+      "change": "Page subtitles",
+      "before": "Lifelike Scenes & Statues\nWalk among life-sized rishis, acharyas and leaders in full-scale scenes of India's past.\n\nLegacy Architecture\nScaled replicas of Ajanta and Ellora, grand mandir shikhars and more.\n\nWalking into Scripture\nYoga, karma, ahimsa and bhakti, and the shared roots of India's dharmic traditions.\n\nA Living Tapestry\nFestivals, food, clothing and dance — with interactive stations for young visitors.",
+      "after": "Lifelike Scenes & Statues\nWalk among life-sized sages, philosophers, and leaders in full-scale scenes from India's past.\n\nLegacy Architecture\nGrand replicas of Ajanta and Ellora, Konark, mandir spires, and more.\n\nWalking into Scripture\nWalk into Hinduism's scriptures by experiencing various traditions directly.\n\nA Living Tapestry\nExperience some of India's festivals, food, clothing, and dance – all in one place.",
+      "status": "Updated",
+      "view": [
+        { "href": "explore/lifelike-scenes/", "label": "Lifelike scenes" },
+        { "href": "explore/legacy-architecture/", "label": "Legacy architecture" },
+        { "href": "explore/walking-into-scripture/", "label": "Walking into scripture" },
+        { "href": "explore/living-tapestry/", "label": "Living tapestry" }
+      ]
+    },
+    {
+      "n": 15,
+      "page": "Replica pages",
+      "change": "Audio guide",
+      "before": "Audio guide · English, ગુજરાતી, हिन्दी · Transcript",
+      "after": "Removed from every replica page.",
+      "status": "Updated",
+      "view": [
+        { "href": "ajanta/", "label": "Ajanta" },
+        { "href": "explore/rani-ki-vav/", "label": "Rani-ki-Vav" },
+        { "href": "explore/konark-wheel/", "label": "Konark" },
+        { "href": "explore/haveli/", "label": "Haveli" },
+        { "href": "explore/dholavira-bazaar/", "label": "Dholavira" }
+      ]
+    },
+    {
+      "n": 16,
+      "page": "Rani-ki-Vav",
+      "change": "Main text",
+      "before": "Stepwells gave communities in dry western India year-round access to water, and became places to gather, rest and worship. Rani-ki-Vav, on the banks of the Saraswati river in Patan, is one of the finest.\n\nIt was built in the 11th century during the rule of the Chaulukya (Solanki) dynasty, and is traditionally linked to Queen Udayamati. Its stepped corridors and pavilions carry hundreds of sculptures, many of them of Vishnu and his avatars. Silt from the river buried it for centuries, which helped preserve the carving.",
+      "after": "Stepwells gave communities in drier areas year-round access to water. They also became places to gather, rest, and even worship. Rani-ki-Vav, in the Patan area, is one of India's finest.\n\nIt was built in the 11th century during the rule of the Chaulukya (Solanki) dynasty. It is traditionally linked to Queen Udayamati.\n\nIts stepped corridors and pavilions carry hundreds of sculptures – many of them of Vishnu Bhagwan and his avatars. Silt from the river buried it for centuries, which helped preserve the carvings.",
+      "status": "Updated",
+      "view": [{ "href": "explore/rani-ki-vav/" }]
+    },
+    {
+      "n": 17,
+      "page": "Replica pages",
+      "change": "Replicas link",
+      "before": "All 12 replicas",
+      "after": "All replicas",
+      "status": "Updated",
+      "view": [
+        { "href": "ajanta/", "label": "Ajanta" },
+        { "href": "explore/rani-ki-vav/", "label": "Rani-ki-Vav" },
+        { "href": "explore/konark-wheel/", "label": "Konark" },
+        { "href": "explore/haveli/", "label": "Haveli" },
+        { "href": "explore/dholavira-bazaar/", "label": "Dholavira" }
+      ]
+    },
+    {
+      "n": 18,
+      "page": "Replica pages",
+      "change": "Timeline strip",
+      "before": "On the timeline · The great temple builders · c. 600–1300 CE",
+      "after": "Removed from every replica page.",
+      "status": "Updated",
+      "view": [
+        { "href": "ajanta/", "label": "Ajanta" },
+        { "href": "explore/rani-ki-vav/", "label": "Rani-ki-Vav" },
+        { "href": "explore/konark-wheel/", "label": "Konark" },
+        { "href": "explore/haveli/", "label": "Haveli" },
+        { "href": "explore/dholavira-bazaar/", "label": "Dholavira" }
+      ]
+    },
+    {
+      "n": 19,
+      "page": "Konark",
+      "change": "Introduction",
+      "before": "One of the great stone wheels of the Sun Temple at Konark, carved for a temple shaped as the chariot of the sun god.",
+      "after": "The famous temple in Konark was dedicated to the Sun God and designed in the shape of his chariot. Come see a grand replica of the stone wheel from that heritage place.",
+      "status": "Updated",
+      "view": [{ "href": "explore/konark-wheel/" }]
+    },
+    {
+      "n": 20,
+      "page": "Haveli",
+      "change": "Main text",
+      "before": "Havelis are traditional townhouses and mansions found across western and northern India, especially in Gujarat and Rajasthan. Many are built around inner courtyards that keep the house cool and private.\n\nTheir street facades are often richly carved, with overhanging balconies and enclosed windows (jharokhas) from which the family could watch the life of the street.",
+      "after": "Havelis are traditional townhouses or mansions found across India – especially in Gujarat and Rajasthan.\n\nMany are built around inner courtyards that keep the house cool and private.\n\nTheir street facades are often richly carved with overhanging balconies and enclosed windows from which the family could watch the life of the street.",
+      "status": "Updated",
+      "view": [{ "href": "explore/haveli/" }]
+    },
+    {
+      "n": 21,
+      "page": "Dholavira",
+      "change": "Main text",
+      "before": "Dholavira is one of the largest known cities of the Harappan (Indus–Sarasvati) civilisation, on an island in the Rann of Kutch in Gujarat.\n\nIts builders laid out a fortified citadel and a town, and managed scarce water with an elaborate system of channels and reservoirs. A large inscription in the Harappan script was found near one of its gateways.",
+      "after": "Dholavira is one of the largest known cities of the Harappan (Indus-Sarasvati) civilization. It is in the Kutch area of Gujarat.\n\nIts builders laid out a fortified citadel and town. They managed scarce water through an elaborate system of channels and reservoirs.",
+      "status": "Updated",
+      "view": [{ "href": "explore/dholavira-bazaar/" }]
+    },
+    {
+      "n": 22,
+      "page": "Ajanta",
+      "change": "Opening line",
+      "before": "For seven hundred years, monks and artisans carved prayer halls and monasteries straight into the living rock of a river gorge — then the jungle hid them for more than a thousand more.",
+      "after": "For seven hundred years, monks and artisans carved prayer halls and monasteries directly into a gorge – then the jungle hid them for more than a thousand years.",
+      "status": "Updated",
+      "view": [{ "href": "ajanta/" }]
+    },
+    {
+      "n": 23,
+      "page": "Ajanta",
+      "change": "Main text",
+      "before": "Around thirty caves line a horseshoe bend of the Waghur river. The earliest were carved around the 2nd century BCE; a second great wave of work followed in the 5th century CE. Some are viharas, monasteries where monks lived and studied. Others are chaityas, prayer halls built around a stupa.\n\nTheir wall paintings — courtly scenes, animals, stories of the Buddha's past lives — are among the most important surviving examples of ancient Indian painting. Abandoned and overgrown, the caves were brought to wider attention in 1819.",
+      "after": "Around thirty caves line a bend of the Waghur River in Maharashtra.\n\nThe earliest halls were carved around the 2nd century BCE. Some became monasteries where monks lived and studied while others became prayer halls for the public.\n\nThe wall paintings of courtly scenes, animals, and stories of avatars are amongst the most important surviving examples of ancient Indian painting.",
+      "status": "Updated",
+      "view": [{ "href": "ajanta/" }]
+    },
+    {
+      "n": 24,
+      "page": "Timeline",
+      "change": "Whole page",
+      "before": "The timeline page, presenting the museum by era.",
+      "after": "Whether to remove this page is still to discuss.",
+      "status": "To discuss Saturday",
+      "view": null
+    },
+    {
+      "n": 25,
+      "page": "Plan your visit",
+      "change": "Questions contact",
+      "before": "QUESTIONS\n(609) 918-1212",
+      "after": "The correct email and phone number are still needed, on each page.",
+      "status": "To discuss Saturday",
+      "view": null
+    },
+    {
+      "n": 26,
+      "page": "Learn",
+      "change": "Hero",
+      "before": "A classroom where our heritage is the main story\nSchool and group visits, a trail for young explorers, and big ideas explained simply.",
+      "after": "A classroom where Hindu heritage is the main lesson.\nOrganize a special school or group visit to learn about big ideas explained simply.",
+      "status": "Updated",
+      "view": [{ "href": "learn/" }]
+    },
+    {
+      "n": 27,
+      "page": "Learn",
+      "change": "Young explorers card",
+      "before": "For young explorers\nAn illustrated map of the museum full of rishis, inventions and festivals to discover — at home or in the galleries.",
+      "after": "Removed.",
+      "status": "Updated",
+      "view": [{ "href": "learn/" }]
+    },
+    {
+      "n": 28,
+      "page": "Learn",
+      "change": "Idea list",
+      "before": "Ideas, explained simply: Yoga · Karma · Ahimsa · Bhakti · The 16 sanskars · Ancient Indian science",
+      "after": "Removed.",
+      "status": "Updated",
+      "view": [{ "href": "learn/" }]
+    },
+    {
+      "n": 29,
+      "page": "Support",
+      "change": "Introduction",
+      "before": "In the spirit of seva, every gift keeps galleries open, statues cared for and India's story told to the next generation.",
+      "after": "With the spirit of service (seva), every gift keeps galleries open, statues cared for, and Hinduism's story told to the next generation. The Become a member button is removed.",
+      "status": "Updated",
+      "view": [{ "href": "support/" }]
+    },
+    {
+      "n": 30,
+      "page": "Support",
+      "change": "Membership tiers",
+      "before": "Membership\nCome back as often as you like. Individual, Family, and Patron.",
+      "after": "Removed.",
+      "status": "Updated",
+      "view": [{ "href": "support/" }]
+    },
+    {
+      "n": 31,
+      "page": "Support",
+      "change": "Adopt an exhibit",
+      "before": "Yajman sponsors fund the upkeep, restoration and renewal of a specific statue, show, gallery, diorama or replica — with lasting recognition beside it. Each card shows a count.",
+      "after": "Legacy sponsors fund the upkeep, restoration, and renewal of a specific statue, show, gallery, diorama, or replica. The counts on the cards are removed.",
+      "status": "Updated",
+      "view": [{ "href": "support/" }]
+    },
+    {
+      "n": 32,
+      "page": "Support",
+      "change": "Charity passes",
+      "before": "Charity Legacy Passes\nGive a classroom the museum\nYour gift opens the doors for students and community groups who could not otherwise visit — so every child can walk through ten thousand years of history and leave a little prouder.",
+      "after": "Charity Passes\nGive a classroom the museum\nThis gift opens the doors to students and the community who could otherwise not visit. This way, every student has an opportunity to walk through thousands of years of history and leave inspired.",
+      "status": "Updated",
+      "view": [{ "href": "support/" }]
+    },
+    {
+      "n": 33,
+      "page": "Support",
+      "change": "Legacy Hall",
+      "before": "Legacy Hall\nA ceiling of swans, one for every founding family\nThe families who built this museum are honoured with swans hung in Legacy Hall. Find a name, or the swan your family dedicated.",
+      "after": "Removed.",
+      "status": "Updated",
+      "view": [{ "href": "support/" }]
+    },
+    {
+      "n": 34,
+      "page": "Privacy",
+      "change": "Forms sentence",
+      "before": "Nothing you type into its forms is sent anywhere yet.",
+      "after": "Nothing you type into its forms is sent anywhere.",
+      "status": "Updated",
+      "view": [{ "href": "privacy/" }]
+    },
+    {
+      "n": 35,
+      "page": "Privacy",
+      "change": "The page as a whole",
+      "before": "The page states what the site does with names, tracking, cookies, and forms.",
+      "after": "Whether this page is accurate still needs to be considered.",
+      "status": "To discuss Saturday",
+      "view": [{ "href": "privacy/" }]
+    }
+  ]
+}

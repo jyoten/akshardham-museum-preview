@@ -1,0 +1,94 @@
+---js
+const permalink = "/review/index.html";
+const eleventyExcludeFromCollections = true;
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<!-- security-meta -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Comments from Yoganand Swami, Oct 28.">
+<title>Website Review Changes</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/css/fonts.css">
+<link rel="stylesheet" href="/css/site.css">
+<link rel="stylesheet" href="/css/review.css">
+</head>
+<body class="review">
+<header class="mast">
+  <div class="mast-inner">
+    <p class="name">AKSHARDHAM</p>
+    <p class="place">Museum · Robbinsville, NJ</p>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Website Review Changes</h1>
+  <p class="sub">Comments from Yoganand Swami, Oct 28 · View links show the updated pages</p>
+  <hr class="rule">
+
+  <div class="chips" aria-label="Count by status">
+    {% for label in reviewTracker.statuses %}
+      <span class="chip" data-status="{{ label | statusKey }}"><span class="count">{{ reviewTracker.counts[label] }}</span> {{ label }}</span>
+    {% endfor %}
+  </div>
+
+  <div class="filters" role="group" aria-label="Filter by status">
+    <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+    {% for label in reviewTracker.statuses %}
+      <button type="button" class="filter" data-filter="{{ label | statusKey }}" aria-pressed="false">{{ label }}</button>
+    {% endfor %}
+    <p class="shown" id="shown" aria-live="polite">{{ reviewTracker.items | length }} comments</p>
+  </div>
+
+  <div class="panel">
+    <div class="table-wrap">
+      <table class="sheet">
+        <caption class="vh">Website review comments</caption>
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Page</th>
+            <th scope="col">Change requested</th>
+            <th scope="col">Before / After</th>
+            <th scope="col">Status</th>
+            <th scope="col">View</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for item in reviewTracker.items %}
+            <tr data-status="{{ item.status | statusKey }}">
+              <td class="n">{{ item.n }}</td>
+              <td class="page">{{ item.page }}</td>
+              <td class="change" data-label="Change requested">{{ item.change }}</td>
+              <td class="ba" data-label="Before / After">
+                <span class="k">Before</span>
+                <p class="was">{{ item.before }}</p>
+                <span class="k">After</span>
+                <p class="now">{{ item.after }}</p>
+              </td>
+              <td class="status"><span class="pill" data-status="{{ item.status | statusKey }}">{{ item.status }}</span></td>
+              <td class="go" data-label="View">
+                {% if item.view %}
+                  <div class="views">
+                    {% for link in item.view %}
+                      <a class="view" href="{{ reviewTracker.previewBase }}{{ link.href }}" target="_blank" rel="noopener noreferrer">{% if link.label %}{{ link.label }}{% else %}View{% endif %}<span class="vh"> (opens in a new tab)</span></a>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="none" id="none" hidden>No comments with this status.</p>
+</main>
+<footer class="foot"><p>Akshardham Museum · Robbinsville, NJ</p></footer>
+<script src="/js/review.js"></script>
+</body>
+</html>
