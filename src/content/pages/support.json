@@ -13,20 +13,12 @@
       "topic": "support/hero"
     },
     {
-      "style": "membership-tiers",
-      "topic": "support/membership"
-    },
-    {
       "style": "sponsorship-row",
       "topic": "support/adopt-an-exhibit"
     },
     {
       "style": "feature-split",
       "topic": "support/legacy-passes"
-    },
-    {
-      "style": "legacy-hall",
-      "topic": "support/legacy-hall"
     },
     {
       "style": "link-cards",

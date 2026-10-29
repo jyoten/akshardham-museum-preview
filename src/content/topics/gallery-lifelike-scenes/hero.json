@@ -3,7 +3,7 @@
     "id": "hero",
     "title": "Lifelike Scenes & Statues",
     "subheading": "Gallery 01 · Floor [X]",
-    "description": "Walk among life-sized rishis, acharyas and leaders in full-scale scenes of India’s past.",
+    "description": "Walk among life-sized sages, philosophers, and leaders in full-scale scenes from India’s past.",
     "media": [
       {
         "type": "image",
@@ -15,11 +15,11 @@
   "gu": {
     "title": "જીવંત દૃશ્યો અને પ્રતિમાઓ",
     "subheading": "ગેલેરી 01 · માળ [X]",
-    "description": "ભારતના ભૂતકાળનાં પૂર્ણ-કદનાં દૃશ્યોમાં જીવન-કદના ઋષિઓ, આચાર્યો અને નેતાઓ વચ્ચે વિચરણ કરો."
+    "description": "ભારતના ભૂતકાળનાં પૂર્ણ કદનાં દૃશ્યોમાં જીવનકદના ઋષિઓ, તત્ત્વચિંતકો અને નેતાઓ વચ્ચેથી પસાર થાઓ."
   },
   "hi": {
     "title": "सजीव दृश्य और प्रतिमाएँ",
     "subheading": "गैलरी 01 · तल [X]",
-    "description": "भारत के अतीत के पूर्ण आकार के दृश्यों में आदमकद ऋषियों, आचार्यों और नेताओं के बीच विचरण करें।"
+    "description": "भारत के अतीत के पूर्ण आकार के दृश्यों में आदमकद ऋषियों, दार्शनिकों और नेताओं के बीच से गुज़रें।"
   }
 }

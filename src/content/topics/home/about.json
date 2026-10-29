@@ -1,63 +1,63 @@
 {
   "en": {
     "id": "about",
-    "title": "If we do not tell our story, others will tell it for us.",
-    "subheading": "Telling our story, our way",
-    "description": "The Akshardham Museum is a one-of-a-kind cultural immersion. Across three floors, lifelike scenes, scaled replicas of India’s great monuments and immersive shows trace a civilization from its first cities to the present day.",
+    "title": "Learn about authentic Hinduism from expert sources.",
+    "subheading": "Authentic and Awe-Inspiring",
+    "description": "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India.",
     "action": {
       "label": "About the museum",
       "link": "#about"
     },
     "topics": [
       {
-        "id": "for-our-children",
-        "title": "For our children",
-        "description": "A confident answer to “Who am I?” — pride, understanding and belonging, discovered one gallery at a time."
-      },
-      {
         "id": "for-the-world",
         "title": "For the world",
-        "description": "An authentic gateway to India’s contributions to science, ethics, art and spirituality — beyond brief impressions."
+        "description": "An authentic gateway to Hinduism’s contribution to science, ethics, art, and spirituality."
+      },
+      {
+        "id": "for-our-children",
+        "title": "For Hindu children:",
+        "description": "A place to imbibe pride in being the best of both Hindu and American."
       }
     ]
   },
   "gu": {
-    "title": "જો આપણે આપણી ગાથા નહીં કહીએ, તો બીજાઓ તે આપણા વતી કહેશે.",
-    "subheading": "આપણી ગાથા, આપણી રીતે",
-    "description": "અક્ષરધામ મ્યુઝિયમ એક અજોડ સાંસ્કૃતિક અનુભવ છે. ત્રણ માળમાં ફેલાયેલાં જીવંત દૃશ્યો, ભારતનાં મહાન સ્મારકોની પ્રમાણસર પ્રતિકૃતિઓ અને તલ્લીન કરી દેતા શો એક સભ્યતાની યાત્રાને તેનાં પ્રથમ નગરોથી આજ સુધી રજૂ કરે છે.",
+    "title": "નિષ્ણાત સ્રોતો પાસેથી પ્રમાણિક હિંદુ ધર્મ વિશે જાણો.",
+    "subheading": "પ્રમાણિક અને વિસ્મયકારક",
+    "description": "અક્ષરધામ મ્યુઝિયમ એક અજોડ સાંસ્કૃતિક અનુભવ છે. ત્રણ માળમાં જીવંત દૃશ્યો અને ભવ્ય પ્રતિકૃતિઓ આપણને ભારતમાં લીન કરે છે.",
     "action": {
       "label": "મ્યુઝિયમ વિશે"
     },
     "topics": [
       {
-        "id": "for-our-children",
-        "title": "આપણાં બાળકો માટે",
-        "description": "“હું કોણ છું?” પ્રશ્નનો આત્મવિશ્વાસભર્યો ઉત્તર — ગૌરવ, સમજ અને આત્મીયતા, એક એક ગેલેરીમાં ઉજાગર થતાં."
-      },
-      {
         "id": "for-the-world",
         "title": "વિશ્વ માટે",
-        "description": "વિજ્ઞાન, નીતિ, કળા અને આધ્યાત્મિકતામાં ભારતના પ્રદાનનું પ્રમાણભૂત પ્રવેશદ્વાર — ઉપરછલ્લી છાપથી આગળ."
+        "description": "વિજ્ઞાન, નીતિ, કળા અને આધ્યાત્મિકતામાં હિંદુ ધર્મના યોગદાનનું પ્રમાણિક પ્રવેશદ્વાર."
+      },
+      {
+        "id": "for-our-children",
+        "title": "હિંદુ બાળકો માટે:",
+        "description": "હિંદુ અને અમેરિકન બંનેના શ્રેષ્ઠ હોવાનું ગૌરવ ધારણ કરવાનું સ્થળ."
       }
     ]
   },
   "hi": {
-    "title": "यदि हम अपनी कहानी नहीं कहेंगे, तो दूसरे उसे हमारे लिए कहेंगे।",
-    "subheading": "हमारी कहानी, हमारी ज़ुबानी",
-    "description": "अक्षरधाम म्यूज़ियम एक अद्वितीय सांस्कृतिक अनुभव है। तीन तलों में फैले सजीव दृश्य, भारत के महान स्मारकों की अनुपातिक प्रतिकृतियाँ और मंत्रमुग्ध कर देने वाले शो एक सभ्यता की यात्रा को उसके प्रथम नगरों से आज तक प्रस्तुत करते हैं।",
+    "title": "विशेषज्ञ स्रोतों से प्रामाणिक हिंदू धर्म के बारे में जानें।",
+    "subheading": "प्रामाणिक और विस्मयकारी",
+    "description": "अक्षरधाम म्यूज़ियम एक अद्वितीय सांस्कृतिक अनुभव है। तीन तलों में सजीव दृश्य और भव्य प्रतिकृतियाँ हमें भारत में डुबो देती हैं।",
     "action": {
       "label": "म्यूज़ियम के बारे में"
     },
     "topics": [
       {
-        "id": "for-our-children",
-        "title": "हमारे बच्चों के लिए",
-        "description": "“मैं कौन हूँ?” का आत्मविश्वास भरा उत्तर — गौरव, समझ और अपनापन, एक-एक गैलरी में खोजा गया।"
-      },
-      {
         "id": "for-the-world",
         "title": "विश्व के लिए",
-        "description": "विज्ञान, नीति, कला और आध्यात्मिकता में भारत के योगदान का प्रामाणिक प्रवेश-द्वार — सतही धारणाओं से परे।"
+        "description": "विज्ञान, नीति, कला और आध्यात्मिकता में हिंदू धर्म के योगदान का प्रामाणिक प्रवेश-द्वार।"
+      },
+      {
+        "id": "for-our-children",
+        "title": "हिंदू बच्चों के लिए:",
+        "description": "हिंदू और अमेरिकी दोनों के श्रेष्ठ होने का गौरव धारण करने का स्थान।"
       }
     ]
   }

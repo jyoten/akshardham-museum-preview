@@ -3,7 +3,7 @@
     "id": "nearby",
     "title": "Nearby in Legacy Architecture",
     "action": {
-      "label": "All 12 replicas",
+      "label": "All replicas",
       "link": "/explore"
     },
     "topics": [
@@ -72,7 +72,7 @@
   "gu": {
     "title": "વારસાનું સ્થાપત્ય: નજીકનાં પ્રદર્શનો",
     "action": {
-      "label": "બધી 12 પ્રતિકૃતિઓ"
+      "label": "બધી પ્રતિકૃતિઓ"
     },
     "topics": [
       {
@@ -120,7 +120,7 @@
   "hi": {
     "title": "विरासत का स्थापत्य: आस-पास के प्रदर्शन",
     "action": {
-      "label": "सभी 12 प्रतिकृतियाँ"
+      "label": "सभी प्रतिकृतियाँ"
     },
     "topics": [
       {

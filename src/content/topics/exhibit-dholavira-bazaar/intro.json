@@ -11,16 +11,6 @@
         "alt": "A recreated ancient market street with stalls and figures",
         "caption": "The Dholavira Bazaar diorama in the Akshardham Museum."
       }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "Audio guide · Stop [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [Transcript](#)",
-        "action": {
-          "label": "Play audio guide, stop [#]"
-        }
-      }
     ]
   },
   "gu": {
@@ -32,16 +22,6 @@
         "alt": "દુકાનો અને આકૃતિઓ સાથે પુનઃસર્જિત પ્રાચીન બજારની શેરી",
         "caption": "અક્ષરધામ મ્યુઝિયમમાં ધોળાવીરાના બજારનો ડાયોરામા."
       }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "ઑડિયો માર્ગદર્શિકા · સ્ટોપ [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [લેખિત પાઠ](#)",
-        "action": {
-          "label": "ઑડિયો માર્ગદર્શિકા ચલાવો, સ્ટોપ [#]"
-        }
-      }
     ]
   },
   "hi": {
@@ -52,16 +32,6 @@
       {
         "alt": "दुकानों और आकृतियों के साथ पुनर्निर्मित प्राचीन बाज़ार की गली",
         "caption": "अक्षरधाम म्यूज़ियम में धोलावीरा के बाज़ार का डायोरामा।"
-      }
-    ],
-    "topics": [
-      {
-        "id": "audio-guide",
-        "title": "ऑडियो गाइड · स्टॉप [#]",
-        "description": "[DURATION] · English, ગુજરાતી, हिन्दी · [लिखित पाठ](#)",
-        "action": {
-          "label": "ऑडियो गाइड चलाएँ, स्टॉप [#]"
-        }
       }
     ]
   }

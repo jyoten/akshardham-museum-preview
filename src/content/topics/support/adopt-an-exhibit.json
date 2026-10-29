@@ -3,7 +3,7 @@
     "id": "adopt-an-exhibit",
     "title": "Care for a piece of the story",
     "subheading": "Adopt an exhibit",
-    "description": "Yajman sponsors fund the upkeep, restoration and renewal of a specific statue, show, gallery, diorama or replica — with lasting recognition beside it.",
+    "description": "Legacy sponsors fund the upkeep, restoration, and renewal of a specific statue, show, gallery, diorama, or replica.",
     "action": {
       "label": "Talk to our team",
       "link": "#"
@@ -12,7 +12,7 @@
       {
         "id": "rishi-yajman",
         "title": "Rishi Yajman",
-        "subheading": "A lifelike statue · 200 statues",
+        "subheading": "A lifelike statue",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -29,7 +29,7 @@
       {
         "id": "saraswat-yajman",
         "title": "Saraswat Yajman",
-        "subheading": "A multimedia show · 40 shows",
+        "subheading": "A multimedia show",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -46,7 +46,7 @@
       {
         "id": "kalash-yajman",
         "title": "Kalash Yajman",
-        "subheading": "A gallery section · 60 sections",
+        "subheading": "A gallery section",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -63,7 +63,7 @@
       {
         "id": "tilak-yajman",
         "title": "Tilak Yajman",
-        "subheading": "An immersive diorama · 25 dioramas",
+        "subheading": "An immersive diorama",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -80,7 +80,7 @@
       {
         "id": "sanskruti-yajman",
         "title": "Sanskruti Yajman",
-        "subheading": "An architectural replica · 12 replicas",
+        "subheading": "An architectural replica",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -99,7 +99,7 @@
   "gu": {
     "title": "આ ગાથાના એક અંશની સંભાળ લો",
     "subheading": "એક પ્રદર્શન દત્તક લો",
-    "description": "યજમાન દાતાઓ કોઈ ચોક્કસ પ્રતિમા, શો, ગેલેરી, ડાયોરામા કે પ્રતિકૃતિની જાળવણી, પુનઃસ્થાપન અને નવીનીકરણ માટે યોગદાન આપે છે — અને તેની પાસે જ તેમનું કાયમી સન્માન અંકિત થાય છે.",
+    "description": "વારસા પ્રાયોજકો કોઈ ચોક્કસ પ્રતિમા, શો, ગેલેરી, ડાયોરામા કે પ્રતિકૃતિની જાળવણી, પુનઃસ્થાપન અને નવીનીકરણ માટે યોગદાન આપે છે.",
     "action": {
       "label": "અમારી ટીમ સાથે વાત કરો"
     },
@@ -107,7 +107,7 @@
       {
         "id": "rishi-yajman",
         "title": "ઋષિ યજમાન",
-        "subheading": "એક જીવંત પ્રતિમા · 200 પ્રતિમાઓ",
+        "subheading": "એક જીવંત પ્રતિમા",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -121,7 +121,7 @@
       {
         "id": "saraswat-yajman",
         "title": "સારસ્વત યજમાન",
-        "subheading": "એક મલ્ટિમીડિયા શો · 40 શો",
+        "subheading": "એક મલ્ટિમીડિયા શો",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -135,7 +135,7 @@
       {
         "id": "kalash-yajman",
         "title": "કળશ યજમાન",
-        "subheading": "એક ગેલેરી વિભાગ · 60 વિભાગો",
+        "subheading": "એક ગેલેરી વિભાગ",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -149,7 +149,7 @@
       {
         "id": "tilak-yajman",
         "title": "તિલક યજમાન",
-        "subheading": "એક અનુભૂતિસભર ડાયોરામા · 25 ડાયોરામા",
+        "subheading": "એક અનુભૂતિસભર ડાયોરામા",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -163,7 +163,7 @@
       {
         "id": "sanskruti-yajman",
         "title": "સંસ્કૃતિ યજમાન",
-        "subheading": "એક સ્થાપત્ય પ્રતિકૃતિ · 12 પ્રતિકૃતિઓ",
+        "subheading": "એક સ્થાપત્ય પ્રતિકૃતિ",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -179,7 +179,7 @@
   "hi": {
     "title": "इस गाथा के एक अंश की देखभाल करें",
     "subheading": "किसी प्रदर्श को अपनाएँ",
-    "description": "यजमान दाता किसी विशेष प्रतिमा, शो, गैलरी, डायोरामा या प्रतिकृति के रखरखाव, जीर्णोद्धार और नवीनीकरण में योगदान देते हैं — और उसके पास ही उनका स्थायी सम्मान अंकित होता है।",
+    "description": "विरासत प्रायोजक किसी विशेष प्रतिमा, शो, गैलरी, डायोरामा या प्रतिकृति के रखरखाव, जीर्णोद्धार और नवीनीकरण के लिए योगदान देते हैं।",
     "action": {
       "label": "हमारी टीम से बात करें"
     },
@@ -187,7 +187,7 @@
       {
         "id": "rishi-yajman",
         "title": "ऋषि यजमान",
-        "subheading": "एक सजीव प्रतिमा · 200 प्रतिमाएँ",
+        "subheading": "एक सजीव प्रतिमा",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -201,7 +201,7 @@
       {
         "id": "saraswat-yajman",
         "title": "सारस्वत यजमान",
-        "subheading": "एक मल्टीमीडिया शो · 40 शो",
+        "subheading": "एक मल्टीमीडिया शो",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -215,7 +215,7 @@
       {
         "id": "kalash-yajman",
         "title": "कलश यजमान",
-        "subheading": "एक गैलरी खंड · 60 खंड",
+        "subheading": "एक गैलरी खंड",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -229,7 +229,7 @@
       {
         "id": "tilak-yajman",
         "title": "तिलक यजमान",
-        "subheading": "एक जीवंत अनुभव कराने वाला डायोरामा · 25 डायोरामा",
+        "subheading": "एक जीवंत अनुभव कराने वाला डायोरामा",
         "description": "[AMOUNT]",
         "media": [
           {
@@ -243,7 +243,7 @@
       {
         "id": "sanskruti-yajman",
         "title": "संस्कृति यजमान",
-        "subheading": "एक स्थापत्य प्रतिकृति · 12 प्रतिकृतियाँ",
+        "subheading": "एक स्थापत्य प्रतिकृति",
         "description": "[AMOUNT]",
         "media": [
           {
