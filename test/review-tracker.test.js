@@ -1,6 +1,10 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
 import fs from "node:fs";
+import { textFragment } from "../lib/text-fragment.js";
+
+// New text is on the preview page, so the View link can highlight it.
+const HIGHLIGHT = new Set([1, 2, 3, 4, 5, 6, 11, 12, 13, 14, 16, 17, 19, 20, 21, 22, 23, 26, 29, 31, 32, 34]);
 
 const data = JSON.parse(fs.readFileSync("src/content/review-tracker.json", "utf8"));
 const items = data.items;
@@ -49,6 +53,39 @@ test("review tracker lists the 35 comments with the agreed status", () => {
     } else {
       assert.ok(item.view.length > 0);
       for (const link of item.view) assert.ok(PATHS.has(link.href), `${item.n} ${link.href}`);
+    }
+  }
+});
+
+test("View links carry a text fragment only where the new words are on the page", () => {
+  assert.equal(textFragment("All replicas"), "#:~:text=All%20replicas");
+  assert.equal(
+    textFragment(["Rani-ki-Vav stepwell, 11th-century", "Gujarat"]),
+    "#:~:text=Rani-ki-Vav%20stepwell%2C%2011th-century,Gujarat",
+  );
+  assert.equal(textFragment(["scenes from India\u2019s past", "done"]), "#:~:text=scenes%20from%20India%E2%80%99s%20past,done");
+  assert.equal(textFragment(null), "");
+
+  for (const item of items) {
+    if (item.view == null) {
+      assert.equal(HIGHLIGHT.has(item.n), false);
+      continue;
+    }
+    for (const link of item.view) {
+      if (!HIGHLIGHT.has(item.n)) {
+        assert.equal(link.text, undefined, `item ${item.n} ${link.href}`);
+        continue;
+      }
+      const parts = Array.isArray(link.text) ? link.text : [link.text];
+      assert.ok(parts.length === 1 || parts.length === 2, `item ${item.n}`);
+      for (const part of parts) {
+        assert.equal(typeof part, "string");
+        const words = part.split(/\s+/);
+        assert.ok(words.length >= 2 && words.length <= 8, `item ${item.n} ${part}`);
+      }
+      const frag = textFragment(link.text);
+      const decoded = frag.slice("#:~:text=".length).split(",").map(decodeURIComponent);
+      assert.deepEqual(decoded, parts, `item ${item.n} ${link.href}`);
     }
   }
 });

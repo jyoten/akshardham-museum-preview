@@ -9,7 +9,7 @@
       "before": "THE LARGEST HINDU MUSEUM IN THE WESTERN HEMISPHERE",
       "after": "A ONE-OF-A-KIND HINDU MUSEUM IN THE WESTERN HEMISPHERE",
       "status": "Updated",
-      "view": [{ "href": "" }]
+      "view": [{ "href": "", "text": ["A one-of-a-kind Hindu museum", "in the Western Hemisphere"] }]
     },
     {
       "n": 2,
@@ -18,7 +18,7 @@
       "before": "Ten thousand years of India, under one roof.",
       "after": "Thousands of years of Hindu Dharma under one roof",
       "status": "Updated",
-      "view": [{ "href": "" }]
+      "view": [{ "href": "", "text": ["Thousands of years of Hindu", "Dharma under one roof"] }]
     },
     {
       "n": 3,
@@ -27,7 +27,7 @@
       "before": "Rani-ki-Vav stepwell, 11th-century Gujarat · Legacy Architecture, Floor",
       "after": "Rani-ki-Vav stepwell, 11th-century Gujarat",
       "status": "Updated",
-      "view": [{ "href": "" }]
+      "view": [{ "href": "", "text": "Rani-ki-Vav stepwell, 11th-century Gujarat" }]
     },
     {
       "n": 4,
@@ -36,7 +36,7 @@
       "before": "TELLING OUR STORY, OUR WAY\nIf we do not tell our story, others will tell it for us.",
       "after": "Authentic and Awe-Inspiring\nLearn about authentic Hinduism from expert sources.",
       "status": "Updated",
-      "view": [{ "href": "" }]
+      "view": [{ "href": "", "text": ["Authentic and Awe-Inspiring", "Hinduism from expert sources"] }]
     },
     {
       "n": 5,
@@ -45,7 +45,7 @@
       "before": "The Akshardham Museum is a one-of-a-kind cultural immersion. Across three floors, lifelike scenes, scaled replicas of India's great monuments and immersive shows trace a civilization from its first cities to the present day.",
       "after": "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India.",
       "status": "Updated",
-      "view": [{ "href": "" }]
+      "view": [{ "href": "", "text": ["The Akshardham Museum is a", "immerse us in India"] }]
     },
     {
       "n": 6,
@@ -54,7 +54,7 @@
       "before": "For our children\nA confident answer to \"Who am I?\" — pride, understanding and belonging, discovered one gallery at a time.\n\nFor the world\nAn authentic gateway to India's contributions to science, ethics, art and spirituality — beyond brief impressions.",
       "after": "For the world\nAn authentic gateway to Hinduism's contribution to science, ethics, art, and spirituality.\n\nFor Hindu children:\nA place to imbibe pride in being the best of both Hindu and American.",
       "status": "Updated",
-      "view": [{ "href": "" }]
+      "view": [{ "href": "", "text": ["An authentic gateway to", "both Hindu and American"] }]
     },
     {
       "n": 7,
@@ -99,7 +99,7 @@
       "before": "Step inside a faithful replica of a rock-cut prayer hall carved into a Maharashtra gorge some two thousand years ago.",
       "after": "Step inside a faithful replica of a rock-cut prayer hall carved into a Maharashtra mountain over two thousand years ago.",
       "status": "Updated",
-      "view": [{ "href": "explore/" }]
+      "view": [{ "href": "explore/", "text": ["Step inside a faithful replica", "two thousand years ago"] }]
     },
     {
       "n": 12,
@@ -108,7 +108,7 @@
       "before": "Four galleries across three floors: monuments in stone, lifelike scenes, the ideas of scripture, and India's living culture.",
       "after": "Four galleries across three floors.",
       "status": "Updated",
-      "view": [{ "href": "explore/" }]
+      "view": [{ "href": "explore/", "text": "Four galleries across three floors." }]
     },
     {
       "n": 13,
@@ -117,7 +117,7 @@
       "before": "Lifelike Scenes & Statues\nWalk among life-sized rishis, acharyas and leaders in full-scale scenes of India's past.\n\nLegacy Architecture\nScaled replicas of Ajanta and Ellora, grand mandir shikhars and more.\n\nWalking into Scripture\nYoga, karma, ahimsa and bhakti, and the shared roots of India's dharmic traditions.\n\nA Living Tapestry\nFestivals, food, clothing and dance — with interactive stations for young visitors.",
       "after": "Lifelike Scenes & Statues\nWalk among life-sized sages, philosophers, and leaders in full-scale scenes from India's past.\n\nLegacy Architecture\nGrand replicas of Ajanta and Ellora, Konark, mandir spires, and more.\n\nWalking into Scripture\nWalk into Hinduism's scriptures by experiencing various traditions directly.\n\nA Living Tapestry\nExperience some of India's festivals, food, clothing, and dance – all in one place.",
       "status": "Updated",
-      "view": [{ "href": "explore/" }]
+      "view": [{ "href": "explore/", "text": ["Walk among life-sized sages", "all in one place"] }]
     },
     {
       "n": 14,
@@ -127,10 +127,10 @@
       "after": "Lifelike Scenes & Statues\nWalk among life-sized sages, philosophers, and leaders in full-scale scenes from India's past.\n\nLegacy Architecture\nGrand replicas of Ajanta and Ellora, Konark, mandir spires, and more.\n\nWalking into Scripture\nWalk into Hinduism's scriptures by experiencing various traditions directly.\n\nA Living Tapestry\nExperience some of India's festivals, food, clothing, and dance – all in one place.",
       "status": "Updated",
       "view": [
-        { "href": "explore/lifelike-scenes/", "label": "Lifelike scenes" },
-        { "href": "explore/legacy-architecture/", "label": "Legacy architecture" },
-        { "href": "explore/walking-into-scripture/", "label": "Walking into scripture" },
-        { "href": "explore/living-tapestry/", "label": "Living tapestry" }
+        { "href": "explore/lifelike-scenes/", "label": "Lifelike scenes", "text": ["Walk among life-sized sages", "scenes from India’s past"] },
+        { "href": "explore/legacy-architecture/", "label": "Legacy architecture", "text": ["Grand replicas of Ajanta", "mandir spires, and more"] },
+        { "href": "explore/walking-into-scripture/", "label": "Walking into scripture", "text": ["Walk into Hinduism’s scriptures", "experiencing various traditions directly"] },
+        { "href": "explore/living-tapestry/", "label": "Living tapestry", "text": ["Experience some of India’s festivals", "all in one place"] }
       ]
     },
     {
@@ -155,7 +155,7 @@
       "before": "Stepwells gave communities in dry western India year-round access to water, and became places to gather, rest and worship. Rani-ki-Vav, on the banks of the Saraswati river in Patan, is one of the finest.\n\nIt was built in the 11th century during the rule of the Chaulukya (Solanki) dynasty, and is traditionally linked to Queen Udayamati. Its stepped corridors and pavilions carry hundreds of sculptures, many of them of Vishnu and his avatars. Silt from the river buried it for centuries, which helped preserve the carving.",
       "after": "Stepwells gave communities in drier areas year-round access to water. They also became places to gather, rest, and even worship. Rani-ki-Vav, in the Patan area, is one of India's finest.\n\nIt was built in the 11th century during the rule of the Chaulukya (Solanki) dynasty. It is traditionally linked to Queen Udayamati.\n\nIts stepped corridors and pavilions carry hundreds of sculptures – many of them of Vishnu Bhagwan and his avatars. Silt from the river buried it for centuries, which helped preserve the carvings.",
       "status": "Updated",
-      "view": [{ "href": "explore/rani-ki-vav/" }]
+      "view": [{ "href": "explore/rani-ki-vav/", "text": ["Stepwells gave communities in drier", "helped preserve the carvings"] }]
     },
     {
       "n": 17,
@@ -165,11 +165,11 @@
       "after": "All replicas",
       "status": "Updated",
       "view": [
-        { "href": "ajanta/", "label": "Ajanta" },
-        { "href": "explore/rani-ki-vav/", "label": "Rani-ki-Vav" },
-        { "href": "explore/konark-wheel/", "label": "Konark" },
-        { "href": "explore/haveli/", "label": "Haveli" },
-        { "href": "explore/dholavira-bazaar/", "label": "Dholavira" }
+        { "href": "ajanta/", "label": "Ajanta", "text": "All replicas" },
+        { "href": "explore/rani-ki-vav/", "label": "Rani-ki-Vav", "text": "All replicas" },
+        { "href": "explore/konark-wheel/", "label": "Konark", "text": "All replicas" },
+        { "href": "explore/haveli/", "label": "Haveli", "text": "All replicas" },
+        { "href": "explore/dholavira-bazaar/", "label": "Dholavira", "text": "All replicas" }
       ]
     },
     {
@@ -194,7 +194,7 @@
       "before": "One of the great stone wheels of the Sun Temple at Konark, carved for a temple shaped as the chariot of the sun god.",
       "after": "The famous temple in Konark was dedicated to the Sun God and designed in the shape of his chariot. Come see a grand replica of the stone wheel from that heritage place.",
       "status": "Updated",
-      "view": [{ "href": "explore/konark-wheel/" }]
+      "view": [{ "href": "explore/konark-wheel/", "text": ["The famous temple in Konark", "from that heritage place"] }]
     },
     {
       "n": 20,
@@ -203,7 +203,7 @@
       "before": "Havelis are traditional townhouses and mansions found across western and northern India, especially in Gujarat and Rajasthan. Many are built around inner courtyards that keep the house cool and private.\n\nTheir street facades are often richly carved, with overhanging balconies and enclosed windows (jharokhas) from which the family could watch the life of the street.",
       "after": "Havelis are traditional townhouses or mansions found across India – especially in Gujarat and Rajasthan.\n\nMany are built around inner courtyards that keep the house cool and private.\n\nTheir street facades are often richly carved with overhanging balconies and enclosed windows from which the family could watch the life of the street.",
       "status": "Updated",
-      "view": [{ "href": "explore/haveli/" }]
+      "view": [{ "href": "explore/haveli/", "text": ["Havelis are traditional townhouses", "life of the street"] }]
     },
     {
       "n": 21,
@@ -212,7 +212,7 @@
       "before": "Dholavira is one of the largest known cities of the Harappan (Indus–Sarasvati) civilisation, on an island in the Rann of Kutch in Gujarat.\n\nIts builders laid out a fortified citadel and a town, and managed scarce water with an elaborate system of channels and reservoirs. A large inscription in the Harappan script was found near one of its gateways.",
       "after": "Dholavira is one of the largest known cities of the Harappan (Indus-Sarasvati) civilization. It is in the Kutch area of Gujarat.\n\nIts builders laid out a fortified citadel and town. They managed scarce water through an elaborate system of channels and reservoirs.",
       "status": "Updated",
-      "view": [{ "href": "explore/dholavira-bazaar/" }]
+      "view": [{ "href": "explore/dholavira-bazaar/", "text": ["Dholavira is one of the largest", "of channels and reservoirs"] }]
     },
     {
       "n": 22,
@@ -221,7 +221,7 @@
       "before": "For seven hundred years, monks and artisans carved prayer halls and monasteries straight into the living rock of a river gorge — then the jungle hid them for more than a thousand more.",
       "after": "For seven hundred years, monks and artisans carved prayer halls and monasteries directly into a gorge – then the jungle hid them for more than a thousand years.",
       "status": "Updated",
-      "view": [{ "href": "ajanta/" }]
+      "view": [{ "href": "ajanta/", "text": ["For seven hundred years", "more than a thousand years"] }]
     },
     {
       "n": 23,
@@ -230,7 +230,7 @@
       "before": "Around thirty caves line a horseshoe bend of the Waghur river. The earliest were carved around the 2nd century BCE; a second great wave of work followed in the 5th century CE. Some are viharas, monasteries where monks lived and studied. Others are chaityas, prayer halls built around a stupa.\n\nTheir wall paintings — courtly scenes, animals, stories of the Buddha's past lives — are among the most important surviving examples of ancient Indian painting. Abandoned and overgrown, the caves were brought to wider attention in 1819.",
       "after": "Around thirty caves line a bend of the Waghur River in Maharashtra.\n\nThe earliest halls were carved around the 2nd century BCE. Some became monasteries where monks lived and studied while others became prayer halls for the public.\n\nThe wall paintings of courtly scenes, animals, and stories of avatars are amongst the most important surviving examples of ancient Indian painting.",
       "status": "Updated",
-      "view": [{ "href": "ajanta/" }]
+      "view": [{ "href": "ajanta/", "text": ["Around thirty caves line", "of ancient Indian painting"] }]
     },
     {
       "n": 24,
@@ -257,7 +257,7 @@
       "before": "A classroom where our heritage is the main story\nSchool and group visits, a trail for young explorers, and big ideas explained simply.",
       "after": "A classroom where Hindu heritage is the main lesson.\nOrganize a special school or group visit to learn about big ideas explained simply.",
       "status": "Updated",
-      "view": [{ "href": "learn/" }]
+      "view": [{ "href": "learn/", "text": ["A classroom where Hindu heritage", "big ideas explained simply"] }]
     },
     {
       "n": 27,
@@ -284,7 +284,7 @@
       "before": "In the spirit of seva, every gift keeps galleries open, statues cared for and India's story told to the next generation.",
       "after": "With the spirit of service (seva), every gift keeps galleries open, statues cared for, and Hinduism's story told to the next generation. The Become a member button is removed.",
       "status": "Updated",
-      "view": [{ "href": "support/" }]
+      "view": [{ "href": "support/", "text": ["With the spirit of service", "to the next generation"] }]
     },
     {
       "n": 30,
@@ -302,7 +302,7 @@
       "before": "Yajman sponsors fund the upkeep, restoration and renewal of a specific statue, show, gallery, diorama or replica — with lasting recognition beside it. Each card shows a count.",
       "after": "Legacy sponsors fund the upkeep, restoration, and renewal of a specific statue, show, gallery, diorama, or replica. The counts on the cards are removed.",
       "status": "Updated",
-      "view": [{ "href": "support/" }]
+      "view": [{ "href": "support/", "text": ["Legacy sponsors fund the upkeep", "gallery, diorama, or replica"] }]
     },
     {
       "n": 32,
@@ -311,7 +311,7 @@
       "before": "Charity Legacy Passes\nGive a classroom the museum\nYour gift opens the doors for students and community groups who could not otherwise visit — so every child can walk through ten thousand years of history and leave a little prouder.",
       "after": "Charity Passes\nGive a classroom the museum\nThis gift opens the doors to students and the community who could otherwise not visit. This way, every student has an opportunity to walk through thousands of years of history and leave inspired.",
       "status": "Updated",
-      "view": [{ "href": "support/" }]
+      "view": [{ "href": "support/", "text": ["Charity Passes", "history and leave inspired"] }]
     },
     {
       "n": 33,
@@ -329,7 +329,7 @@
       "before": "Nothing you type into its forms is sent anywhere yet.",
       "after": "Nothing you type into its forms is sent anywhere.",
       "status": "Updated",
-      "view": [{ "href": "privacy/" }]
+      "view": [{ "href": "privacy/", "text": ["Nothing you type into", "forms is sent anywhere"] }]
     },
     {
       "n": 35,
