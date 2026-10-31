@@ -90,6 +90,55 @@ test("View links carry a text fragment only where the new words are on the page"
   }
 });
 
+test("photo tracker lists updated pictures and the ones still to come", () => {
+  const photos = data.photos;
+  assert.equal(data.liveBase, "https://jyoten.github.io/akshardham-museum-preview/");
+  assert.equal(data.liveBase.includes("/previews/"), false);
+  assert.deepEqual(data.photoStatuses, ["Updated", "Waiting for photos"]);
+  assert.equal(photos.length, 23);
+  assert.deepEqual(photos.map((item) => item.n), Array.from({ length: 23 }, (_, i) => i + 1));
+
+  const updated = photos.filter((item) => item.status === "Updated");
+  const waiting = photos.filter((item) => item.status === "Waiting for photos");
+  assert.deepEqual(updated.map((item) => item.n), Array.from({ length: 14 }, (_, i) => i + 1));
+  assert.deepEqual(waiting.map((item) => item.change), [
+    "Hero",
+    "Rishis statues",
+    "Scholars diorama",
+    "Scripture panels",
+    "Festival street",
+    "Performing arts gallery",
+    "Cosmos theater",
+    "Timeline corridor",
+    "Young visitor with carved model",
+  ]);
+
+  const views = new Set();
+  for (const item of photos) {
+    assert.equal(views.has(item.view), false, `duplicate view ${item.view}`);
+    views.add(item.view);
+    assert.match(item.view, /^(?:[a-z0-9/-]+)?#photo-[a-z0-9-]+$/);
+    assert.equal(item.view.includes("previews"), false);
+    const pageText = `${item.page} ${item.change} ${item.status}`;
+    for (const bad of ["github", "pull request", "admin"]) {
+      assert.equal(pageText.toLowerCase().includes(bad), false, `${item.n} ${bad}`);
+    }
+    if (item.status === "Updated") {
+      assert.match(item.before, /^\/review\/photos\/[a-z0-9-]+\.jpg$/);
+      assert.match(item.after, /^\/images\/[a-z0-9-]+\.jpg$/);
+      const earlier = fs.readFileSync(item.before.replace("/review/photos/", "src/review-photos/"));
+      const current = fs.readFileSync(item.after.replace("/images/", "src/images/"));
+      assert.equal(earlier.subarray(0, 3).toString("hex"), "ffd8ff");
+      assert.ok(earlier.length < 180000, `${item.before} is ${earlier.length} bytes`);
+      assert.equal(earlier.equals(current), false, item.before);
+    } else {
+      assert.equal(item.after, undefined);
+      assert.match(item.before, /^\/images\/[a-z0-9-]+\.jpg$/);
+      assert.equal(fs.existsSync(item.before.replace("/images/", "src/images/")), true);
+    }
+  }
+});
+
 test("corrected wording is in the new text", () => {
   const byN = Object.fromEntries(items.map((item) => [item.n, item.after]));
   assert.match(byN[11], /Maharashtra mountain over two thousand years ago/);

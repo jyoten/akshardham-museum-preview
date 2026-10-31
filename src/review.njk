@@ -30,6 +30,7 @@ const eleventyExcludeFromCollections = true;
   <p class="sub">Comments from Yoganand Swami, Oct 28 · View links show the updated pages</p>
   <hr class="rule">
 
+  <section class="sheet-block" data-noun="comment">
   <div class="chips" aria-label="Count by status">
     {% for label in reviewTracker.statuses %}
       <span class="chip" data-status="{{ label | statusKey }}"><span class="count">{{ reviewTracker.counts[label] }}</span> {{ label }}</span>
@@ -41,7 +42,7 @@ const eleventyExcludeFromCollections = true;
     {% for label in reviewTracker.statuses %}
       <button type="button" class="filter" data-filter="{{ label | statusKey }}" aria-pressed="false">{{ label }}</button>
     {% endfor %}
-    <p class="shown" id="shown" aria-live="polite">{{ reviewTracker.items | length }} comments</p>
+    <p class="shown" aria-live="polite">{{ reviewTracker.items | length }} comments</p>
   </div>
 
   <div class="panel">
@@ -86,7 +87,76 @@ const eleventyExcludeFromCollections = true;
       </table>
     </div>
   </div>
-  <p class="none" id="none" hidden>No comments with this status.</p>
+  <p class="none" hidden>No comments with this status.</p>
+  </section>
+
+  <section class="sheet-block" data-noun="photo" aria-labelledby="photos-h">
+    <h2 id="photos-h">Photos</h2>
+    <p class="sub">Museum photographs on the live pages, and the pictures still to come · View links open the live page at that picture</p>
+    <hr class="rule">
+
+    <div class="chips" aria-label="Count by photo status">
+      {% for label in reviewTracker.photoStatuses %}
+        <span class="chip" data-status="{{ label | statusKey }}"><span class="count">{{ reviewTracker.photoCounts[label] }}</span> {{ label }}</span>
+      {% endfor %}
+    </div>
+
+    <div class="filters" role="group" aria-label="Filter photos by status">
+      <button type="button" class="filter" data-filter="all" aria-pressed="true">All</button>
+      {% for label in reviewTracker.photoStatuses %}
+        <button type="button" class="filter" data-filter="{{ label | statusKey }}" aria-pressed="false">{{ label }}</button>
+      {% endfor %}
+      <p class="shown" aria-live="polite">{{ reviewTracker.photos | length }} photos</p>
+    </div>
+
+    <div class="panel">
+      <div class="table-wrap">
+        <table class="sheet">
+          <caption class="vh">Photographs</caption>
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Page</th>
+              <th scope="col">Photo</th>
+              <th scope="col">Before / After</th>
+              <th scope="col">Status</th>
+              <th scope="col">View</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for item in reviewTracker.photos %}
+              <tr data-status="{{ item.status | statusKey }}">
+                <td class="n">{{ item.n }}</td>
+                <td class="page">{{ item.page }}</td>
+                <td class="change" data-label="Photo">{{ item.change }}</td>
+                <td class="ba" data-label="Before / After">
+                  <div class="pair">
+                    <div class="shot">
+                      <span class="k">{% if item.after %}Before{% else %}Now{% endif %}</span>
+                      <img src="{{ item.before }}" alt="{% if item.after %}Earlier photograph{% else %}Photograph on the page{% endif %}, {{ item.page }} {{ item.change }}" width="168" height="126" loading="lazy">
+                    </div>
+                    <div class="shot">
+                      <span class="k">After</span>
+                      {% if item.after %}
+                        <img src="{{ item.after }}" alt="Photograph now on {{ item.page }}, {{ item.change }}" width="168" height="126" loading="lazy">
+                      {% else %}
+                        <p class="now">Waiting for a museum photo.</p>
+                      {% endif %}
+                    </div>
+                  </div>
+                </td>
+                <td class="status"><span class="pill" data-status="{{ item.status | statusKey }}">{{ item.status }}</span></td>
+                <td class="go" data-label="View">
+                  <a class="view" href="{{ reviewTracker.liveBase }}{{ item.view }}" target="_blank" rel="noopener noreferrer">View<span class="vh"> (opens in a new tab)</span></a>
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <p class="none" hidden>No photos with this status.</p>
+  </section>
 </main>
 <footer class="foot"><p>Akshardham Museum · Robbinsville, NJ</p></footer>
 <script src="/js/review.js"></script>

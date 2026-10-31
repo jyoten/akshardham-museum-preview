@@ -1,5 +1,5 @@
 <section aria-labelledby="{{ s.headingId }}" class="page-hero" style="position:relative;background:var(--night);color:var(--cream);overflow:hidden">
-<img src="{{ t.media[0].src }}" alt="{{ t.media[0].alt | safe }}" class="page-hero-img" style="position:absolute;right:0;top:0;height:100%;width:44%;object-fit:cover;opacity:.55">
+<img id="photo-{{ t.id }}" src="{{ t.media[0].src }}" alt="{{ t.media[0].alt | safe }}" class="page-hero-img" style="position:absolute;right:0;top:0;height:100%;width:44%;object-fit:cover;opacity:.55">
 <div aria-hidden="true" class="page-hero-fade" style="position:absolute;right:0;top:0;height:100%;width:44%;background:linear-gradient(90deg,var(--night) 0%,rgba(18,13,10,0) 45%)"></div>
 <div style="max-width:1280px;margin:0 auto;padding:0 clamp(20px,4vw,56px);box-sizing:border-box;width:100%;position:relative;padding-top:clamp(40px,4.44vw,64px);padding-bottom:clamp(40px,4.44vw,64px);display:flex;flex-direction:column;gap:24px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--gold)">{{ t.subheading | safe }}</p>

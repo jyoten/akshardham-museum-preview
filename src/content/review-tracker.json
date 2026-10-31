@@ -1,6 +1,8 @@
 {
   "previewBase": "https://jyoten.github.io/akshardham-museum-preview/previews/pr-1/",
+  "liveBase": "https://jyoten.github.io/akshardham-museum-preview/",
   "statuses": ["Updated", "Partly updated", "To discuss Saturday", "Not needed"],
+  "photoStatuses": ["Updated", "Waiting for photos"],
   "items": [
     {
       "n": 1,
@@ -340,5 +342,30 @@
       "status": "To discuss Saturday",
       "view": [{ "href": "privacy/" }]
     }
+  ],
+  "photos": [
+    { "n": 1, "page": "Home", "change": "Hero", "before": "/review/photos/rani-ki-vav.jpg", "after": "/images/rani-ki-vav.jpg", "status": "Updated", "view": "#photo-hero" },
+    { "n": 2, "page": "Home", "change": "Gallery card", "before": "/review/photos/rani-ki-vav.jpg", "after": "/images/rani-ki-vav.jpg", "status": "Updated", "view": "#photo-explore" },
+    { "n": 3, "page": "Explore", "change": "Hero", "before": "/review/photos/ajanta-prayer-hall.jpg", "after": "/images/ajanta-prayer-hall.jpg", "status": "Updated", "view": "explore/#photo-featured" },
+    { "n": 4, "page": "Explore", "change": "Legacy Architecture card", "before": "/review/photos/sandstone-temple-facade.jpg", "after": "/images/sandstone-temple-facade.jpg", "status": "Updated", "view": "explore/#photo-legacy-architecture" },
+    { "n": 5, "page": "Konark", "change": "Hero", "before": "/review/photos/konark-wheel.jpg", "after": "/images/konark-wheel.jpg", "status": "Updated", "view": "explore/konark-wheel/#photo-intro" },
+    { "n": 6, "page": "Haveli", "change": "Hero", "before": "/review/photos/haveli.jpg", "after": "/images/haveli.jpg", "status": "Updated", "view": "explore/haveli/#photo-intro" },
+    { "n": 7, "page": "Ajanta", "change": "Hero", "before": "/review/photos/ajanta-prayer-hall.jpg", "after": "/images/ajanta-prayer-hall.jpg", "status": "Updated", "view": "ajanta/#photo-intro" },
+    { "n": 8, "page": "Rani-ki-Vav", "change": "Hero", "before": "/review/photos/rani-ki-vav.jpg", "after": "/images/rani-ki-vav.jpg", "status": "Updated", "view": "explore/rani-ki-vav/#photo-intro" },
+    { "n": 9, "page": "Legacy Architecture", "change": "Hero", "before": "/review/photos/sandstone-temple-facade.jpg", "after": "/images/sandstone-temple-facade.jpg", "status": "Updated", "view": "explore/legacy-architecture/#photo-hero" },
+    { "n": 10, "page": "Legacy Architecture", "change": "Ajanta card", "before": "/review/photos/ajanta-prayer-hall.jpg", "after": "/images/ajanta-prayer-hall.jpg", "status": "Updated", "view": "explore/legacy-architecture/#photo-ajanta-caves" },
+    { "n": 11, "page": "Legacy Architecture", "change": "Rani-ki-Vav card", "before": "/review/photos/rani-ki-vav.jpg", "after": "/images/rani-ki-vav.jpg", "status": "Updated", "view": "explore/legacy-architecture/#photo-rani-ki-vav" },
+    { "n": 12, "page": "Legacy Architecture", "change": "Konark card", "before": "/review/photos/konark-wheel.jpg", "after": "/images/konark-wheel.jpg", "status": "Updated", "view": "explore/legacy-architecture/#photo-konark-wheel" },
+    { "n": 13, "page": "Legacy Architecture", "change": "Haveli card", "before": "/review/photos/haveli.jpg", "after": "/images/haveli.jpg", "status": "Updated", "view": "explore/legacy-architecture/#photo-traditional-haveli" },
+    { "n": 14, "page": "Support", "change": "Hero", "before": "/review/photos/konark-wheel.jpg", "after": "/images/konark-wheel.jpg", "status": "Updated", "view": "support/#photo-hero" },
+    { "n": 15, "page": "Dholavira", "change": "Hero", "before": "/images/dholavira-bazaar.jpg", "status": "Waiting for photos", "view": "explore/dholavira-bazaar/#photo-intro" },
+    { "n": 16, "page": "Lifelike Scenes", "change": "Rishis statues", "before": "/images/rishis-statues.jpg", "status": "Waiting for photos", "view": "explore/lifelike-scenes/#photo-rishis-of-india" },
+    { "n": 17, "page": "Lifelike Scenes", "change": "Scholars diorama", "before": "/images/scholars-diorama.jpg", "status": "Waiting for photos", "view": "explore/lifelike-scenes/#photo-hero" },
+    { "n": 18, "page": "Walking into Scripture", "change": "Scripture panels", "before": "/images/sage-scripture-panels.jpg", "status": "Waiting for photos", "view": "explore/walking-into-scripture/#photo-hero" },
+    { "n": 19, "page": "Living Tapestry", "change": "Festival street", "before": "/images/festival-street.jpg", "status": "Waiting for photos", "view": "explore/living-tapestry/#photo-hero" },
+    { "n": 20, "page": "Living Tapestry", "change": "Performing arts gallery", "before": "/images/performing-arts-gallery.jpg", "status": "Waiting for photos", "view": "explore/living-tapestry/#photo-performing-arts-of-india" },
+    { "n": 21, "page": "Learn", "change": "Cosmos theater", "before": "/images/cosmos-theater.jpg", "status": "Waiting for photos", "view": "learn/#photo-explorers" },
+    { "n": 22, "page": "Timeline", "change": "Timeline corridor", "before": "/images/timeline-corridor.jpg", "status": "Waiting for photos", "view": "timeline/#photo-hero" },
+    { "n": 23, "page": "Home", "change": "Young visitor with carved model", "before": "/images/young-visitor-carved-model.jpg", "status": "Waiting for photos", "view": "#photo-learn" }
   ]
 }
