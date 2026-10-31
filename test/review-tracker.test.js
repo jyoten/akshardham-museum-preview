@@ -9,9 +9,9 @@ const HIGHLIGHT = new Set([1, 2, 3, 4, 5, 6, 11, 12, 13, 14, 16, 17, 19, 20, 21,
 const data = JSON.parse(fs.readFileSync("src/content/review-tracker.json", "utf8"));
 const items = data.items;
 
-const UPDATED = [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 26, 27, 28, 29, 30, 31, 32, 33, 34];
+const UPDATED = [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34];
 const PARTLY = [9];
-const DISCUSS = [7, 24, 25, 35];
+const DISCUSS = [7, 25, 35];
 const NOT_NEEDED = [8];
 const PATHS = new Set([
   "",
@@ -113,7 +113,7 @@ test("photo tracker lists updated pictures and the ones still to come", () => {
     "Young visitor with carved model",
   ]);
   assert.deepEqual(notNeeded.map((item) => ({ n: item.n, change: item.change, note: item.note })), [
-    { n: 22, change: "Timeline corridor", note: "Timeline page to be removed; Privacy and Visit now use a museum photo" },
+    { n: 22, change: "Timeline corridor", note: "Timeline page removed; Privacy and Visit now use a museum photo" },
   ]);
   const byN = Object.fromEntries(photos.map((item) => [item.n, item]));
   assert.equal(byN[24].page, "Privacy");
@@ -126,15 +126,22 @@ test("photo tracker lists updated pictures and the ones still to come", () => {
   assert.equal(byN[25].before, "/review/photos/timeline-corridor.jpg");
   assert.equal(byN[25].after, "/images/haveli-street.jpg");
   assert.equal(byN[25].view, "visit/#photo-full-journey");
-  assert.equal(JSON.parse(fs.readFileSync("src/content/topics/home/timeline.json", "utf8")).en.media[0].src, "/images/timeline-corridor.jpg");
-  assert.equal(JSON.parse(fs.readFileSync("src/content/topics/timeline/hero.json", "utf8")).en.media[0].src, "/images/timeline-corridor.jpg");
+  assert.equal(byN[22].view, undefined);
+  assert.equal(fs.existsSync("src/content/pages/timeline.json"), false);
+  assert.equal(fs.existsSync("src/content/topics/home/timeline.json"), false);
+  assert.equal(fs.existsSync("src/content/topics/timeline/hero.json"), false);
+  assert.equal(fs.existsSync("src/images/timeline-corridor.jpg"), true);
 
   const views = new Set();
   for (const item of photos) {
-    assert.equal(views.has(item.view), false, `duplicate view ${item.view}`);
-    views.add(item.view);
-    assert.match(item.view, /^(?:[a-z0-9/-]+)?#photo-[a-z0-9-]+$/);
-    assert.equal(item.view.includes("previews"), false);
+    if (item.view) {
+      assert.equal(views.has(item.view), false, `duplicate view ${item.view}`);
+      views.add(item.view);
+      assert.match(item.view, /^(?:[a-z0-9/-]+)?#photo-[a-z0-9-]+$/);
+      assert.equal(item.view.includes("previews"), false);
+    } else {
+      assert.equal(item.n, 22);
+    }
     const pageText = `${item.page} ${item.change} ${item.status}`;
     for (const bad of ["github", "pull request", "admin"]) {
       assert.equal(pageText.toLowerCase().includes(bad), false, `${item.n} ${bad}`);

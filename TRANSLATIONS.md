@@ -21,7 +21,6 @@ The current Gujarati and Hindi text is a **first draft prepared with AI assistan
 | Bhagwan Swaminarayan | ભગવાન સ્વામિનારાયણ | भगवान स्वामीनारायण |
 | Robbinsville, NJ | રોબિન્સવિલ, ન્યૂ જર્સી | रॉबिन्सविल, न्यू जर्सी |
 | Explore (nav) | અન્વેષણ | अन्वेषण |
-| Timeline (nav) | સમયરેખા | समयरेखा |
 | Visit (nav) | મુલાકાત | भ्रमण |
 | Learn (nav) | શીખો | सीखें |
 | Support (nav) | સહયોગ | सहयोग |

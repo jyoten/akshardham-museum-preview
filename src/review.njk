@@ -149,7 +149,9 @@ const eleventyExcludeFromCollections = true;
                 </td>
                 <td class="status"><span class="pill" data-status="{{ item.status | statusKey }}">{{ item.status }}</span></td>
                 <td class="go" data-label="View">
+                  {% if item.view %}
                   <a class="view" href="{{ reviewTracker.liveBase }}{{ item.view }}" target="_blank" rel="noopener noreferrer">View<span class="vh"> (opens in a new tab)</span></a>
+                  {% endif %}
                 </td>
               </tr>
             {% endfor %}

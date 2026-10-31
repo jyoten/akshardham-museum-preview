@@ -10,13 +10,6 @@
         }
       },
       {
-        "id": "timeline",
-        "action": {
-          "label": "Timeline",
-          "link": "/timeline"
-        }
-      },
-      {
         "id": "visit",
         "action": {
           "label": "Visit",
@@ -48,12 +41,6 @@
         }
       },
       {
-        "id": "timeline",
-        "action": {
-          "label": "સમયરેખા"
-        }
-      },
-      {
         "id": "visit",
         "action": {
           "label": "મુલાકાત"
@@ -79,12 +66,6 @@
         "id": "explore",
         "action": {
           "label": "अन्वेषण"
-        }
-      },
-      {
-        "id": "timeline",
-        "action": {
-          "label": "समयरेखा"
         }
       },
       {
