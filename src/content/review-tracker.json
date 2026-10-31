@@ -239,8 +239,8 @@
       "page": "Timeline",
       "change": "Whole page",
       "before": "The timeline page, presenting the museum by era.",
-      "after": "Whether to remove this page is still to discuss.",
-      "status": "To discuss Saturday",
+      "after": "Removed.",
+      "status": "Updated",
       "view": null
     },
     {
@@ -365,7 +365,7 @@
     { "n": 19, "page": "Living Tapestry", "change": "Festival street", "before": "/images/festival-street.jpg", "status": "Waiting for photos", "view": "explore/living-tapestry/#photo-hero" },
     { "n": 20, "page": "Living Tapestry", "change": "Performing arts gallery", "before": "/images/performing-arts-gallery.jpg", "status": "Waiting for photos", "view": "explore/living-tapestry/#photo-performing-arts-of-india" },
     { "n": 21, "page": "Learn", "change": "Cosmos theater", "before": "/images/cosmos-theater.jpg", "status": "Waiting for photos", "view": "learn/#photo-explorers" },
-    { "n": 22, "page": "Timeline", "change": "Timeline corridor", "before": "/images/timeline-corridor.jpg", "note": "Timeline page to be removed; Privacy and Visit now use a museum photo", "status": "Not needed", "view": "timeline/#photo-hero" },
+    { "n": 22, "page": "Timeline", "change": "Timeline corridor", "before": "/images/timeline-corridor.jpg", "note": "Timeline page removed; Privacy and Visit now use a museum photo", "status": "Not needed" },
     { "n": 23, "page": "Home", "change": "Young visitor with carved model", "before": "/images/young-visitor-carved-model.jpg", "status": "Waiting for photos", "view": "#photo-learn" },
     { "n": 24, "page": "Privacy", "change": "Hero", "before": "/review/photos/timeline-corridor.jpg", "after": "/images/konark-wheels.jpg", "status": "Updated", "view": "privacy/#photo-hero" },
     { "n": 25, "page": "Visit", "change": "Full journey", "before": "/review/photos/timeline-corridor.jpg", "after": "/images/haveli-street.jpg", "status": "Updated", "view": "visit/#photo-full-journey" }
