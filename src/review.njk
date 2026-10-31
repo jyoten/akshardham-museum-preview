@@ -139,6 +139,8 @@ const eleventyExcludeFromCollections = true;
                       <span class="k">After</span>
                       {% if item.after %}
                         <img src="{{ item.after }}" alt="Photograph now on {{ item.page }}, {{ item.change }}" width="168" height="126" loading="lazy">
+                      {% elif item.note %}
+                        <p class="now">{{ item.note }}</p>
                       {% else %}
                         <p class="now">Waiting for a museum photo.</p>
                       {% endif %}

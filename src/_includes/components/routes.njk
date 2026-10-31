@@ -6,7 +6,7 @@
 </div>
 <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:28px;background:var(--sand);padding:28px">
 {% for route in t.topics %}<article style="display:flex;flex-direction:column;background:var(--cream)">
-<div style="aspect-ratio:2/1;overflow:hidden;background:var(--sand)"><img src="{{ route.media[0].src }}" alt="{{ route.media[0].alt | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
+<div style="aspect-ratio:2/1;overflow:hidden;background:var(--sand)"><img id="photo-{{ route.id }}" src="{{ route.media[0].src }}" alt="{{ route.media[0].alt | safe }}" style="width:100%;height:100%;object-fit:cover;display:block"></div>
 <div style="padding:28px;display:flex;flex-direction:column;gap:14px">
 <p style="margin:0;font-size:12px;font-weight:600;letter-spacing:.22em;text-transform:uppercase;color:var(--accent)">{{ route.subheading | safe }}</p>
 <h3 style="font-family:'Marcellus','Cormorant Garamond',Georgia,serif;font-weight:400;font-size:28px;margin:0;line-height:1.1">{{ route.title | safe }}</h3>
