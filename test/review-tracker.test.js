@@ -94,13 +94,14 @@ test("photo tracker lists updated pictures and the ones still to come", () => {
   const photos = data.photos;
   assert.equal(data.liveBase, "https://jyoten.github.io/akshardham-museum-preview/");
   assert.equal(data.liveBase.includes("/previews/"), false);
-  assert.deepEqual(data.photoStatuses, ["Updated", "Waiting for photos"]);
-  assert.equal(photos.length, 23);
-  assert.deepEqual(photos.map((item) => item.n), Array.from({ length: 23 }, (_, i) => i + 1));
+  assert.deepEqual(data.photoStatuses, ["Updated", "Waiting for photos", "Not needed"]);
+  assert.equal(photos.length, 25);
+  assert.deepEqual(photos.map((item) => item.n), Array.from({ length: 25 }, (_, i) => i + 1));
 
   const updated = photos.filter((item) => item.status === "Updated");
   const waiting = photos.filter((item) => item.status === "Waiting for photos");
-  assert.deepEqual(updated.map((item) => item.n), Array.from({ length: 14 }, (_, i) => i + 1));
+  const notNeeded = photos.filter((item) => item.status === "Not needed");
+  assert.deepEqual(updated.map((item) => item.n), [...Array.from({ length: 14 }, (_, i) => i + 1), 24, 25]);
   assert.deepEqual(waiting.map((item) => item.change), [
     "Hero",
     "Rishis statues",
@@ -109,9 +110,24 @@ test("photo tracker lists updated pictures and the ones still to come", () => {
     "Festival street",
     "Performing arts gallery",
     "Cosmos theater",
-    "Timeline corridor",
     "Young visitor with carved model",
   ]);
+  assert.deepEqual(notNeeded.map((item) => ({ n: item.n, change: item.change, note: item.note })), [
+    { n: 22, change: "Timeline corridor", note: "Timeline page to be removed; Privacy and Visit now use a museum photo" },
+  ]);
+  const byN = Object.fromEntries(photos.map((item) => [item.n, item]));
+  assert.equal(byN[24].page, "Privacy");
+  assert.equal(byN[24].change, "Hero");
+  assert.equal(byN[24].before, "/review/photos/timeline-corridor.jpg");
+  assert.equal(byN[24].after, "/images/konark-wheels.jpg");
+  assert.equal(byN[24].view, "privacy/#photo-hero");
+  assert.equal(byN[25].page, "Visit");
+  assert.equal(byN[25].change, "Full journey");
+  assert.equal(byN[25].before, "/review/photos/timeline-corridor.jpg");
+  assert.equal(byN[25].after, "/images/haveli-street.jpg");
+  assert.equal(byN[25].view, "visit/#photo-full-journey");
+  assert.equal(JSON.parse(fs.readFileSync("src/content/topics/home/timeline.json", "utf8")).en.media[0].src, "/images/timeline-corridor.jpg");
+  assert.equal(JSON.parse(fs.readFileSync("src/content/topics/timeline/hero.json", "utf8")).en.media[0].src, "/images/timeline-corridor.jpg");
 
   const views = new Set();
   for (const item of photos) {
@@ -131,8 +147,15 @@ test("photo tracker lists updated pictures and the ones still to come", () => {
       assert.equal(earlier.subarray(0, 3).toString("hex"), "ffd8ff");
       assert.ok(earlier.length < 180000, `${item.before} is ${earlier.length} bytes`);
       assert.equal(earlier.equals(current), false, item.before);
-    } else {
+    } else if (item.status === "Not needed") {
       assert.equal(item.after, undefined);
+      assert.equal(typeof item.note, "string");
+      assert.match(item.before, /^\/images\/[a-z0-9-]+\.jpg$/);
+      assert.equal(fs.existsSync(item.before.replace("/images/", "src/images/")), true);
+    } else {
+      assert.equal(item.status, "Waiting for photos");
+      assert.equal(item.after, undefined);
+      assert.equal(item.note, undefined);
       assert.match(item.before, /^\/images\/[a-z0-9-]+\.jpg$/);
       assert.equal(fs.existsSync(item.before.replace("/images/", "src/images/")), true);
     }
