@@ -86,10 +86,17 @@ export default function (eleventyConfig) {
   // Unlisted English review page (src/review.njk). Not a content page, so it is not in the nav.
   eleventyConfig.addGlobalData("reviewTracker", () => {
     const data = readJson(path.join(CONTENT, "review-tracker.json"));
-    const counts = {};
-    for (const label of data.statuses || []) counts[label] = 0;
-    for (const item of data.items || []) counts[item.status] = (counts[item.status] || 0) + 1;
-    return { ...data, counts };
+    const countBy = (labels, rows) => {
+      const counts = {};
+      for (const label of labels || []) counts[label] = 0;
+      for (const item of rows || []) counts[item.status] = (counts[item.status] || 0) + 1;
+      return counts;
+    };
+    return {
+      ...data,
+      counts: countBy(data.statuses, data.items),
+      photoCounts: countBy(data.photoStatuses, data.photos),
+    };
   });
   eleventyConfig.addFilter("statusKey", (s) => String(s).toLowerCase().replace(/ /g, "-"));
   eleventyConfig.addFilter("textFragment", textFragment);
@@ -129,6 +136,8 @@ export default function (eleventyConfig) {
   for (const dir of ["css", "js", "fonts", "images", "data"]) {
     eleventyConfig.addPassthroughCopy({ [`src/${dir}`]: dir });
   }
+  // Earlier photographs for the unlisted review page. Not referenced by the site itself.
+  eleventyConfig.addPassthroughCopy({ "src/review-photos": "review/photos" });
   // The admin (src/admin/index.njk renders the page) is left out of review builds.
   if (!REVIEW) {
     eleventyConfig.addPassthroughCopy({

@@ -56,6 +56,13 @@ h1 {
   line-height: 1.15;
   letter-spacing: 0;
 }
+h2 {
+  margin: 56px 0 8px;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(28px, 3vw, 36px);
+  line-height: 1.15;
+}
 .sub {
   margin: 0;
   max-width: 40em;
@@ -99,6 +106,7 @@ h1 {
 .chip[data-status="partly-updated"], .pill[data-status="partly-updated"] { background: #F8EBD0; color: #6B4308; }
 .chip[data-status="to-discuss-saturday"], .pill[data-status="to-discuss-saturday"] { background: #F6E2D6; color: #7A3010; }
 .chip[data-status="not-needed"], .pill[data-status="not-needed"] { background: var(--sand); color: var(--umber); }
+.chip[data-status="waiting-for-photos"], .pill[data-status="waiting-for-photos"] { background: #E4EAF2; color: #24344A; }
 
 .filter {
   font: inherit;
@@ -174,6 +182,16 @@ h1 {
   font-weight: 600;
   letter-spacing: .08em;
   text-transform: uppercase;
+}
+.pair { display: flex; gap: 10px; }
+.shot { flex: 1 1 0; min-width: 0; max-width: 200px; }
+.shot img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  background: var(--sand);
+  border-radius: 2px;
 }
 .was, .now { margin: 0; white-space: pre-line; }
 .was {
