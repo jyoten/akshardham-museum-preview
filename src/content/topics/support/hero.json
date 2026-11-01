@@ -12,9 +12,18 @@
       }
     ],
     "action": {
-      "label": "Make a gift",
-      "link": "#give"
-    }
+      "label": "Become a member",
+      "link": "#membership"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "Make a gift",
+          "link": "#give"
+        }
+      }
+    ]
   },
   "gu": {
     "title": "જ્ઞાનનો દીપ પ્રજ્વલિત રાખો.",
@@ -26,8 +35,16 @@
       }
     ],
     "action": {
-      "label": "દાન આપો"
-    }
+      "label": "સભ્ય બનો"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "દાન આપો"
+        }
+      }
+    ]
   },
   "hi": {
     "title": "ज्ञान का दीप प्रज्वलित रखें।",
@@ -39,7 +56,15 @@
       }
     ],
     "action": {
-      "label": "दान करें"
-    }
+      "label": "सदस्य बनें"
+    },
+    "topics": [
+      {
+        "id": "secondary",
+        "action": {
+          "label": "दान करें"
+        }
+      }
+    ]
   }
 }

@@ -13,6 +13,10 @@
       "topic": "support/hero"
     },
     {
+      "style": "membership-tiers",
+      "topic": "support/membership"
+    },
+    {
       "style": "sponsorship-row",
       "topic": "support/adopt-an-exhibit"
     },
