@@ -52,7 +52,6 @@ Each page is a folder with an `index.html`, so the URLs stay clean on any static
 | `/explore/<gallery>` | one page per gallery: `lifelike-scenes`, `legacy-architecture`, `walking-into-scripture`, `living-tapestry` |
 | `/explore/<exhibit>` | replica pages built on the Ajanta template: `rani-ki-vav`, `konark-wheel`, `haveli`, `dholavira-bazaar` |
 | `/ajanta` | `ajanta/index.html` |
-| `/timeline` (`/timeline#era-01` … `#era-09` opens an era) | `timeline/index.html` |
 | `/visit` | `visit/index.html` |
 | `/support` | `support/index.html` |
 | anything else | `404.html` |
@@ -71,7 +70,7 @@ Then visit http://localhost:8000. Python's server doesn't use `404.html`; real h
 
 ## Files
 - `css/site.css` holds the palette (CSS variables), shared rules and responsive breakpoints (1024px, 640px). `css/fonts.css` is self-hosted fonts.
-- `js/site.js` runs the mobile menu and stops the demo forms from submitting. `js/timeline.js` runs the era picker.
+- `js/site.js` runs the mobile menu and stops the demo forms from submitting.
 - Page layout is mostly inline `style="…"` attributes carried over from the design.
 
 ## Interaction layer (iteration 2)

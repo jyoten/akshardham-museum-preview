@@ -42,7 +42,7 @@ A topic file holds one topic and its children. English is the full topic; Gujara
 | --- | --- | --- |
 | `id` | Stable slug. The file name for a top-level topic; page layouts and translations find topics by it. | lower-case, hyphens |
 | `title` | The heading. For a section that shows no heading, the name screen readers announce for it (e.g. "Key facts"). | |
-| `subheading` | Secondary line: usually the small capitals line above a heading; on cards the kind ("Diorama"); on stats the label; on timeline rows the date. | 100 characters |
+| `subheading` | Secondary line: usually the small capitals line above a heading; on cards the kind ("Diorama"); on stats the label. | 100 characters |
 | `description` | Rich text, written as Markdown: paragraphs (blank line), **bold**, *italic*, [links](/visit), line breaks (`\` at the end of a line). The editor shows it formatted. | 2000 characters |
 | `media` | Ordered list of `{ type, src, alt, caption }`. An item with no `src` shows a photo placeholder. | |
 | `action` | One button or link: `{ label, link }`. | |
@@ -61,11 +61,10 @@ A topic file holds one topic and its children. English is the full topic; Gujara
 | Document (folder) | Topics |
 | --- | --- |
 | `global` | `site` (wordmark, tagline, Book tickets), `navigation`, `footer-contact`, `footer-explore`, `footer-visit`, `newsletter`, `footer-legal` |
-| `home` | `meta`, `hero`, `today`, `about`, `explore-and-learn`, `in-numbers`, `timeline`, `visitor-voices`, `membership` |
+| `home` | `meta`, `hero`, `today`, `about`, `explore-and-learn`, `in-numbers`, `visitor-voices`, `membership` |
 | `explore` | `meta`, `featured`, `galleries` |
 | `gallery-<name>` ×4 | `meta`, `breadcrumb`, `hero`, `in-this-gallery`, `other-galleries` |
-| `exhibit-<name>` ×5 (Ajanta, Rani-ki-Vav, Konark, Haveli, Dholavira) | `meta`, `breadcrumb`, `intro` (+ `audio-guide`), `key-facts`, `story` (chapters), `nearby`, `on-the-timeline` |
-| `timeline` | `meta`, `hero`, `eras` (9 era topics, each with `key-names` and `see-N` children), `note-on-dates` |
+| `exhibit-<name>` ×5 (Ajanta, Rani-ki-Vav, Konark, Haveli, Dholavira) | `meta`, `breadcrumb`, `intro` (+ `audio-guide`), `key-facts`, `story` (chapters), `nearby` |
 | `visit` | `meta`, `hero`, `essentials`, `tickets` (+ `booking` form), `routes`, `museum-map`, `first-visit`, `accessibility-and-directions`, `questions` |
 | `learn` | `meta`, `hero`, `ways-to-learn` (cards + `ideas`) |
 | `support` | `meta`, `hero`, `membership` (tiers), `adopt-an-exhibit` (Yajman levels), `legacy-passes`, `legacy-hall`, `more-ways-to-give` |
@@ -103,7 +102,6 @@ Each page is built in English at `path`, and at `/gu/…` and `/hi/…`. `src/pa
 | `intro-split` | Home | subheading, title, description, children (title + description), action |
 | `feature-cards` | Home | children: title, description, media, action |
 | `stats-band` | Home | title; children: title (number) + subheading (label) |
-| `timeline-teaser` | Home | subheading, title, description, media, action; children: title + subheading (date) + link |
 | `quotes` | Home | subheading, title; children: description (quote), title (name), subheading (who) |
 | `cta-band` | Home | title, description, action, `secondary` child |
 | `page-hero` | Explore, Learn, galleries | subheading, title, description, media (background), optional action + `secondary` |
@@ -113,9 +111,7 @@ Each page is built in English at `path`, and at `/gu/…` and `/hi/…`. `src/pa
 | `exhibit-hero` | exhibits | subheading, title, description, media (image + caption); `audio-guide` child (title, description, action = play button label) |
 | `key-facts` | exhibits | title (section label); children: title + description |
 | `chapters` | exhibits | children = chapters: subheading ("CHAPTER 01"), title, description, optional action; or numbered children instead of text |
-| `timeline-band` | exhibits | title (section label), subheading, description, action, `secondary` child |
 | `learning-paths` | Learn | children with media = cards (id is the anchor, e.g. `#schools`); the child without media = idea chips |
-| `timeline-hero`, `era-picker`, `era-panel`, `era-data`, `footnote` | Timeline | hero; era buttons (era title + subheading); the era panel; the era data for `js/timeline.js`; the dates note |
 | `visit-hero`, `essentials`, `tickets`, `routes`, `floor-map`, `first-visit`, `access-directions`, `faq` | Visit | see each file; `tickets` also renders the `booking` child as the ticket form |
 | `support-hero`, `membership-tiers`, `sponsorship-row`, `feature-split`, `legacy-hall`, `link-cards` | Support | see each file |
 | `message` | 404 | subheading, title, description, action, `secondary` child |
@@ -153,15 +149,14 @@ Each page is built in English at `path`, and at `/gu/…` and `/hi/…`. `src/pa
 | Ticket types, prices, entry windows | `visit/tickets` › `booking` child topics (title = type, subheading = ages · price) | Placeholders today. A real booking system would own prices; the topics would keep only the labels. |
 | Membership tiers | `support/membership` children: tier title, badge (subheading), a `price` child (title = price, subheading = "per year"), benefit children, action | Fits as topics; a price field would be cleaner if WebNext has one. |
 | Yajman (sponsorship) levels | `support/adopt-an-exhibit` children: kind, name, amount (description), image, Enquire action | Fits as topics. |
-| Timeline eras | `timeline/eras` children: title = name, subheading = dates, description = summary; `key-names` child; `see-N` children = where to see it (title, subheading = kind, description = floor, media, link) | Fits as topics. The era number is the position. Era text is plain text (the timeline script escapes it). |
 | Museum in numbers | `home/in-numbers` children: title = number, subheading = label | Fits as topics. |
 | Legacy Hall sponsor list | `src/data/legacy-hall-sample.json` (sample data, unchanged) | A data source, not topics. |
 
 ## What doesn't fit the WebNext model cleanly
 
-- **Two buttons.** A topic has one action. Where a section has a second button (heroes, the membership band, the 404 page, the exhibit timeline band), it's a child topic with id `secondary` that has only an action.
+- **Two buttons.** A topic has one action. Where a section has a second button (heroes, the membership band, the 404 page), it's a child topic with id `secondary` that has only an action.
 - **Interface text isn't content.** Screen-reader labels, form placeholders, the ticket counter's − / + / 0, the cookie prompt and the opening-hours wording are in `strings/labels.json` and `strings/ui.json`, not topics. WebNext presumably translates these in the theme or site settings.
-- **Section names.** A section that has no visible heading (Key facts, Today at the museum, the exhibit timeline band) uses its topic `title` as the screen-reader name. Where a section has a visible heading *and* a different screen-reader name (Home "Welcome", "The museum in numbers"; footer "Visit and learn"), the name is a label in `strings/labels.json`.
+- **Section names.** A section that has no visible heading (Key facts, Today at the museum) uses its topic `title` as the screen-reader name. Where a section has a visible heading *and* a different screen-reader name (Home "Welcome", "The museum in numbers"; footer "Visit and learn"), the name is a label in `strings/labels.json`.
 - **Page titles.** Kept in a `meta` topic per document; WebNext pages likely have their own SEO title field.
 - **Component settings.** `headingId`, `imagePosition` (Ajanta's photo is framed "center 30%") and `lazyImages` are presentation switches on the component, not content.
 - **Placeholders and link colours.** 273 `[…]` placeholders sit in the text (highlighted at build time). Three links get their colour from the design rather than the text (footer phone number, footer Mandir link, audio-guide "Transcript"); WebNext styles links itself.

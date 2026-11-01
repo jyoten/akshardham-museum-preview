@@ -29,7 +29,6 @@ const DOCUMENTS = {
   "exhibit-konark-wheel": "Exhibit: Konark Wheel",
   "exhibit-traditional-haveli": "Exhibit: Traditional Haveli",
   "exhibit-dholavira-bazaar": "Exhibit: Dholavira Bazaar",
-  timeline: "Timeline (eras)",
   visit: "Plan your visit",
   learn: "Learn",
   support: "Support",
