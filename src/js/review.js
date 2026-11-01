@@ -1,14 +1,15 @@
 (function () {
-  document.querySelectorAll(".round").forEach(function (section) {
-    var buttons = section.querySelectorAll(".filter");
-    var rows = section.querySelectorAll("tbody tr");
-    var shown = section.querySelector(".shown");
-    var none = section.querySelector(".none");
+  document.querySelectorAll(".sheet-block").forEach(function (block) {
+    var buttons = block.querySelectorAll(".filter");
+    var rows = block.querySelectorAll("tbody tr");
+    var shown = block.querySelector(".shown");
+    var none = block.querySelector(".none");
+    var noun = block.getAttribute("data-noun") || "comment";
     var total = rows.length;
 
     function label(n, ofTotal) {
-      var comments = n === 1 ? " comment" : " comments";
-      return ofTotal ? "Showing " + n + " of " + total : n + comments;
+      var word = n === 1 ? noun : noun + "s";
+      return ofTotal ? "Showing " + n + " of " + total : n + " " + word;
     }
 
     function apply(status) {

@@ -15,7 +15,7 @@
 </div>
 {% endfor %}</div>
 <figure style="margin:0;display:flex;flex-direction:column;gap:12px">
-<div style="overflow:hidden;aspect-ratio:1/1;background:var(--sand)"><img src="{{ t.media[0].src }}" alt="{{ t.media[0].alt | safe }}" style="width:100%;height:100%;object-fit:cover;object-position:{{ s.imagePosition or "center" }};display:block"></div>
+<div style="overflow:hidden;aspect-ratio:1/1;background:var(--sand)"><img id="photo-{{ t.id }}" src="{{ t.media[0].src }}" alt="{{ t.media[0].alt | safe }}" style="width:100%;height:100%;object-fit:cover;object-position:{{ s.imagePosition or "center" }};display:block"></div>
 <figcaption style="font-size:13px;color:var(--muted)">{{ t.media[0].caption | safe }}</figcaption>
 </figure>
 </div>

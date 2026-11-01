@@ -6,6 +6,7 @@ import { createHash } from "node:crypto";
 import { HtmlBasePlugin } from "@11ty/eleventy";
 import path from "node:path";
 import * as text from "./lib/text.js";
+import { textFragment } from "./lib/text-fragment.js";
 import { createSite, LANGS } from "./lib/site.js";
 import nunjucks from "nunjucks";
 
@@ -86,19 +87,25 @@ export default function (eleventyConfig) {
   // Each review meeting is a round. `items` and `counts` stay the first round so the original table bindings still work.
   eleventyConfig.addGlobalData("reviewTracker", () => {
     const data = readJson(path.join(CONTENT, "review-tracker.json"));
-    const statuses = data.statuses || [];
-    const countItems = (items) => {
+    const countBy = (labels, rows) => {
       const counts = {};
-      for (const label of statuses) counts[label] = 0;
-      for (const item of items || []) counts[item.status] = (counts[item.status] || 0) + 1;
+      for (const label of labels || []) counts[label] = 0;
+      for (const item of rows || []) counts[item.status] = (counts[item.status] || 0) + 1;
       return counts;
     };
     const rounds = (data.rounds || [{ n: 1, title: "Round 1: Oct 28 comments", items: data.items || [] }])
-      .map((round) => ({ ...round, counts: countItems(round.items) }));
-    const first = rounds[0] || { items: [], counts: countItems([]) };
-    return { ...data, rounds, items: first.items, counts: first.counts };
+      .map((round) => ({ ...round, counts: countBy(data.statuses, round.items) }));
+    const first = rounds[0] || { items: [], counts: countBy(data.statuses, []) };
+    return {
+      ...data,
+      rounds,
+      items: first.items,
+      counts: first.counts,
+      photoCounts: countBy(data.photoStatuses, data.photos),
+    };
   });
   eleventyConfig.addFilter("statusKey", (s) => String(s).toLowerCase().replace(/ /g, "-"));
+  eleventyConfig.addFilter("textFragment", textFragment);
   const site = createSite({ content: loadContent(), text, prefix: PREFIX });
   const { lurl } = site;
   eleventyConfig.on("eleventy.before", () => site.setContent(loadContent()));
@@ -135,6 +142,8 @@ export default function (eleventyConfig) {
   for (const dir of ["css", "js", "fonts", "images", "data"]) {
     eleventyConfig.addPassthroughCopy({ [`src/${dir}`]: dir });
   }
+  // Earlier photographs for the unlisted review page. Not referenced by the site itself.
+  eleventyConfig.addPassthroughCopy({ "src/review-photos": "review/photos" });
   // The admin (src/admin/index.njk renders the page) is left out of review builds.
   if (!REVIEW) {
     eleventyConfig.addPassthroughCopy({

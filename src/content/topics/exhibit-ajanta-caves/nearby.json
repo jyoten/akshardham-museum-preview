@@ -30,7 +30,7 @@
           {
             "type": "image",
             "src": "/images/konark-wheel.jpg",
-            "alt": "Two great carved stone wheels from the Konark temple"
+            "alt": "A great carved stone wheel from the Konark temple, set in a wall of sculpture"
           }
         ],
         "action": {
@@ -45,7 +45,7 @@
           {
             "type": "image",
             "src": "/images/haveli.jpg",
-            "alt": "A carved wooden haveli facade with balconies"
+            "alt": "The traditional haveli replica: a carved wooden street with a jali balcony, flower garlands and a pillared pavilion"
           }
         ],
         "action": {
@@ -91,7 +91,7 @@
         "subheading": "મંદિરની સૂર્યઘડિયાળની પ્રતિકૃતિ",
         "media": [
           {
-            "alt": "કોણાર્ક મંદિરનાં બે વિશાળ કોતરણીવાળાં પથ્થરનાં ચક્રો"
+            "alt": "કોણાર્ક મંદિરનું એક વિશાળ કોતરણીવાળું પથ્થરનું ચક્ર, શિલ્પોની દીવાલમાં"
           }
         ]
       },
@@ -101,7 +101,7 @@
         "subheading": "સ્થાપત્ય પ્રતિકૃતિ",
         "media": [
           {
-            "alt": "ઝરૂખાઓ સાથેનો કોતરણીવાળો લાકડાની હવેલીનો અગ્રભાગ"
+            "alt": "પરંપરાગત હવેલીની પ્રતિકૃતિ: જાળીદાર ઝરૂખો, ફૂલહાર અને સ્તંભોવાળા મંડપ સાથે કોતરણીવાળી લાકડાની શેરી"
           }
         ]
       },
@@ -139,7 +139,7 @@
         "subheading": "मंदिर की सूर्यघड़ी की प्रतिकृति",
         "media": [
           {
-            "alt": "कोणार्क मंदिर के दो विशाल नक्काशीदार पत्थर के चक्र"
+            "alt": "कोणार्क मंदिर का एक विशाल नक्काशीदार पत्थर का चक्र, मूर्तियों की दीवार में"
           }
         ]
       },
@@ -149,7 +149,7 @@
         "subheading": "स्थापत्य प्रतिकृति",
         "media": [
           {
-            "alt": "झरोखों वाला नक्काशीदार लकड़ी की हवेली का अग्रभाग"
+            "alt": "पारंपरिक हवेली की प्रतिकृति: जालीदार झरोखा, फूलों की माला और स्तंभों वाले मंडप के साथ नक्काशीदार लकड़ी की गली"
           }
         ]
       },

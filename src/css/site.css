@@ -28,6 +28,7 @@ body { margin: 0; background: var(--cream); }
 a { color: var(--accent); }
 a:hover { color: var(--accent-dark); }
 img { max-width: 100%; }
+[id^="photo-"] { scroll-margin-top: 24px; }
 
 .nl a { color: inherit; text-decoration: none; padding: 6px 0; border-bottom: 1px solid transparent; }
 .nl a:hover { border-bottom-color: currentColor; color: inherit; }
