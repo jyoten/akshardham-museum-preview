@@ -70,6 +70,21 @@ h1 {
   background: var(--gold);
 }
 
+.round + .round {
+  margin-top: 56px;
+  padding-top: 28px;
+  border-top: 1px solid var(--line);
+}
+.round-title {
+  margin: 0 0 14px;
+  font-family: var(--font-display);
+  font-weight: 400;
+  font-size: clamp(26px, 3vw, 34px);
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+.round .sub { margin-bottom: 16px; }
+
 .chips, .filters { display: flex; flex-wrap: wrap; gap: 8px; }
 .chips { margin-bottom: 14px; }
 .filters { margin-bottom: 18px; align-items: center; }

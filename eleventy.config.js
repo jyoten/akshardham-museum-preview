@@ -83,12 +83,20 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("site", { prefix: PREFIX, review: REVIEW || !!PREVIEW_OF, previewOf: PREVIEW_OF });
   eleventyConfig.addGlobalData("adminCsp", { policy: adminCsp(), decapVersion: DECAP_VERSION, decapIntegrity: DECAP_INTEGRITY });
   // Unlisted English review page (src/review.njk). Not a content page, so it is not in the nav.
+  // Each review meeting is a round. `items` and `counts` stay the first round so the original table bindings still work.
   eleventyConfig.addGlobalData("reviewTracker", () => {
     const data = readJson(path.join(CONTENT, "review-tracker.json"));
-    const counts = {};
-    for (const label of data.statuses || []) counts[label] = 0;
-    for (const item of data.items || []) counts[item.status] = (counts[item.status] || 0) + 1;
-    return { ...data, counts };
+    const statuses = data.statuses || [];
+    const countItems = (items) => {
+      const counts = {};
+      for (const label of statuses) counts[label] = 0;
+      for (const item of items || []) counts[item.status] = (counts[item.status] || 0) + 1;
+      return counts;
+    };
+    const rounds = (data.rounds || [{ n: 1, title: "Round 1: Oct 28 comments", items: data.items || [] }])
+      .map((round) => ({ ...round, counts: countItems(round.items) }));
+    const first = rounds[0] || { items: [], counts: countItems([]) };
+    return { ...data, rounds, items: first.items, counts: first.counts };
   });
   eleventyConfig.addFilter("statusKey", (s) => String(s).toLowerCase().replace(/ /g, "-"));
   const site = createSite({ content: loadContent(), text, prefix: PREFIX });

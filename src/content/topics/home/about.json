@@ -3,7 +3,7 @@
     "id": "about",
     "title": "Learn about authentic Hinduism from expert sources.",
     "subheading": "Authentic and Awe-Inspiring",
-    "description": "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India.",
+    "description": "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India and Hinduism.",
     "action": {
       "label": "About the museum",
       "link": "#about"
@@ -24,7 +24,7 @@
   "gu": {
     "title": "નિષ્ણાત સ્રોતો પાસેથી પ્રમાણિક હિંદુ ધર્મ વિશે જાણો.",
     "subheading": "પ્રમાણિક અને વિસ્મયકારક",
-    "description": "અક્ષરધામ મ્યુઝિયમ એક અજોડ સાંસ્કૃતિક અનુભવ છે. ત્રણ માળમાં જીવંત દૃશ્યો અને ભવ્ય પ્રતિકૃતિઓ આપણને ભારતમાં લીન કરે છે.",
+    "description": "અક્ષરધામ મ્યુઝિયમ એક અજોડ સાંસ્કૃતિક અનુભવ છે. ત્રણ માળમાં જીવંત દૃશ્યો અને ભવ્ય પ્રતિકૃતિઓ આપણને ભારત અને હિંદુ ધર્મમાં લીન કરે છે.",
     "action": {
       "label": "મ્યુઝિયમ વિશે"
     },
@@ -44,7 +44,7 @@
   "hi": {
     "title": "विशेषज्ञ स्रोतों से प्रामाणिक हिंदू धर्म के बारे में जानें।",
     "subheading": "प्रामाणिक और विस्मयकारी",
-    "description": "अक्षरधाम म्यूज़ियम एक अद्वितीय सांस्कृतिक अनुभव है। तीन तलों में सजीव दृश्य और भव्य प्रतिकृतियाँ हमें भारत में डुबो देती हैं।",
+    "description": "अक्षरधाम म्यूज़ियम एक अद्वितीय सांस्कृतिक अनुभव है। तीन तलों में सजीव दृश्य और भव्य प्रतिकृतियाँ हमें भारत और हिंदू धर्म में डुबो देती हैं।",
     "action": {
       "label": "म्यूज़ियम के बारे में"
     },

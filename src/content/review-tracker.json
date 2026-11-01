@@ -1,7 +1,13 @@
 {
   "previewBase": "https://jyoten.github.io/akshardham-museum-preview/previews/pr-1/",
   "statuses": ["Updated", "Partly updated", "To discuss Saturday", "Not needed"],
-  "items": [
+  "rounds": [
+    {
+      "n": 1,
+      "title": "Round 1: Oct 28 comments",
+      "by": "Yoganand Swami",
+      "date": "Oct 28",
+      "items": [
     {
       "n": 1,
       "page": "Home",
@@ -339,6 +345,34 @@
       "after": "Whether this page is accurate still needs to be considered.",
       "status": "To discuss Saturday",
       "view": [{ "href": "privacy/" }]
+    }
+      ]
+    },
+    {
+      "n": 2,
+      "title": "Round 2: Nov 1 comments",
+      "by": "Yoganand Swami",
+      "date": "Nov 1, 2026",
+      "items": [
+        {
+          "n": 1,
+          "page": "Home",
+          "change": "Hero heading and subtext",
+          "before": "Thousands of years of Hindu Dharma under one roof\nThe Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India.",
+          "after": "Thousands of years of Hindu Dharma under one roof\nThe Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India and Hinduism.",
+          "status": "Updated",
+          "view": [{ "href": "" }]
+        },
+        {
+          "n": 2,
+          "page": "Home",
+          "change": "Intro heading",
+          "before": "TELLING OUR STORY, OUR WAY\nIf we do not tell our story, others will tell it for us.",
+          "after": "Authentic and Awe-Inspiring\nLearn about authentic Hinduism from expert sources.",
+          "status": "Updated",
+          "view": [{ "href": "" }]
+        }
+      ]
     }
   ]
 }

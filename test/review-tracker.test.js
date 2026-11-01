@@ -3,7 +3,9 @@ import assert from "node:assert/strict";
 import fs from "node:fs";
 
 const data = JSON.parse(fs.readFileSync("src/content/review-tracker.json", "utf8"));
-const items = data.items;
+const round1 = data.rounds.find((round) => round.n === 1);
+const round2 = data.rounds.find((round) => round.n === 2);
+const items = round1.items;
 
 const UPDATED = [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 26, 27, 28, 29, 30, 31, 32, 33, 34];
 const PARTLY = [9];
@@ -33,6 +35,9 @@ const STATUS = {
 };
 
 test("review tracker lists the 35 comments with the agreed status", () => {
+  assert.equal(round1.title, "Round 1: Oct 28 comments");
+  assert.equal(round1.by, "Yoganand Swami");
+  assert.equal(round1.date, "Oct 28");
   assert.equal(items.length, 35);
   assert.deepEqual(items.map((item) => item.n), Array.from({ length: 35 }, (_, i) => i + 1));
   assert.equal(data.previewBase, "https://jyoten.github.io/akshardham-museum-preview/previews/pr-1/");
@@ -51,6 +56,37 @@ test("review tracker lists the 35 comments with the agreed status", () => {
       for (const link of item.view) assert.ok(PATHS.has(link.href), `${item.n} ${link.href}`);
     }
   }
+});
+
+test("round 2 records the Nov 1 comments", () => {
+  const intro = "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India and Hinduism.";
+  assert.equal(round2.title, "Round 2: Nov 1 comments");
+  assert.equal(round2.by, "Yoganand Swami");
+  assert.equal(round2.date, "Nov 1, 2026");
+  assert.equal(round2.items.length, 2);
+  assert.equal(round2.items[0].change, "Hero heading and subtext");
+  assert.equal(round2.items[0].status, "Updated");
+  assert.match(round2.items[0].after, /^Thousands of years of Hindu Dharma under one roof\n/);
+  assert.match(round2.items[0].after, new RegExp(intro.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$"));
+  assert.equal(round2.items[1].change, "Intro heading");
+  assert.equal(round2.items[1].status, "Updated");
+  assert.match(round2.items[1].before, /TELLING OUR STORY, OUR WAY/);
+  assert.match(round2.items[1].after, /Authentic and Awe-Inspiring\nLearn about authentic Hinduism from expert sources\./);
+  for (const item of round2.items) {
+    assert.equal(item.page, "Home");
+    assert.equal(item.view.length, 1);
+    assert.equal(item.view[0].href, "");
+  }
+});
+
+test("home intro paragraph includes Hinduism in each language", () => {
+  const about = JSON.parse(fs.readFileSync("src/content/topics/home/about.json", "utf8"));
+  assert.equal(
+    about.en.description,
+    "The Akshardham Museum is a one-of-a-kind cultural experience. Across three floors, lifelike scenes and grand replicas immerse us in India and Hinduism.",
+  );
+  assert.match(about.gu.description, /ભારત અને હિંદુ ધર્મમાં/);
+  assert.match(about.hi.description, /भारत और हिंदू धर्म में/);
 });
 
 test("corrected wording is in the new text", () => {
