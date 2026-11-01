@@ -54,7 +54,7 @@ function renderPage(page, lang, topics) {
   for (const [name, fn] of Object.entries(site.filters)) env.addFilter(name, fn);
   return env.render("preview/page.njk", {
     pg: page, lang, path: page.path, navKey: page.nav, headerStyle: page.headerStyle,
-    site: { prefix: "", review: false }, languages: data.languages, langs: data.langs, preview: true,
+    site: { prefix: "", review: false }, languages: data.languages, langs: data.langs, enabledLanguages: data.enabledLanguages, preview: true,
   });
 }
 const CSS = ["fonts", "site", "play", "compact", "consent", "status"];

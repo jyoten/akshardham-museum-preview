@@ -171,7 +171,7 @@ export default function (eleventyConfig) {
       fs.mkdirSync(path.join(output, "admin"), { recursive: true });
       fs.writeFileSync(path.join(output, "admin", "preview-templates.js"), js);
       const c = loadContent();
-      const data = { ...c, languages: readJson("src/_data/languages.json"), langs: readJson("src/_data/langs.json") };
+      const data = { ...c, languages: readJson("src/_data/languages.json"), langs: readJson("src/_data/langs.json"), enabledLanguages: readJson("src/_data/enabledLanguages.json") };
       fs.writeFileSync(path.join(output, "admin", "site-data.json"), JSON.stringify(data));
     });
   }

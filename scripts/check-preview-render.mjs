@@ -27,7 +27,7 @@ for (const pg of data.pages) {
     const file = path.join(out, url.endsWith(".html") ? url : url + "index.html");
     const built = fs.readFileSync(file, "utf8");
     const expected = built.slice(built.indexOf(START), built.indexOf("</footer>") + 9);
-    const html = env.render("preview/page.njk", { pg, lang, path: pg.path, navKey: pg.nav, headerStyle: pg.headerStyle, site: { prefix: "", review: false }, languages: data.languages, langs: data.langs, preview: false });
+    const html = env.render("preview/page.njk", { pg, lang, path: pg.path, navKey: pg.nav, headerStyle: pg.headerStyle, site: { prefix: "", review: false }, languages: data.languages, langs: data.langs, enabledLanguages: data.enabledLanguages, preview: false });
     const got = html.slice(html.indexOf(START), html.indexOf("</footer>") + 9);
     if (norm(got) === norm(expected)) ok++; else bad.push(url);
   }

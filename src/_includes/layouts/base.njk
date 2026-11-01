@@ -7,8 +7,8 @@
 {% if site.review %}<meta name="robots" content="noindex, nofollow">
 {% endif %}
 <title>{{ (pg.meta | topic(lang)).title | safe }}</title>
-{% for code in langs %}<link rel="alternate" hreflang="{{ code }}" href="{{ path | lurl(code) }}">
-{% endfor %}<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+{% if enabledLanguages.length > 1 %}{% for code in enabledLanguages %}<link rel="alternate" hreflang="{{ code }}" href="{{ path | lurl(code) }}">
+{% endfor %}{% endif %}<link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="icon" href="/favicon-32.png" sizes="32x32" type="image/png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="/css/fonts.css">
