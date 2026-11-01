@@ -11,10 +11,11 @@ const round1 = data.rounds.find((round) => round.n === 1);
 const round2 = data.rounds.find((round) => round.n === 2);
 const items = round1.items;
 
-const UPDATED = [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 29, 30, 31, 32, 33, 34];
-const PARTLY = [9];
+const UPDATED = [1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 26, 27, 28, 31, 32, 33, 34];
+const PARTLY = [];
 const DISCUSS = [7, 25, 35];
 const NOT_NEEDED = [8];
+const KEPT = [9, 29, 30];
 const PATHS = new Set([
   "",
   "explore/",
@@ -36,6 +37,7 @@ const STATUS = {
   "Partly updated": new Set(PARTLY),
   "To discuss Saturday": new Set(DISCUSS),
   "Not needed": new Set(NOT_NEEDED),
+  "Kept per Oct 31 meeting decision": new Set(KEPT),
 };
 
 test("review tracker lists the 35 comments with the agreed status", () => {

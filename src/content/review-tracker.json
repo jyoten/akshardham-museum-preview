@@ -1,7 +1,7 @@
 {
   "previewBase": "https://jyoten.github.io/akshardham-museum-preview/previews/pr-1/",
   "liveBase": "https://jyoten.github.io/akshardham-museum-preview/",
-  "statuses": ["Updated", "Partly updated", "To discuss Saturday", "Not needed"],
+  "statuses": ["Updated", "Partly updated", "To discuss Saturday", "Not needed", "Kept per Oct 31 meeting decision"],
   "photoStatuses": ["Updated", "Waiting for photos", "Not needed"],
   "rounds": [
     {
@@ -87,8 +87,8 @@
       "page": "Home",
       "change": "Membership band",
       "before": "Make it yours. Become a member.\nUnlimited visits all year, first looks at new content, and discounts on guided tours.",
-      "after": "The membership section is removed. Where support should go is still to discuss.",
-      "status": "Partly updated",
+      "after": "Kept.",
+      "status": "Kept per Oct 31 meeting decision",
       "view": [{ "href": "" }]
     },
     {
@@ -290,8 +290,8 @@
       "page": "Support",
       "change": "Introduction",
       "before": "In the spirit of seva, every gift keeps galleries open, statues cared for and India's story told to the next generation.",
-      "after": "With the spirit of service (seva), every gift keeps galleries open, statues cared for, and Hinduism's story told to the next generation. The Become a member button is removed.",
-      "status": "Updated",
+      "after": "With the spirit of service (seva), every gift keeps galleries open, statues cared for, and Hinduism's story told to the next generation. The Become a member button is kept.",
+      "status": "Kept per Oct 31 meeting decision",
       "view": [{ "href": "support/", "text": ["With the spirit of service", "to the next generation"] }]
     },
     {
@@ -299,8 +299,8 @@
       "page": "Support",
       "change": "Membership tiers",
       "before": "Membership\nCome back as often as you like. Individual, Family, and Patron.",
-      "after": "Removed.",
-      "status": "Updated",
+      "after": "Kept.",
+      "status": "Kept per Oct 31 meeting decision",
       "view": [{ "href": "support/" }]
     },
     {
