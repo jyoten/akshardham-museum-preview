@@ -4,7 +4,7 @@
     var rows = block.querySelectorAll("tbody tr");
     var shown = block.querySelector(".shown");
     var none = block.querySelector(".none");
-    var noun = block.getAttribute("data-noun") || "item";
+    var noun = block.getAttribute("data-noun") || "comment";
     var total = rows.length;
 
     function label(n, ofTotal) {

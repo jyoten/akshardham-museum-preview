@@ -84,6 +84,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addGlobalData("site", { prefix: PREFIX, review: REVIEW || !!PREVIEW_OF, previewOf: PREVIEW_OF });
   eleventyConfig.addGlobalData("adminCsp", { policy: adminCsp(), decapVersion: DECAP_VERSION, decapIntegrity: DECAP_INTEGRITY });
   // Unlisted English review page (src/review.njk). Not a content page, so it is not in the nav.
+  // Each review meeting is a round. `items` and `counts` stay the first round so the original table bindings still work.
   eleventyConfig.addGlobalData("reviewTracker", () => {
     const data = readJson(path.join(CONTENT, "review-tracker.json"));
     const countBy = (labels, rows) => {
@@ -92,9 +93,14 @@ export default function (eleventyConfig) {
       for (const item of rows || []) counts[item.status] = (counts[item.status] || 0) + 1;
       return counts;
     };
+    const rounds = (data.rounds || [{ n: 1, title: "Round 1: Oct 28 comments", items: data.items || [] }])
+      .map((round) => ({ ...round, counts: countBy(data.statuses, round.items) }));
+    const first = rounds[0] || { items: [], counts: countBy(data.statuses, []) };
     return {
       ...data,
-      counts: countBy(data.statuses, data.items),
+      rounds,
+      items: first.items,
+      counts: first.counts,
       photoCounts: countBy(data.photoStatuses, data.photos),
     };
   });
@@ -153,17 +159,20 @@ export default function (eleventyConfig) {
       "node_modules/markdown-it/dist/markdown-it.min.js": "admin/vendor/markdown-it.min.js",
     });
     // The site's templates, precompiled for the browser, and the published content they show.
-    eleventyConfig.on("eleventy.after", ({ dir }) => {
+    // `directories.output` is the directory this build actually wrote (including `eleventy --output`).
+    // `dir.output` is the config default and stays `_site` when the CLI overrides it (Eleventy 3).
+    eleventyConfig.on("eleventy.after", ({ dir, directories }) => {
+      const output = directories?.output || dir.output;
       const inc = path.join("src", "_includes");
       const files = [];
       const walk = (d) => { for (const f of fs.readdirSync(d)) { const p = path.join(d, f); if (fs.statSync(p).isDirectory()) walk(p); else if (/\.(njk|html)$/.test(f)) files.push(p); } };
       walk(inc);
       const js = files.sort().map((f) => nunjucks.precompileString(fs.readFileSync(f, "utf8"), { name: path.relative(inc, f).split(path.sep).join("/") })).join("\n");
-      fs.mkdirSync(path.join(dir.output, "admin"), { recursive: true });
-      fs.writeFileSync(path.join(dir.output, "admin", "preview-templates.js"), js);
+      fs.mkdirSync(path.join(output, "admin"), { recursive: true });
+      fs.writeFileSync(path.join(output, "admin", "preview-templates.js"), js);
       const c = loadContent();
       const data = { ...c, languages: readJson("src/_data/languages.json"), langs: readJson("src/_data/langs.json") };
-      fs.writeFileSync(path.join(dir.output, "admin", "site-data.json"), JSON.stringify(data));
+      fs.writeFileSync(path.join(output, "admin", "site-data.json"), JSON.stringify(data));
     });
   }
   for (const f of ["favicon.svg", "favicon-32.png", "favicon.ico", "apple-touch-icon.png"]) {

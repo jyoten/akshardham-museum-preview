@@ -3,7 +3,7 @@
     "id": "featured",
     "title": "The Ajanta Caves",
     "subheading": "Featured exhibit",
-    "description": "Step inside a faithful replica of a rock-cut prayer hall carved into a Maharashtra gorge some two thousand years ago.",
+    "description": "Step inside a faithful replica of a rock-cut prayer hall carved into a Maharashtra mountain over two thousand years ago.",
     "media": [
       {
         "type": "image",
@@ -28,7 +28,7 @@
   "gu": {
     "title": "અજંતાની ગુફાઓ",
     "subheading": "વિશેષ પ્રદર્શન",
-    "description": "આશરે બે હજાર વર્ષ પહેલાં મહારાષ્ટ્રની એક ખીણમાં ખડક કોતરીને બનાવાયેલા પ્રાર્થના ખંડની આબેહૂબ પ્રતિકૃતિમાં પ્રવેશ કરો.",
+    "description": "બે હજારથી વધુ વર્ષ પહેલાં મહારાષ્ટ્રના એક પર્વતમાં ખડક કોતરીને બનાવાયેલા પ્રાર્થના ખંડની આબેહૂબ પ્રતિકૃતિમાં પ્રવેશ કરો.",
     "action": {
       "label": "ગાથા વાંચો"
     },
@@ -44,7 +44,7 @@
   "hi": {
     "title": "अजंता की गुफाएँ",
     "subheading": "विशेष प्रदर्शनी",
-    "description": "लगभग दो हज़ार वर्ष पहले महाराष्ट्र की एक घाटी में चट्टान काटकर बनाए गए प्रार्थना-कक्ष की यथावत प्रतिकृति में प्रवेश करें।",
+    "description": "दो हज़ार से अधिक वर्ष पहले महाराष्ट्र के एक पर्वत में चट्टान काटकर बनाए गए प्रार्थना-कक्ष की यथावत प्रतिकृति में प्रवेश करें।",
     "action": {
       "label": "कहानी पढ़ें"
     },

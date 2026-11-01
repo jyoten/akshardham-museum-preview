@@ -1,9 +1,9 @@
 {
   "en": {
     "id": "hero",
-    "title": "A classroom where our heritage is the main story",
+    "title": "A classroom where Hindu heritage is the main lesson.",
     "subheading": "Learn",
-    "description": "School and group visits, a trail for young explorers, and big ideas explained simply.",
+    "description": "Organize a special school or group visit to learn about big ideas explained simply.",
     "media": [
       {
         "type": "image",
@@ -13,13 +13,13 @@
     ]
   },
   "gu": {
-    "title": "એક વર્ગખંડ, જ્યાં આપણો વારસો જ મુખ્ય વિષય છે",
+    "title": "એક વર્ગખંડ, જ્યાં હિંદુ વારસો જ મુખ્ય પાઠ છે.",
     "subheading": "શીખો",
-    "description": "શાળા અને જૂથ મુલાકાતો, યુવા અન્વેષકો માટેનો માર્ગ, અને મહાન વિચારો સરળ ભાષામાં."
+    "description": "મોટા વિચારો સરળ ભાષામાં શીખવા માટે વિશેષ શાળા અથવા જૂથ મુલાકાતનું આયોજન કરો."
   },
   "hi": {
-    "title": "एक कक्षा, जहाँ हमारी विरासत ही मुख्य विषय है",
+    "title": "एक कक्षा, जहाँ हिंदू विरासत ही मुख्य पाठ है।",
     "subheading": "सीखें",
-    "description": "विद्यालय और समूह भ्रमण, युवा अन्वेषकों के लिए मार्ग, और महान विचार सरल भाषा में।"
+    "description": "बड़े विचारों को सरल भाषा में सीखने के लिए एक विशेष विद्यालय या समूह भ्रमण का आयोजन करें।"
   }
 }
